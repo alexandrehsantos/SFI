@@ -8,7 +8,6 @@ import java.util.List;
 
 import br.com.ale.sfi.dao.SalaryDAO;
 import br.com.ale.sfi.dao.factory.DaoFactory;
-import br.com.ale.sfi.dao.impl.SalaryDAOImpl;
 import br.com.ale.sfi.exception.SFIException;
 import br.com.ale.sfi.vo.SalaryVO;
 
