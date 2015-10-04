@@ -8,6 +8,19 @@ import java.util.List;
 
 public class FileUtil {
 
+	private static FileUtil fileUtil;
+
+	private FileUtil() {
+
+	}
+
+	public static FileUtil getInstance() {
+		if (fileUtil == null) {
+			fileUtil = new FileUtil();
+		}
+		return fileUtil;
+	}
+
 	public List<File> listFiles(String dir, final String extension) {
 
 		return Arrays.asList(new File(dir).listFiles(new FileFilter() {

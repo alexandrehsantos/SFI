@@ -9,8 +9,9 @@ public class Config {
 
 	private static final String CONFIG_PROPERTIES = "config.properties";
 	private static Properties properties;
+	private static Config config;
 
-	public Config() {
+	private Config() {
 
 		if (properties == null) {
 			properties = new Properties();
@@ -21,6 +22,13 @@ public class Config {
 			}
 		}
 
+	}
+
+	public static Config getInstance() {
+		if (config == null) {
+			config = new Config();
+		}
+		return config;
 	}
 
 	public String getFilePathIn() {
@@ -47,4 +55,36 @@ public class Config {
 
 	}
 
+	public String getDriverClass() {
+		return properties.getProperty("driver.class");
+	}
+
+	public String getJDBCUrl() {
+
+		return properties.getProperty("jdbc.url");
+	}
+
+
+	
+	public String getUser() {
+
+		return properties.getProperty("user.name");
+	}
+
+	public String getPassword() {
+
+		return properties.getProperty("user.password");
+	}
+
+	public int getMinPollSize() {
+
+		return Integer.parseInt(properties.getProperty("min.pool.size"));
+	}
+
+	public int getMaxPollSize() {
+
+		return Integer.parseInt(properties.getProperty("max.pool.size"));
+	}
+
+	
 }
