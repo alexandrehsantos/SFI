@@ -7,19 +7,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.ale.sfi.dao.SalaryDAO;
+import br.com.ale.sfi.dao.factory.DaoFactory;
 import br.com.ale.sfi.dao.impl.SalaryDAOImpl;
 import br.com.ale.sfi.exception.SFIException;
 import br.com.ale.sfi.vo.SalaryVO;
 
 public class SalaryFileProcess {
 
-	private SalaryDAO salaryDAO = new SalaryDAOImpl();
+	private DaoFactory daoFactory = DaoFactory.getInstance();
 
 	public SalaryFileProcess() {
 
 	}
 
 	public void process(File salaryFile) {
+		SalaryDAO salaryDao = daoFactory.getSalaryDao();
 		List<SalaryVO> salaryList = new ArrayList<SalaryVO>();
 		String line = null;
 		try {
@@ -29,12 +31,12 @@ public class SalaryFileProcess {
 				while ((line = bufferedReader.readLine()) != null) {
 					salaryList.add(convert(line));
 					if(salaryList.size() == 500){
-						salaryDAO.insert(salaryList);
+						salaryDao.insert(salaryList);
 						salaryList = new ArrayList<SalaryVO>();
 					}
 				}
 				if(!salaryList.isEmpty()){
-					salaryDAO.insert(salaryList);
+					salaryDao.insert(salaryList);
 				}
 			} finally {
 				fileReader.close();
