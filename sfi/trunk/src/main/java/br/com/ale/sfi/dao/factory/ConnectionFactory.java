@@ -4,12 +4,10 @@ import java.beans.PropertyVetoException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import javax.sql.DataSource;
-
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-
 import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.exception.SFIException;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class ConnectionFactory {
 
