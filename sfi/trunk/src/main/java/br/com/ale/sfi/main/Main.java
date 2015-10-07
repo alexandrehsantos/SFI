@@ -13,6 +13,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		long start = System.currentTimeMillis();
 		Config config = Config.getInstance();
 		FileUtil fileUtil = FileUtil.getInstance();
 		List<File> listFiles = fileUtil.listFiles(config.getFilePathIn(), FILE_EXTENSION);
@@ -22,7 +23,9 @@ public class Main {
 			SalaryFileProcess salaryFileProcess = new SalaryFileProcess();
 			salaryFileProcess.process(file);
 		}
+		long end = System.currentTimeMillis();
 		
+		System.out.println("Finalizado em :" + ((end - start) / 1000));
 		
 		
 	
