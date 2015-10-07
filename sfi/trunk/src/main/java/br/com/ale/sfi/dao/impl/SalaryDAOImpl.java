@@ -18,20 +18,22 @@ public class SalaryDAOImpl implements SalaryDAO {
 
 		Connection connection = factory.getConnection();
 
-		String sql = "insert into Salary (yearId,teamId,lgId,playerId,inclusionDate) values (?,?,?,?,?)";
+		String sql = "insert into Salary (id,yearId,teamId,lgId,playerId,salary, inclusionDate) values (sfi_seq.nextval,?,?,?,?,?,?)";
 		try {
 			connection.setAutoCommit(false);
 			PreparedStatement prepareStatement = connection.prepareStatement(sql);
 			for (SalaryVO salaryVO : salaryList) {
-				
 				prepareStatement.setString(1, salaryVO.getYearId());
 				prepareStatement.setString(2, salaryVO.getTeamId());
 				prepareStatement.setString(3, salaryVO.getLgId());
 				prepareStatement.setString(4, salaryVO.getPlayerId());
-				prepareStatement.setDate(5, new java.sql.Date(new java.util.Date().getTime()));
+				prepareStatement.setString(5, salaryVO.getSalary());
+				java.util.Date date = new java.util.Date();
+				prepareStatement.setDate(6, new java.sql.Date(date.getTime()));
 				prepareStatement.addBatch();
 			}
-				prepareStatement.executeBatch();
+			prepareStatement.executeBatch();
+			connection.commit();
 		} catch (SQLException e) {
 			throw new SFIException("Erro ao inserir no banco de dados", e);
 

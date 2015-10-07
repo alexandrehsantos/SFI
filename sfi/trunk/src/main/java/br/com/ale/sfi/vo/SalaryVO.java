@@ -6,6 +6,7 @@ public class SalaryVO {
 	private String teamId;
 	private String lgId;
 	private String playerId;
+	private String salary;
 
 	public String getYearId() {
 		return yearId;
@@ -47,6 +48,6 @@ public class SalaryVO {
 		this.salary = salary;
 	}
 
-	private String salary;
+	
 
 }
