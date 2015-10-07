@@ -16,9 +16,11 @@ public class Config {
 		if (properties == null) {
 			properties = new Properties();
 			try {
-				properties.load(Config.class.getClassLoader().getResourceAsStream(CONFIG_PROPERTIES));
+				properties.load(Config.class.getClassLoader()
+						.getResourceAsStream(CONFIG_PROPERTIES));
 			} catch (IOException e) {
-				throw new SFIException("Erro ao carregar arquivo: " + CONFIG_PROPERTIES, e);
+				throw new SFIException("Erro ao carregar arquivo: "
+						+ CONFIG_PROPERTIES, e);
 			}
 		}
 
@@ -64,8 +66,6 @@ public class Config {
 		return properties.getProperty("jdbc.url");
 	}
 
-
-	
 	public String getUser() {
 
 		return properties.getProperty("user.name");
@@ -86,5 +86,8 @@ public class Config {
 		return Integer.parseInt(properties.getProperty("max.pool.size"));
 	}
 
-	
+	public int getBachSize() {
+		return Integer.parseInt(properties.getProperty("batch.size"));
+	}
+
 }

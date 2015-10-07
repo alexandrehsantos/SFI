@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.dao.SalaryDAO;
 import br.com.ale.sfi.dao.factory.DaoFactory;
 import br.com.ale.sfi.exception.SFIException;
@@ -20,6 +21,10 @@ public class SalaryFileProcess {
 	}
 
 	public void process(File salaryFile) {
+		
+		Config config = Config.getInstance();
+		
+		
 		SalaryDAO salaryDao = daoFactory.getSalaryDao();
 		List<SalaryVO> salaryList = new ArrayList<SalaryVO>();
 		String line = null;
@@ -29,8 +34,8 @@ public class SalaryFileProcess {
 			try {
 				while ((line = bufferedReader.readLine()) != null) {
 					salaryList.add(convert(line));
-					if(salaryList.size() == 500){
-						salaryDao.insert(salaryList);
+					if(salaryList.size() == config.getBachSize()){
+						salaryDao.insert(salaryList);	
 						salaryList = new ArrayList<SalaryVO>();
 					}
 				}
