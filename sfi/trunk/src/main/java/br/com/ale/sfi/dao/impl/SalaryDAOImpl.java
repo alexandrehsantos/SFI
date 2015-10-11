@@ -17,26 +17,29 @@ public class SalaryDAOImpl implements SalaryDAO {
 	public void insert(List<SalaryVO> salaryList) {
 
 		Connection connection = factory.getConnection();
-
+		PreparedStatement preparedStatement = null;
 		String sql = "insert into Salary (id,yearId,teamId,lgId,playerId,salary, inclusionDate) values (sfi_seq.nextval,?,?,?,?,?,?)";
 		try {
 			connection.setAutoCommit(false);
-			PreparedStatement prepareStatement = connection.prepareStatement(sql);
+			preparedStatement = connection.prepareStatement(sql);
 			for (SalaryVO salaryVO : salaryList) {
-				prepareStatement.setString(1, salaryVO.getYearId());
-				prepareStatement.setString(2, salaryVO.getTeamId());
-				prepareStatement.setString(3, salaryVO.getLgId());
-				prepareStatement.setString(4, salaryVO.getPlayerId());
-				prepareStatement.setString(5, salaryVO.getSalary());
+				preparedStatement.setString(1, salaryVO.getYearId());
+				preparedStatement.setString(2, salaryVO.getTeamId());
+				preparedStatement.setString(3, salaryVO.getLgId());
+				preparedStatement.setString(4, salaryVO.getPlayerId());
+				preparedStatement.setString(5, salaryVO.getSalary());
 				java.util.Date date = new java.util.Date();
-				prepareStatement.setDate(6, new java.sql.Date(date.getTime()));
-				prepareStatement.addBatch();
+				preparedStatement.setDate(6, new java.sql.Date(date.getTime()));
+				preparedStatement.addBatch();
 			}
-			prepareStatement.executeBatch();
+			preparedStatement.executeBatch();
 			connection.commit();
 		} catch (SQLException e) {
 			throw new SFIException("Erro ao inserir no banco de dados", e);
 
+		} finally {
+			factory.closePreparedStament(preparedStatement);
+			factory.closeConnection(connection);	
 		}
 	}
 }

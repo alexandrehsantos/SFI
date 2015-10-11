@@ -2,6 +2,7 @@ package br.com.ale.sfi.dao.factory;
 
 import java.beans.PropertyVetoException;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import br.com.ale.sfi.config.Config;
@@ -32,6 +33,16 @@ public class ConnectionFactory {
 		dataSource.setMinPoolSize(config.getMinPollSize());
 		dataSource.setMaxPoolSize(config.getMaxPollSize());
 
+	}
+
+	public void closePreparedStament(PreparedStatement preparedStatement) {
+		try {
+			if( preparedStatement != null && !preparedStatement.isClosed()){
+				preparedStatement.close();
+			}
+		} catch (SQLException e) {
+			throw new SFIException("Erro ao fechar conexao com o banco de dados", e);
+		}
 	}
 
 	public Connection getConnection() {
