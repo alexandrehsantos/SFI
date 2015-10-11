@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ale.sfi</groupId>
 	<artifactId>sfi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>Super File Importer</name>
 	<description>Importação de Arquivos</description>
 
