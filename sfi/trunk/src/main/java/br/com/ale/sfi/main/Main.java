@@ -1,33 +1,43 @@
 package br.com.ale.sfi.main;
 
-import java.io.File;
+import java.util.Arrays;
 import java.util.List;
 
-import br.com.ale.sfi.config.Config;
-import br.com.ale.sfi.process.SalaryFileProcess;
-import br.com.ale.sfi.utils.FileUtil;
+import br.com.ale.sfi.command.Command;
+import br.com.ale.sfi.command.CommandType;
 
 public class Main {
 
-	private static final String FILE_EXTENSION = "csv";
-
 	public static void main(String[] args) {
 
-		long start = System.currentTimeMillis();
-		Config config = Config.getInstance();
-		FileUtil fileUtil = FileUtil.getInstance();
-		List<File> listFiles = fileUtil.listFiles(config.getFilePathIn(), FILE_EXTENSION);
-		
-		if(!listFiles.isEmpty()){
-			File file = listFiles.get(0);
-			SalaryFileProcess salaryFileProcess = new SalaryFileProcess();
-			salaryFileProcess.process(file);
+		if (args.length == 0) {
+			System.out.println("Parametro command type não fornecido. Encerrando o sistema.");
+			System.exit(1);
 		}
-		long end = System.currentTimeMillis();
+		String argCommand = args[0];
+
+		CommandType commandType = CommandType.fromType(argCommand);
 		
-		System.out.println("Finalizado em :" + ((end - start) / 1000));
+		if(commandType == null){
+			System.out.println("Tipo de commando " + argCommand + " não mapeado. Encerrando o sistema.");
+			System.exit(1);
+		}
 		
+		List<String> listArgs = Arrays.asList(args);
+
+		listArgs.remove(0);
 		
+		Command command = commandType.getInstance();
+		
+		try {
+			long start = System.currentTimeMillis();
+			command.execute(listArgs);
+			long end = System.currentTimeMillis();
+			System.out.println("Finalizado em :" + ((end - start) / 1000));
+		} catch (Exception e) {
+			System.out.println("Erro ao executar command: " + argCommand +  ". Favor verificar o log.");
+			System.exit(1);
+		}
 	
 	}
 

@@ -1,5 +1,6 @@
 package br.com.ale.sfi.exception;
 
+@SuppressWarnings("serial")
 public class SFIException extends RuntimeException {
 
 	public SFIException() {
