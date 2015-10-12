@@ -5,13 +5,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.exception.SFIException;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class ConnectionFactory {
-
+	private static final Logger LOGGER = Logger.getLogger(ConnectionFactory.class);
 	private static ConnectionFactory connectionFactory;
 	private ComboPooledDataSource dataSource;
 
@@ -24,6 +26,7 @@ public class ConnectionFactory {
 		try {
 			dataSource.setDriverClass(config.getDriverClass());
 		} catch (PropertyVetoException e) {
+			LOGGER.error("Erro ao configurar database driver", e);
 			throw new SFIException("Erro ao configurar database driver", e);
 		}
 
@@ -41,7 +44,9 @@ public class ConnectionFactory {
 				preparedStatement.close();
 			}
 		} catch (SQLException e) {
-			throw new SFIException("Erro ao fechar conexao com o banco de dados", e);
+			String errorMsg = "Erro ao fechar conexao com o banco de dados";
+			LOGGER.error(errorMsg, e);
+			throw new SFIException(errorMsg, e);
 		}
 	}
 
@@ -49,7 +54,9 @@ public class ConnectionFactory {
 		try {
 			return dataSource.getConnection();
 		} catch (SQLException e) {
-			throw new SFIException("Erro ao obter conexao com o banco de dados", e);
+			String errorMsg = "Erro ao obter conexao com o banco de dados";
+			LOGGER.error(errorMsg, e);
+			throw new SFIException(errorMsg, e);
 		}
 	}
 
@@ -59,7 +66,9 @@ public class ConnectionFactory {
 				connection.close();
 			}
 		} catch (SQLException e) {
-			throw new SFIException("Erro ao fechar conexao com o banco de dados", e);
+			String errorMsg = "Erro ao fechar conexao com o banco de dados";
+			LOGGER.error(errorMsg, e);
+			throw new SFIException(errorMsg, e);
 		}
 	}
 

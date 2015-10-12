@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import br.com.ale.sfi.dao.SalaryDAO;
 import br.com.ale.sfi.dao.factory.ConnectionFactory;
 import br.com.ale.sfi.exception.SFIException;
@@ -12,6 +14,7 @@ import br.com.ale.sfi.vo.SalaryVO;
 
 public class SalaryDAOImpl implements SalaryDAO {
 
+	private static final Logger LOGGER = Logger.getLogger(SalaryDAOImpl.class);
 	private ConnectionFactory factory = ConnectionFactory.getInstance();
 
 	public void insert(List<SalaryVO> salaryList) {
@@ -35,7 +38,10 @@ public class SalaryDAOImpl implements SalaryDAO {
 			preparedStatement.executeBatch();
 			connection.commit();
 		} catch (SQLException e) {
-			throw new SFIException("Erro ao inserir no banco de dados", e);
+			
+			String errorMsg = "Erro ao inserir no banco de dados";
+			LOGGER.error(errorMsg, e);
+			throw new SFIException(errorMsg, e);
 
 		} finally {
 			factory.closePreparedStament(preparedStatement);

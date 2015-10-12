@@ -8,10 +8,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.exception.SFIException;
 
 public class FileUtil {
+
+	private static final Logger LOGGER = Logger.getLogger(FileUtil.class);
 
 	private static FileUtil fileUtil;
 
@@ -23,16 +27,21 @@ public class FileUtil {
 
 		File destFile = new File(destFolder, srcFile.getName());
 		if (destFile.exists()) {
-			throw new SFIException("O arquivo: " + destFile.getAbsolutePath() + " ja existe  no local de destino");
+			String errorMsg = "O arquivo: " + destFile.getAbsolutePath() + " ja existe  no local de destino";
+			LOGGER.error(errorMsg);
+			throw new SFIException(errorMsg);
 		}
 
 		if (srcFile.exists()) {
 			if (!srcFile.renameTo(destFile)) {
-				throw new SFIException(
-						"O arquivo: " + srcFile.getAbsolutePath() + " nao pode ser movido para " + destFolder);
+				String errorMSg = "O arquivo: " + srcFile.getAbsolutePath() + " nao pode ser movido para " + destFolder;
+				LOGGER.error(errorMSg);
+				throw new SFIException(errorMSg);
 			}
 		} else {
-			throw new SFIException("O arquivo: " + srcFile.getAbsolutePath() + " nao existe  no local de origem");
+			String errorMsg = "O arquivo: " + srcFile.getAbsolutePath() + " nao existe  no local de origem";
+			LOGGER.error(errorMsg);
+			throw new SFIException(errorMsg);
 		}
 	}
 
@@ -42,9 +51,12 @@ public class FileUtil {
 			properties.load(Config.class.getClassLoader().getResourceAsStream(fileName));
 			return properties;
 		} catch (IOException e) {
-			throw new SFIException("Erro ao carregar arquivo: " + fileName, e);
+			String errorMsg = "Erro ao carregar arquivo: " + fileName;
+			LOGGER.error(errorMsg,e);
+			throw new SFIException(errorMsg, e);
 		}
 	}
+
 	public boolean existsFiles(String dir, final String extension) {
 		File[] files = new File(dir).listFiles(new FileFilter() {
 
@@ -74,7 +86,7 @@ public class FileUtil {
 
 			}
 		});
-		
+
 		return files != null ? Arrays.asList(files) : Collections.EMPTY_LIST;
 	}
 

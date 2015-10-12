@@ -4,15 +4,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import br.com.ale.sfi.command.Command;
 import br.com.ale.sfi.command.CommandType;
 
 public class Main {
 
+	private final static Logger LOGGER = Logger.getLogger(Main.class); 
+	
+	
 	public static void main(String[] args) {
-
+		
 		if (args.length == 0) {
-			System.out.println("Parametro command type não fornecido. Encerrando o sistema.");
+			LOGGER.error("Parametro command type não fornecido. Encerrando o sistema.");
 			System.exit(1);
 		}
 		String argCommand = args[0];
@@ -20,7 +25,7 @@ public class Main {
 		CommandType commandType = CommandType.fromType(argCommand);
 		
 		if(commandType == null){
-			System.out.println("Tipo de commando " + argCommand + " não mapeado. Encerrando o sistema.");
+			LOGGER.error("Tipo de commando " + argCommand + " não mapeado. Encerrando o sistema.");
 			System.exit(1);
 		}
 		
@@ -34,9 +39,9 @@ public class Main {
 			long start = System.currentTimeMillis();
 			command.execute(listArgs);
 			long end = System.currentTimeMillis();
-			System.out.println("Finalizado em :" + ((end - start) / 1000) + " seconds");
+			LOGGER.info("Finalizado em :" + ((end - start) / 1000) + " seconds");
 		} catch (Exception e) {
-			System.out.println("Erro ao executar command: " + argCommand +  ". Favor verificar o log.");
+			LOGGER.info("Erro ao executar command: " + argCommand +  ". Favor verificar o log.");
 			System.exit(1);
 		}
 	

@@ -1,0 +1,64 @@
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="sfi-console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!--[%-P] Tamanho maximo utilazado pela maior palavra de severidade -->
+			<!--[%d] = Data -->
+			<!-- c. = classe -->
+			<!-- %M: = metodo -->
+			<!-- % L: = linha do metodo -->
+			<!-- [%m] = mensagem definida -->
+			<!-- %n = quebra de linha -->
+			<param name="ConversionPattern"
+				value="[%-5p] [%d{ dd / MM /yy HH:mm:ss:SSS }] [%t] [c. % M: % L ] [%m]%n" />
+		</layout>
+	</appender>
+
+	<appender name="sfi-file" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/opt/sfi/log/sfi.log" />
+		<param name="DatePattern" value="'.'dd-MM-yy" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%-5p] [%d{dd/MM/yy HH:mm:ss:SSS}] [%t] [%c.%M:%L] [%m]%n" />
+		</layout>
+	</appender>
+
+	<appender name="third-party-file" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/opt/sfi/log/sfi-third-party.log" />
+		<param name="DatePattern" value="'.'dd-MM-yy" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%-5p] [%d{dd/MM/yy HH:mm:ss:SSS}] [%t] [%c.%M:%L] [%m]%n" />
+		</layout>
+	</appender>
+
+	<logger name="br.com.ale.sfi" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="sfi-console" />
+		<appender-ref ref="sfi-file" />
+	</logger>
+<
+<!-- Utilizado br geralmente quando eu tenho jar's da prória empresa na minha aplicacao -->
+
+<!-- 
+	<logger name="br" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="third-party-file" />
+	</logger>
+ -->
+ 
+ 
+	<logger name="com" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="third-party-file" />
+	</logger>
+
+	<logger name="oracle" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="third-party-file" />
+	</logger>
+
+
+</log4j:configuration>
