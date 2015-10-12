@@ -11,8 +11,7 @@
 			<!-- % L: = linha do metodo -->
 			<!-- [%m] = mensagem definida -->
 			<!-- %n = quebra de linha -->
-			<param name="ConversionPattern"
-				value="[%-5p] [%d{ dd / MM /yy HH:mm:ss:SSS }] [%t] [c. % M: % L ] [%m]%n" />
+			<param name="ConversionPattern" value="[%-5p] [%d{dd/MM/yy HH:mm:ss:SSS}] [%t] [%c.%M:%L] [%m]%n" />
 		</layout>
 	</appender>
 
@@ -39,7 +38,7 @@
 		<appender-ref ref="sfi-console" />
 		<appender-ref ref="sfi-file" />
 	</logger>
-<
+
 <!-- Utilizado br geralmente quando eu tenho jar's da prória empresa na minha aplicacao -->
 
 <!-- 
