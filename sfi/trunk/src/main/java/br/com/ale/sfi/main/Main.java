@@ -5,9 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 
 import br.com.ale.sfi.command.Command;
 import br.com.ale.sfi.command.CommandType;
+import br.com.ale.sfi.config.Config;
 
 public class Main {
 
@@ -15,6 +17,8 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
+		Config config = Config.getInstance();
+		DOMConfigurator.configure(config.getPathLog());
 		
 		if (args.length == 0) {
 			LOGGER.error("Parametro command type não fornecido. Encerrando o sistema.");
@@ -30,7 +34,7 @@ public class Main {
 		}
 		
 		List<String> listArgs = new ArrayList<String>(Arrays.asList(args));
-
+					
 		listArgs.remove(0);
 		
 		Command command = commandType.getInstance();

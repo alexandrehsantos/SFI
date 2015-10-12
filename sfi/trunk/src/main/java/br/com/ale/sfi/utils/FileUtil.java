@@ -2,6 +2,7 @@ package br.com.ale.sfi.utils;
 
 import java.io.File;
 import java.io.FileFilter;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
@@ -48,7 +49,7 @@ public class FileUtil {
 	public Properties loadProperties(String fileName) {
 		Properties properties = new Properties();
 		try {
-			properties.load(Config.class.getClassLoader().getResourceAsStream(fileName));
+			properties.load(new FileReader(fileName));
 			return properties;
 		} catch (IOException e) {
 			String errorMsg = "Erro ao carregar arquivo: " + fileName;

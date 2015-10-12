@@ -4,7 +4,8 @@ import br.com.ale.sfi.utils.FileUtil;
 
 public class Config {
 
-	private static final String CONFIG_PROPERTIES = "config.properties";
+	private static final String CONFIG_PROPERTIES = "/opt/sfi/config/config.properties";
+
 	private static Properties properties;
 	private static Config config;
 
@@ -20,6 +21,10 @@ public class Config {
 		return config;
 	}
 
+	public String getPathLog(){
+		return properties.getProperty("path.log");
+	}
+	
 	public String getFilePathIn() {
 
 		return properties.getProperty("sfi.file.path.in");
