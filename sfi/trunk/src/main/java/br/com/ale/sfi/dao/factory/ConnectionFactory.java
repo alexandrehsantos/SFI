@@ -37,7 +37,7 @@ public class ConnectionFactory {
 
 	public void closePreparedStament(PreparedStatement preparedStatement) {
 		try {
-			if( preparedStatement != null && !preparedStatement.isClosed()){
+			if( preparedStatement != null){
 				preparedStatement.close();
 			}
 		} catch (SQLException e) {

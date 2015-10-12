@@ -12,7 +12,7 @@ import br.com.ale.sfi.exception.SFIException;
 
 public class GeneratorFileTest {
 
-	private static final int QTE_LINES = 1000 * 50;
+	private static final int QTE_LINES = 1000 * 7;
 	private File file;
 
 	@Before

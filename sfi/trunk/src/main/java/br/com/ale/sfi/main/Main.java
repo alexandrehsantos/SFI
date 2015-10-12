@@ -1,5 +1,6 @@
 package br.com.ale.sfi.main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class Main {
 			System.exit(1);
 		}
 		
-		List<String> listArgs = Arrays.asList(args);
+		List<String> listArgs = new ArrayList<String>(Arrays.asList(args));
 
 		listArgs.remove(0);
 		
