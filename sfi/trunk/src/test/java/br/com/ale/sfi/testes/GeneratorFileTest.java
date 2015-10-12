@@ -19,7 +19,7 @@ public class GeneratorFileTest {
 
 	@Before
 	public void init() {
-		file = new File("/opt/sfi/files/in", "Salary.csv");
+		file = new File("/opt/sfi/files/in", "salary.csv");
 	}
 
 	@Test
