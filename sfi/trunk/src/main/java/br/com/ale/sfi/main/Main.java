@@ -33,7 +33,7 @@ public class Main {
 			long start = System.currentTimeMillis();
 			command.execute(listArgs);
 			long end = System.currentTimeMillis();
-			System.out.println("Finalizado em :" + ((end - start) / 1000));
+			System.out.println("Finalizado em :" + ((end - start) / 1000) + " seconds");
 		} catch (Exception e) {
 			System.out.println("Erro ao executar command: " + argCommand +  ". Favor verificar o log.");
 			System.exit(1);
