@@ -6,12 +6,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import br.com.ale.sfi.exception.SFIException;
 
-@Ignore
 public class GeneratorFileTest {
 
 	private static final int QTE_LINES = 1000 * 7;

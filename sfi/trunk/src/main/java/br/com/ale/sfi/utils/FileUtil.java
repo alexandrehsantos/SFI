@@ -11,7 +11,6 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.exception.SFIException;
 
 public class FileUtil {

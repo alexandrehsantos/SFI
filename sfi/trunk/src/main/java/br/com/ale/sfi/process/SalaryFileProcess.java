@@ -12,6 +12,7 @@ import br.com.ale.sfi.config.Config;
 import br.com.ale.sfi.dao.SalaryDAO;
 import br.com.ale.sfi.dao.factory.DaoFactory;
 import br.com.ale.sfi.exception.SFIException;
+import br.com.ale.sfi.utils.FileUtil;
 import br.com.ale.sfi.vo.SalaryVO;
 
 public class SalaryFileProcess {
@@ -19,14 +20,14 @@ public class SalaryFileProcess {
 	private static final Logger LOGGER = Logger.getLogger(SalaryFileProcess.class);
 	
 	private DaoFactory daoFactory = DaoFactory.getInstance();
+	private FileUtil fileUtil = FileUtil.getInstance();
+	private Config config = Config.getInstance();
 
 	public SalaryFileProcess() {
 
 	}
 
 	public void process(File salaryFile) {
-		
-		Config config = Config.getInstance();
 		
 		SalaryDAO salaryDao = daoFactory.getSalaryDao();
 		List<SalaryVO> salaryList = new ArrayList<SalaryVO>();
@@ -47,6 +48,9 @@ public class SalaryFileProcess {
 				if(!salaryList.isEmpty()){
 					salaryDao.insert(salaryList);
 				}
+				
+				fileUtil.move(salaryFile, config.getFilePathDone());
+				
 			} finally {
 				fileReader.close();
 				bufferedReader.close();
@@ -54,7 +58,8 @@ public class SalaryFileProcess {
 		} catch (Exception e) {
 			String errorMsg = "Erro ao ler arquivo: "+ salaryFile.getAbsolutePath();
 			LOGGER.error(errorMsg, e);
-			throw new SFIException(errorMsg, e);
+			fileUtil.move(salaryFile, config.getFilePathError());
+			throw new SFIException(errorMsg, e);	
 		}
 	}
 
@@ -70,11 +75,13 @@ public class SalaryFileProcess {
 			salaryVO.setPlayerId(split[index++]);
 			salaryVO.setSalary(split[index++]);
 		} catch (Exception e) {
-			LOGGER.error("Erro ao converter dados da linha" + lineNumber + "no campo: " + (--index));
-			throw e;
+			String errorMsg = "Erro ao converter dados da linha" + lineNumber + "no campo: " + (--index);
+			LOGGER.error(errorMsg);
+			throw new SFIException(errorMsg,e);
 		}
 
 		return salaryVO;
 	}
 
 }
+	

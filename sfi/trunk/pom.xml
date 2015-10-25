@@ -3,51 +3,60 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ale.sfi</groupId>
 	<artifactId>sfi</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>2.0-SNAPSHOT</version>
 	<name>Super File Importer</name>
 	<description>Importação de Arquivos</description>
 
-
-
 	<dependencies>
-
 		<!-- Framework para logs da Apache -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<version>${log4j.version}</version>
 		</dependency>
 
 		<!-- Pool de conexões -->
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
-			<version>0.9.1</version>
+			<version>${c3p0.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.3</version>
+			<version>${ojdbc6.version}</version>
 		</dependency>
 
 		<!-- Framework para testes unitários -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.8.1</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-
-
 	</dependencies>
-	<!-- Necessário adicionar o repositorio da Oracle, pois conteudo nao esta disponível no repositorio padrão -->
+
+	<!-- Necessário adicionar o repositorio da Oracle, pois conteudo nao esta 
+		disponível no repositorio padrão -->
 	<repositories>
 		<repository>
 			<id>codelds</id>
 			<url>https://code.lds.org/nexus/content/groups/main-repo</url>
 		</repository>
 	</repositories>
+	
+	<scm>
+        <connection>scm:svn:https://subversion.assembla.com/svn/alexandrehsantos/sfi/trunk</connection>
+        <developerConnection>scm:svn:https://subversion.assembla.com/svn/alexandrehsantos/sfi/trunk</developerConnection>
+    </scm>
+
+	<properties>
+		<log4j.version>1.2.17</log4j.version>
+		<c3p0.version>0.9.1</c3p0.version>
+		<ojdbc6.version>11.2.0.3</ojdbc6.version>
+		<junit.version>4.8.1</junit.version>
+	</properties>
 
 
 </project>

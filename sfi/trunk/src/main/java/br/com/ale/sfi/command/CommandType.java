@@ -1,20 +1,24 @@
 package br.com.ale.sfi.command;
 
+
 public enum CommandType {
 
-	LOAD_FILE("load-file") {
-
-		@Override
-		public Command getInstance() {
-			return new LoadFileCommand();
-		}
-
-	};
+	LOAD_FILE("load-file", LoadFileCommand.class);
 
 	private String type;
+	private Class<? extends Command> commandClass; 
 
-	CommandType(String type) {
+	CommandType(String type, Class<? extends Command> commandClass) {
 		this.type = type;
+		this.commandClass = commandClass;
+	}
+	
+	public String getType() {
+		return type;
+	}
+
+	public Class<? extends Command> getCommandClass() {
+		return commandClass;
 	}
 
 	public static CommandType fromType(String type) {
@@ -26,7 +30,4 @@ public enum CommandType {
 		}
 		return null;
 	}
-
-	public abstract Command getInstance();
-
 }

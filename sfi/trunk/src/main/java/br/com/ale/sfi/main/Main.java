@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 import br.com.ale.sfi.command.Command;
+import br.com.ale.sfi.command.CommandFactory;
 import br.com.ale.sfi.command.CommandType;
 import br.com.ale.sfi.config.Config;
 
@@ -18,10 +19,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Config config = Config.getInstance();
+		CommandFactory commandFactory = CommandFactory.getInstance();
 		DOMConfigurator.configure(config.getPathLog());
 		
 		if (args.length == 0) {
-			LOGGER.error("Parametro command type não fornecido. Encerrando o sistema.");
+			LOGGER.error("Parametro tipo de comando nao fornecido. Encerrando o sistema.");
 			System.exit(1);
 		}
 		String argCommand = args[0];
@@ -34,10 +36,9 @@ public class Main {
 		}
 		
 		List<String> listArgs = new ArrayList<String>(Arrays.asList(args));
-					
-		listArgs.remove(0);
+		listArgs.remove(0);	
 		
-		Command command = commandType.getInstance();
+		Command command = commandFactory.getCommand(commandType);
 		
 		try {
 			long start = System.currentTimeMillis();

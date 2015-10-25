@@ -31,7 +31,7 @@ public class LoadFileCommand implements Command {
 		LOGGER.info("Checando arquivos a serem processados no diretorio " + config.getFilePathIn());
 		List<File> listFilesIn = fileUtil.listFiles(config.getFilePathIn(), FILE_EXTENSION);
 		if (!listFilesIn.isEmpty()) {
-			LOGGER.info("Movendo arquivos do diretorio: " + config.getFilePathIn() + "para diretorio: " + config.getFilePathWork());
+			LOGGER.info("Movendo arquivos do diretorio: " + config.getFilePathIn() + " para diretorio: " + config.getFilePathWork());
 			for (File file : listFilesIn) {
 				fileUtil.move(file, config.getFilePathWork());
 			}
