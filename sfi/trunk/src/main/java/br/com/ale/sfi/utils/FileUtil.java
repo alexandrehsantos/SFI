@@ -48,7 +48,7 @@ public class FileUtil {
 	
 	
 	
-	public void renameFile(File file, String path){
+	public void tagFile(File file, String path){
 		String fileName = file.getName();
 		String extension="";
 		int pos = fileName.lastIndexOf(".");
@@ -57,12 +57,12 @@ public class FileUtil {
 			fileName = fileName.substring(0,pos);
 		}
 		File fileToRename = new File(path, file.getName());
-		File newFile = new File(path, fileName +tag()+ extension);
+		File newFile = new File(path, fileName +generateTag()+ extension);
 		System.out.println(newFile.getAbsolutePath());
 		fileToRename.renameTo(newFile);
 	}
 	
-	private String tag(){
+	private String generateTag(){
 		Calendar calendar = Calendar.getInstance();
 
 		String tag = "";

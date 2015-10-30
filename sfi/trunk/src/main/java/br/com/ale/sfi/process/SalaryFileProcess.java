@@ -52,7 +52,7 @@ public class SalaryFileProcess {
 				}
 				
 				fileUtil.move(salaryFile, config.getFilePathDone());
-				fileUtil.renameFile(salaryFile, config.getFilePathDone());
+				fileUtil.tagFile(salaryFile, config.getFilePathDone());
 				
 			} finally {
 				fileReader.close();
