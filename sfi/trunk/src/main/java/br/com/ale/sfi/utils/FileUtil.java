@@ -5,6 +5,7 @@ import java.io.FileFilter;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
@@ -44,6 +45,40 @@ public class FileUtil {
 			throw new SFIException(errorMsg);
 		}
 	}
+	
+	
+	
+	public void renameFile(File file, String path){
+		String fileName = file.getName();
+		String extension="";
+		int pos = fileName.lastIndexOf(".");
+		if (pos > 0){
+			extension = fileName.substring(pos, fileName.length());
+			fileName = fileName.substring(0,pos);
+		}
+		File fileToRename = new File(path, file.getName());
+		File newFile = new File(path, fileName +tag()+ extension);
+		System.out.println(newFile.getAbsolutePath());
+		fileToRename.renameTo(newFile);
+	}
+	
+	private String tag(){
+		Calendar calendar = Calendar.getInstance();
+
+		String tag = "";
+
+		tag += Integer.toString((calendar.get(Calendar.MONTH) + 1));
+		tag += Integer.toString((calendar.get(Calendar.DAY_OF_MONTH)));
+		tag += Integer.toString((calendar.get(Calendar.YEAR)));
+		tag += "-";
+		tag += Integer.toString((calendar.get(Calendar.HOUR)));
+		tag += "h";
+		tag += Integer.toString((calendar.get(Calendar.MINUTE)));
+		tag += Integer.toString((calendar.get(Calendar.MILLISECOND)));
+
+		return tag;
+	}
+	
 
 	public Properties loadProperties(String fileName) {
 		Properties properties = new Properties();

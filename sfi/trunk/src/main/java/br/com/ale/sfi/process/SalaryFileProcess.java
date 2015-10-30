@@ -3,7 +3,9 @@ package br.com.ale.sfi.process;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -50,6 +52,7 @@ public class SalaryFileProcess {
 				}
 				
 				fileUtil.move(salaryFile, config.getFilePathDone());
+				fileUtil.renameFile(salaryFile, config.getFilePathDone());
 				
 			} finally {
 				fileReader.close();
@@ -63,6 +66,8 @@ public class SalaryFileProcess {
 		}
 	}
 
+	
+	
 	public SalaryVO convert(String line, int lineNumber) throws Exception {
 
 		String[] split = line.split(",");
