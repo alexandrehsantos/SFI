@@ -3,9 +3,8 @@ package br.com.ale.sfi.process;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.text.DateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -51,8 +50,7 @@ public class SalaryFileProcess {
 					salaryDao.insert(salaryList);
 				}
 				
-				fileUtil.move(salaryFile, config.getFilePathDone());
-				fileUtil.tagFile(salaryFile, config.getFilePathDone());
+				fileUtil.move(salaryFile, config.getFilePathDone(), new Date());
 				
 			} finally {
 				fileReader.close();

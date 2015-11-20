@@ -4,9 +4,10 @@ import java.io.File;
 import java.io.FileFilter;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
@@ -15,6 +16,8 @@ import org.apache.log4j.Logger;
 import br.com.ale.sfi.exception.SFIException;
 
 public class FileUtil {
+
+	private static final String DATA_FORMAT = "yyyy-MM-dd hh:mm:ss.SSS";
 
 	private static final Logger LOGGER = Logger.getLogger(FileUtil.class);
 
@@ -25,8 +28,19 @@ public class FileUtil {
 	}
 
 	public void move(File srcFile, String destFolder) {
+		move(srcFile, destFolder, null);
+	}
 
-		File destFile = new File(destFolder, srcFile.getName());
+	public void move(File srcFile, String destFolder, Date dthora) {
+		String fileName = null;
+
+		if (dthora != null) {
+			fileName = resolveName(srcFile, dthora);
+		} else {
+			fileName = srcFile.getName();
+		}
+
+		File destFile = new File(destFolder, fileName);
 		if (destFile.exists()) {
 			String errorMsg = "O arquivo: " + destFile.getAbsolutePath() + " ja existe  no local de destino";
 			LOGGER.error(errorMsg);
@@ -45,40 +59,17 @@ public class FileUtil {
 			throw new SFIException(errorMsg);
 		}
 	}
-	
-	
-	
-	public void tagFile(File file, String path){
-		String fileName = file.getName();
-		String extension="";
-		int pos = fileName.lastIndexOf(".");
-		if (pos > 0){
-			extension = fileName.substring(pos, fileName.length());
-			fileName = fileName.substring(0,pos);
-		}
-		File fileToRename = new File(path, file.getName());
-		File newFile = new File(path, fileName +generateTag()+ extension);
-		System.out.println(newFile.getAbsolutePath());
-		fileToRename.renameTo(newFile);
+
+	private String resolveName(File file, Date dthr) {
+
+		SimpleDateFormat dateFormat = new SimpleDateFormat(DATA_FORMAT);
+		String dthrFomatted = dateFormat.format(dthr);
+
+		String name = file.getName();
+		String extension = name.substring(name.lastIndexOf("."));
+
+		return name.replace(extension, "").concat(dthrFomatted).concat(extension);
 	}
-	
-	private String generateTag(){
-		Calendar calendar = Calendar.getInstance();
-
-		String tag = "";
-
-		tag += Integer.toString((calendar.get(Calendar.MONTH) + 1));
-		tag += Integer.toString((calendar.get(Calendar.DAY_OF_MONTH)));
-		tag += Integer.toString((calendar.get(Calendar.YEAR)));
-		tag += "-";
-		tag += Integer.toString((calendar.get(Calendar.HOUR)));
-		tag += "h";
-		tag += Integer.toString((calendar.get(Calendar.MINUTE)));
-		tag += Integer.toString((calendar.get(Calendar.MILLISECOND)));
-
-		return tag;
-	}
-	
 
 	public Properties loadProperties(String fileName) {
 		Properties properties = new Properties();
@@ -87,7 +78,7 @@ public class FileUtil {
 			return properties;
 		} catch (IOException e) {
 			String errorMsg = "Erro ao carregar arquivo: " + fileName;
-			LOGGER.error(errorMsg,e);
+			LOGGER.error(errorMsg, e);
 			throw new SFIException(errorMsg, e);
 		}
 	}
