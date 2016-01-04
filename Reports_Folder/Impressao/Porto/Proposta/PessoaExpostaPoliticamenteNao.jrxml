@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-03T17:15:01 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PessoaExpostaPoliticamenteSim" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="179e128f-73da-4835-a3e8-fc8412180764">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao]]>
+	</queryString>
+	<field name="tipoExposicaoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='75' and codigo=//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/codigoTipoPessoaExposto] /descricao]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoaExposto" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoPessoaExposto]]></fieldDescription>
+	</field>
+	<field name="nomePessoaExposto" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePessoaExposto]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpfPessoaExposto" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCnpjCpfPessoaExposto]]></fieldDescription>
+	</field>
+	<field name="tipoVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='107' and codigo=//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/codigoTipoVinculo] /descricao]]></fieldDescription>
+	</field>
+	<group name="codigoTipoExposicaoPessoa">
+		<groupExpression><![CDATA[$F{codigoTipoPessoaExposto}]]></groupExpression>
+	</group>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="26" uuid="6979af43-774a-4ca7-b49a-3178880aa873"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="2" y="1" width="553" height="12" uuid="47fa034d-868b-4151-a0c5-29015eabdbba">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph spacingBefore="0" spacingAfter="2"/>
+				</textElement>
+				<text><![CDATA[PESSOA EXPOSTA POLITICAMENTE*]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="13" width="553" height="13" uuid="717de8ef-b14d-4914-b99c-6845969c143e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoExposicaoPessoa}.toUpperCase()]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

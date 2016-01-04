@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FormaDePagamento" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="3d328f32-6c9e-4720-9319-f6e2161f6523">
+	<property name="ireport.zoom" value="2.1435888100000016"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/pagadores/pagador/pagadoresParcela/pagadorParcela]]>
+	</queryString>
+	<field name="numeroParcela" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroParcela]]></fieldDescription>
+	</field>
+	<field name="dataVencimento" class="java.lang.String">
+		<fieldDescription><![CDATA[dataVencimento]]></fieldDescription>
+	</field>
+	<field name="valorParcela" class="java.lang.String">
+		<fieldDescription><![CDATA[valorParcela]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="13">
+			<rectangle>
+				<reportElement x="157" y="0" width="88" height="13" uuid="3056580a-914a-42bd-bd4e-6dc952d4e622"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="86" y="0" width="71" height="13" uuid="16527553-129f-4ebd-92ea-83101e51883f"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="86" height="13" uuid="8ec95779-77d6-4968-b5d5-7f8abaad6e0b"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="1" y="0" width="86" height="13" uuid="196ba9bf-70cb-4bf0-8a1a-fa9fae720719"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[VALOR DA PARCELA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="157" y="0" width="88" height="13" uuid="bd5ec48e-91a0-4dac-b785-3cab18c3f035"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE PAGAMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="86" y="0" width="71" height="13" uuid="f733d8d9-7b9b-467e-8699-d474225ccfc7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[VENCIMENTO]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="13" splitType="Stretch">
+			<rectangle>
+				<reportElement x="85" y="0" width="72" height="13" uuid="875ea2a4-62ea-41aa-9988-f825cd470a1a"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="86" height="13" uuid="bc1a1609-4d8e-485b-9a39-b818ce28823f"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="4" y="0" width="19" height="13" uuid="b06cd152-4ace-4e40-920d-fb0c43f59027"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroParcela} + " "]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="87" y="0" width="70" height="13" uuid="52613103-45dc-473b-92ff-41e4126939cc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataVencimento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="22" y="0" width="63" height="13" uuid="749da48b-3408-4231-a855-da7aa26783f4"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Double($F{valorParcela})]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

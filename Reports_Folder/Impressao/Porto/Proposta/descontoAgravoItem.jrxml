@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescontoAgravo" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="05c9bdb0-2ea1-48fe-b05c-b3c103c3c2c4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo]]>
+	</queryString>
+	<field name="codigoDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/codigoDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="nomeDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/nomeDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="nometipocalculodescontoagravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/nometipocalculodescontoagravo]]></fieldDescription>
+	</field>
+	<field name="percentualDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/percentualDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="valorDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/valorDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="codigoTipoDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/codigoTipoDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="nomeTipoDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo/nomeTipoDescontoAgravo]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="12">
+			<textField isBlankWhenNull="true">
+				<reportElement isPrintRepeatedValues="false" x="0" y="0" width="555" height="12" isRemoveLineWhenBlank="true" uuid="25dafacf-5561-4c4e-83fc-7e297b113887"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeDescontoAgravo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+</jasperReport>

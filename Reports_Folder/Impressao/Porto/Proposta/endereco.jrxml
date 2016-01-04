@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
+	<property name="ireport.zoom" value="1.8181818181818226"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pcodigoPessoa" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Pessoas/Pessoa[codigoPessoa = $P{pcodigoPessoa}]]]>
+	</queryString>
+	<field name="codigoEndereco" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoEndereco]]></fieldDescription>
+	</field>
+	<field name="codigoTipoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoTipoLogradouro]]></fieldDescription>
+	</field>
+	<field name="codigoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoLogradouro]]></fieldDescription>
+	</field>
+	<field name="nomeLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/nomeLogradouro]]></fieldDescription>
+	</field>
+	<field name="numeroLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/numeroLogradouro]]></fieldDescription>
+	</field>
+	<field name="flagSemNumero" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/flagSemNumero]]></fieldDescription>
+	</field>
+	<field name="numeroCep" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/numeroCep]]></fieldDescription>
+	</field>
+	<field name="nomeComplemento" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/nomeComplemento]]></fieldDescription>
+	</field>
+	<field name="codigoBairro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoBairro]]></fieldDescription>
+	</field>
+	<field name="nomeBairro" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/nomeBairro]]></fieldDescription>
+	</field>
+	<field name="codigoCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoCidade]]></fieldDescription>
+	</field>
+	<field name="codigoUnidadeFederacao" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoUnidadeFederacao]]></fieldDescription>
+	</field>
+	<field name="codigoPais" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/codigoPais]]></fieldDescription>
+	</field>
+	<field name="textoPontoReferencia" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/textoPontoReferencia]]></fieldDescription>
+	</field>
+	<field name="numeroLatitude" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/numeroLatitude]]></fieldDescription>
+	</field>
+	<field name="numeroLongitude" class="java.lang.String">
+		<fieldDescription><![CDATA[enderecosPessoa/endereco/numeroLongitude]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Pessoas/Pessoa/codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<title>
+		<band height="13">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="50df2e9c-3d2e-442b-9710-059db6e50a6a"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="555" height="13" uuid="a5f87b9c-2059-4001-bb53-1b575f0b6e72"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoTipoPessoa}.equals("1") ? "ENDEREÇO EMPRESARIAL":"ENDEREÇO RESIDENCIAL"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="51" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="51" uuid="c0d81993-9416-48fe-8a29-3437e7d5eedf"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="289" y="0" width="1" height="25" uuid="0f421c86-54f5-4830-9da1-38bf79416b05"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="375" y="26" width="179" height="9" uuid="c4e418d5-879a-4784-9e30-5781dd34f610"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[BAIRRO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="241" y="0" width="1" height="25" uuid="91e424ed-b682-4788-9f4b-798000f7a675"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="25" width="555" height="1" uuid="21719ada-6e5f-4343-88f8-8a6069281c9c"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="292" y="9" width="263" height="14" uuid="6cc74268-3e3d-459c-b9a9-290cfcd6a11e"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeLogradouro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="34" width="179" height="13" uuid="877a0179-43be-413d-84c1-c9d6c8285a56"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeBairro}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="4" y="9" width="102" height="13" uuid="b735132b-6c03-4243-9e39-1c87e8fbe5a1"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCep}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="9" width="130" height="14" uuid="689e4fca-20b7-4be1-a1e6-4fcc42500335"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoCidade}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="244" y="9" width="45" height="12" uuid="374eaa06-c9ce-4299-87bb-c3db7864f7cb"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoUnidadeFederacao}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="4" y="34" width="178" height="12" uuid="ee69feed-4613-4651-8537-17a1bf9a9ae2"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroLogradouro}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="372" y="26" width="1" height="25" uuid="304e74ad-4ff1-45fd-8b38-96e193602adc"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="4" y="1" width="63" height="9" uuid="068f2103-0a15-4786-8d92-eefc2778e4a6"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CEP]]></text>
+			</staticText>
+			<line>
+				<reportElement x="183" y="26" width="1" height="25" uuid="11a750ef-a455-42bd-acf9-1b55b0125a97"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="186" y="34" width="184" height="14" uuid="ff9e96ec-d231-43d2-841c-b95b684faaab"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeComplemento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="186" y="26" width="184" height="9" uuid="547bae65-394b-49c5-8784-0bd6fb5e21fa"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[COMPLEMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="1" width="130" height="9" uuid="5589c380-57a7-4870-9d95-fc2ee5b8a23f"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="244" y="1" width="45" height="9" uuid="2b9eeba1-005b-4562-944a-771699826969"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ESTADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="26" width="178" height="9" uuid="fbdc6a46-8ac4-4e15-890a-4c60715800db"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[NUMERO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="107" y="0" width="1" height="25" uuid="25af8287-1c63-450f-820b-ccb6af7cc8cc"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="292" y="1" width="63" height="9" uuid="d7484490-ff89-4f08-afcf-d4f56745a592"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ENDEREÇO]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

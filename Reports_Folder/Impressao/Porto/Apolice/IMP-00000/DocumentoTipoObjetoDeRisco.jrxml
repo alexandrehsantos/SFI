@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2015-12-22T16:38:44 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoTipoObjetoDeRisco" pageWidth="555" pageHeight="802" whenNoDataType="NoDataSection" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" whenResourceMissingType="Empty" uuid="882c51f0-6a57-4e03-aa3e-c56d2fdb6209">
+	<property name="ireport.zoom" value="1.464100000000001"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento]]>
+	</queryString>
+	<field name="nomeEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeEvento]]></fieldDescription>
+	</field>
+	<field name="proponenteContratado" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='93' and codigo=//Documentos/Documento/itensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/codigoTipoProponenteEvento] /descricao]]></fieldDescription>
+	</field>
+	<field name="categoriaEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='6' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/codigoCategoriaEvento] /descricao]]></fieldDescription>
+	</field>
+	<field name="temaEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='6' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/codigoTemaEvento] /descricao]]></fieldDescription>
+	</field>
+	<variable name="getTitleTipoObjeto" class="java.lang.String">
+		<variableExpression><![CDATA[$P{pNomeOferta} != null ? $P{pNomeOferta}.toLowerCase().contains("antena") || $P{pNomeOferta}.toLowerCase().contains("anúncios") ? "TIPO" : $P{pNomeOferta}.toLowerCase().contains("operações de vigilância") ?
+	"TIPO DE VIGILÂNCIA" : $P{pNomeOferta}.toLowerCase().contains("prestação de serviço em locais de terceiro") ?
+	"TIPO DE SERVIÇO" : $P{pNomeOferta}.toLowerCase().contains("comercial e industrial") ? "TIPOS PRODUTOS"
+	: null
+	: ""]]></variableExpression>
+	</variable>
+	<variable name="getTitleTipoObjeto2" class="java.lang.String">
+		<variableExpression><![CDATA[$P{pNomeOferta}.toLowerCase().equals("prestação de serviço em locais de terceiro") ? "SERVICO" : ""]]></variableExpression>
+	</variable>
+	<group name="TipoObjeto">
+		<groupExpression><![CDATA[$P{pNomeOferta}]]></groupExpression>
+		<groupFooter>
+			<band height="52">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="52" uuid="861d54fe-d761-4a57-bbf8-88421b897759">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<textField isBlankWhenNull="false">
+					<reportElement x="2" y="12" width="275" height="13" uuid="a5f4b3a6-0ef2-4edc-b945-fca9129609fc"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomeEvento}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="2" y="0" width="275" height="12" uuid="8e2e0ade-2212-45ce-956c-28e8d4c1a24b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom" markup="styled">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[NOME DO EVENTO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="0" width="274" height="12" uuid="72b1a958-e1a5-4be2-900d-5ce7b8baa458">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom" markup="styled">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[PROPONENTE CONTRATADO]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="280" y="12" width="274" height="13" uuid="1d841e23-29e4-4a2d-aed8-bdd7efa9c603">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font size="6"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{proponenteContratado}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="277" y="0" width="1" height="25" uuid="ec85db0d-4d2a-4c45-aecd-60398ebd88e3">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.7"/>
+					</graphicElement>
+				</line>
+				<staticText>
+					<reportElement x="2" y="26" width="418" height="12" uuid="18e73d46-117e-4b4f-9213-f39097e17753">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom" markup="styled">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[CATEGORIA DO EVENTO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="424" y="26" width="130" height="12" uuid="4d5fe075-a431-447e-8e30-4c1d07ea15cb">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom" markup="styled">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[TEMA DO EVENTO]]></text>
+				</staticText>
+				<line>
+					<reportElement x="421" y="26" width="1" height="25" uuid="0abd20bd-31f8-4432-a4cd-7f8759856b19">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.7"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement x="0" y="25" width="555" height="1" uuid="1aeff4aa-1ff5-470d-bcd2-dd34f6e73bc1">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<textField>
+					<reportElement x="2" y="38" width="418" height="13" uuid="d9ca577e-69c1-4061-b49a-da9826d5cc5d">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font size="6"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{categoriaEvento}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="424" y="38" width="130" height="13" uuid="145bc544-89c5-4a69-b197-6b0a79035f9f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font size="6"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{temaEvento}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+</jasperReport>

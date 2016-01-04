@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescricaoDosEquipamentos" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="934692be-7646-4f18-ab6d-18c86b24519a">
+	<property name="ireport.zoom" value="2.143588810000003"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco]]>
+	</queryString>
+	<field name="nomeAparelho" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoEspecifica/nomeAparelho]]></fieldDescription>
+	</field>
+	<field name="nomeAparelho2" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoGenerico/nomeAparelho]]></fieldDescription>
+	</field>
+	<field name="nomeAparelho3" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoTelefonia/nomeAparelho]]></fieldDescription>
+	</field>
+	<field name="flagAtivo" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoEspecifica/flagAtivo]]></fieldDescription>
+	</field>
+	<field name="flagAtivo2" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoGenerico/flagAtivo]]></fieldDescription>
+	</field>
+	<field name="flagAtivo3" class="java.lang.String">
+		<fieldDescription><![CDATA[equipamentoTelefonia/flagAtivo]]></fieldDescription>
+	</field>
+	<group name="Equipamentos">
+		<groupExpression><![CDATA[$F{nomeAparelho}]]></groupExpression>
+		<groupHeader>
+			<band height="26">
+				<staticText>
+					<reportElement x="0" y="0" width="278" height="13" uuid="566be957-4efe-4fc8-b2e7-3592e027dfc5"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="13" width="278" height="13" uuid="2da76f9e-dcca-4437-b1b6-957d0db3a57d"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="278" y="0" width="278" height="13" uuid="772138a1-d0b8-4414-91d0-c9951f89635f"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="278" y="13" width="277" height="13" uuid="b19748f6-3b9b-44a9-b7ef-ed58e23a41bb"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="278" y="0" width="278" height="13" uuid="52b18e2d-b5b9-4b26-8111-f98b59a33134"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="278" y="12" width="278" height="13" uuid="b7bdf758-addb-48e5-aef2-49f4307a9bc4"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="0" width="278" height="13" uuid="701791d6-afd0-4177-ac8b-a989cc891f43"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="12" width="278" height="13" uuid="790e3c07-a875-45a0-bfff-bf975f6ba235"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+			</band>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="26" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="195e33a9-bbfb-420f-a15b-8afa2f1d4fe3"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="556" height="13" uuid="4bc81dca-b748-4b19-b6b9-0f9add4868d2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DESCRIÇÃO DOS EQUIPAMENTOS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="13" width="556" height="13" backcolor="#E3E3E3" uuid="ea97098d-42dc-4daf-a7b5-26b4510a013e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="13" width="556" height="13" uuid="886cd6af-6747-46fa-9200-8aaaf1328b2f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="6" isBold="false"/>
+				</textElement>
+				<text><![CDATA[COBERTURA PARA EQUIPAMENTOS ELETRÔNICOS, CINEMATOGRÁFICOS E MUSICAIS ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13">
+			<rectangle>
+				<reportElement x="278" y="0" width="278" height="13" backcolor="#E3E3E3" uuid="2bbc0cc2-a0a2-49db-89d5-c02c50d2fd75"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="278" height="13" backcolor="#E3E3E3" uuid="55e8c816-3b83-423f-a037-037a49bca93e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="277" height="13" uuid="7478720e-ecd4-4723-8a24-e97932831a3c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DESCRICAO DO EQUIPAMENTO ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="277" y="0" width="277" height="13" uuid="8affddbf-098e-4a98-ac31-53376232a5e6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="false"/>
+				</textElement>
+				<text><![CDATA[VALOR DO EQUIPAMENTO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+</jasperReport>

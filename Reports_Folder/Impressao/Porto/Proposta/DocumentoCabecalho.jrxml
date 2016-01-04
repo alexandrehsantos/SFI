@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoCabecalho" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="630b2335-d17d-4259-b797-4c5cb62a18ae">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="67"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pSusepPrincipal" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<field name="numeroApoliceAnterior" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroApoliceAnterior]]></fieldDescription>
+	</field>
+	<field name="codigoOrigemEmissao" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoOrigemEmissao]]></fieldDescription>
+	</field>
+	<field name="numeroProposta" class="java.lang.String">
+		<fieldDescription><![CDATA[itensDocumento/itemDocumento/numeroProposta]]></fieldDescription>
+	</field>
+	<field name="codigoRamo" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoRamo]]></fieldDescription>
+	</field>
+	<field name="numeroApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroApolice]]></fieldDescription>
+	</field>
+	<field name="dataInicioVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[dataInicioVigencia]]></fieldDescription>
+	</field>
+	<field name="dataInicioVigencia2" class="java.lang.String">
+		<fieldDescription><![CDATA[dataInicioVigencia]]></fieldDescription>
+	</field>
+	<field name="dataFimVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[dataFimVigencia]]></fieldDescription>
+	</field>
+	<group name="VigenciaDoSeguro">
+		<groupExpression><![CDATA[$F{numeroApoliceAnterior}]]></groupExpression>
+		<groupHeader>
+			<band height="32">
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="32" uuid="91320422-8346-49a3-a29e-82793ad9b61a"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement x="27" y="0" width="500" height="32" uuid="0b25da9f-1ef9-4a52-88c5-e5c95c639846"/>
+					<textElement textAlignment="Justified">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Vigência do seguro: a partir das 24 horas do dia "  +  $F{dataInicioVigencia}  + "até as 24 horas do dia " + $F{dataFimVigencia} + " As coberturas desta apólice foram contratadas com as condições vigentes em: " + $F{dataInicioVigencia} + " Processo SUSEP N " + $P{pSusepPrincipal}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<pageHeader>
+		<band height="25" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="25" uuid="5879aee6-5e72-4c1c-bf81-c500d8456b45"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="221" y="0" width="1" height="25" uuid="8d09713a-d003-4b6d-be0e-bf22bb7c1d75"/>
+			</line>
+			<line>
+				<reportElement x="332" y="0" width="1" height="25" uuid="5dae92fd-3301-4cdb-b25f-1ee6a4cc6af1"/>
+			</line>
+			<line>
+				<reportElement x="443" y="0" width="1" height="25" uuid="39f1eeb9-3668-480a-a14f-eeceb90c06e6"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="0" width="111" height="13" uuid="75c03ca2-2e9f-484a-a8df-4121deb85053"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RENOVA APÓLICE N]]></text>
+			</staticText>
+			<line>
+				<reportElement x="110" y="0" width="1" height="25" uuid="6464165f-2750-44e7-8ba2-df5015541096"/>
+			</line>
+			<staticText>
+				<reportElement x="221" y="0" width="111" height="13" uuid="77cf75c4-84be-47b6-9e56-fa474148b91e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PROPOSTA N]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="0" width="111" height="13" uuid="046a0135-3bdb-4785-b120-5f0644bd2e38"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RAMO ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="12" width="111" height="13" uuid="67d1536f-8ef9-42e7-864c-340cdb8a810e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroApoliceAnterior}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="221" y="12" width="111" height="13" uuid="04f541fc-ff31-4890-8a89-3c90d5c66b80"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoOrigemEmissao}+" "+ $F{numeroProposta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="12" width="111" height="13" uuid="7c122be5-4017-44c6-b8d7-e00c35e6fff8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoRamo}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Opaque" x="111" y="1" width="110" height="23" forecolor="#000000" backcolor="#CCCCCC" uuid="ad48d00c-b4e5-4322-b357-aec2f448bfbe"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="110" y="0" width="111" height="13" backcolor="#999999" uuid="b36bacd8-298c-4a1e-a7c5-b1f45991bbaf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[APÓLICE N]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="12" width="111" height="13" backcolor="#999999" uuid="3f885094-3314-479f-adb2-98864540798e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroApolice}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Opaque" x="445" y="1" width="108" height="23" forecolor="#000000" backcolor="#CCCCCC" uuid="45a4e3ad-2835-40f4-9acc-c3ac5d6ccd82"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField evaluationTime="Report">
+				<reportElement x="443" y="12" width="108" height="13" uuid="09f542a3-e2aa-4204-8773-8b3d8f8b000e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of" + " " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="443" y="0" width="108" height="13" uuid="cb2be79d-8816-424d-8820-31955bbd17f9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FOLHA ]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+</jasperReport>

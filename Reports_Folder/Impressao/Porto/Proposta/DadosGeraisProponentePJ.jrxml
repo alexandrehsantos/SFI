@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isSummaryNewPage="true" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
+	<property name="ireport.zoom" value="1.8181818181818226"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pcodigoPessoa" class="java.lang.String"/>
+	<parameter name="strSegurado" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["NOME/RAZÃO SOCIAL"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pflagEnvioEmailCorretor" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\alexandre.dos.santos\\Documents\\Working\\impressoes\\proposta\\v1.1\\proposta\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Pessoas/Pessoa[codigoPessoa = $P{pcodigoPessoa}] | //Documentos/documento]]>
+	</queryString>
+	<field name="codigoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoPessoa]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpf" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCnpjCpf]]></fieldDescription>
+	</field>
+	<field name="nomePessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePessoa]]></fieldDescription>
+	</field>
+	<field name="nomeTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="numeroDdd" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/contato/numeroDdd]]></fieldDescription>
+	</field>
+	<field name="numeroContato" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/contato/numeroContato]]></fieldDescription>
+	</field>
+	<field name="nomeAtividadeEconomica" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/nomeAtividadeEconomica]]></fieldDescription>
+	</field>
+	<field name="nomeNaturezaJuridica" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/nomeNaturezaJuridica]]></fieldDescription>
+	</field>
+	<field name="flagPossuiControlador" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/flagPossuiControlador]]></fieldDescription>
+	</field>
+	<field name="textoContato" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/contato/textoContato]]></fieldDescription>
+	</field>
+	<field name="flagAutorizacaoMensagemTexto" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/flagAutorizacaoMensagemTexto]]></fieldDescription>
+	</field>
+	<field name="nomeFaixaReceitaOperacionalAnual" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/nomeFaixaReceitaOperacionalAnual]]></fieldDescription>
+	</field>
+	<field name="codigoCorretorPrincipal" class="java.lang.String">
+		<fieldDescription><![CDATA[/Generator/impressao/Documentos/Documento/codigoCorretorPrincipal]]></fieldDescription>
+	</field>
+	<title>
+		<band height="12">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="28b020a7-d741-4fbf-b337-b026b00e4a65"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" uuid="5dd6f310-0951-4788-a46a-d3fd1d86b348"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[DADOS GERAIS DO PROPONENTE]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="138" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="138" uuid="19b1961a-9072-41d8-83a0-7af8201d8828"/>
+				<graphicElement>
+					<pen lineWidth="0.75" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="373" y="0" width="182" height="12" uuid="cc8fe001-0a14-428c-9bad-9464e274628d"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CPF/CNPJ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="1" width="68" height="12" uuid="740e9310-b9af-463f-bfeb-3c9b31731854"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[NOME/RAZÃO SOCIAL]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="12" width="242" height="13" uuid="98854d09-5a0c-4ada-85fe-77d78a50fc53"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomePessoa}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="260" y="0" width="1" height="25" uuid="f06f1bb4-dfc8-4801-a29c-1f34aa4b623e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="0" width="1" height="25" uuid="0f421c86-54f5-4830-9da1-38bf79416b05"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="264" y="0" width="103" height="12" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE PESSOA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="264" y="11" width="103" height="13" uuid="16d5a9a8-9268-4e72-be4d-f7cfc835b5b6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeTipoPessoa}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="373" y="11" width="181" height="13" uuid="2950ea21-b395-4ec8-adb9-14b9e8189586"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCnpjCpf}.length() == 14 ? ($F{numeroCnpjCpf}.substring(0, 2) + "." + $F{numeroCnpjCpf}.substring(2, 5) + "." + $F{numeroCnpjCpf}.substring(5, 8) + "/" + $F{numeroCnpjCpf}.substring(8, 12) + "-" + $F{numeroCnpjCpf}.substring(12, 14))
+			: $F{numeroCnpjCpf}.length() == 11 ? ($F{numeroCnpjCpf}.substring(0, 3) + "." + $F{numeroCnpjCpf}.substring(3, 6) + "." + $F{numeroCnpjCpf}.substring(6, 9) + "-" + $F{numeroCnpjCpf}.substring(9, 11))
+			: $F{numeroCnpjCpf}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="3" y="124" width="182" height="13" uuid="cd014d6b-71bf-448a-b70e-bd40dafbfb3d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{numeroContato}.length() == 9) ? "("+$F{numeroDdd}+")"+$F{numeroContato}.substring(0, 5) + "-" + $F{numeroContato}.substring(5, 9)
+		: ($F{numeroContato}.length() == 8) ? "("+$F{numeroDdd}+")"+$F{numeroContato}.substring(0, 4) + "-" + $F{numeroContato}.substring(4, 8)
+		: $F{numeroContato}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="27" width="274" height="12" uuid="0086d4e2-8b5e-487a-b7a9-6e7348424060"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ATIVIDADE ECONÔMICA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="38" width="272" height="13" uuid="3de9342f-e670-4462-9894-ed0382b0589a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeAtividadeEconomica}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="347" y="27" width="159" height="12" uuid="e0d3fadb-e04e-4bda-aff7-2ffff80b798d"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO EMPRESA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="347" y="38" width="157" height="13" uuid="f477a1ce-cc2a-47f0-b945-ae7dfb3a2de2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeNaturezaJuridica}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="52" width="150" height="21" uuid="4f3cbe2b-11b6-4bbe-a209-ebfa33e91aab"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[PATRIMÔNIO LÍQUIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="158" y="51" width="106" height="21" uuid="43370e97-5d47-42c8-91af-0e8dbccedb06"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[RECEITA OPERACIONAL BRUTA ANUAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="52" width="286" height="21" uuid="7f40ae7a-da4b-4a73-9d9b-7f41a2392066"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CONTROLADORES]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="72" width="150" height="13" uuid="abb0a6bf-4a58-4277-a33e-756d9e2065af"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeAtividadeEconomica}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="113" width="182" height="12" uuid="c546c277-5e29-41b2-a6f6-c28f13f112d2"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE RESIDENCIAL ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="188" y="113" width="182" height="12" uuid="fd1990fb-80ce-4c94-aac2-9a2e961e6fdf"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE CELULAR]]></text>
+			</staticText>
+			<line>
+				<reportElement x="344" y="26" width="1" height="25" uuid="c7e04c3c-ace6-4f81-ab50-c7e305071453"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="155" y="52" width="1" height="34" uuid="7215f8fe-b1cb-495a-add5-0b1f8e4d4bf0"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="265" y="52" width="1" height="34" uuid="9c6573b0-dbd6-4728-a2ba-2a5bcaa4ba7d"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="185" y="113" width="1" height="25" uuid="de3d9c6b-e796-4198-84b0-350a74dae895"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="113" width="1" height="25" uuid="1e4599dc-7f0b-4871-8388-0612932295f5"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="25" width="555" height="1" uuid="83ed5af2-8d45-4217-b773-2f18e6b0cb5d"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="51" width="555" height="1" uuid="f7c5fb17-e279-4758-801c-ef8ac0a52950"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="112" width="555" height="1" uuid="99148d44-ad93-4c3e-90e5-913c76cfabea"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="373" y="113" width="183" height="12" uuid="3ad7689d-4ff5-4d36-8aed-8640220ef249"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE COMERCIAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="86" width="555" height="1" uuid="dc41eacb-4117-40f7-a41c-99f4cea1cc50"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="3" y="87" width="110" height="12" uuid="bd027e4d-a04a-4e2f-8171-d0b479860c22"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[E-MAIL DO SEGURADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="118" y="87" width="177" height="12" uuid="634c277e-90cf-4e01-a88c-61290621a322"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ENVIAR CÓPIA DA APÓLICE PARA O E-MAIL DO CORRETOR?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="436" y="87" width="105" height="12" uuid="89646d89-4852-4044-bc7a-c0391b35e83a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ENVIAR APÓLICE FÍSICA PARA ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="115" y="87" width="1" height="25" uuid="4ed50a2f-55a3-48a5-9d79-be49fc166179"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="433" y="87" width="1" height="25" uuid="7ccb832e-4d2d-4f66-bd18-e61d24dd3dda"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="3" y="98" width="110" height="13" uuid="3ddb8945-3492-4c9d-802c-2ee7dbea5e3f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoContato}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="268" y="72" width="286" height="13" uuid="8f2661c6-053b-4986-addb-1eba08ab8209"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{flagPossuiControlador}.equals("1")? "SIM":"NAO"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="72" width="106" height="13" uuid="1d4c5d47-167f-43d9-bfa3-212270fd9456"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeFaixaReceitaOperacionalAnual}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="118" y="98" width="177" height="13" uuid="8d71a4e3-a8ea-4c3f-b08e-5e8afe088914"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pflagEnvioEmailCorretor}.equals("1") ? "SIM" : "NÃO"]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="436" y="98" width="105" height="13" uuid="98bd4994-0136-4f58-a238-5fcf37ed87c4"/>
+				<subreportParameter name="XML_DATE_PATTERN">
+					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_LOCALE">
+					<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="pCodigoCorretor">
+					<subreportParameterExpression><![CDATA[$F{codigoCorretorPrincipal}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_TIME_ZONE">
+					<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA["DestinoApolice.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

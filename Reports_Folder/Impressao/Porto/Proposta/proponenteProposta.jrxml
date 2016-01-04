@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="4"/>
+	<parameter name="pcodigoPessoa" class="java.lang.String"/>
+	<parameter name="strSegurado" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["NOME/RAZÃO SOCIAL"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Pessoa[codigoPessoa = $P{pcodigoPessoa}]]]>
+	</queryString>
+	<field name="codigoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoPessoa]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpf" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCnpjCpf]]></fieldDescription>
+	</field>
+	<field name="nomePessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePessoa]]></fieldDescription>
+	</field>
+	<field name="nomeTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="numeroDdd" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/numeroDdd]]></fieldDescription>
+	</field>
+	<field name="numeroContato" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/numeroContato]]></fieldDescription>
+	</field>
+	<field name="nomeAtividadeEconomica" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/nomeAtividadeEconomica]]></fieldDescription>
+	</field>
+	<field name="nomeNaturezaJuridica" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/nomeNaturezaJuridica]]></fieldDescription>
+	</field>
+	<field name="flagPossuiControlador" class="java.lang.String">
+		<fieldDescription><![CDATA[pessoaJuridica/flagPossuiControlador]]></fieldDescription>
+	</field>
+	<field name="textoContato" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/textoContato]]></fieldDescription>
+	</field>
+	<field name="flagAutorizacaoMensagemTexto" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/flagAutorizacaoMensagemTexto]]></fieldDescription>
+	</field>
+	<field name="numeroDdd2" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/numeroDdd]]></fieldDescription>
+	</field>
+	<field name="numeroContato2" class="java.lang.String">
+		<fieldDescription><![CDATA[contatos/numeroContato]]></fieldDescription>
+	</field>
+	<group name="pessoa">
+		<groupExpression><![CDATA[$F{codigoPessoa}]]></groupExpression>
+		<groupHeader>
+			<band height="13">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="27f41b07-2695-44fb-b4d2-7ed20941d48b"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="0" width="554" height="12" uuid="479786ee-3fb6-4efc-b8de-2fe4033efdc7"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<text><![CDATA[DADOS DO PROPONENTE]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<detail>
+		<band height="117" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="1" width="556" height="97" uuid="c0d81993-9416-48fe-8a29-3437e7d5eedf"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="373" y="2" width="182" height="9" uuid="cc8fe001-0a14-428c-9bad-9464e274628d"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CPF/CNPJ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="3" width="68" height="9" uuid="740e9310-b9af-463f-bfeb-3c9b31731854"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[NOME/RAZÃO SOCIAL]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="12" width="242" height="12" uuid="98854d09-5a0c-4ada-85fe-77d78a50fc53"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomePessoa}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="260" y="1" width="1" height="24" uuid="f06f1bb4-dfc8-4801-a29c-1f34aa4b623e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="1" width="1" height="24" uuid="0f421c86-54f5-4830-9da1-38bf79416b05"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="264" y="2" width="103" height="9" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE PESSOA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="264" y="12" width="103" height="12" uuid="16d5a9a8-9268-4e72-be4d-f7cfc835b5b6"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeTipoPessoa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="11" width="181" height="13" uuid="2950ea21-b395-4ec8-adb9-14b9e8189586"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCnpjCpf}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="3" y="80" width="182" height="13" uuid="cd014d6b-71bf-448a-b70e-bd40dafbfb3d"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{numeroContato}.length() == 9) ? "("+$F{numeroDdd}+")"+$F{numeroContato}.substring(0, 5) + "-" + $F{numeroContato}.substring(5, 9) : "("+$F{numeroDdd}+")"+$F{numeroContato}.substring(0, 4) + "-" + $F{numeroContato}.substring(4, 8)]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="26" width="274" height="9" uuid="0086d4e2-8b5e-487a-b7a9-6e7348424060"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ATIVIDADE ECONÔMICA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="35" width="274" height="12" uuid="3de9342f-e670-4462-9894-ed0382b0589a"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeAtividadeEconomica}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="281" y="26" width="274" height="9" uuid="e0d3fadb-e04e-4bda-aff7-2ffff80b798d"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO EMPRESA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="281" y="35" width="274" height="12" uuid="f477a1ce-cc2a-47f0-b945-ae7dfb3a2de2"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeNaturezaJuridica}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="49" width="183" height="9" uuid="4f3cbe2b-11b6-4bbe-a209-ebfa33e91aab"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[PATRIMÔNIO LÍQUIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="49" width="183" height="9" uuid="43370e97-5d47-42c8-91af-0e8dbccedb06"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[RECEITA OPERACIONAL BRUTA ANUAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="372" y="49" width="183" height="9" uuid="7f40ae7a-da4b-4a73-9d9b-7f41a2392066"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CONTROLADORES]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="58" width="183" height="12" uuid="abb0a6bf-4a58-4277-a33e-756d9e2065af"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeAtividadeEconomica}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="71" width="183" height="9" uuid="c546c277-5e29-41b2-a6f6-c28f13f112d2"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE RESIDENCIAL ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="71" width="183" height="9" uuid="fd1990fb-80ce-4c94-aac2-9a2e961e6fdf"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE CELULAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="372" y="71" width="183" height="9" uuid="3ad7689d-4ff5-4d36-8aed-8640220ef249"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TELEFONE COMERCIAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="278" y="26" width="1" height="21" uuid="c7e04c3c-ace6-4f81-ab50-c7e305071453"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="185" y="49" width="1" height="21" uuid="7215f8fe-b1cb-495a-add5-0b1f8e4d4bf0"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="50" width="1" height="20" uuid="9c6573b0-dbd6-4728-a2ba-2a5bcaa4ba7d"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="185" y="70" width="1" height="28" uuid="de3d9c6b-e796-4198-84b0-350a74dae895"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="70" width="1" height="28" uuid="1e4599dc-7f0b-4871-8388-0612932295f5"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="25" width="556" height="1" uuid="83ed5af2-8d45-4217-b773-2f18e6b0cb5d"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="49" width="556" height="1" uuid="f7c5fb17-e279-4758-801c-ef8ac0a52950"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="70" width="556" height="1" uuid="99148d44-ad93-4c3e-90e5-913c76cfabea"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

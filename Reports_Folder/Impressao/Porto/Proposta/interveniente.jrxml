@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
+	<property name="ireport.zoom" value="1.818181818181819"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pcodigoInterveniente" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/intervenientes/interveniente[codigoInterveniente = $P{pcodigoInterveniente}]]]>
+	</queryString>
+	<field name="nomeInterveniente" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeInterveniente]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpf" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCnpjCpf]]></fieldDescription>
+	</field>
+	<field name="codigoInterveniente" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoInterveniente]]></fieldDescription>
+	</field>
+	<field name="codigoTipoInterveniente" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoInterveniente]]></fieldDescription>
+	</field>
+	<field name="nomeTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeTipoPessoa]]></fieldDescription>
+	</field>
+	<variable name="vTipoInterveniente" class="java.lang.String">
+		<variableExpression><![CDATA[$F{codigoInterveniente}.equals( "2" )?"co-proponente":null]]></variableExpression>
+		<initialValueExpression><![CDATA[$F{codigoInterveniente}]]></initialValueExpression>
+	</variable>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<rectangle>
+				<reportElement x="1" y="0" width="554" height="25" uuid="770267a3-da62-46b3-8973-b27d2ae9feda"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="4" y="10" width="100" height="12" uuid="d574d623-646d-4698-9940-8dc73203980d"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeInterveniente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="11" width="100" height="12" uuid="2dd1e310-3062-48de-93f5-073ec64f21b1"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCnpjCpf}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="398" y="2" width="68" height="9" uuid="24468304-4634-4dcf-98a2-5ffdfe4dc456"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CPF/CNPJ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="2" width="68" height="9" uuid="bc044e82-83bd-41a8-80f3-22d79d266260"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[RAZÃO SOCIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="2" width="68" height="9" uuid="3c4f8118-e9dc-4e19-a580-19d7fea85fc7"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE PESSOA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="292" y="0" width="1" height="25" uuid="08aa0975-d856-4ec0-a9c1-ffa51e5f0426"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="395" y="0" width="1" height="25" uuid="52c3269b-5be9-443a-8fbc-a2385dc6c2c8"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="294" y="12" width="100" height="12" uuid="625d681b-7d14-457e-83f6-17b62f3b86cd"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeTipoPessoa}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ObjetoDoSeguro" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" whenResourceMissingType="Empty" uuid="6ae4c7d2-1e1c-48bc-9664-3ce2c65384ba">
+	<property name="ireport.zoom" value="1.7715610000000053"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pcodigoLocalRisco" class="java.lang.String" isForPrompting="false"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco]]>
+	</queryString>
+	<field name="codigoLocalRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/codigoLocalRisco]]></fieldDescription>
+	</field>
+	<field name="nomeTipoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeTipoLogradouro]]></fieldDescription>
+	</field>
+	<field name="codigoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/codigoLogradouro]]></fieldDescription>
+	</field>
+	<field name="nomeLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeLogradouro]]></fieldDescription>
+	</field>
+	<field name="numeroLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/numeroLogradouro]]></fieldDescription>
+	</field>
+	<field name="flagSemNumero" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/flagSemNumero]]></fieldDescription>
+	</field>
+	<field name="numeroCep" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/numeroCep]]></fieldDescription>
+	</field>
+	<field name="nomeComplemento" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeComplemento]]></fieldDescription>
+	</field>
+	<field name="nomeBairro" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeBairro]]></fieldDescription>
+	</field>
+	<field name="nomeCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeCidade]]></fieldDescription>
+	</field>
+	<field name="nomeUnidadeFederacao" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomeUnidadeFederacao]]></fieldDescription>
+	</field>
+	<field name="nomePais" class="java.lang.String">
+		<fieldDescription><![CDATA[objetoRisco/localRisco/nomePais]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="62">
+			<textField>
+				<reportElement x="2" y="9" width="321" height="13" uuid="8accdb2c-f51c-408b-822f-fb308842a633"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeLogradouro}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="101" y="26" width="221" height="9" uuid="10c427e4-14d7-4766-ae1b-4dcb73c7580a"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[COMPLEMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="26" width="61" height="9" uuid="cf44ed5a-3661-452c-9780-757a16d4e341"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="26" width="161" height="9" uuid="c86b38ea-d284-4079-a782-609ebd544dae"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ESTADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="26" width="97" height="9" uuid="4a479073-7286-4e72-a51b-b4ad1a1f0470"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CEP ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="326" y="9" width="63" height="13" uuid="75e7c7a5-a938-43cd-9be4-9c64a47481a1"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroLogradouro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="9" width="161" height="13" uuid="7baedf16-f60c-4b8f-9dd0-501e9980d540"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeBairro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="34" width="97" height="13" uuid="c9b5dce4-8229-4940-b5e1-2086fb3ce773"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCep}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="101" y="34" width="221" height="13" uuid="80ce2e04-d728-4348-803f-0e9c90b27877"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeComplemento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="34" width="61" height="13" uuid="653843c0-a47f-4a69-b71b-1647857a373c"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeCidade}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="34" width="161" height="13" uuid="bb7b5d42-b542-4b91-8866-85e177f6dc11"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeUnidadeFederacao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="52" width="97" height="9" uuid="c8f43b7e-aa09-4138-9f61-975f14c9211d"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="25" width="552" height="1" uuid="492046b3-a68f-4547-80d8-9bde66c8f9ce"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="323" y="25" width="1" height="25" uuid="6cfd251b-f3f1-4703-8279-ef12dfdfc314"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="388" y="26" width="1" height="25" uuid="c4af9aac-c35d-4728-a438-3c4d6e1882fa"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="50" width="552" height="1" uuid="4d50ba76-27e9-4108-a494-6e304775c6db"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="98" y="25" width="1" height="25" uuid="3ae8762b-5163-4e26-86a0-d3055bb435ea"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="1" width="322" height="9" uuid="fc296d88-ca41-42e0-8e73-9a84001ca504"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[LOCAL DE RISCO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="1" width="63" height="9" uuid="80b7951d-05cf-450c-9fd2-263084f99c53"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[NUMERO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="1" width="161" height="9" uuid="09f2ff20-d4c5-44e1-9188-da046f6e4314"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[BAIRRO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="323" y="0" width="1" height="25" uuid="5844d716-fda3-4617-b048-427b1ae90822"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="388" y="1" width="1" height="25" uuid="09ec633d-a1e8-4a1f-8aa1-84b9cabd3f83"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

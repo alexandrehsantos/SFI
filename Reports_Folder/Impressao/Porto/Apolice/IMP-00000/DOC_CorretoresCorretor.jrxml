@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2015-12-22T14:44:40 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoCorretor" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1fee99b3-b54c-436e-83a9-e110aedce9ca">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<field name="codigoCorretorPrincipal" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoCorretorPrincipal]]></fieldDescription>
+	</field>
+	<group name="Corretor">
+		<groupExpression><![CDATA[$F{codigoCorretorPrincipal}]]></groupExpression>
+		<groupHeader>
+			<band height="50">
+				<subreport isUsingCache="false">
+					<reportElement x="0" y="0" width="555" height="50" uuid="3f8fb1ab-7f9a-40c6-9817-eb10f9fb10b8"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["DOC_susepListaCorretores.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="12" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="5c6acf83-9dc8-4330-910a-1424d844d002"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" uuid="aaf3b834-b08d-4f6f-a87a-951ab3f35c0f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[DADOS DO CORRETOR]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>

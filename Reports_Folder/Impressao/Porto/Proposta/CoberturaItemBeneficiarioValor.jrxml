@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="newTest" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="2b3f1a61-74e0-4027-89e9-8e755fe83cb8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="conteudo" fill="Solid" hAlign="Center" pattern="" isBlankWhenNull="true" fontName="Kartika" fontSize="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<parameter name="pCodigoTipoBem" class="java.lang.String"/>
+	<parameter name="pCodigoBeneficiario" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/beneficiarios/beneficiario[codigoTipoBem=$P{pCodigoTipoBem}]]]>
+	</queryString>
+	<field name="codigoTipoBem" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoBem]]></fieldDescription>
+	</field>
+	<field name="valorTipoBem" class="java.lang.String">
+		<fieldDescription><![CDATA[valorTipoBem]]></fieldDescription>
+	</field>
+	<field name="codigoBeneficiario" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoBeneficiario]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="12" splitType="Stretch">
+			<printWhenExpression><![CDATA[$P{pCodigoBeneficiario}.toString().equals($F{codigoBeneficiario})]]></printWhenExpression>
+			<textField pattern="#,##0.00" isBlankWhenNull="false">
+				<reportElement style="conteudo" stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" x="0" y="0" width="111" height="12" isRemoveLineWhenBlank="true" uuid="80ab0019-4fc9-4f4f-829c-1eb93f4ba5d8"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[new Double($F{valorTipoBem})]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDeclaracoesDoProponente" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="6affe110-4d2e-48c7-aed7-14350d2100fa">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\alexandre.dos.santos\\Documents\\Working\\Jasper\\impressoes\\proposta\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento[textoComentario]]]>
+	</queryString>
+	<field name="textoComentario" class="java.lang.String">
+		<fieldDescription><![CDATA[textoComentario]]></fieldDescription>
+	</field>
+	<group name="ObservacoesDoProponente">
+		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+		<groupHeader>
+			<band height="214">
+				<rectangle>
+					<reportElement x="0" y="12" width="555" height="202" uuid="7eb84c32-5212-4b62-88f4-c184d7b90f49"/>
+				</rectangle>
+				<image scaleImage="FillFrame">
+					<reportElement x="0" y="12" width="555" height="202" uuid="951fdb6c-1b3e-4d49-8c18-3ffcc836b323"/>
+					<imageExpression><![CDATA["\\image\\DeclaracoesDoProponente.JPG"]]></imageExpression>
+				</image>
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="f94def29-1770-4077-979e-26a6bc4ed6c6"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="12" uuid="4809364b-3d49-480d-9abf-ce076b290859"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[OBSERVAÇÕES DO PROPONENTE]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="TextoComentario">
+		<groupExpression><![CDATA[$F{textoComentario}]]></groupExpression>
+		<groupHeader>
+			<band height="27">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="27" uuid="63ad0579-0a04-4386-90c1-ca0e21e32089"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["DocumentoObservacoesDoProponente.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+</jasperReport>

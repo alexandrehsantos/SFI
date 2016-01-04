@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EnderecosEndereco" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4ae49020-6c66-4f9e-8253-c10ad493bb19">
+	<property name="ireport.zoom" value="1.6934217901613318"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pcodigoEndereco" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Enderecos/endereco[codigoEndereco = $P{pcodigoEndereco}]]]>
+	</queryString>
+	<field name="codigoEndereco" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoEndereco]]></fieldDescription>
+	</field>
+	<group name="GroupEnderecoCobranca">
+		<groupExpression><![CDATA[$F{codigoEndereco}]]></groupExpression>
+		<groupHeader>
+			<band height="40">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="f7103fe6-7258-482b-8a78-6f8f9cdf7985"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="1" width="556" height="12" uuid="1c8740f3-2890-4d10-b0a3-4a27f4858f1d"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ENDERECO COBRANCA]]></text>
+				</staticText>
+				<subreport isUsingCache="false">
+					<reportElement x="0" y="12" width="556" height="22" uuid="172f827f-7aa8-4fcc-bb34-4f2819b2a2fc"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="pcodigoEdereco">
+						<subreportParameterExpression><![CDATA[$F{codigoEndereco}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["EnderecoPadrao.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+</jasperReport>

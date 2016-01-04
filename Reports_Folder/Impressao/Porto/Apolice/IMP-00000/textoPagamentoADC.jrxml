@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="textoPagamentoADC" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1371ce80-ae35-48b6-a6fa-0874f1d11e4a">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<group name="textoPagamentoADC">
+		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+		<groupHeader>
+			<band height="75">
+				<staticText>
+					<reportElement x="3" y="0" width="550" height="75" uuid="5bc86647-7dad-4da8-b85e-2808116f2a74"/>
+					<textElement textAlignment="Justified">
+						<font fontName="Helvetica World" size="6"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Havendo inadimplência o pagamento só poderá ser efetuado na seguradora acrescido de uma taxa de 0,30% ao dia. Declaro que sou responsável, de acrodo com a legislação civil e penal, pelas informações bancárias informadas para cobrança do prêmio do seguro, inclusive se for indicada conta bancária que não for de minha titularidade. Estou ciente que em caso de devolução da proposta com valor do prêmio, este será devolvido diretamente na conta bancária originalmente debitada. Constituirão motivos para cancelamento do seguro, e perda da cobertura: encerramento da conta correte: encerramento da agência detentora da conta corrente, sem transferência para outra agência: a não efetivação de um dos débitos programados por insuficiência de fundos na conta corrente, para cobertura do valor a ser debitado, e a falta de autorização prévia para débito em conta corrente, quando esta for uma exigência do Banco na qual a conta corrente é mantida. Autorizo o débito em minha conta corrente, mencionada acima, para pagamento do seguro.                                    ]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+</jasperReport>

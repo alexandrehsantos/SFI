@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoBeneficiarios" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="062e23eb-937b-43dc-824d-44badaf78f27">
+	<property name="ireport.zoom" value="1.6105100000000037"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pValorConteudo" class="java.lang.Double"/>
+	<parameter name="pValorBensEspecificos" class="java.lang.Double"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/beneficiarios/beneficiario]]>
+	</queryString>
+	<field name="codigoBeneficiario" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/beneficiarios/beneficiario/codigoBeneficiario]]></fieldDescription>
+	</field>
+	<field name="codigoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/beneficiarios/beneficiario/codigoPessoa]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/beneficiarios/beneficiario/codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpfBeneficiario" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/beneficiarios/beneficiario/numeroCnpjCpfBeneficiario]]></fieldDescription>
+	</field>
+	<field name="nomeBeneficiario" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/beneficiarios/beneficiario/nomeBeneficiario]]></fieldDescription>
+	</field>
+	<group name="ClausulasBeneficiarias">
+		<groupExpression><![CDATA[$F{codigoBeneficiario}]]></groupExpression>
+		<groupHeader>
+			<band height="45"/>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="12">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="f9350450-93c7-4c8a-bd25-5724f17d3cee"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" uuid="48643348-5030-4898-a0ca-6e5d804e497b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CLÁUSULAS BENEFICIÁRIAS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="24">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="24" backcolor="#EAE9E9" uuid="2967b913-8882-4b72-8262-844dbc957883"/>
+				<graphicElement>
+					<pen lineWidth="0.75" lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="2" y="1" width="179" height="12" uuid="9e7af918-3af1-4d55-94a8-c04731d9231f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[NOME / RAZÃO SOCAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="1" width="144" height="12" uuid="167150a5-f1cb-4820-ab56-49016b6123e0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CPF/CNPJ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="332" y="1" width="96" height="12" uuid="6943cf3b-f8cd-4d4d-b44e-fd4e062aaa01"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[VALOR CONTEÚDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="457" y="0" width="96" height="24" isPrintWhenDetailOverflows="true" uuid="890df287-c267-4daa-9d71-82d10a0c0e27"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[VALOR BENS ESPECÍFICOS]]></text>
+			</staticText>
+			<line>
+				<reportElement x="330" y="0" width="1" height="24" uuid="434113ff-2b68-432c-a579-7719f9dbf1cd"/>
+			</line>
+			<line>
+				<reportElement x="183" y="0" width="1" height="24" uuid="0efcc2d2-c483-4c98-a087-818a6ce2242b"/>
+			</line>
+			<line>
+				<reportElement x="443" y="0" width="1" height="24" uuid="1b774e9a-2fe2-4416-a303-1fb5f034be0c"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="35">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" uuid="84838a40-2425-46cc-8922-59e3b4b4c17b"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="3" y="0" width="179" height="12" uuid="59fe5611-bf47-424f-bdf6-d2d6ca617887"/>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeBeneficiario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="0" width="144" height="12" uuid="d333563c-a1da-4e3c-8729-12a4715294d5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCnpjCpfBeneficiario}.length() == 13 ?
+	($F{numeroCnpjCpfBeneficiario}.substring(0, 2) + "." + $F{numeroCnpjCpfBeneficiario}.substring(2, 5) + "." + $F{numeroCnpjCpfBeneficiario}.substring(5, 8) + "/" + $F{numeroCnpjCpfBeneficiario}.substring(8, 12) + "-" + $F{numeroCnpjCpfBeneficiario}.substring(12, 14))
+	: ($F{numeroCnpjCpfBeneficiario}.substring(0, 3) + "." + $F{numeroCnpjCpfBeneficiario}.substring(3, 6) + "." + $F{numeroCnpjCpfBeneficiario}.substring(6, 9) + "-" + $F{numeroCnpjCpfBeneficiario}.substring(9, 11))]]></textFieldExpression>
+			</textField>
+			<textField pattern="###0.00" isBlankWhenNull="true">
+				<reportElement x="333" y="0" width="108" height="12" uuid="656dca72-2d7b-4a60-86df-b8ddd48f4129"/>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pValorConteudo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="###0.00" isBlankWhenNull="true">
+				<reportElement x="446" y="0" width="108" height="12" uuid="e3f5e9a3-7048-4165-b317-3472e9302f47"/>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pValorBensEspecificos}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="183" y="0" width="1" height="12" uuid="d6555b87-d5a9-47e7-94bb-45b52aedd3fe"/>
+			</line>
+			<line>
+				<reportElement x="330" y="0" width="1" height="12" uuid="bf2ed928-d8ea-47e9-8e31-cad1ff35389a"/>
+			</line>
+			<line>
+				<reportElement x="443" y="0" width="1" height="12" uuid="15f7b4d2-1909-47f0-bcb4-6517de3a6f17"/>
+			</line>
+			<textField>
+				<reportElement x="3" y="12" width="179" height="23" uuid="bb7f4837-c3f4-4461-a14a-b7fb51fac6ab"/>
+				<textFieldExpression><![CDATA[$F{codigoBeneficiario}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DocumentoDataProtocolo" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b85f5e08-60eb-4216-95e6-effc2daac182">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<field name="dataProtocolo" class="java.lang.String">
+		<fieldDescription><![CDATA[dataProtocolo]]></fieldDescription>
+	</field>
+	<field name="numeroApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroApolice]]></fieldDescription>
+	</field>
+	<variable name="dataProtocolo" class="java.lang.String">
+		<variableExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy/MM/dd").parse($F{dataProtocolo}.substring(0,10)))]]></variableExpression>
+		<initialValueExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy/MM/dd").parse($F{dataProtocolo}.substring(0,10)))]]></initialValueExpression>
+	</variable>
+	<variable name="horaProtocolo" class="java.lang.String">
+		<variableExpression><![CDATA[$F{dataProtocolo}.substring(10,16)]]></variableExpression>
+		<initialValueExpression><![CDATA[$F{dataProtocolo}.substring(10,16)]]></initialValueExpression>
+	</variable>
+	<group name="DataProtocolo">
+		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+		<groupHeader>
+			<band height="126">
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="125" uuid="ce749f15-36e9-474a-bd02-2a89121806f6"/>
+					<graphicElement>
+						<pen lineWidth="0.75" lineColor="#000000"/>
+					</graphicElement>
+				</rectangle>
+				<textField isStretchWithOverflow="true">
+					<reportElement isPrintRepeatedValues="false" x="2" y="0" width="553" height="125" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="16acfe1f-6e67-4011-9062-7d8bbf4e3912"/>
+					<textElement markup="html">
+						<font fontName="Helvetica World" size="8"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA["TRÂNSMISSÃO ELETRÔNICA EM " + $V{dataProtocolo} + "às " + $V{horaProtocolo} +
+"<br>A presente apólice foi emitida eletronicamente conforme solicitação feita em nome do Seguradopelo pelo Corretor de seguros acima mencionado." +
+"<br>- os valores das coberturas, franquias, prêmios, e demais condições, foram estabelecidas na transmissão eletrônica de " +
+"<br>dados, cuja data e hora estão registradas em campo próprio desta apólice." +
+"<br>- os dados e informações fornecidos são de inteira responsabilidade do Proponente e do Corretor, seu representante legal neste contrato de seguro." +
+"<br>- é facultado ao Segurado, através do seu Corretor de Seguros, o direito de arrependimento em 07 (sete) dias da data de" +
+"<br>emissão da apólice conforme previsto no Código de Defesa do Consumidor, o que deverá ser feito mediante entrega de" +
+"<br>carta devidamente protocolada em qualquer escritório da Seguradora."]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="13">
+			<rectangle>
+				<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="635953d1-f7f5-4e14-9f3d-99d963e4f26c"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="13" uuid="bb3d23e1-eb5d-4d0d-adbc-03886215cd2e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CLÁUSULA DE ADMISSÃO POR TRANSFERÊNCIA ETETRÔNICA]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>

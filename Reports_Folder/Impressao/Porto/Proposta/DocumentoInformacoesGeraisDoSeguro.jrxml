@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoInformacoesGeraisDoSeguro" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4409d9a8-04dd-4447-b4b2-1c3b024ca17a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento[1]]]>
+	</queryString>
+	<title>
+		<band height="12" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="556" height="12" backcolor="#CCCCCC" uuid="cbe2b1df-aa19-4a3b-9727-2e2f5c8c2dab"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="556" height="12" uuid="0f163d3a-21e7-4987-a7e0-769a18cd5aba"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INFORMAÇÕES GERAIS DO SEGURO ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="30">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="30" uuid="4a86e5bb-e032-44da-aac6-6020bcce9a76"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="555" height="30" uuid="a37ffad1-6f81-45b4-b67d-c3bc8137aa20"/>
+				<textElement markup="html">
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<!DOCTYPE html><html lang=pt-br><head> <meta charset=UTF-8><title>Page Title</title></head><body>" +
+"&nbsp;FICA ENTENDIDO E ACORDADO QUE, SALVO AS PARTICULARIDADES ESTABELECIDAS NOS OBJETOS DO SEGURO ACIMA, AS INFORMAÇÕES <BR>&nbsp;A SEGUIR SÃO INERENTES A TODOS OS OBJETOS DE SEGURO ESTABELECIDOS NESTA APÓLICE DE SEGURO.</BR>"  +
+"</body></html>"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

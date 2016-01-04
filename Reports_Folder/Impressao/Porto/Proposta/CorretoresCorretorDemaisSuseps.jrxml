@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CorretoresCorretorDemaisSuseps" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4b5f1899-b1d3-4518-b03f-2531571c41ee">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="pParticipacaoCorretor" class="java.lang.String"/>
+	<parameter name="pcodigoCorretor" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[//Corretores/Corretor[codigoCorretor = $P{pcodigoCorretor}]]]>
+	</queryString>
+	<field name="susepCorretor" class="java.lang.String"/>
+	<field name="codigoCorretor" class="java.lang.String"/>
+	<group name="SusepCorretor">
+		<groupExpression><![CDATA[$F{susepCorretor}]]></groupExpression>
+		<groupHeader>
+			<band height="25">
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="25" uuid="3ed3a13d-52d0-4c09-ba56-d7527e4447ad"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<line>
+					<reportElement x="278" y="0" width="1" height="25" uuid="4ee744ed-ec75-434b-b057-5ddcd5a4e081"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<textField>
+					<reportElement x="114" y="9" width="62" height="12" uuid="7e856880-8df1-4f79-9502-a579cf74a4d0"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{susepCorretor}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="384" y="9" width="58" height="12" uuid="8b371545-4f6d-40ba-95db-16d9965cf3d4"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pParticipacaoCorretor}+"%"]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+</jasperReport>

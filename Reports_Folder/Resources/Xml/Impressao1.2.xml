@@ -1,0 +1,2112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImprimirDocumentoEmissao>
+  <Impressao>
+    <Documentos>
+      <Documento>
+        <numeroApolice>0167.07.613-6</numeroApolice>
+        <codigoSucursal>1</codigoSucursal>
+        <numeroSequenciaApolice>1</numeroSequenciaApolice>
+        <digitoVerificacao>20</digitoVerificacao>
+        <numeroEndosso>12345</numeroEndosso>
+        <numeroApoliceSemNumeroEndosso>0167.07.614-8</numeroApoliceSemNumeroEndosso>
+        <numeroApoliceExterno>016707</numeroApoliceExterno>
+        <numeroApoliceAnterior>0165.07.614-8</numeroApoliceAnterior>
+        <dataEnvioEmail>23/10/2015</dataEnvioEmail>
+        <dataEnvioImpressao>23/10/2015</dataEnvioImpressao>
+        <codigoIdentificacaoApolice>1231451</codigoIdentificacaoApolice>
+        <codigoIdentificacaoCondicaoGeral>00011218</codigoIdentificacaoCondicaoGeral>
+        <numeroProposta>45272250</numeroProposta>
+        <numeroVersaoProposta>1</numeroVersaoProposta>
+        <numeroSequenciaProposta>1</numeroSequenciaProposta>
+        <codigoOrigemEmissao>65</codigoOrigemEmissao>
+        <codigoOrigemEmissao>1</codigoOrigemEmissao>
+        <codigoTipoDistribuicaoPagamento>67</codigoTipoDistribuicaoPagamento>
+        <enderecoCorrespondencia>
+          <codigoEndereco>6565</codigoEndereco>
+          <codigoTipoLogradouro>1</codigoTipoLogradouro>
+          <nomeTipoLogradouro>Rua</nomeTipoLogradouro>
+          <codigoLogradouro>1</codigoLogradouro>
+          <nomeLogradouro>Abcdefghijklmnopqrstuvxz</nomeLogradouro>
+          <numeroLogradouro>99999999999</numeroLogradouro>
+          <flagSemNumero>0</flagSemNumero>
+          <numeroCep>00000000</numeroCep>
+          <nomeComplemento>PAVILHAO BRANCO</nomeComplemento>
+          <codigoBairro>1</codigoBairro>
+          <nomeBairro>VILA GHILHERME</nomeBairro>
+          <codigoCidade>1</codigoCidade>
+          <nomeCidade>SAO PAULO</nomeCidade>
+          <codigoUnidadeFederacao>1</codigoUnidadeFederacao>
+          <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
+          <codigoPais>1</codigoPais>
+          <nomePais>BRASIL</nomePais>
+          <textoPontoReferencia />
+          <numeroLatitude />
+          <numeroLongitude />
+          <codigoTipoEndereco />
+          <flagPrincipal />
+          <flagAtivo />
+        </enderecoCorrespondencia>
+        <dataProtocolo />
+        <dataEmissao>09-NOV-2015</dataEmissao>
+        <numeroPropostaAutomovel />
+        <flagPossuiCorretorSecundario />
+        <flagPossuiBeneficiario />
+        <flagPossuiSinistro />
+        <flagPrimeiraCompraCartaoEmpresa />
+        <flagEnvioEmailCorretor>1</flagEnvioEmailCorretor>
+        <flagPossuiTituloCapitalizacao />
+        <numeroSorteTituloCapitalizacao />
+        <dataInicioVigencia>09-NOV-15</dataInicioVigencia>
+        <dataFimVigencia />
+        <codigoStatusProposta />
+        <dataInicioStatusProposta />
+        <dataFimStatusProposta />
+        <numeroOrcamento />
+        <numeroVersaoOrcamento />
+        <numeroOrcamentoExterno>8150991</numeroOrcamentoExterno>
+        <flagDataCalculoManual />
+        <flagImpressaoOperacao />
+        <flagLicitacao />
+        <codigoOferta />
+        <numeroVersaoOferta />
+        <numeroSequenciaVersaoOferta />
+        <codigoEmpresa />
+        <codigoRamo>351</codigoRamo>
+        <codigoModalidade>29</codigoModalidade>
+        <codigoGrupoComercial />
+        <numeroVersaoProdutoComercial />
+        <numeroSequenciaVersaoProdutoComercial />
+        <nomeOferta>RESPONSASBILIDADE CIVIL PRESTAÇÃO DE SERVIÇO EM LOCAIS DE TERCEIRO</nomeOferta>
+        <nomeProdutoComercial />
+        <flagSimulacao />
+        <codigoStatusOrcamento />
+        <dataInicioStatusOrcamento />
+        <dataFimStatusOrcamento />
+        <numeroApoliceEndosso />
+        <dadosPessoaSegurado>
+          <codigoPessoa>1111</codigoPessoa>
+          <codigoTipoPessoa>2</codigoTipoPessoa>
+          <numeroCnpjCpf>09153911000123</numeroCnpjCpf>
+          <nomePessoa>FOCUS ASSESSORIA ESPORTIVA &amp; EVENTOS LTDA-ME</nomePessoa>
+          <nomeResumidoPessoa />
+          <flagAtivo>1</flagAtivo>
+          <pessoaFisica>
+            <codigoEstadoCivil>1</codigoEstadoCivil>
+            <codigoFaixaRenda>2</codigoFaixaRenda>
+            <codigoNacionalidade>1</codigoNacionalidade>
+            <codigoOcupacao>142</codigoOcupacao>
+            <codigoSexoPessoa>2</codigoSexoPessoa>
+            <codigoTipoExposicaoPessoa>1</codigoTipoExposicaoPessoa>
+            <dataNascimento>19-JAN-80</dataNascimento>
+            <codigoPais>1</codigoPais>
+          </pessoaFisica>
+          <pessoaJuridica>
+            <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
+            <codigoFaixaReceitaOperacionalAno />
+            <codigoFaixaPatrimonioLiquido>6</codigoFaixaPatrimonioLiquido>
+            <codigoNaturezaJuridica>1</codigoNaturezaJuridica>
+            <flagPossuiControlador>s</flagPossuiControlador>
+            <flagCongenere />
+            <codigoSusepCongenere />
+            <dataRegistroAbertura />
+            <codigoOrganizacaoPessoaJuridica>1</codigoOrganizacaoPessoaJuridica>
+          </pessoaJuridica>
+          <documentos>
+            <documento>
+              <codigoDocumentoPessoa />
+              <codigoTipoDocumentoPessoa>1</codigoTipoDocumentoPessoa>
+              <numeroDocumento>999999999999</numeroDocumento>
+              <dataEmissaoDocumento />
+              <dataValidade>04-JAN-17</dataValidade>
+              <nomeOrgaoExpedidor />
+              <codigoUnidadeFederacao />
+              <flagAtivo />
+            </documento>
+          </documentos>
+          <enderecosPessoa>
+            <enderecoPessoa>
+              <codigoEndereco />
+              <codigoTipoLogradouro />
+              <nomeTipoLogradouro />
+              <codigoLogradouro />
+              <nomeLogradouro />
+              <numeroLogradouro />
+              <flagSemNumero />
+              <numeroCep />
+              <nomeComplemento />
+              <codigoBairro />
+              <nomeBairro />
+              <codigoCidade />
+              <nomeCidade />
+              <codigoUnidadeFederacao />
+              <nomeUnidadeFederacao />
+              <codigoPais />
+              <nomePais />
+              <textoPontoReferencia />
+              <numeroLatitude />
+              <numeroLongitude />
+              <codigoTipoEndereco />
+              <flagPrincipal />
+              <flagAtivo />
+            </enderecoPessoa>
+          </enderecosPessoa>
+          <contatos>
+            <contato>
+              <codigoContatoPessoa />
+              <codigoTipoContato>1</codigoTipoContato>
+              <numeroDdi />
+              <numeroDdd />
+              <numeroContato />
+              <numeroRamal />
+              <textoContato>teste@innovare.com.br</textoContato>
+              <flagPrincipal />
+              <textoComentario />
+              <flagAtivo />
+            </contato>
+            <contato>
+              <codigoContatoPessoa />
+              <codigoTipoContato>2</codigoTipoContato>
+              <numeroDdi />
+              <numeroDdd>11</numeroDdd>
+              <numeroContato>111111111</numeroContato>
+              <numeroRamal />
+              <textoContato>teste@innovare.com.br</textoContato>
+              <flagPrincipal />
+              <textoComentario />
+              <flagAtivo />
+            </contato>
+            <contato>
+              <codigoContatoPessoa />
+              <codigoTipoContato>3</codigoTipoContato>
+              <numeroDdi />
+              <numeroDdd>11</numeroDdd>
+              <numeroContato>111111111</numeroContato>
+              <numeroRamal />
+              <textoContato>teste@innovare.com.br</textoContato>
+              <flagPrincipal />
+              <textoComentario />
+              <flagAtivo />
+            </contato>
+            <contato>
+              <codigoContatoPessoa />
+              <codigoTipoContato>4</codigoTipoContato>
+              <numeroDdi />
+              <numeroDdd>11</numeroDdd>
+              <numeroContato>111111111</numeroContato>
+              <numeroRamal />
+              <textoContato>teste@innovare.com.br</textoContato>
+              <flagPrincipal />
+              <textoComentario />
+              <flagAtivo />
+            </contato>
+          </contatos>
+          <vinculos>
+            <vinculo>
+              <codigoTipoVinculo />
+              <codigoPessoaVinculo />
+              <codigoTipoPessoaVinculo />
+              <numeroCnpjCpfPessoaVinculo />
+              <nomePessoaVinculo />
+              <flagVinculoPessoaExpostaPoliticamente />
+              <flagAtivo />
+            </vinculo>
+          </vinculos>
+          <auditoria>
+            <dataUltimaAlteracao />
+            <codigoTipoUsuarioUltimaAlteracao />
+            <codigoEmpresaUsuarioUltimaAlteracao />
+            <codigoMatriculaUsuarioUltimaAlteracao />
+          </auditoria>
+        </dadosPessoaSegurado>
+        <nomePessoaProponente />
+        <dataNascimentoPessoaProponente />
+        <numeroCalculoCnpjCpfProponente />
+        <codigoCorretorPrincipal />
+        <dataCalculo />
+        <dataValidade />
+        <dataMelhorDataPrimeiraParcela />
+        <dataInicioVigenciaSeguro>13-NOV-15</dataInicioVigenciaSeguro>
+        <dataFimVigenciaSeguro>13-NOV-16</dataFimVigenciaSeguro>
+        <codigoParceiroNegocio />
+        <numeroVersaoParceiroNegocio />
+        <codigoOnus />
+        <codigoFormaPagamento />
+        <codigoClasseProfissionalLiberal />
+        <codigoCanal />
+        <codigoMoeda />
+        <codigoMotivoRecusa />
+        <codigoTipoDocumento />
+        <codigoTipoCalculo />
+        <codigoTipoClassificacaoPessoa>2</codigoTipoClassificacaoPessoa>
+        <codigoTipoEndosso></codigoTipoEndosso>
+        <codigoTipoSeguro>1</codigoTipoSeguro>
+        <codigoTipoVigencia />
+        <codigoTipoRenovacao />
+        <numeroProcessoLicitacao />
+        <codigoTipoLicitacao />
+        <codigoOrigemRenovacao />
+        <codigoOperacao />
+        <dataInicioVigenciaVersaoOrcamento />
+        <dataFimVigenciaVersaoOrcamento />
+        <valorAdicionalFracionamento />
+        <valorCustoApolice />
+        <valorEncargo />
+        <valorPremio />
+        <textoComentario />
+        <codigoClassificacaoCreditoPessoa />
+        <quantidadeDiaVigenciaSeguro />
+        <pagadores>
+          <pagador>
+            <dadosPessoaPagador>
+              <codigoPessoa />
+              <codigoTipoPessoa />
+              <numeroCnpjCpf />
+              <nomePessoa />
+              <nomeResumidoPessoa />
+              <flagAtivo />
+              <pessoaFisica>
+                <codigoEstadoCivil />
+                <codigoFaixaRenda />
+                <codigoNacionalidade />
+                <codigoOcupacao />
+                <codigoSexoPessoa />
+                <codigoTipoExposicaoPessoa />
+                <dataNascimento />
+                <codigoPais />
+              </pessoaFisica>
+              <pessoaJuridica>
+                <codigoAtividadeEconomica />
+                <codigoFaixaReceitaOperacionalAno />
+                <codigoFaixaPatrimonioLiquido />
+                <codigoNaturezaJuridica />
+                <flagPossuiControlador />
+                <flagCongenere />
+                <codigoSusepCongenere />
+                <dataRegistroAbertura />
+              </pessoaJuridica>
+              <documentos>
+                <documento />
+              </documentos>
+              <enderecosPessoa>
+                <enderecoPessoa />
+              </enderecosPessoa>
+              <contatos>
+                <contato />
+              </contatos>
+              <vinculos>
+                <vinculo />
+              </vinculos>
+              <auditoria>
+                <dataUltimaAlteracao />
+                <codigoTipoUsuarioUltimaAlteracao />
+                <codigoEmpresaUsuarioUltimaAlteracao />
+                <codigoMatriculaUsuarioUltimaAlteracao />
+              </auditoria>
+            </dadosPessoaPagador>
+            <enderecoCobranca>
+              <codigoEndereco />
+              <codigoTipoLogradouro />
+              <nomeTipoLogradouro />
+              <codigoLogradouro />
+              <nomeLogradouro />
+              <numeroLogradouro />
+              <flagSemNumero />
+              <numeroCep />
+              <nomeComplemento />
+              <codigoBairro />
+              <nomeBairro />
+              <codigoCidade />
+              <nomeCidade />
+              <codigoUnidadeFederacao />
+              <nomeUnidadeFederacao />
+              <codigoPais />
+              <nomePais />
+              <textoPontoReferencia />
+              <numeroLatitude />
+              <numeroLongitude />
+              <codigoTipoEndereco />
+              <flagPrincipal />
+              <flagAtivo />
+            </enderecoCobranca>
+            <pagadoresParcela>
+              <pagadorParcela>
+                <dadosPessoaPagadorParcela />
+                <numeroParcela />
+                <dataVencimento />
+                <codigoTipoCartao />
+                <codigoIdentificacaoCartao />
+                <codigoBanco />
+                <numeroAgenciaBancaria />
+                <numeroContaBancaria />
+                <digitoContaBancaria />
+                <valorParcela />
+              </pagadorParcela>
+            </pagadoresParcela>
+          </pagador>
+        </pagadores>
+        <analises>
+          <analise>
+            <numeroSequenciaAnalise />
+            <codigoTipoParecer />
+            <codigoStatusParecer />
+            <textoAnalise />
+          </analise>
+        </analises>
+        <corretores>
+          <corretor>
+            <codigoCorretor />
+            <codigoSucursal />
+            <flagPrincipal />
+            <percentualParticipacao />
+            <valorComissao />
+            <flagAtivo />
+          </corretor>
+          <susep>
+            <ultimaAtualizacao />
+            <susepPorto />
+            <susepPai />
+            <susepOficial />
+            <nomeSucursal />
+            <destinoApolice>segurado</destinoApolice>
+            <dataCadastro />
+            <convenio />
+            <codigoSucursal />
+            <listaCorretores>
+              <corretor>
+                <numeroContato />
+                <nome />
+                <nomeEmail />
+                <numeroCnpjCpf />
+              </corretor>
+            </listaCorretores>
+            <listaSusepsProducao>
+              <susepProducao>
+                <ultimaAtualizacao />
+                <susepPorto />
+                <susepOficial>111111111</susepOficial>
+                <status />
+                <dataCadastro />
+              </susepProducao>
+              <susepProducao>
+                <ultimaAtualizacao />
+                <susepPorto />
+                <susepOficial>2222222222</susepOficial>
+                <status />
+                <dataCadastro />
+              </susepProducao>
+              <susepProducao>
+                <ultimaAtualizacao />
+                <susepPorto />
+                <susepOficial>33333333333</susepOficial>
+                <status />
+                <dataCadastro />
+              </susepProducao>
+            </listaSusepsProducao>
+            <listaFiliais>
+              <filial>
+                <nome />
+                <numeroCnpjCpf />
+              </filial>
+            </listaFiliais>
+            <listaSocios>
+              <socio>
+                <tipoCargo />
+                <rg />
+                <orgaoEmissor />
+                <numeroCnpjCpf />
+              </socio>
+            </listaSocios>
+            <listaPrepostos>
+              <preposto>
+                <nome />
+                <numeroCnpjCpf />
+              </preposto>
+            </listaPrepostos>
+            <listaTelefones>
+              <telefone>
+                <tipoTelefone />
+                <numeroContato />
+              </telefone>
+            </listaTelefones>
+            <listaEnderecos>
+              <endereco>
+                <tipoLogradouro />
+                <numeroLogradouro />
+                <enderecoSinistro />
+                <codigoUnidadeFederacao />
+                <complementoSinistro />
+                <nomeCidade />
+                <numeroCep />
+                <nomeBairro />
+              </endereco>
+            </listaEnderecos>
+            <gerenteComercial>
+              <nome />
+              <nomeEmail />
+            </gerenteComercial>
+            <gerenteRegional>
+              <nome />
+              <nomeEmail />
+            </gerenteRegional>
+            <CoordProducao>
+              <nome />
+              <nomeEmail />
+            </CoordProducao>
+            <GerenteSucursal>
+              <nome />
+              <nomeEmail />
+            </GerenteSucursal>
+            <Superintendencia>
+              <nome />
+              <nomeEmail />
+            </Superintendencia>
+            <DiretorComercial>
+              <nome />
+              <nomeEmail />
+            </DiretorComercial>
+            <DiretorEstatutario>
+              <nome />
+              <nomeEmail />
+            </DiretorEstatutario>
+            <VicePresidente>
+              <nome />
+              <nomeEmail />
+            </VicePresidente>
+          </susep>
+        </corretores>
+        <intervenientes>
+          <interveniente>
+            <codigoInterveniente />
+            <codigoTipoInterveniente />
+            <dadosPessoaInterveniente>
+              <codigoPessoa />
+              <codigoTipoPessoa />
+              <numeroCnpjCpf />
+              <nomePessoa />
+              <nomeResumidoPessoa />
+              <flagAtivo />
+              <pessoaFisica>
+                <codigoEstadoCivil />
+                <codigoFaixaRenda />
+                <codigoNacionalidade />
+                <codigoOcupacao />
+                <codigoSexoPessoa />
+                <codigoTipoExposicaoPessoa />
+                <dataNascimento />
+                <codigoPais />
+              </pessoaFisica>
+              <pessoaJuridica>
+                <codigoAtividadeEconomica />
+                <codigoFaixaReceitaOperacionalAno />
+                <codigoFaixaPatrimonioLiquido />
+                <codigoNaturezaJuridica />
+                <flagPossuiControlador />
+                <flagCongenere />
+                <codigoSusepCongenere />
+                <dataRegistroAbertura />
+              </pessoaJuridica>
+              <documentos>
+                <documento />
+              </documentos>
+              <enderecosPessoa>
+                <enderecoPessoa />
+              </enderecosPessoa>
+              <contatos>
+                <contato />
+              </contatos>
+              <vinculos>
+                <vinculo />
+              </vinculos>
+              <auditoria>
+                <dataUltimaAlteracao />
+                <codigoTipoUsuarioUltimaAlteracao />
+                <codigoEmpresaUsuarioUltimaAlteracao />
+                <codigoMatriculaUsuarioUltimaAlteracao />
+              </auditoria>
+            </dadosPessoaInterveniente>
+            <codigoTipoPessoa />
+            <numeroCnpjCpf />
+            <nomeInterveniente />
+            <codigoTipoExposicaoPessoa />
+            <codigoMotivoAusenciaCnpjCpf />
+            <percentualParticipacao />
+            <flagAtivo />
+            <exposicoes>
+              <exposicao>
+                <codigoExposicaoInterveniente />
+                <codigoTipoVinculo />
+                <codigoPessoaExposto />
+                <codigoTipoPessoaExposto />
+                <numeroCnpjCpfPessoaExposto />
+                <nomePessoaExposto />
+                <flagAtivo />
+              </exposicao>
+            </exposicoes>
+          </interveniente>
+        </intervenientes>
+        <pendencias>
+          <pendencia>
+            <codigoPendencia />
+            <numeroSequenciaPendencia />
+            <codigoStatusPendencia />
+            <codigoDevolutiva />
+            <codigoCorretor />
+            <textoPendencia />
+            <dataRegistroAbertura />
+            <listaRespostasPendencia>
+              <respostaPendencia>
+                <numeroSequenciaRespostaPendencia />
+                <codigoCorretor />
+                <dataResposta />
+                <textoRespostaPendencia />
+                <flagPossuiAnexo />
+                <codigoIdentificacaoDocumento />
+                <auditoria />
+              </respostaPendencia>
+            </listaRespostasPendencia>
+          </pendencia>
+        </pendencias>
+        <clausulas>
+          <clausula>
+            <codigoClausula />
+            <numeroVersaoClausula />
+            <codigoTipoClausula />
+            <valorPremio />
+            <valorImpostoOperacaoFinanceira />
+            <flagObrigatorio />
+            <flagEdicaoManual />
+            <flagAtivo />
+            <textoClausula />
+          </clausula>
+        </clausulas>
+        <beneficios>
+          <beneficio>
+            <codigoBeneficio />
+            <flagativo />
+          </beneficio>
+        </beneficios>
+        <formasPagamento>
+          <formaPagamento>
+            <codigoFormaPagamento>4</codigoFormaPagamento>
+            <valorPrimeiraParcela>251.33</valorPrimeiraParcela>
+            <valorDemaisParcela>251.32</valorDemaisParcela>
+            <valorImpostoOperacaoFinanceira>0</valorImpostoOperacaoFinanceira>
+            <valorAdicionalFracionamento>0</valorAdicionalFracionamento>
+            <valorEncargo>0</valorEncargo>
+            <valorPremioCobertura>0</valorPremioCobertura>
+            <valorPremioClausula>0</valorPremioClausula>
+            <valorPremioServico>0</valorPremioServico>
+            <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
+            <codigoMeioPagamentoPrimeiraParcela>1</codigoMeioPagamentoPrimeiraParcela>
+            <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
+            <nomeResumidoFormaPagamento>CARTÃO PORTO SEGURO</nomeResumidoFormaPagamento>
+            <nomeFormaPagamento>CARTÃO PORTO SEGURO</nomeFormaPagamento>
+            <quantidadeParcela>4</quantidadeParcela>
+            <flagAtivo>1</flagAtivo>
+            <textoComentario>4 X TODAS CARTÃO PORTO SEGURO</textoComentario>
+          </formaPagamento>
+        </formasPagamento>
+        <criticas>
+          <critica>
+            <codigoCritica />
+            <dataCritica />
+            <textoRetornoCritica />
+            <nomeResumidoCritica />
+            <nomeCritica />
+            <codigoTipoCritica />
+            <codigoStatusCritica />
+            <codigoGrupoAcesso />
+            <textoCritica />
+            <flagJustificativaLiberacaoObrigatorio />
+            <flagAtivo />
+            <textoComentario />
+            <listaDevolutiva>
+              <devolutiva>
+                <codigoDevolutiva />
+                <nomeDevolutiva />
+                <nomeResumidoDevolutiva />
+                <codigoTipoDevolutiva />
+                <codigoModeloCarta />
+                <flagAtivo />
+                <textoComentario />
+              </devolutiva>
+            </listaDevolutiva>
+          </critica>
+        </criticas>
+        <respostasQuestionario>
+          <respostaQuestionario>
+            <codigoQuestionario>1</codigoQuestionario>
+            <numeroVersaoQuestionario />
+            <codigoQuestao>10</codigoQuestao>
+            <codigoTipoQuestao />
+            <codigoResposta />
+            <dataResposta />
+            <textoResposta>Resposta teste da questao 10 </textoResposta>
+            <respostasListaQuestionario>
+              <respostaListaItem>
+                <codigoListaItem>2</codigoListaItem>
+                <ComponenteListaItem>1</ComponenteListaItem>
+                <codigoItem>3</codigoItem>
+                <dataResposta />
+                <textoResposta />
+              </respostaListaItem>
+            </respostasListaQuestionario>
+          </respostaQuestionario>
+        </respostasQuestionario>
+        <descontosAgravo>
+          <descontoAgravo>
+            <codigoDescontoAgravo />
+            <percentualDescontoAgravo />
+            <valorDescontoAgravo />
+            <codigoTipoDescontoAgravo />
+          </descontoAgravo>
+        </descontosAgravo>
+        <auditoria>
+          <dataUltimaAlteracao />
+          <codigoTipoUsuarioUltimaAlteracao />
+          <codigoEmpresaUsuarioUltimaAlteracao />
+          <codigoMatriculaUsuarioUltimaAlteracao />
+        </auditoria>
+        <ItensDocumentoEmissao>
+          <itemDocumentoEmissao>
+            <numeroProposta />
+            <codigoPessoa />
+            <numeroVersaoProposta />
+            <numeroItemVersaoProposta />
+            <numeroOrcamento />
+            <numeroVersaoOrcamento />
+            <numeroItemVersaoOrcamento />
+            <codigoTipoDocumento />
+            <numeroApoliceAnterior />
+            <codigoOferta />
+            <numeroVersaoOferta />
+            <numeroSequenciaVersaoOferta />
+            <codigoPlanoCobertura />
+            <codigoObjetoRisco />
+            <dataInicioVigenciaSeguro />
+            <dataFimVigenciaSeguro />
+            <numeroApoliceCongenere />
+            <textoDescricaoObjetoRisco />
+            <valorPremio />
+            <nomeProgramaCalculo />
+            <numeroVersaoProgramaCalculo />
+            <quantidadeItem />
+            <codigoTipoAtualizacao />
+            <categoriasRisco>
+              <categoriaRisco>
+                <codigoCategoriaObjetoRisco />
+                <numeroSequenciaCategoriaObjetoRisco />
+                <objetosRisco>
+                  <objetoRisco>
+                    <localRisco>
+                      <codigoLocalRisco>1</codigoLocalRisco>
+                      <codigoTipoLogradouro>9</codigoTipoLogradouro>
+                      <nomeTipoLogradouro>PRAÇA</nomeTipoLogradouro>
+                      <codigoLogradouro>0050</codigoLogradouro>
+                      <nomeLogradouro>Da Luz</nomeLogradouro>
+                      <numeroLogradouro />
+                      <flagSemNumero>S</flagSemNumero>
+                      <numeroCep>01120010</numeroCep>
+                      <nomeComplemento>BLOCO B - 1 Andar</nomeComplemento>
+                      <codigoBairro></codigoBairro>
+                      <nomeBairro>Luz</nomeBairro>
+                      <codigoCidade />
+                      <nomeCidade>São Paulo</nomeCidade>
+                      <codigoUnidadeFederacao />
+                      <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
+                      <codigoPais />
+                      <nomePais>Brasil</nomePais>
+                      <textoPontoReferencia>Estação da Luz</textoPontoReferencia>
+                      <numeroLatitude />
+                      <numeroLongitude />
+                      <flagAtivo>S</flagAtivo>
+                      <textoComentario />
+                    </localRisco>
+                    <localRisco>
+                      <codigoLocalRisco>2</codigoLocalRisco>
+                      <codigoTipoLogradouro>9</codigoTipoLogradouro>
+                      <nomeTipoLogradouro>RUA</nomeTipoLogradouro>
+                      <codigoLogradouro>0050</codigoLogradouro>
+                      <nomeLogradouro>Maestro José Roberto</nomeLogradouro>
+                      <numeroLogradouro>1234</numeroLogradouro>
+                      <flagSemNumero>n</flagSemNumero>
+                      <numeroCep>01120010</numeroCep>
+                      <nomeComplemento />
+                      <codigoBairro></codigoBairro>
+                      <nomeBairro>Campo Limpo</nomeBairro>
+                      <codigoCidade />
+                      <nomeCidade>São Paulo</nomeCidade>
+                      <codigoUnidadeFederacao />
+                      <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
+                      <codigoPais />
+                      <nomePais>Brasil</nomePais>
+                      <textoPontoReferencia>Catedral Campo Limpo</textoPontoReferencia>
+                      <numeroLatitude />
+                      <numeroLongitude />
+                      <flagAtivo>S</flagAtivo>
+                      <textoComentario />
+                    </localRisco>
+                    <categoriaGenerico>
+                      <codigoCategoriaGenerico />
+                      <nomeCategoriaGenerico />
+                      <flagAtivo />
+                      <textoComentario />
+                    </categoriaGenerico>
+                    <residencia>
+                      <codigoResidencia />
+                      <codigoTipoResidencia />
+                      <flagAtivo />
+                      <textoComentario />
+                    </residencia>
+                    <empresa>
+                      <codigoEmpresaObjetoRisco />
+                      <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
+                      <flagAtivo />
+                      <textoComentario />
+                    </empresa>
+                    <condominio>
+                      <codigoCondominio />
+                      <codigoTipoCondominio />
+                      <quantidadeBloco />
+                      <nomeBloco />
+                      <valorLimiteMaximoIndenizacao />
+                      <textoComentario />
+                    </condominio>
+                    <imobiliaria>
+                      <codigoImobiliaria />
+                      <codigoTipoImovel />
+                      <flagAtivo />
+                      <textoComentario />
+                    </imobiliaria>
+                    <obraEngenharia>
+                      <codigoObraEngenharia />
+                      <codigoCaracteristicaObra />
+                      <codigoTipoObra />
+                      <flagAtivo />
+                      <textoComentario />
+                    </obraEngenharia>
+                    <equipamentoEspecifico>
+                      <codigoEquipamentoEspecifica />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoEspecifico>
+                    <equipamentoGenerico>
+                      <codigoEquipamentoGenerico />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoGenerico>
+                    <equipamentoTelefonia>
+                      <codigoEquipamentoTelefonia />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <numeroIdentificacaoUnico />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoTelefonia>
+                    <garantiaEstendida>
+                      <codigoGarantiaEstendida />
+                      <codigoMarcaEquipamento />
+                      <codigoLinhaProduto />
+                      <codigoPeriodoGarantiaFabricante />
+                      <nomeMarcaEquipamento />
+                      <nomeProduto />
+                      <codigoTipoDocumentoFiscal />
+                      <dataDocumentoFiscal />
+                      <numeroDocumentoFiscal />
+                      <numeroSerieDocumentoFiscal />
+                      <flagAtivo />
+                      <textoComentario />
+                    </garantiaEstendida>
+                    <evento>
+                      <codigoEvento>0001</codigoEvento>
+                      <codigoCategoriaEvento>8</codigoCategoriaEvento>
+                      <codigoTemaEvento>53</codigoTemaEvento>
+                      <codigoTipoLocal />
+                      <codigoTipoProponenteEvento>1</codigoTipoProponenteEvento>
+                      <nomeEvento>TESTE INOVARE</nomeEvento>
+                      <flagEventoPublico />
+                      <quantidadeDiaParticipanteEsperado />
+                      <flagAtivo />
+                      <textoComentario />
+                    </evento>
+                    <evento>
+                      <codigoEvento>0002</codigoEvento>
+                      <codigoCategoriaEvento>5</codigoCategoriaEvento>
+                      <codigoTemaEvento>9</codigoTemaEvento>
+                      <codigoTipoLocal />
+                      <codigoTipoProponenteEvento>1</codigoTipoProponenteEvento>
+                      <nomeEvento>TESTE INOVARE 2</nomeEvento>
+                      <flagEventoPublico />
+                      <quantidadeDiaParticipanteEsperado />
+                      <flagAtivo />
+                      <textoComentario />
+                    </evento>
+                    <obraInstalacaoMontagem>
+                      <codigoTipoObraInstalacaoMontagem />
+                      <codigoObraInstalacaoMontagem />
+                      <flagAtivo />
+                      <textoComentario />
+                    </obraInstalacaoMontagem>
+                    <fornecimentoServico>
+                      <codigoFornecimentoServico />
+                      <codigoTipoServico />
+                      <flagAtivo />
+                      <textoComentario />
+                    </fornecimentoServico>
+                    <estacionamento>
+                      <codigoEstacionamento />
+                      <codigoTipoEstacionamento />
+                      <codigoTipoProponenteEstacionamento />
+                      <flagAtivo />
+                      <textoComentario />
+                    </estacionamento>
+                    <parque>
+                      <codigoParque />
+                      <codigoTipoLocal />
+                      <codigoTipoParque />
+                      <dataInicioOperacao />
+                      <quantidadeVisitante />
+                      <quantidadeFuncionario />
+                      <flagAtivo />
+                      <textoComentario />
+                    </parque>
+                  </objetoRisco>
+                </objetosRisco>
+                <respostasQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario />
+                    <numeroVersaoQuestionario />
+                    <codigoQuestao></codigoQuestao>
+                    <codigoTipoQuestao />
+                    <codigoResposta />
+                    <dataResposta />
+                    <textoResposta />
+                    <respostasListaQuestionario>
+                      <respostaListaItem>
+                        <codigoListaItem />
+                        <ComponenteListaItem />
+                        <codigoItem />
+                        <dataResposta />
+                        <textoResposta />
+                      </respostaListaItem>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                </respostasQuestionarioCategoriaRisco>
+              </categoriaRisco>
+            </categoriasRisco>
+            <coberturasItem>
+              <listaCoberturasItem>
+                <coberturaItemDocumento>
+                  <codigoCobertura />
+                  <codigoEmpresa />
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado />
+                  <numeroVersaoTextoParticipacaoSegurado />
+                  <textoParticipacaoSegurado />
+                  <valorLimiteMaximoIndenizacao />
+                  <valorPremio />
+                  <valorImpostoOperacaoFinanceira />
+                  <percentualTaxaFixo />
+                  <flagCoberturaBase />
+                  <percentualParticipacaoSegurado />
+                  <valorParticipacaoSegurado />
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario />
+                      <dadosPessoa>
+                        <codigoPessoa />
+                        <codigoTipoPessoa />
+                        <numeroCnpjCpf />
+                        <nomePessoa />
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem />
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+              </listaCoberturasItem>
+              <valorPremioCobertura />
+            </coberturasItem>
+            <listaItens>
+              <codigoListaItem />
+              <nomeListaItem />
+              <ComponentesListaItem>
+                <componentesListaItem>
+                  <codigoComponenteListaItem />
+                  <nomeComponenteListaItem />
+                  <quantidadeComponenteListaItem />
+                  <valorComponenteListaItem />
+                </componentesListaItem>
+              </ComponentesListaItem>
+            </listaItens>
+            <descontosAgravoItem>
+              <descontoAgravo>
+                <codigoDescontoAgravo />
+                <percentualDescontoAgravo />
+                <valorDescontoAgravo />
+                <codigoTipoDescontoAgravo />
+              </descontoAgravo>
+            </descontosAgravoItem>
+            <planosServico>
+              <listaPlanoServico>
+                <planoServico>
+                  <codigoPlanoServico />
+                  <valorLimiteMaximoIndenizacao />
+                  <valorPremio />
+                  <valorImpostoOperacaoFinanceira />
+                </planoServico>
+              </listaPlanoServico>
+              <valorPremioPlanoServico />
+            </planosServico>
+            <servicosPlanosServico>
+              <servicoPlanoServico>
+                <codigoPlanoServico />
+                <codigoServico />
+                <flagPermissaoUtilizacao />
+              </servicoPlanoServico>
+            </servicosPlanosServico>
+            <solicitacoesInspecao>
+              <solicitacaoInspecao>
+                <numeroSolicitacaoInspecao />
+                <nomeContato />
+                <numeroTelefoneContato />
+                <flagLocalRiscoEnderecoInspecao />
+                <codigoTipoLogradouro />
+                <nomeTipoLogradouro />
+                <codigoLogradouro />
+                <nomeLogradouro />
+                <numeroLogradouro />
+                <flagSemNumero />
+                <numeroCep />
+                <nomeComplemento />
+                <codigoBairro />
+                <nomeBairro />
+                <codigoCidade />
+                <nomeCidade />
+                <codigoUnidadeFederacao />
+                <nomeUnidadeFederacao />
+                <codigoPais />
+                <nomePais />
+                <textoPontoReferencia />
+                <numeroLatitude />
+                <numeroLongitude />
+              </solicitacaoInspecao>
+            </solicitacoesInspecao>
+            <clausulasItem>
+              <listaClausulaItem>
+                <clausulaItem>
+                  <codigoClausula />
+                  <numeroVersaoClausula />
+                  <codigoTipoClausula />
+                  <valorPremio />
+                  <valorImpostoOperacaoFinanceira />
+                  <flagObrigatorio />
+                  <flagEdicaoManual />
+                  <flagAtivo />
+                  <textoClausula />
+                </clausulaItem>
+              </listaClausulaItem>
+              <valorPremioClausula />
+            </clausulasItem>
+            <criticasItem>
+              <criticaItem>
+                <codigoCritica />
+                <dataCritica />
+                <textoRetornoCritica />
+                <nomeResumidoCritica />
+                <nomeCritica />
+                <codigoTipoCritica />
+                <codigoStatusCritica />
+                <codigoGrupoAcesso />
+                <textoCritica />
+                <flagJustificativaLiberacaoObrigatorio />
+                <flagAtivo />
+                <textoComentario />
+                <listaDevolutiva>
+                  <devolutiva>
+                    <codigoDevolutiva />
+                    <nomeDevolutiva />
+                    <nomeResumidoDevolutiva />
+                    <codigoTipoDevolutiva />
+                    <codigoModeloCarta />
+                    <flagAtivo />
+                    <textoComentario />
+                  </devolutiva>
+                </listaDevolutiva>
+              </criticaItem>
+            </criticasItem>
+            <analisesItem>
+              <analise>
+                <numeroSequenciaAnalise />
+                <codigoTipoParecer />
+                <codigoStatusParecer />
+                <textoAnalise />
+              </analise>
+            </analisesItem>
+          </itemDocumentoEmissao>
+        </ItensDocumentoEmissao>
+      </Documento>
+    </Documentos>
+    <Pessoas>
+      <Pessoa>
+        <codigoPessoa>1111</codigoPessoa>
+        <codigoTipoPessoa>2</codigoTipoPessoa>
+        <numeroCnpjCpf>09153911000123</numeroCnpjCpf>
+        <nomePessoa>FOCUS ASSESSORIA ESPORTIVA &amp; EVENTOS LTDA-ME</nomePessoa>
+        <nomeResumidoPessoa>FOCUS ASSESSORIA ESPORTIVA &amp; EVENTOS LTDA-ME</nomeResumidoPessoa>
+        <flagAtivo>1</flagAtivo>
+        <pessoaFisica>
+          <codigoEstadoCivil>3</codigoEstadoCivil>
+          <codigoFaixaRenda>20</codigoFaixaRenda>
+          <codigoNacionalidade>345</codigoNacionalidade>
+          <codigoOcupacao>13</codigoOcupacao>
+          <codigoSexoPessoa>2</codigoSexoPessoa>
+          <codigoTipoExposicaoPessoa>1</codigoTipoExposicaoPessoa>
+          <dataNascimento>1977-12-13T12:12:12</dataNascimento>
+          <codigoPais>2</codigoPais>
+        </pessoaFisica>
+        <pessoaJuridica>
+          <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
+          <codigoFaixaReceitaOperacionalAno>2</codigoFaixaReceitaOperacionalAno>
+          <codigoFaixaPatrimonioLiquido>33</codigoFaixaPatrimonioLiquido>
+          <codigoNaturezaJuridica>14</codigoNaturezaJuridica>
+          <flagPossuiControlador>1</flagPossuiControlador>
+          <flagCongenere>1</flagCongenere>
+          <codigoSusepCongenere>005.00089/00</codigoSusepCongenere>
+          <dataRegistroAbertura>2012-12-13T12:12:12</dataRegistroAbertura>
+        </pessoaJuridica>
+        <documentos>
+          <documento>
+            <codigoDocumentoPessoa>88</codigoDocumentoPessoa>
+            <codigoTipoDocumentoPessoa>67</codigoTipoDocumentoPessoa>
+            <numeroDocumento>8.977.767-X</numeroDocumento>
+            <dataEmissaoDocumento>2013-01-13T12:12:12</dataEmissaoDocumento>
+            <dataValidade>2014-01-13T12:12:12</dataValidade>
+            <nomeOrgaoExpedidor>SSP</nomeOrgaoExpedidor>
+            <codigoUnidadeFederacao>SP</codigoUnidadeFederacao>
+            <flagAtivo>1</flagAtivo>
+          </documento>
+        </documentos>
+        <enderecosPessoa>
+          <enderecoPessoa>
+            <codigoEndereco>68</codigoEndereco>
+            <codigoTipoLogradouro>2</codigoTipoLogradouro>
+            <nomeTipoLogradouro>RUA</nomeTipoLogradouro>
+            <codigoLogradouro>2</codigoLogradouro>
+            <nomeLogradouro>AV. JOAO NAVES DE AVILA</nomeLogradouro>
+            <numeroLogradouro>12343442342</numeroLogradouro>
+            <flagSemNumero>1</flagSemNumero>
+            <numeroCep>38400600</numeroCep>
+            <nomeComplemento>Super Quadra ao Norte</nomeComplemento>
+            <codigoBairro>2</codigoBairro>
+            <nomeBairro>NOSSA SENHORA APARECIDA</nomeBairro>
+            <codigoCidade>1</codigoCidade>
+            <nomeCidade>UBERLANDIA</nomeCidade>
+            <codigoUnidadeFederacao>1</codigoUnidadeFederacao>
+            <nomeUnidadeFederacao>MG</nomeUnidadeFederacao>
+            <codigoPais>1</codigoPais>
+            <nomePais>BRASIL</nomePais>
+            <textoPontoReferencia>Perto da Padaria do Mané</textoPontoReferencia>
+            <numeroLatitude>44.968046</numeroLatitude>
+            <numeroLongitude>-94.420307</numeroLongitude>
+            <codigoTipoEndereco>2</codigoTipoEndereco>
+            <flagPrincipal>1</flagPrincipal>
+            <flagAtivo>1</flagAtivo>
+          </enderecoPessoa>
+        </enderecosPessoa>
+        <contatos>
+          <contato>
+            <codigoContatoPessoa />
+            <codigoTipoContato />
+            <numeroDdi />
+            <numeroDdd />
+            <numeroContato />
+            <numeroRamal />
+            <textoContato />
+            <flagPrincipal />
+            <textoComentario />
+            <flagAtivo />
+          </contato>
+        </contatos>
+        <vinculos>
+          <vinculo>
+            <codigoTipoVinculo />
+            <codigoPessoaVinculo />
+            <codigoTipoPessoaVinculo />
+            <numeroCnpjCpfPessoaVinculo />
+            <nomePessoaVinculo />
+            <flagVinculoPessoaExpostaPoliticamente />
+            <flagAtivo />
+          </vinculo>
+        </vinculos>
+        <auditoria>
+          <dataUltimaAlteracao />
+          <codigoTipoUsuarioUltimaAlteracao />
+          <codigoEmpresaUsuarioUltimaAlteracao />
+          <codigoMatriculaUsuarioUltimaAlteracao />
+        </auditoria>
+      </Pessoa>
+    </Pessoas>
+    <Corretores>
+      <susep>
+        <ultimaAtualizacao />
+        <susepPorto />
+        <susepPai />
+        <susepOficial />
+        <nomeSucursal />
+        <destinoApolice>str1234</destinoApolice>
+        <dataCadastro />
+        <convenio />
+        <codigoSucursal />
+        <listaCorretores>
+          <corretor>
+            <numeroContato />
+            <nome />
+            <nomeEmail />
+            <numeroCnpjCpf />
+          </corretor>
+        </listaCorretores>
+        <listaSusepsProducao>
+          <susepProducao>
+            <ultimaAtualizacao />
+            <susepPorto />
+            <susepOficial />
+            <status />
+            <dataCadastro />
+          </susepProducao>
+        </listaSusepsProducao>
+        <listaFiliais>
+          <filial>
+            <nome />
+            <numeroCnpjCpf />
+          </filial>
+        </listaFiliais>
+        <listaSocios>
+          <socio>
+            <tipoCargo />
+            <rg />
+            <orgaoEmissor />
+            <numeroCnpjCpf />
+          </socio>
+        </listaSocios>
+        <listaPrepostos>
+          <preposto>
+            <nome />
+            <numeroCnpjCpf />
+          </preposto>
+        </listaPrepostos>
+        <listaTelefones>
+          <telefone>
+            <tipoTelefone />
+            <numeroContato />
+          </telefone>
+        </listaTelefones>
+        <listaEnderecos>
+          <endereco>
+            <tipoLogradouro />
+            <numeroLogradouro />
+            <enderecoSinistro />
+            <codigoUnidadeFederacao />
+            <complementoSinistro />
+            <nomeCidade />
+            <numeroCep />
+            <nomeBairro />
+          </endereco>
+        </listaEnderecos>
+        <gerenteComercial>
+          <nome />
+          <nomeEmail />
+        </gerenteComercial>
+        <gerenteRegional>
+          <nome />
+          <nomeEmail />
+        </gerenteRegional>
+        <CoordProducao>
+          <nome />
+          <nomeEmail />
+        </CoordProducao>
+        <GerenteSucursal>
+          <nome />
+          <nomeEmail />
+        </GerenteSucursal>
+        <Superintendencia>
+          <nome />
+          <nomeEmail />
+        </Superintendencia>
+        <DiretorComercial>
+          <nome />
+          <nomeEmail />
+        </DiretorComercial>
+        <DiretorEstatutario>
+          <nome />
+          <nomeEmail />
+        </DiretorEstatutario>
+        <VicePresidente>
+          <nome />
+          <nomeEmail />
+        </VicePresidente>
+      </susep>
+    </Corretores>
+    <Produtos>
+      <Produto>
+        <Coberturas>
+          <Cobertura>
+            <codigoCobertura />
+            <nomeResumidoCobertura />
+            <nomeCobertura />
+            <flagAtivo />
+            <coberturasRelacionadas>
+              <cobertura>
+                <codigoCobertura />
+                <nomeResumidoCobertura />
+                <nomeCobertura />
+                <flagAtivo />
+                <coberturasRelacionadas />
+              </cobertura>
+            </coberturasRelacionadas>
+          </Cobertura>
+        </Coberturas>
+        <GruposCormercial>
+          <GrupoComercial>
+            <codigoGrupoComercial />
+            <nomeResumidoGrupoComercial />
+            <nomeGrupoComercial />
+            <flagAtivo />
+          </GrupoComercial>
+        </GruposCormercial>
+        <Ramos>
+          <ramo>
+            <codigoRamo />
+            <nomeResumidoRamo />
+            <nomeRamo />
+            <flagAtivo />
+          </ramo>
+        </Ramos>
+        <Modaliades>
+          <Modalidade>
+            <codigoModalidade>29</codigoModalidade>
+            <nomeResumidoModalidade />
+            <nomeModalidade />
+            <codigoProcessoSusepPrincipal>15414004119</codigoProcessoSusepPrincipal>
+            <flagAtivo />
+          </Modalidade>
+          <Modalidade>
+            <codigoModalidade>29</codigoModalidade>
+            <nomeResumidoModalidade />
+            <nomeModalidade />
+            <codigoProcessoSusepPrincipal>15414004953200818</codigoProcessoSusepPrincipal>
+            <flagAtivo />
+          </Modalidade>
+          <Modalidade>
+            <codigoModalidade>29</codigoModalidade>
+            <nomeResumidoModalidade />
+            <nomeModalidade />
+            <codigoProcessoSusepPrincipal>0050008900</codigoProcessoSusepPrincipal>
+            <flagAtivo />
+          </Modalidade>
+        </Modaliades>
+        <Clauslas>
+          <Clausula>
+            <codigoClausula />
+            <nomeResumidoClausula />
+            <nomeClausula />
+            <numeroVersaoClausula />
+            <codigoTipoClausula />
+            <flagPermissaoEdicao />
+            <dataInicioVigencia />
+            <dataFimVigencia />
+            <flagCancelada />
+            <empresas>
+              <empresa>
+                <empresa />
+                <flagAtivo />
+              </empresa>
+            </empresas>
+            <hierarquias>
+              <hierarquiaClausula>
+                <codigoNivelHierarquia />
+                <numeroNivelHierarquia />
+                <textoClausula />
+              </hierarquiaClausula>
+            </hierarquias>
+          </Clausula>
+        </Clauslas>
+        <Beneficios>
+          <Beneficio>
+            <codigoBeneficio />
+            <nomeResumidoBeneficio />
+            <nomeBeneficio />
+            <flagAtivo />
+            <quantidadeLimiteUso />
+          </Beneficio>
+        </Beneficios>
+        <DescontosAgravo>
+          <DescontoAgravo>
+            <codigoDescontoAgravo />
+            <codigoTipoCalculoDescontoAgravo />
+            <codigoTipoDescontoAgravo />
+            <nomeResumidoDescontoAgravo />
+            <nomeDescontoAgravo />
+            <percentualMinimoDescontoAgravo />
+            <percentualMaximoDescontoAgravo />
+            <flagAtivo />
+            <flagImpressaoDescontoAgravo />
+            <flagPermissaoDescontoAgravoRenovacao />
+          </DescontoAgravo>
+        </DescontosAgravo>
+        <Ofertas>
+          <Oferta>
+            <codigoOferta />
+            <nomeResumidoOferta />
+            <nomeOferta />
+            <numeroVersaoOferta />
+            <numeroSequenciaVersaoOferta />
+            <quantidadeDiaValidadeOrcamentoNovo />
+            <quantidadeDiaValidadeOrcamentoRenovacao />
+            <flagPermissaoMultiploObjetoRisco />
+            <flagPermissaoMultiploResponsavelPagamento />
+            <flagPermissaoApoliceColetiva />
+            <flagPermissaoMultiploSegurado />
+            <flagPossuiAcordoComercial />
+            <flagPermissaoMultiploEstipulante />
+            <flagPossuiPlanoDeCobertura />
+            <flagProdutoProntoComercializacao />
+            <dataInicioVigencia />
+            <dataFimVigencia />
+            <canais>
+              <canalOferta>
+                <codigoCanal />
+                <tiposSegurosPrecificacao />
+              </canalOferta>
+            </canais>
+            <descontosAgravos>
+              <descontoAgravoOferta>
+                <codigoDescontoAgravo />
+                <codigoTipoCalculoDescontoAgravo />
+                <codigoTipoDescontoAgravo />
+                <nomeResumidoDescontoAgravo />
+                <nomeDescontoAgravo />
+                <percentualMinimoDescontoAgravo />
+                <percentualMaximoDescontoAgravo />
+                <flagAtivo />
+                <flagImpressaoDescontoAgravo />
+                <flagPermissaoDescontoAgravoRenovacao />
+              </descontoAgravoOferta>
+            </descontosAgravos>
+            <beneficios>
+              <beneficioOferta>
+                <codigoBeneficio />
+                <nomeResumidoBeneficio />
+                <nomeBeneficio />
+                <flagAtivo />
+                <quantidadeLimiteUso />
+              </beneficioOferta>
+            </beneficios>
+            <tiposFormularios>
+              <tipoFormularioOferta>
+                <codigoTipoFormulario />
+                <codigoFormulario />
+                <codigoTipoImpressao />
+                <codigoProcesso />
+                <codigoModeloMensagem />
+                <nomeResumidoTipoFormulario />
+                <nomeTipoFormulario />
+                <flagArmazenamentoDigital />
+                <flagAtivo />
+                <nomeLocalLogotipoOferta />
+              </tipoFormularioOferta>
+            </tiposFormularios>
+            <acordoComercial>
+              <flagPermissaoMultiploEstipulante />
+              <tiposComercializacoes>
+                <codigoTipoComissao />
+              </tiposComercializacoes>
+              <tiposEstipulantes>
+                <codigoTipoEstipulante />
+              </tiposEstipulantes>
+            </acordoComercial>
+            <objetosRiscos>
+              <objetoRiscoOferta>
+                <codigoObjetoRisco />
+                <nomeObjetoRisco />
+                <nomeResumidoObjetoRisco />
+                <codigoCategoriaObjetoRiscoPrincipal />
+                <codigoCaracteristicaObjetoRiscoPrincipal />
+                <codigoCategoriaObjetoRiscoSecundario />
+                <codigoCaracteristicaObjetoRiscoSecundario />
+                <flagAtivo />
+                <categoriasObjetoRisco />
+                <coberturasObjetoRisco />
+                <precificacoes />
+                <questionariosObjetoRiscoOferta />
+              </objetoRiscoOferta>
+            </objetosRiscos>
+            <questionarios>
+              <questionario>
+                <codigoQuestionario />
+                <vinculosQuestionarioCoberturaOferta />
+              </questionario>
+            </questionarios>
+            <servicos>
+              <servico>
+                <codigoPlanoServico />
+                <VinculosObjetoRisco />
+              </servico>
+            </servicos>
+            <naturezasSinistro>
+              <naturezaSinistroOferta>
+                <codigoNaturezaSinistro />
+                <coberturas />
+                <nomeResumidoNaturezaSinistro />
+                <nomeNaturezaSinistro />
+                <flagAtivo />
+                <codigoTipoCatastrofe />
+              </naturezaSinistroOferta>
+            </naturezasSinistro>
+            <documentosSinistro>
+              <documentoSinistroOferta>
+                <codigoNaturezaSinistro />
+                <codigoTipoDocumentoSinistro />
+                <flagObrigatorio />
+                <codigoTipoProponente />
+                <nomeResumidoTipoDocumentoSinistro />
+                <nomeTipoDocumentoSinistro />
+                <flagAtivo />
+              </documentoSinistroOferta>
+            </documentosSinistro>
+          </Oferta>
+        </Ofertas>
+        <Questionarios>
+          <Questionario>
+            <codigoQuestionario>1</codigoQuestionario>
+            <codigoTipoQuestionario>1</codigoTipoQuestionario>
+            <nomeResumidoQuestionario>ResumoDoQuestionario</nomeResumidoQuestionario>
+            <nomeQuestionario>QuestionarioNumero1</nomeQuestionario>
+            <codigoEtapaSinistro />
+            <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+            <dataInicioVigencia>20140101</dataInicioVigencia>
+            <dataFimiVigencia>20180101</dataFimiVigencia>
+            <flagCancelada>0</flagCancelada>
+            <empresas>
+              <empresa>
+                <empresa />
+                <flagAtivo />
+              </empresa>
+            </empresas>
+            <questoes>
+              <questao>
+                <codigoQuestao>10</codigoQuestao>
+                <numeroOrdemExibicao />
+                <flagRespostaObrigatorio />
+                <flagPossuiVinculo />
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao />
+                <codigoListaValor />
+                <codigoListaItem>1</codigoListaItem>
+                <codigoAssunto />
+                <textoQuestao>Esta é uma questao teste com sub itens</textoQuestao>
+                <vinculos />
+                <pontuacoes />
+              </questao>
+            </questoes>
+          </Questionario>
+        </Questionarios>
+        <ListasItemQuestao>
+          <ListaItemQuestao>
+            <codigoListaItem>1</codigoListaItem>
+            <nomeResumidoListaItem />
+            <nomeListaItem />
+            <flagAtivo />
+            <textoComentario />
+            <componentesListaItemQuestao>
+              <componenteListaItemQuestao>
+                <codigoListaItem>1</codigoListaItem>
+                <codigoComponenteListaItem>1</codigoComponenteListaItem>
+                <codigoListaValor>1</codigoListaValor>
+                <codigoMascaraQuestao />
+                <codigoTipoQuestao />
+                <nomeComponenteListaItem>componente1</nomeComponenteListaItem>
+                <flagAtivo />
+              </componenteListaItemQuestao>
+              <componenteListaItemQuestao>
+                <codigoListaItem>1</codigoListaItem>
+                <codigoComponenteListaItem>2</codigoComponenteListaItem>
+                <codigoListaValor>2</codigoListaValor>
+                <codigoMascaraQuestao />
+                <codigoTipoQuestao />
+                <nomeComponenteListaItem>componente2</nomeComponenteListaItem>
+                <flagAtivo />
+              </componenteListaItemQuestao>
+              <componenteListaItemQuestao>
+                <codigoListaItem>1</codigoListaItem>
+                <codigoComponenteListaItem>3</codigoComponenteListaItem>
+                <codigoListaValor>3</codigoListaValor>
+                <codigoMascaraQuestao />
+                <codigoTipoQuestao />
+                <nomeComponenteListaItem>componente3</nomeComponenteListaItem>
+                <flagAtivo />
+              </componenteListaItemQuestao>
+            </componentesListaItemQuestao>
+          </ListaItemQuestao>
+        </ListasItemQuestao>
+        <ListasValorQuestao>
+          <ListaItemQuestao>
+            <codigoListaValor>1</codigoListaValor>
+            <nomeResumidoListaValor />
+            <nomeListaValor />
+            <flagAtivo />
+            <textoComentario />
+            <itensListaValorQuestao>
+              <itemListaValorQuestao>
+                <codigoListaValor>1</codigoListaValor>
+                <codigoItemListaValor>1</codigoItemListaValor>
+                <nomeItemListaValor>codigoItemListaValor1</nomeItemListaValor>
+                <flagAtivo>1</flagAtivo>
+              </itemListaValorQuestao>
+              <itemListaValorQuestao>
+                <codigoListaValor>2</codigoListaValor>
+                <codigoItemListaValor>2</codigoItemListaValor>
+                <nomeItemListaValor>codigoItemListaValor2</nomeItemListaValor>
+                <flagAtivo>1</flagAtivo>
+              </itemListaValorQuestao>
+              <itemListaValorQuestao>
+                <codigoListaValor>3</codigoListaValor>
+                <codigoItemListaValor>3</codigoItemListaValor>
+                <nomeItemListaValor>codigoItemListaValor3</nomeItemListaValor>
+                <flagAtivo>1</flagAtivo>
+              </itemListaValorQuestao>
+            </itensListaValorQuestao>
+          </ListaItemQuestao>
+        </ListasValorQuestao>
+      </Produto>
+    </Produtos>
+    <Dominios>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>A VISTA NA CIA
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>1. A 12 DIAS, DOLAR
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>FRAC.1.A 30 DIAS, DOLAR
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>4</codigo>
+        <descricao>A VISTA 30 DIAS
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>5</codigo>
+        <descricao>1.A NA CIA, DEMAIS CARNE MELHOR DATA
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>6</codigo>
+        <descricao>1.A NA CIA, DEMAIS CARNE
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>7</codigo>
+        <descricao>FRAC.1.A PARCELA CARNE
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>8</codigo>
+        <descricao>ADC, 1.A NA CIA, DEMAIS CARNE
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>9</codigo>
+        <descricao>ADC, TODAS AS PARCELAS
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>10</codigo>
+        <descricao>1.A CHEQUE, DEMAIS ADC
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>11</codigo>
+        <descricao>CARTAO DE CREDITO (TODAS PARC.EM CARTAO)
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>12</codigo>
+        <descricao>1.A NA CIA, DEMAIS CARNE MENSAL
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>13</codigo>
+        <descricao>TODAS AS PARCELAS EM BOLETO
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>14</codigo>
+        <descricao>1.A NA CIA, DEMAIS CARNE
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>15</codigo>
+        <descricao>1.A NA CIA, DEMAIS CARNE (JURIDICA)
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>16</codigo>
+        <descricao>CARTAO PORTO SEGURO
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>89</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>JURÍDICA</descricao>
+        <descricaoAbreviada>str12345</descricaoAbreviada>
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>89</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>FÍSICA</descricao>
+        <descricaoAbreviada>str12345</descricaoAbreviada>
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>137</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>HÁ ADMINISTRADORES,  CONTROLADORES E PROCURADORES
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>137</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>NÃO HA ADMINISTRADORES,  CONTROLADORES E PROCURADORES
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>137</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>NÃO DESEJO INFORMAR ADMINISTRADORES,  CONTROLADORES E PROCURADORES
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo />
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>2</codigoTipoDominio>
+        <codigo>245</codigo>
+        <descricao>UNIVERSIDADES / FACULDADES
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>21</codigoTipoDominio>
+        <codigo>14</codigo>
+        <descricao>SOCIEDADE SIMPLES LIMITADA
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>93</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>ORGANIZADOR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>93</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>EXPOSITOR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>FEIRAS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>EXPOSICOES</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>EVENTOS TECNICOS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>4</codigo>
+        <descricao>TORNEIOS ESPORTIVOS COM MOTOR E SIMILARES</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>5</codigo>
+        <descricao>TORNEIOS ESPORTIVOS SEM MOTOR E SIMILARES</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>6</codigo>
+        <descricao>TORNEIOS DESPORTIVOS RADICAIS E SIMILARES</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>7</codigo>
+        <descricao>EXIBICOES ARTISTICAS/POLITICAS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>8</codigo>
+        <descricao>ESPETACULOS TEATRAIS, CIRCENSES E SHOW</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>9</codigo>
+        <descricao>CONFRATERNIZACOES, FESTIVIDADES E ENCONTROS RELIGIOSOS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>1</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>47</codigoTipoDominio>
+        <codigo>9</codigo>
+        <descricao>CORRIDA DE CAVALOS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>47</codigoTipoDominio>
+        <codigo>53</codigo>
+        <descricao>CIRCO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>100</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>NOVO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>100</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>RENOVAÇÃO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>100</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>ENDOSSO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>100</codigoTipoDominio>
+        <codigo>4</codigo>
+        <descricao>CANCELAMENTO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>31</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>MASCULINO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>31</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>FEMININO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>9</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>SOLTEIRO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>125</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>SOLTEIRO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>145</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>R.N.E</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>109</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>afeganistao</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>109</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>albania</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>145</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>R.N.E</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>145</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>CLASSE</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>2</codigoTipoDominio>
+        <codigo>104</codigo>
+        <descricao>ESCRITORIOS DEMAIS</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>55</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>PROFISSIONAL LIBERAL</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>55</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>PROPRIETÁRIO DE IMÓVEL</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>20</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>BRASILEIRO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>22</codigoTipoDominio>
+        <codigo>142</codigo>
+        <descricao>advogado</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>sem renda</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>até 2500</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>de 2501 a 5000</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>4</codigo>
+        <descricao>de 5001 a 10000</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>5</codigo>
+        <descricao>acima de 10000</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>146</codigoTipoDominio>
+        <codigo>6</codigo>
+        <descricao>não desejo informar</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>21</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>EMPRESA PUBLICA</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>155</codigoTipoDominio>
+        <codigo>6</codigo>
+        <descricao>NÃO DESEJO INFORMAR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+    </Dominios>
+    <parametrosImpressao>
+      <parametro>
+        <chave>0001</chave>
+        <valor>"//image//2_12_residencia_habitual_proposta.jpg"</valor>
+      </parametro>
+      <parametro>
+        <chave>0002</chave>
+        <valor>//image//cabecalho.png</valor>
+      </parametro>
+      <parametro>
+        <chave>CEP</chave>
+        <valor>540000001</valor>
+      </parametro>
+    </parametrosImpressao>
+  </Impressao>
+</ImprimirDocumentoEmissao>
