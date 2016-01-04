@@ -104,7 +104,7 @@
             <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
             <codigoFaixaReceitaOperacionalAno />
             <codigoFaixaPatrimonioLiquido>6</codigoFaixaPatrimonioLiquido>
-            <codigoNaturezaJuridica>1</codigoNaturezaJuridica>
+            <codigoNaturezaJuridica>2</codigoNaturezaJuridica>
             <flagPossuiControlador>s</flagPossuiControlador>
             <flagCongenere />
             <codigoSusepCongenere />
@@ -2082,7 +2082,14 @@
       <Dominio>
         <codigoTipoDominio>21</codigoTipoDominio>
         <codigo>1</codigo>
-        <descricao>EMPRESA PUBLICA</descricao>
+        <descricao>EMPRESA PRIVADA</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>21</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>ORGAO / EMPRESA PUBLICA</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
