@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-04T14:49:41 -->
+<!-- 2016-01-04T15:55:54 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DadosPessoaSeguradoJuridica" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1e9ee6d0-3ec3-473e-9171-4c87e801e097">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="xPath">
@@ -54,6 +54,18 @@
 	<field name="dddComercial" class="java.lang.String">
 		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/contatos/contato[codigoTipoContato='3'] /numeroDdd]]></fieldDescription>
 	</field>
+	<field name="organizacaoPessoaJuridica" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='137' and codigo=//Documentos/Documento/dadosPessoaSegurado/pessoaJuridica/codigoOrganizacaoPessoaJuridica] /descricao]]></fieldDescription>
+	</field>
+	<field name="patrimonioLiquido" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='155' and codigo=//Documentos/Documento/dadosPessoaSegurado/pessoaJuridica/codigoFaixaPatrimonioLiquido] /descricao]]></fieldDescription>
+	</field>
+	<field name="atividadeEconomica" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='2' and codigo=//Documentos/Documento/dadosPessoaSegurado/pessoaJuridica/codigoAtividadeEconomica] /descricao]]></fieldDescription>
+	</field>
+	<field name="tipoEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='21' and codigo=//Documentos/Documento/dadosPessoaSegurado/pessoaJuridica/codigoNaturezaJuridica] /descricao]]></fieldDescription>
+	</field>
 	<group name="codigoPessoa">
 		<groupExpression><![CDATA[$F{codigoPessoa}]]></groupExpression>
 	</group>
@@ -75,7 +87,7 @@
 		</band>
 	</title>
 	<detail>
-		<band height="183" splitType="Stretch">
+		<band height="129" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<staticText>
 				<reportElement x="2" y="0" width="265" height="12" uuid="e2e6e42d-bded-459d-be4f-2cc1525bd4d9">
@@ -197,7 +209,7 @@
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{flagEnviaEmailCorretor}.equalsIgnoreCase("s") ? "SIM" : "NÃO"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{atividadeEconomica}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="363" y="38" width="192" height="13" uuid="82d58ba5-fa68-469b-9188-31d9e03713b8">
@@ -207,7 +219,7 @@
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{destinoApolice}.toUpperCase()]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{tipoEmpresa}.toUpperCase()]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="2" y="103" width="185" height="12" uuid="5f90adac-441b-4c4c-b2eb-540b9882cec8">
@@ -315,7 +327,7 @@
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{contatoEmail}.toUpperCase()]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{patrimonioLiquido}.toUpperCase()]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="130" y="52" width="136" height="12" uuid="cd58dd71-40c9-4179-8c97-91d52ec42964">
@@ -335,7 +347,7 @@
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{naturezaJuridica}.toUpperCase()]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{patrimonioLiquido}.toUpperCase()]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement x="121" y="78" width="1" height="25" uuid="770a6177-ef7a-4734-a3fd-ff6d271d0442"/>
@@ -447,6 +459,16 @@
 					<font fontName="Kartika" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{destinoApolice}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="268" y="64" width="286" height="13" uuid="2dd1a76d-1371-42aa-be51-b747c3e0b02c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{organizacaoPessoaJuridica}.toUpperCase()]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
