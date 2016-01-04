@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-04T16:23:45 -->
+<!-- 2016-01-04T19:11:06 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="header" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
-	<property name="ireport.callouts" value="callouts.7.pins=453,350;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.19.text=OBSERVA\u00C7\u00D5ES DO PROPONENTE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.19.bounds=603,663,384,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.pins=476,478;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.pins=451,407;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.6.bounds=601,320,363,32\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.13.pins=466,572;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.15.pins=468,544;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.7.bounds=604,345,362,30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.17.pins=473,603;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.fg=0,0,0\ncallouts.19.pins=466,674;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.8.bounds=598,384,364,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.text=Dados gerais do co-proponente\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.bounds=599,411,364,28\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.bounds=630,461,332,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.text=Endereco Cobranca\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.6.text=DEMAIS SUSEPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.text=PARTICIPACAO OBRIGAT\u00D3RIA DO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.8.text=COBERTURAS CONTRATADAS, LIMITES M\u00C1XIMOS...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.20.text=CL\u00C1USULAS BENEFICI\u00C1RIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.bounds=627,477,196,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.pins=641,179\n\n\n\n\n\n\n\ncallouts.14.text=DEMONSTRATIVO DE PR\u00CAMIO POR OBJETO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.bounds=606,500,366,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.pins=463,264;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.16.text=INFORMA\u00C7\u00D5ES DE COBRAN\u00C7A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.bg=255,255,0\ncallouts.6.pins=452,320;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.18.text=OBSERVA\u00C7\u00D5ES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.pins=475,459;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.8.pins=455,389;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.20.pins=502,438;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.13.bounds=603,564,298,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.pins=472,497;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.fg=0,0,0\n\n\n\n\n\n\n\ncallouts.14.pins=470,527;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.14.bounds=618,524,358,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.16.pins=476,585;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.bounds=760,135,361,29\ncallouts.18.pins=472,642;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.15.bounds=606,542,370,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.20.bounds=612,435,368,30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.text=Dados gerais do Proponente - Pessoa Fisica\ncallouts.2.bounds=710,186,359,28\n\n\n\n\n\n\n\ncallouts.16.bounds=610,588,373,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.text=Endereco(Residencial/Empresarial)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.5.text=DADOS DO CORRETOR\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.bounds=601,228,365,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.7.text=OBJETO DO SEGURO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.17.bounds=606,607,332,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.text=DESCONTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.text=QUESTION\u00C1RIO OBRIGAT\u00D3RIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.bounds=601,256,365,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.bg=255,255,0\n\n\n\n\n\n\n\ncallouts.1.pins=555,154\ncallouts.13.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.18.bounds=604,628,344,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.pins=465,230;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.15.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.5.bounds=603,290,362,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.5.pins=456,294;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.17.text=VALOR DAS PARCELAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"/>
+	<property name="ireport.callouts" value="callouts.19.text=OBSERVA\u00C7\u00D5ES DO PROPONENTE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.19.bounds=603,663,384,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.pins=476,478;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.pins=466,572;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.pins=468,544;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.pins=473,603;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.fg=0,0,0\n\n\n\n\n\n&#xA;callouts.19.pins=466,674;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.text=Dados gerais do Proponente - Pessoa Jur\u00EDdica\r\n\n\n\n&#xA;callouts.10.bounds=630,461,332,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.text=PARTICIPACAO OBRIGAT\u00D3RIA DO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.text=CL\u00C1USULAS BENEFICI\u00C1RIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.bounds=627,477,196,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.pins=541,191\n\n\n&#xA;callouts.14.text=DEMONSTRATIVO DE PR\u00CAMIO POR OBJETO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.bounds=606,500,366,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.text=INFORMA\u00C7\u00D5ES DE COBRAN\u00C7A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.bg=255,255,0\n\n\n\n\n\n&#xA;callouts.18.text=OBSERVA\u00C7\u00D5ES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.pins=475,459;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.pins=502,438;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.bounds=603,564,298,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.pins=472,497;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.fg=0,0,0\n\n\n&#xA;callouts.14.pins=470,527;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.bounds=618,524,358,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.pins=476,585;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.bounds=760,135,361,29\n\n\n\n\n\n&#xA;callouts.18.pins=472,642;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.bounds=606,542,370,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.bounds=612,435,368,30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.text=Dados gerais do Proponente - Pessoa Fisica\n\n\n\n\n\n&#xA;callouts.2.bounds=710,186,359,28\n\n\n&#xA;callouts.16.bounds=610,588,373,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.bounds=606,607,332,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.text=DESCONTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.bg=255,255,0\n\n\n&#xA;callouts.1.pins=555,154\n\n\n\n\n\n&#xA;callouts.13.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.bounds=604,628,344,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.text=VALOR DAS PARCELAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;"/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<style name="TITLE"/>
 	<style name="conteudo" hTextAlign="Center" hImageAlign="Center" fontName="Kartika" fontSize="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
@@ -176,6 +176,12 @@
 	<field name="flagEnvioEmailCorretor" class="java.lang.String">
 		<fieldDescription><![CDATA[Documentos/Documento/flagEnvioEmailCorretor]]></fieldDescription>
 	</field>
+	<field name="codigoTipoVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo]]></fieldDescription>
+	</field>
+	<field name="dadosPessoaSeguradoCodigoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/codigoPessoa]]></fieldDescription>
+	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
 	</variable>
@@ -185,8 +191,8 @@
 	<variable name="vano" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("yyyy").format(new Date())]]></variableExpression>
 	</variable>
-	<group name="Proposta" keepTogether="true">
-		<groupExpression><![CDATA[]]></groupExpression>
+	<group name="dadosPessoaSegurado">
+		<groupExpression><![CDATA[$F{dadosPessoaSeguradoCodigoPessoa}]]></groupExpression>
 		<groupHeader>
 			<band height="34">
 				<subreport>
@@ -207,8 +213,12 @@
 					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_DadosPessoaSegurado.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
+		</groupHeader>
+	</group>
+	<group name="dadosPessoaSeguradoPessoaJuridica">
+		<groupExpression><![CDATA[$F{dadosPessoaSeguradoCodigoPessoa}]]></groupExpression>
+		<groupHeader>
 			<band height="30">
-				<printWhenExpression><![CDATA[$F{codigoTipoInterveniente}.equals("2")]]></printWhenExpression>
 				<subreport>
 					<reportElement x="0" y="0" width="555" height="30" uuid="7131ae14-d0a4-47c6-8451-3935dc498b2d"/>
 					<subreportParameter name="XML_DATE_PATTERN">
@@ -227,6 +237,35 @@
 					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_DadosPessoaSeguradoJuridica.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
+		</groupHeader>
+	</group>
+	<group name="Controladores">
+		<groupExpression><![CDATA[$F{codigoTipoVinculo}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="30" uuid="9e520a78-5b6b-4a84-87db-9238207c4484"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_Controladores.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="Proposta" keepTogether="true">
+		<groupExpression><![CDATA[]]></groupExpression>
+		<groupHeader>
 			<band height="34">
 				<subreport>
 					<reportElement x="0" y="0" width="555" height="34" uuid="e26d8ed4-764c-4c55-8bfe-daae2a4d5c58"/>

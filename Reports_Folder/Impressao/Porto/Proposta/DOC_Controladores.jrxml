@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-04T19:10:32 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_Contraoladores" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a803c45b-5e12-4dbf-99b7-d7191b005740">
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo]]>
+	</queryString>
+	<field name="nomePessoaVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePessoaVinculo]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpfPessoaVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCnpjCpfPessoaVinculo]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoaVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoPessoaVinculo]]></fieldDescription>
+	</field>
+	<field name="flagAtivo" class="java.lang.String">
+		<fieldDescription><![CDATA[flagAtivo]]></fieldDescription>
+	</field>
+	<field name="codigoPessoaVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoPessoaVinculo]]></fieldDescription>
+	</field>
+	<field name="tipoVinculo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='106' and codigo=//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo] /descricao]]></fieldDescription>
+	</field>
+	<field name="tipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='89' and codigo=//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoPessoaVinculo] /descricao]]></fieldDescription>
+	</field>
+	<field name="codigoPessoaVinculo_1" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoPessoaVinculo]]></fieldDescription>
+	</field>
+	<field name="flagVinculoPessoaExpostaPoliticamente" class="java.lang.String">
+		<fieldDescription><![CDATA[flagVinculoPessoaExpostaPoliticamente]]></fieldDescription>
+	</field>
+	<field name="pessoaExpostaPoliticamente" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='75' and codigo=//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/codigoTipoPessoaExposto] /descricao]]></fieldDescription>
+	</field>
+	<field name="nomePessoExposta" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/nomePessoaExposto]]></fieldDescription>
+	</field>
+	<field name="numeroCnpjCpfPessoaExposto" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/numeroCnpjCpfPessoaExposto]]></fieldDescription>
+	</field>
+	<field name="relacionamentoPessoaExposta" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='106' and codigo=//Documentos/Documento/intervenientes/interveniente/exposicoes/exposicao/codigoTipoVinculo] /descricao]]></fieldDescription>
+	</field>
+	<group name="codigoPessoaVinculo">
+		<groupExpression><![CDATA[$F{codigoPessoaVinculo}]]></groupExpression>
+		<groupHeader>
+			<band height="64">
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="555" height="51" uuid="e2ed2d85-0579-47ce-9982-396c55880620"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="322301ac-e38b-45b6-90e6-9e66292e3634">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<textField pattern="">
+					<reportElement x="0" y="0" width="555" height="13" uuid="19e4d43d-0bcb-463d-b7d6-2aa404fa81fb">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["SÓCIO " + new Integer($V{REPORT_COUNT}+1).toString()]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="2" y="13" width="275" height="12" uuid="b5eff1b7-8093-469b-b7da-423724c71ae6">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[TIPO DE VÍNCULO]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="2" y="25" width="275" height="13" uuid="f4c25df6-f34f-4013-8b45-149171548f79">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tipoVinculo}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="277" y="13" width="1" height="25" uuid="7ed5098c-f05f-4966-b7e6-c3145a533fe1">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<staticText>
+					<reportElement x="279" y="13" width="275" height="12" uuid="09c43066-eebf-483a-b05b-63d0c4c98109"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[NOME]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="279" y="25" width="275" height="13" uuid="86b6d3ff-a9f0-4943-9bd5-201a21316885">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomePessoaVinculo}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="2" y="39" width="248" height="12" uuid="31c0250c-3c22-4a99-acaa-33ba2a6c9823">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[TIPO DE PESSOA]]></text>
+				</staticText>
+				<line>
+					<reportElement x="0" y="38" width="555" height="1" uuid="7e545da1-52d2-4391-8523-c5f6d7f50e8e">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement x="250" y="39" width="1" height="25" uuid="97fd2681-0561-4b04-a4d9-042092996c2e"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<textField>
+					<reportElement x="252" y="51" width="302" height="13" uuid="2c2f6b15-c3c6-4ade-b7e0-afd1b4ad3896">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{numeroCnpjCpfPessoaVinculo}.length() == 14 ? ($F{numeroCnpjCpfPessoaVinculo}.substring(0, 2) + "." + $F{numeroCnpjCpfPessoaVinculo}.substring(2, 5) + "." + $F{numeroCnpjCpfPessoaVinculo}.substring(5, 8) + "/" + $F{numeroCnpjCpfPessoaVinculo}.substring(8, 12) + "-" + $F{numeroCnpjCpfPessoaVinculo}.substring(12, 14))
+			: $F{numeroCnpjCpfPessoaVinculo}.length() == 11 ? ($F{numeroCnpjCpfPessoaVinculo}.substring(0, 3) + "." + $F{numeroCnpjCpfPessoaVinculo}.substring(3, 6) + "." + $F{numeroCnpjCpfPessoaVinculo}.substring(6, 9) + "-" + $F{numeroCnpjCpfPessoaVinculo}.substring(9, 11))
+			: $F{numeroCnpjCpfPessoaVinculo}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="252" y="39" width="303" height="12" uuid="55079f30-52b9-4c02-bf6c-4ad026addfbb">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[CPF/CNPJ]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="2" y="51" width="248" height="13" uuid="686ede60-7de1-4e41-b649-25b647f9ad5a">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tipoPessoa}.toUpperCase()]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="PessoaExposta">
+		<groupExpression><![CDATA[$F{flagVinculoPessoaExpostaPoliticamente}]]></groupExpression>
+		<groupHeader>
+			<band height="52">
+				<printWhenExpression><![CDATA[$F{flagVinculoPessoaExpostaPoliticamente}.equalsIgnoreCase("s")]]></printWhenExpression>
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="52" uuid="095cb462-4072-4eec-a130-9352b6ae5bd5"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="1" width="247" height="12" uuid="601d1927-ce82-4de6-86b1-7ff2aea5ec0b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[PESSOA EXPOSTA POLITICAMENTE*]]></text>
+				</staticText>
+				<line>
+					<reportElement x="249" y="1" width="1" height="25" uuid="195bc9d8-62f7-48a9-b730-d5092390db12"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<textField>
+					<reportElement x="251" y="13" width="303" height="13" uuid="4192ae98-528d-4624-985d-6374138589e5">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomePessoExposta}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="251" y="1" width="303" height="12" uuid="ef71ada5-4fe5-4107-bc81-03a11df0cd7d">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[NOME DA PESSOA EXPOSTA POLITICAMENTE]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="2" y="13" width="247" height="13" uuid="8850de63-4207-4b5d-886e-1db50759efb1">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{pessoaExpostaPoliticamente}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="2" y="39" width="158" height="13" uuid="12d6e362-0d89-4183-b161-4ee299cc27df">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{numeroCnpjCpfPessoaExposto}.length() == 14 ? ($F{numeroCnpjCpfPessoaExposto}.substring(0, 2) + "." + $F{numeroCnpjCpfPessoaExposto}.substring(2, 5) + "." + $F{numeroCnpjCpfPessoaExposto}.substring(5, 8) + "/" + $F{numeroCnpjCpfPessoaExposto}.substring(8, 12) + "-" + $F{numeroCnpjCpfPessoaExposto}.substring(12, 14))
+			: $F{numeroCnpjCpfPessoaExposto}.length() == 11 ? ($F{numeroCnpjCpfPessoaExposto}.substring(0, 3) + "." + $F{numeroCnpjCpfPessoaExposto}.substring(3, 6) + "." + $F{numeroCnpjCpfPessoaExposto}.substring(6, 9) + "-" + $F{numeroCnpjCpfPessoaExposto}.substring(9, 11))
+			: $F{numeroCnpjCpfPessoaExposto}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="2" y="27" width="158" height="12" uuid="07a90057-d5c7-4cca-8f29-dfce1974831e">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[CPF DA PESSOA EXPOSTA POLITICAMENTE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="163" y="27" width="391" height="12" uuid="8cb0a545-31da-43d2-8ef1-8d3dd61a010a">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[GRAU DE RELACIONAMENTO COM A PESSOA EXPOSTA POLITICAMENTE]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="163" y="39" width="391" height="13" uuid="48650794-7c9c-4c40-879d-f63357da347d">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{relacionamentoPessoaExposta}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="161" y="27" width="1" height="25" uuid="1c0e71c5-178c-4eeb-8cac-1b3bfa4315d5"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement x="0" y="26" width="555" height="1" uuid="35b7a691-cb88-4d57-9f84-829607f8a8bc">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</line>
+			</band>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="13" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="1d27b8ba-dafa-4b17-85cb-d566941855e2"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="-1" y="0" width="555" height="13" uuid="e1f964b7-8153-44d8-b1fd-a049614d6d0e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONTROLADORES ATÉ O NÍVEL DE PESSOAS FÍSICAS / ADMINISTRADORES / PROCURADORES (PREENCHIMENTO NECESSÁRIO)]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>

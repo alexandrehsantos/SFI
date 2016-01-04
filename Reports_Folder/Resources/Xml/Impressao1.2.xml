@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ImprimirDocumentoEmissao>
   <Impressao>
     <Documentos>
@@ -202,13 +202,22 @@
           </contatos>
           <vinculos>
             <vinculo>
-              <codigoTipoVinculo />
-              <codigoPessoaVinculo />
-              <codigoTipoPessoaVinculo />
-              <numeroCnpjCpfPessoaVinculo />
-              <nomePessoaVinculo />
+              <codigoTipoVinculo>2</codigoTipoVinculo>
+              <codigoPessoaVinculo>1</codigoPessoaVinculo>
+              <codigoTipoPessoaVinculo>1</codigoTipoPessoaVinculo>
+              <numeroCnpjCpfPessoaVinculo>31382890885</numeroCnpjCpfPessoaVinculo>
+              <nomePessoaVinculo>teste</nomePessoaVinculo>
               <flagVinculoPessoaExpostaPoliticamente />
-              <flagAtivo />
+              <flagAtivo>s</flagAtivo>
+            </vinculo>
+            <vinculo>
+              <codigoTipoVinculo>2</codigoTipoVinculo>
+              <codigoPessoaVinculo>2</codigoPessoaVinculo>
+              <codigoTipoPessoaVinculo>1</codigoTipoPessoaVinculo>
+              <numeroCnpjCpfPessoaVinculo>31382890885</numeroCnpjCpfPessoaVinculo>
+              <nomePessoaVinculo>teste</nomePessoaVinculo>
+              <flagVinculoPessoaExpostaPoliticamente>s</flagVinculoPessoaExpostaPoliticamente>
+              <flagAtivo>s</flagAtivo>
             </vinculo>
           </vinculos>
           <auditoria>
@@ -534,11 +543,11 @@
             <exposicoes>
               <exposicao>
                 <codigoExposicaoInterveniente />
-                <codigoTipoVinculo />
-                <codigoPessoaExposto />
-                <codigoTipoPessoaExposto />
-                <numeroCnpjCpfPessoaExposto />
-                <nomePessoaExposto />
+                <codigoTipoVinculo>5</codigoTipoVinculo>
+                <codigoPessoaExposto>1</codigoPessoaExposto>
+                <codigoTipoPessoaExposto>3</codigoTipoPessoaExposto>
+                <numeroCnpjCpfPessoaExposto>17908924492</numeroCnpjCpfPessoaExposto>
+                <nomePessoaExposto>teste</nomePessoaExposto>
                 <flagAtivo />
               </exposicao>
             </exposicoes>
@@ -2100,6 +2109,28 @@
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
+      <Dominio>
+        <codigoTipoDominio>106</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>conjugue</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>75</codigoTipoDominio>
+        <codigo>3</codigo>
+        <descricao>RELACIONAMENTO PROXIMO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+       <Dominio>
+        <codigoTipoDominio>106</codigoTipoDominio>
+        <codigo>5</codigo>
+        <descricao>ENTEADO(A)</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+
     </Dominios>
     <parametrosImpressao>
       <parametro>
