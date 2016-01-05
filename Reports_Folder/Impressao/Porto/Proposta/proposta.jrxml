@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T10:08:31 -->
+<!-- 2016-01-05T14:27:50 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proposta" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -24,43 +24,61 @@
 		<![CDATA[//Impressao]]>
 	</queryString>
 	<field name="codigoOrigemEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[/Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
 	</field>
 	<field name="numeroProposta" class="java.lang.String">
-		<fieldDescription><![CDATA[/Documentos/Documento/numeroProposta]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/numeroProposta]]></fieldDescription>
 	</field>
 	<field name="dataEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataEmissao]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/dataEmissao]]></fieldDescription>
 	</field>
 	<field name="numeroOrcamento" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/numeroOrcamento]]></fieldDescription>
+		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamento]]></fieldDescription>
 	</field>
 	<field name="dataInicioVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataInicioVigencia]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/dataInicioVigencia]]></fieldDescription>
 	</field>
 	<field name="nomeTipoSeguro" class="java.lang.String">
 		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio=100 and codigo=//Documentos/Documento/codigoTipoSeguro]/descricao]]></fieldDescription>
 	</field>
 	<field name="dataFimVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataFimVigencia]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/dataFimVigencia]]></fieldDescription>
 	</field>
 	<field name="codigoRamo" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoRamo]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/codigoRamo]]></fieldDescription>
 	</field>
 	<field name="codigoModalidade" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoModalidade]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/codigoModalidade]]></fieldDescription>
 	</field>
 	<field name="nomeOferta" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/nomeOferta]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/nomeOferta]]></fieldDescription>
 	</field>
 	<field name="codigoPessoaSegurado" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dadosPessoaSegurado/codigoPessoa]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/codigoPessoa]]></fieldDescription>
 	</field>
 	<field name="codigoTipoVinculo" class="java.lang.String">
-		<fieldDescription><![CDATA[//Impressao/Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo]]></fieldDescription>
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo]]></fieldDescription>
 	</field>
 	<field name="codigoProcessoSusepPrincipal" class="java.lang.String">
-		<fieldDescription><![CDATA[//Impressao/Produtos/Produto/Modaliades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
+		<fieldDescription><![CDATA[//Produtos/Produto/Modaliades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/dadosPessoaSegurado/codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<field name="flagPossuiControlador" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/dadosPessoaSegurado/pessoaJuridica/flagPossuiControlador]]></fieldDescription>
+	</field>
+	<field name="numeroOrcamentoExterno" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamentoExterno]]></fieldDescription>
+	</field>
+	<field name="dataFimVigenciaSeguro" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/dataFimVigenciaSeguro]]></fieldDescription>
+	</field>
+	<field name="codigoIntervenienteCoProponente" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/intervenientes/interveniente[codigoTipoInterveniente ='1'] /codigoInterveniente]]></fieldDescription>
+	</field>
+	<field name="codigoEnderecoPessoaSegurado" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/enderecosPessoa/enderecoPessoa/codigoEndereco]]></fieldDescription>
 	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
@@ -75,8 +93,11 @@
 		<groupExpression><![CDATA[$F{codigoPessoaSegurado}]]></groupExpression>
 		<groupHeader>
 			<band height="34">
+				<printWhenExpression><![CDATA[$F{codigoTipoPessoa}.equals("1")]]></printWhenExpression>
 				<subreport>
-					<reportElement x="0" y="0" width="555" height="34" uuid="5fae9d05-3b6d-4a04-885e-5a28a2a42b65"/>
+					<reportElement x="0" y="0" width="555" height="34" uuid="5fae9d05-3b6d-4a04-885e-5a28a2a42b65">
+						<printWhenExpression><![CDATA[$F{codigoTipoPessoa}.equals("1")]]></printWhenExpression>
+					</reportElement>
 					<subreportParameter name="XML_DATE_PATTERN">
 						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 					</subreportParameter>
@@ -99,6 +120,7 @@
 		<groupExpression><![CDATA[$F{codigoPessoaSegurado}]]></groupExpression>
 		<groupHeader>
 			<band height="30">
+				<printWhenExpression><![CDATA[$F{codigoTipoPessoa}.equals("2")]]></printWhenExpression>
 				<subreport>
 					<reportElement x="0" y="0" width="555" height="30" uuid="7131ae14-d0a4-47c6-8451-3935dc498b2d"/>
 					<subreportParameter name="XML_DATE_PATTERN">
@@ -123,8 +145,11 @@
 		<groupExpression><![CDATA[$F{codigoTipoVinculo}]]></groupExpression>
 		<groupHeader>
 			<band height="30">
+				<printWhenExpression><![CDATA[$F{flagPossuiControlador}.equalsIgnoreCase("s")]]></printWhenExpression>
 				<subreport>
-					<reportElement x="0" y="0" width="555" height="30" uuid="9e520a78-5b6b-4a84-87db-9238207c4484"/>
+					<reportElement x="0" y="0" width="555" height="30" uuid="9e520a78-5b6b-4a84-87db-9238207c4484">
+						<printWhenExpression><![CDATA[$F{flagPossuiControlador}.equalsIgnoreCase("s")]]></printWhenExpression>
+					</reportElement>
 					<subreportParameter name="XML_DATE_PATTERN">
 						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 					</subreportParameter>
@@ -143,13 +168,55 @@
 			</band>
 		</groupHeader>
 	</group>
-	<group name="Proposta" keepTogether="true">
-		<groupExpression><![CDATA[]]></groupExpression>
+	<group name="CoProponente">
+		<groupExpression><![CDATA[$F{codigoIntervenienteCoProponente}]]></groupExpression>
+		<groupHeader>
+			<band height="20">
+				<printWhenExpression><![CDATA[!$F{codigoIntervenienteCoProponente}.equals(null)]]></printWhenExpression>
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="04e4967e-acfb-4c26-992b-b023aab1b074"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_IntervenienteCoProponente.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
 	</group>
-	<group name="item">
-		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+	<group name="enderecoPessoaSegurado">
+		<groupExpression><![CDATA[$F{codigoEnderecoPessoaSegurado}]]></groupExpression>
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="28a1bd83-6bec-421b-9729-2ecbaf313d5f"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_EnderecoPessoa.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
 	</group>
-	<group name="Item1"/>
 	<title>
 		<band height="115">
 			<rectangle>
@@ -252,7 +319,7 @@
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataFimVigencia}))]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataFimVigenciaSeguro}))]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="327" y="4" width="110" height="20" uuid="fdf91ced-f168-45fb-b19d-a6df9c50df11"/>
@@ -320,7 +387,7 @@
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroOrcamento}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{numeroOrcamentoExterno}]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>

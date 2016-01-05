@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ImprimirDocumentoEmissao>
   <Impressao>
     <Documentos>
@@ -19,7 +19,6 @@
         <numeroVersaoProposta>1</numeroVersaoProposta>
         <numeroSequenciaProposta>1</numeroSequenciaProposta>
         <codigoOrigemEmissao>65</codigoOrigemEmissao>
-        <codigoOrigemEmissao>1</codigoOrigemEmissao>
         <codigoTipoDistribuicaoPagamento>67</codigoTipoDistribuicaoPagamento>
         <enderecoCorrespondencia>
           <codigoEndereco>6565</codigoEndereco>
@@ -47,7 +46,7 @@
           <flagAtivo />
         </enderecoCorrespondencia>
         <dataProtocolo />
-        <dataEmissao>09-NOV-2015</dataEmissao>
+        <dataEmissao>09-NOV-15</dataEmissao>
         <numeroPropostaAutomovel />
         <flagPossuiCorretorSecundario />
         <flagPossuiBeneficiario />
@@ -125,8 +124,8 @@
           </documentos>
           <enderecosPessoa>
             <enderecoPessoa>
-              <codigoEndereco />
-              <codigoTipoLogradouro />
+              <codigoEndereco>68</codigoEndereco>
+              <codigoTipoLogradouro></codigoTipoLogradouro>
               <nomeTipoLogradouro />
               <codigoLogradouro />
               <nomeLogradouro />
@@ -485,13 +484,81 @@
         </corretores>
         <intervenientes>
           <interveniente>
-            <codigoInterveniente />
-            <codigoTipoInterveniente />
+            <codigoInterveniente>01</codigoInterveniente>
+            <codigoTipoInterveniente>1</codigoTipoInterveniente>
             <dadosPessoaInterveniente>
               <codigoPessoa />
-              <codigoTipoPessoa />
-              <numeroCnpjCpf />
-              <nomePessoa />
+              <codigoTipoPessoa>2</codigoTipoPessoa>
+              <numeroCnpjCpf>56852337953294</numeroCnpjCpf>
+              <nomePessoa>TESTE INNOVARE</nomePessoa>
+              <nomeResumidoPessoa />
+              <flagAtivo />
+              <pessoaFisica>
+                <codigoEstadoCivil />
+                <codigoFaixaRenda />
+                <codigoNacionalidade />
+                <codigoOcupacao />
+                <codigoSexoPessoa />
+                <codigoTipoExposicaoPessoa />
+                <dataNascimento />
+                <codigoPais />
+              </pessoaFisica>
+              <pessoaJuridica>
+                <codigoAtividadeEconomica />
+                <codigoFaixaReceitaOperacionalAno />
+                <codigoFaixaPatrimonioLiquido />
+                <codigoNaturezaJuridica />
+                <flagPossuiControlador />
+                <flagCongenere />
+                <codigoSusepCongenere />
+                <dataRegistroAbertura />
+              </pessoaJuridica>
+              <documentos>
+                <documento />
+              </documentos>
+              <enderecosPessoa>
+                <enderecoPessoa />
+              </enderecosPessoa>
+              <contatos>
+                <contato />
+              </contatos>
+              <vinculos>
+                <vinculo />
+              </vinculos>
+              <auditoria>
+                <dataUltimaAlteracao />
+                <codigoTipoUsuarioUltimaAlteracao />
+                <codigoEmpresaUsuarioUltimaAlteracao />
+                <codigoMatriculaUsuarioUltimaAlteracao />
+              </auditoria>
+            </dadosPessoaInterveniente>
+            <codigoTipoPessoa />
+            <numeroCnpjCpf />
+            <nomeInterveniente />
+            <codigoTipoExposicaoPessoa />
+            <codigoMotivoAusenciaCnpjCpf />
+            <percentualParticipacao />
+            <flagAtivo />
+            <exposicoes>
+              <exposicao>
+                <codigoExposicaoInterveniente />
+                <codigoTipoVinculo>5</codigoTipoVinculo>
+                <codigoPessoaExposto>1</codigoPessoaExposto>
+                <codigoTipoPessoaExposto>3</codigoTipoPessoaExposto>
+                <numeroCnpjCpfPessoaExposto>17908924492</numeroCnpjCpfPessoaExposto>
+                <nomePessoaExposto>teste</nomePessoaExposto>
+                <flagAtivo />
+              </exposicao>
+            </exposicoes>
+          </interveniente>
+          <interveniente>
+            <codigoInterveniente />
+            <codigoTipoInterveniente>3</codigoTipoInterveniente>
+            <dadosPessoaInterveniente>
+              <codigoPessoa />
+              <codigoTipoPessoa>1</codigoTipoPessoa>
+              <numeroCnpjCpf>56852337953294</numeroCnpjCpf>
+              <nomePessoa>TESTE INNOVARE</nomePessoa>
               <nomeResumidoPessoa />
               <flagAtivo />
               <pessoaFisica>
@@ -678,7 +745,7 @@
         </auditoria>
         <ItensDocumentoEmissao>
           <itemDocumentoEmissao>
-            <numeroProposta />
+            <numeroProposta>45272250</numeroProposta>
             <codigoPessoa />
             <numeroVersaoProposta />
             <numeroItemVersaoProposta />
@@ -2123,14 +2190,27 @@
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
-       <Dominio>
+      <Dominio>
         <codigoTipoDominio>106</codigoTipoDominio>
         <codigo>5</codigo>
         <descricao>ENTEADO(A)</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
-
+      <Dominio>
+        <codigoTipoDominio>77</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>COSSEGURADO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>133</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>COSSEGURADO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
     </Dominios>
     <parametrosImpressao>
       <parametro>

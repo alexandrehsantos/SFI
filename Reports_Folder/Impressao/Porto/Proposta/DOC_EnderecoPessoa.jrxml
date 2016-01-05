@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-05T14:25:46 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_EnderecoPessoa" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="55c1aa8a-2747-42b8-8b96-e7302dfbcb18">
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/dadosPessoaSegurado/enderecosPessoa/enderecoPessoa]]>
+	</queryString>
+	<field name="codigoEndereco" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoEndereco]]></fieldDescription>
+	</field>
+	<field name="codigoTipoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoTipoLogradouro]]></fieldDescription>
+	</field>
+	<field name="codigoTipoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/codigoTipoPessoa]]></fieldDescription>
+	</field>
+	<title>
+		<band height="13" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="5c6c90de-2933-48a2-9601-0f71c79d1705"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="554" height="13" uuid="45034c30-8eff-43ff-865c-6f164056b53f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="HelveticaWorld" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ENDEREÇO " + ($F{codigoTipoPessoa}.equals("1") ? "RESIDENCIAL": "EMPRESARIAL")]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<subreport>
+				<reportElement x="0" y="0" width="555" height="30" uuid="45650631-97ce-4263-aaa3-ff5856d2af1d"/>
+				<subreportParameter name="XML_DATE_PATTERN">
+					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_LOCALE">
+					<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_TIME_ZONE">
+					<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="pCodigoEndereco">
+					<subreportParameterExpression><![CDATA[$F{codigoEndereco}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["Impressao/Porto/Proposta/Comuns/PES_EnderecosPessoa.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>
