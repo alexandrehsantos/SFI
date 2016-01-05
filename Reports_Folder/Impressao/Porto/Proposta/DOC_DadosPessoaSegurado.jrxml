@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-04T19:07:41 -->
+<!-- 2016-01-05T10:07:39 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DadosPessoaSegurado" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="30c31a6d-7d4a-4d0e-8739-6aca781fbe95">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="xPath">
@@ -124,6 +124,12 @@
 	<detail>
 		<band height="78" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<rectangle>
+				<reportElement x="0" y="0" width="554" height="78" uuid="033e1f0e-3aae-40ce-a7f0-6df0dbd52cdb"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
 			<staticText>
 				<reportElement x="2" y="0" width="265" height="12" uuid="f438c5c1-92e0-4e3f-bcb7-c5664524a59d">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
@@ -489,6 +495,12 @@
 			</subreport>
 		</band>
 		<band height="104">
+			<rectangle>
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="104" uuid="663ad028-bc03-408f-a1fc-8e814e43f863"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
 			<staticText>
 				<reportElement x="2" y="1" width="358" height="12" uuid="d307a7a1-9e0c-46e3-b9b1-036d58ea3946">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
@@ -631,16 +643,6 @@
 			</staticText>
 			<line>
 				<reportElement x="189" y="78" width="1" height="25" uuid="0555a634-19e6-4660-8c50-817c2bf18f20"/>
-				<graphicElement>
-					<pen lineWidth="0.75"/>
-				</graphicElement>
-			</line>
-			<line>
-				<reportElement x="0" y="103" width="555" height="1" uuid="808a76de-8a13-4da5-b3b1-402a547ca490">
-					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
-				</reportElement>
 				<graphicElement>
 					<pen lineWidth="0.75"/>
 				</graphicElement>

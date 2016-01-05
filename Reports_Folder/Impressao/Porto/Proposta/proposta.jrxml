@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-04T19:11:06 -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="header" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
+<!-- 2016-01-05T10:08:31 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proposta" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
@@ -21,166 +21,46 @@
 		<defaultValueExpression><![CDATA["C:\\Users\\alexandre.dos.santos\\Documents\\Working\\Jasper\\impressoes\\proposta\\"]]></defaultValueExpression>
 	</parameter>
 	<queryString language="xPath">
-		<![CDATA[//impressao]]>
+		<![CDATA[//Impressao]]>
 	</queryString>
-	<field name="codigoTipoInterveniente" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoTipoInterveniente]]></fieldDescription>
-	</field>
-	<field name="nomeTemaEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTemaEvento]]></fieldDescription>
-	</field>
-	<field name="codigoOperacao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoOperacao]]></fieldDescription>
-	</field>
-	<field name="codigoRamo" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Ramos/Ramo/codigoRamo]]></fieldDescription>
-	</field>
-	<field name="numeroVersaoOrcamento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroVersaoOrcamento]]></fieldDescription>
-	</field>
-	<field name="textoComentario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/textoComentario]]></fieldDescription>
-	</field>
-	<field name="codigoTipoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/codigoTipoPessoa]]></fieldDescription>
-	</field>
-	<field name="numeroOrcamentoExterno" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamentoExterno]]></fieldDescription>
-	</field>
-	<field name="codigoEndereco2" class="java.lang.String">
-		<fieldDescription><![CDATA[Enderecos/endereco/codigoEndereco]]></fieldDescription>
-	</field>
-	<field name="codigoOferta" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/codigoOferta]]></fieldDescription>
-	</field>
-	<field name="numeroOrcamento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamento]]></fieldDescription>
-	</field>
-	<field name="nomeOferta2" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomeOferta]]></fieldDescription>
-	</field>
-	<field name="codigoModalidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/codigoModalidade]]></fieldDescription>
-	</field>
-	<field name="nomeCategoriaEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeCategoriaEvento]]></fieldDescription>
-	</field>
-	<field name="nomeCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Corretores/Corretor/nomeCorretor]]></fieldDescription>
-	</field>
-	<field name="nomeRamo" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Ramos/Ramo/nomeRamo]]></fieldDescription>
-	</field>
-	<field name="dataFimVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataFimVigencia]]></fieldDescription>
-	</field>
-	<field name="dataInicioVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataInicioVigencia]]></fieldDescription>
-	</field>
-	<field name="codigoEndereco" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/enderecosPessoa/endereco/codigoEndereco]]></fieldDescription>
-	</field>
-	<field name="nomeOferta" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomeOferta]]></fieldDescription>
-	</field>
-	<field name="codigoPessoa2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoPessoa]]></fieldDescription>
-	</field>
-	<field name="codigoProcessoSusepPrincipal" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
-	</field>
-	<field name="nomeTipoSeguro" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/nomeTipoSeguro]]></fieldDescription>
-	</field>
-	<field name="nomeEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeEvento]]></fieldDescription>
-	</field>
-	<field name="codigoCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/corretores/corretor/codigoCorretor]]></fieldDescription>
-	</field>
-	<field name="codigoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoPessoa]]></fieldDescription>
-	</field>
-	<field name="dataCalculo" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataCalculo]]></fieldDescription>
-	</field>
-	<field name="susepCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Corretores/Corretor/susepCorretor]]></fieldDescription>
-	</field>
-	<field name="nomeModalidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/nomeModalidade]]></fieldDescription>
-	</field>
-	<field name="nomePathImagem" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomePathImagem]]></fieldDescription>
-	</field>
-	<field name="codigoCobertura" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/codigoCobertura]]></fieldDescription>
-	</field>
-	<field name="textoClausula" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/clausulasItem/clausulaItem/textoClausula]]></fieldDescription>
-	</field>
-	<field name="dataEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataEmissao]]></fieldDescription>
-	</field>
-	<field name="textoComentario2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/textoComentario]]></fieldDescription>
-	</field>
-	<field name="dataValidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataValidade]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoLocalRisco" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/localRisco/codigoLocalRisco]]></fieldDescription>
-	</field>
-	<field name="nomeDescontoAgravo" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/descontosAgravo/descontoAgravo/nomeDescontoAgravo]]></fieldDescription>
-	</field>
-	<field name="nomeTipoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/nomeTipoPessoa]]></fieldDescription>
-	</field>
-	<field name="nomeTipoProponenteEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTipoProponenteEvento]]></fieldDescription>
-	</field>
-	<field name="codigoBeneficiario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/beneficiarios/beneficiario/codigoBeneficiario]]></fieldDescription>
-	</field>
-	<field name="valorTipoBem" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/beneficiarios/beneficiario/valorTipoBem]]></fieldDescription>
-	</field>
-	<field name="valorCustoApolice" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/valorCustoApolice]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente3" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente4" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="nomeOferta3" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/nomeOferta]]></fieldDescription>
-	</field>
 	<field name="codigoOrigemEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
+		<fieldDescription><![CDATA[/Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
 	</field>
 	<field name="numeroProposta" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/numeroProposta]]></fieldDescription>
+		<fieldDescription><![CDATA[/Documentos/Documento/numeroProposta]]></fieldDescription>
 	</field>
-	<field name="codigoEnderecoCorrespondencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoEnderecoCorrespondencia]]></fieldDescription>
+	<field name="dataEmissao" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataEmissao]]></fieldDescription>
 	</field>
-	<field name="flagEnvioEmailCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/flagEnvioEmailCorretor]]></fieldDescription>
+	<field name="numeroOrcamento" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/numeroOrcamento]]></fieldDescription>
+	</field>
+	<field name="dataInicioVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataInicioVigencia]]></fieldDescription>
+	</field>
+	<field name="nomeTipoSeguro" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio=100 and codigo=//Documentos/Documento/codigoTipoSeguro]/descricao]]></fieldDescription>
+	</field>
+	<field name="dataFimVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dataFimVigencia]]></fieldDescription>
+	</field>
+	<field name="codigoRamo" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoRamo]]></fieldDescription>
+	</field>
+	<field name="codigoModalidade" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoModalidade]]></fieldDescription>
+	</field>
+	<field name="nomeOferta" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/nomeOferta]]></fieldDescription>
+	</field>
+	<field name="codigoPessoaSegurado" class="java.lang.String">
+		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/dadosPessoaSegurado/codigoPessoa]]></fieldDescription>
 	</field>
 	<field name="codigoTipoVinculo" class="java.lang.String">
-		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo]]></fieldDescription>
+		<fieldDescription><![CDATA[//Impressao/Documentos/Documento/dadosPessoaSegurado/vinculos/vinculo/codigoTipoVinculo]]></fieldDescription>
 	</field>
-	<field name="dadosPessoaSeguradoCodigoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/codigoPessoa]]></fieldDescription>
+	<field name="codigoProcessoSusepPrincipal" class="java.lang.String">
+		<fieldDescription><![CDATA[//Impressao/Produtos/Produto/Modaliades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
 	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
@@ -191,8 +71,8 @@
 	<variable name="vano" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("yyyy").format(new Date())]]></variableExpression>
 	</variable>
-	<group name="dadosPessoaSegurado">
-		<groupExpression><![CDATA[$F{dadosPessoaSeguradoCodigoPessoa}]]></groupExpression>
+	<group name="dadosGeraisPessoaFisica">
+		<groupExpression><![CDATA[$F{codigoPessoaSegurado}]]></groupExpression>
 		<groupHeader>
 			<band height="34">
 				<subreport>
@@ -215,8 +95,8 @@
 			</band>
 		</groupHeader>
 	</group>
-	<group name="dadosPessoaSeguradoPessoaJuridica">
-		<groupExpression><![CDATA[$F{dadosPessoaSeguradoCodigoPessoa}]]></groupExpression>
+	<group name="dadosGeraisPessoaJuridica">
+		<groupExpression><![CDATA[$F{codigoPessoaSegurado}]]></groupExpression>
 		<groupHeader>
 			<band height="30">
 				<subreport>
@@ -265,350 +145,6 @@
 	</group>
 	<group name="Proposta" keepTogether="true">
 		<groupExpression><![CDATA[]]></groupExpression>
-		<groupHeader>
-			<band height="34">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="34" uuid="e26d8ed4-764c-4c55-8bfe-daae2a4d5c58"/>
-					<subreportParameter name="pcodigoPessoa">
-						<subreportParameterExpression><![CDATA[$F{codigoPessoa}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoEnderecoResEmp.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="34">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="34" uuid="32b0fbe5-2e5f-4246-8094-f28655cd7928"/>
-					<subreportParameter name="pcodigoEndereco">
-						<subreportParameterExpression><![CDATA[$F{codigoEnderecoCorrespondencia}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["EnderecosEndereco.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="21">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="21" uuid="ca8dd393-2a41-476b-9370-f4248aeb1ab5"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoCorretor_DadosDoCorretor.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="21">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="21" uuid="b9858bab-e985-4088-9803-18573743ec00"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDemaisSuseps.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="51">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="51" uuid="82028981-9ffc-46d3-8d97-2f74d020e151"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pNomeOferta">
-						<subreportParameterExpression><![CDATA[$F{nomeOferta3}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pcodigoLocalRisco">
-						<subreportParameterExpression><![CDATA[$F{codigoLocalRisco}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoObjetoRiscoLocalRisco.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="19">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="19" uuid="6ca2263f-f0ab-4442-ac5a-945390e6b52a"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["itemcobertura.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="23">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="23" isPrintInFirstWholeBand="true" uuid="8bb0b775-ae37-4d45-b820-226ed5fc657e"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["itemQuestionario.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="28">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="28" uuid="e185fc3f-b141-4e68-ad0d-b4a5463bbfa6"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoClausulasBeneficiarias.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="17" splitType="Prevent">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="17" uuid="8165a206-00d9-43bc-be7d-62dac3dae0d0"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoParticipacaoObrigatoria.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="16">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="16" uuid="141a0756-b3ff-4f2c-b329-e18defebdeca"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescontoAgravoItem.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="26">
-				<subreport runToBottom="true">
-					<reportElement isPrintRepeatedValues="false" x="0" y="0" width="555" height="26" uuid="aee1bcdd-61fc-44b0-9ff2-3663b3f58836"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoClausulasParticulares.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="15">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="15" uuid="a738c269-182d-4ddd-b0ab-3c3b0df9f2b7"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pValorCustoApolice">
-						<subreportParameterExpression><![CDATA[$F{valorCustoApolice}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDemonstrativoDePremio-PorObejetoSegurado.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="16">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="16" uuid="1910b785-d3c0-4224-8b74-7e44827dfbf5"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescontoGerais.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="18">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="18" uuid="74b87249-9bf4-473b-8488-a90ee6c735f5"/>
-					<subreportParameter name="pCustoApolice">
-						<subreportParameterExpression><![CDATA[$F{valorCustoApolice}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDemonstrativoPremio.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="29">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="29" uuid="012363db-cef7-4587-9981-e2162089367e"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoInformacaoDeCobranca.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="30">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="30" uuid="4b5de0ff-dd4c-4ebc-b0e1-663323585f2e"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoValorDasParcelas.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="32">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="32" uuid="ddc6c043-2a5f-4de8-a4e8-3829e820cdb1"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoObservacoes.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="50">
-				<subreport runToBottom="false">
-					<reportElement x="0" y="0" width="555" height="50" uuid="7f9f4b68-c3f1-4e8a-9e5a-c1bd75c8afcb"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDeclaracoesDoProponente.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-		</groupHeader>
 	</group>
 	<group name="item">
 		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
@@ -692,14 +228,14 @@
 			</staticText>
 			<staticText>
 				<reportElement x="442" y="27" width="110" height="20" uuid="d5905059-c588-4511-8cef-ff556d77489e"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[VIGÊNCIA DAS 24H DO DIA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="442" y="50" width="110" height="20" uuid="bf9e421e-cc11-432b-9e2a-9981cc715e7b"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[ATÉ AS 24H DO DIA]]></text>
@@ -709,25 +245,25 @@
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{dataInicioVigencia}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataInicioVigencia}))]]></textFieldExpression>
 			</textField>
 			<textField pattern="dd/MM/yyyy">
 				<reportElement x="469" y="57" width="55" height="12" uuid="112b6bd9-621d-4f9e-81a8-6f8d179792c5"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{dataFimVigencia}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataFimVigencia}))]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="327" y="4" width="110" height="20" uuid="fdf91ced-f168-45fb-b19d-a6df9c50df11"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[ORIGEM N. PROPOSTA COMPANHIA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="327" y="50" width="110" height="20" uuid="3f10721f-6850-4a3c-b1d6-532a4d5c268e"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[TIPO DE SEGURO]]></text>
@@ -741,18 +277,11 @@
 			</textField>
 			<staticText>
 				<reportElement x="442" y="4" width="110" height="20" uuid="bbbbc0ef-603f-4e88-9478-61a06f6f1451"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[EMISSAO]]></text>
 			</staticText>
-			<textField>
-				<reportElement x="352" y="34" width="60" height="12" uuid="12799065-a2a0-47b4-9fb6-deca1a3c8871"/>
-				<textElement textAlignment="Center">
-					<font fontName="Helvetica World" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroOrcamento}]]></textFieldExpression>
-			</textField>
 			<line>
 				<reportElement x="442" y="25" width="110" height="1" uuid="b09191f8-e972-484e-a5c3-79f01fd7cdac"/>
 				<graphicElement>
@@ -765,13 +294,6 @@
 					<pen lineWidth="0.75"/>
 				</graphicElement>
 			</line>
-			<staticText>
-				<reportElement x="327" y="27" width="110" height="20" uuid="f5974e6a-1463-4a25-a821-11412ce95674"/>
-				<textElement textAlignment="Center">
-					<font fontName="Helvetica World" size="6"/>
-				</textElement>
-				<text><![CDATA[ORÇAMENTO CANAL]]></text>
-			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement x="329" y="11" width="106" height="12" uuid="f1541c3d-4950-4928-a119-2ae4f87c2ead"/>
 				<textElement textAlignment="Center">
@@ -784,58 +306,28 @@
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{dataEmissao}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataEmissao}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="327" y="27" width="110" height="20" uuid="f5974e6a-1463-4a25-a821-11412ce95674"/>
+				<textElement textAlignment="Left">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[Orçamento Canal:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="352" y="34" width="60" height="12" uuid="12799065-a2a0-47b4-9fb6-deca1a3c8871"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroOrcamento}]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>
 	<pageFooter>
-		<band height="15">
-			<textField>
-				<reportElement x="1" y="3" width="404" height="12" uuid="5d1b2a7c-6087-4d68-b24b-a7ca9d056099"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta2} + " - " + $F{codigoOperacao} + "       V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Page">
-				<reportElement x="405" y="3" width="129" height="12" uuid="0f5c7ce3-7433-4cf1-bd8f-16ef08147624"/>
-				<textElement textAlignment="Right">
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA["Pagina " + $V{PAGE_NUMBER}  + " de "]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Report">
-				<reportElement x="534" y="3" width="22" height="12" uuid="6979a34d-5411-4287-bd7b-f6c380b14ff4"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
-			</textField>
-		</band>
+		<band height="12"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="14">
-			<textField evaluationTime="Report">
-				<reportElement x="535" y="2" width="21" height="12" uuid="1e7d77f8-559b-4662-9c83-59577f6a7fef"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Page">
-				<reportElement x="406" y="2" width="129" height="12" uuid="656fb0f4-f771-4111-8fdd-b7f53548f1bd"/>
-				<textElement textAlignment="Right">
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA["Pagina " + $V{PAGE_NUMBER}  + " de "]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="0" y="2" width="406" height="12" uuid="dfe006d6-e44f-4971-b288-f9e96cfe7299"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta2} + " - " + $F{codigoOperacao} + "       V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
-			</textField>
-		</band>
+		<band height="12"/>
 	</lastPageFooter>
 </jasperReport>
