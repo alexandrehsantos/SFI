@@ -48,7 +48,7 @@
         <dataProtocolo />
         <dataEmissao>09-NOV-15</dataEmissao>
         <numeroPropostaAutomovel />
-        <flagPossuiCorretorSecundario />
+        <flagPossuiCorretorSecundario>s</flagPossuiCorretorSecundario>
         <flagPossuiBeneficiario />
         <flagPossuiSinistro />
         <flagPrimeiraCompraCartaoEmpresa />
@@ -253,7 +253,7 @@
         <numeroProcessoLicitacao />
         <codigoTipoLicitacao />
         <codigoOrigemRenovacao />
-        <codigoOperacao />
+        <codigoOperacao>10</codigoOperacao>
         <dataInicioVigenciaVersaoOrcamento />
         <dataFimVigenciaVersaoOrcamento />
         <valorAdicionalFracionamento />
@@ -312,7 +312,7 @@
               </auditoria>
             </dadosPessoaPagador>
             <enderecoCobranca>
-              <codigoEndereco />
+              <codigoEndereco>68</codigoEndereco>
               <codigoTipoLogradouro />
               <nomeTipoLogradouro />
               <codigoLogradouro />
@@ -362,10 +362,18 @@
         </analises>
         <corretores>
           <corretor>
-            <codigoCorretor />
+            <codigoCorretor>AZULWJ</codigoCorretor>
             <codigoSucursal />
-            <flagPrincipal />
-            <percentualParticipacao />
+            <flagPrincipal>S</flagPrincipal>
+            <percentualParticipacao>80</percentualParticipacao>
+            <valorComissao />
+            <flagAtivo />
+          </corretor>
+          <corretor>
+            <codigoCorretor>C1192J</codigoCorretor>
+            <codigoSucursal />
+            <flagPrincipal>n</flagPrincipal>
+            <percentualParticipacao>20</percentualParticipacao>
             <valorComissao />
             <flagAtivo />
           </corretor>
@@ -381,9 +389,9 @@
             <codigoSucursal />
             <listaCorretores>
               <corretor>
-                <numeroContato />
-                <nome />
-                <nomeEmail />
+                <numeroContato>1133663366</numeroContato>
+                <nome>CORRETOR APOLICE ABERTA </nome>
+                <nomeEmail>daiane.rodrigues@portoseguro.com.br</nomeEmail>
                 <numeroCnpjCpf />
               </corretor>
             </listaCorretores>
@@ -770,7 +778,7 @@
             <codigoTipoAtualizacao />
             <categoriasRisco>
               <categoriaRisco>
-                <codigoCategoriaObjetoRisco />
+                <codigoCategoriaObjetoRisco>6</codigoCategoriaObjetoRisco>
                 <numeroSequenciaCategoriaObjetoRisco />
                 <objetosRisco>
                   <objetoRisco>
@@ -826,7 +834,7 @@
                       <codigoCategoriaGenerico />
                       <nomeCategoriaGenerico />
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>anúncio</textoComentario>
                     </categoriaGenerico>
                     <residencia>
                       <codigoResidencia />
@@ -838,7 +846,7 @@
                       <codigoEmpresaObjetoRisco />
                       <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>COSMÉTICOS /PRODUTOS DE HIGIENE</textoComentario>
                     </empresa>
                     <condominio>
                       <codigoCondominio />
@@ -852,14 +860,14 @@
                       <codigoImobiliaria />
                       <codigoTipoImovel />
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>PESSOAL</textoComentario>
                     </imobiliaria>
                     <obraEngenharia>
                       <codigoObraEngenharia />
                       <codigoCaracteristicaObra />
                       <codigoTipoObra />
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>INDUSTRIAL</textoComentario>
                     </obraEngenharia>
                     <equipamentoEspecifico>
                       <codigoEquipamentoEspecifica />
@@ -939,22 +947,22 @@
                     </evento>
                     <obraInstalacaoMontagem>
                       <codigoTipoObraInstalacaoMontagem />
-                      <codigoObraInstalacaoMontagem />
+                      <codigoObraInstalacaoMontagem>2</codigoObraInstalacaoMontagem>
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>INDUSTRIAL</textoComentario>
                     </obraInstalacaoMontagem>
                     <fornecimentoServico>
                       <codigoFornecimentoServico />
-                      <codigoTipoServico />
+                      <codigoTipoServico>1</codigoTipoServico>
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>AUXILIARES E SERVIÇOS DE LIMPEZA</textoComentario>
                     </fornecimentoServico>
                     <estacionamento>
                       <codigoEstacionamento />
                       <codigoTipoEstacionamento />
                       <codigoTipoProponenteEstacionamento />
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>GERAL</textoComentario>
                     </estacionamento>
                     <parque>
                       <codigoParque />
@@ -1283,9 +1291,9 @@
     <Corretores>
       <susep>
         <ultimaAtualizacao />
-        <susepPorto />
+        <susepPorto>C1192J</susepPorto>
         <susepPai />
-        <susepOficial />
+        <susepOficial>AZULWJ</susepOficial>
         <nomeSucursal />
         <destinoApolice>str1234</destinoApolice>
         <dataCadastro />
@@ -2208,6 +2216,20 @@
         <codigoTipoDominio>133</codigoTipoDominio>
         <codigo>1</codigo>
         <descricao>COSSEGURADO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>101</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>LIMPEZA INDUSTRIAL, AMBIENTE ESCOLAR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>101</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>OBRA NOVA</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-06T14:01:21 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ObjetoDoSeguro" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" whenResourceMissingType="Empty" uuid="6ae4c7d2-1e1c-48bc-9664-3ce2c65384ba">
+	<property name="ireport.zoom" value="1.3310000000000064"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<subDataset name="dataset1" uuid="fb3cfac8-b775-4767-958b-844af9faf907"/>
+	<parameter name="teste" class="java.lang.String">
+		<defaultValueExpression><![CDATA["localRisco"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/$P{teste}]]>
+	</queryString>
+	<field name="codigoLocalRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoLocalRisco]]></fieldDescription>
+	</field>
+	<field name="nomeTipoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeTipoLogradouro]]></fieldDescription>
+	</field>
+	<field name="codigoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoLogradouro]]></fieldDescription>
+	</field>
+	<field name="nomeLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeLogradouro]]></fieldDescription>
+	</field>
+	<field name="numeroLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroLogradouro]]></fieldDescription>
+	</field>
+	<field name="flagSemNumero" class="java.lang.String">
+		<fieldDescription><![CDATA[flagSemNumero]]></fieldDescription>
+	</field>
+	<field name="numeroCep" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCep]]></fieldDescription>
+	</field>
+	<field name="nomeBairro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeBairro]]></fieldDescription>
+	</field>
+	<field name="nomeUnidadeFederacao" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeUnidadeFederacao]]></fieldDescription>
+	</field>
+	<field name="nomePais" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePais]]></fieldDescription>
+	</field>
+	<field name="nomeCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeCidade]]></fieldDescription>
+	</field>
+	<field name="nomeComplemento" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeComplemento]]></fieldDescription>
+	</field>
+	<field name="codigoEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/codigoEvento]]></fieldDescription>
+	</field>
+	<field name="codigoCategoriaObjetoRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/codigoCategoriaObjetoRisco]]></fieldDescription>
+	</field>
+	<field name="textoCategoriaGenerico" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/categoriaGenerico/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoImobiliaria" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/imobiliaria/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoFornecimentoServico" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/empresa/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoEstacionamento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/estacionamento/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoObraEngenharia ObraInstalacaoMontagem" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/obraInstalacaoMontagem/textoComentario]]></fieldDescription>
+	</field>
+	<field name="tipoServicoLimpeza" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='101' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/codigoTipoServico] /descricao]]></fieldDescription>
+	</field>
+	<field name="tipoServicoObraInstalacao" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='101' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/codigoTipoServico] /descricao]]></fieldDescription>
+	</field>
+	<variable name="codigoLogradouro_1" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$F{codigoLogradouro}]]></variableExpression>
+	</variable>
+	<variable name="count" class="java.lang.String" resetType="None" calculation="Count">
+		<variableExpression><![CDATA[$F{codigoLocalRisco}]]></variableExpression>
+	</variable>
+	<variable name="teste" class="java.lang.String">
+		<variableExpression><![CDATA["localRisco"]]></variableExpression>
+		<initialValueExpression><![CDATA["localRisco"]]></initialValueExpression>
+	</variable>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{codigoLocalRisco}]]></groupExpression>
+	</group>
+	<group name="ObjetoRisco" isResetPageNumber="true" footerPosition="CollateAtBottom">
+		<groupExpression><![CDATA[$F{codigoLocalRisco}]]></groupExpression>
+	</group>
+	<group name="localRisco" isResetPageNumber="true">
+		<groupExpression><![CDATA[$F{codigoLocalRisco}]]></groupExpression>
+		<groupHeader>
+			<band height="89">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			</band>
+		</groupHeader>
+	</group>
+	<detail>
+		<band height="89" splitType="Immediate">
+			<textField>
+				<reportElement x="150" y="29" width="100" height="30" uuid="a03a7a1c-0b09-44ab-a064-b981dac22429"/>
+				<textFieldExpression><![CDATA[$F{codigoLocalRisco}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="50" y="29" width="100" height="30" uuid="047d1273-77e8-4216-9e49-8ebcab096f15"/>
+				<text><![CDATA[codigoLocalRisco]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

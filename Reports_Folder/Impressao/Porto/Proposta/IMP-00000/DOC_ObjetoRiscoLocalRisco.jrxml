@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-06T14:39:48 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="teste2" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d2e9cf2b-88b4-4f72-9765-c9593e6669bc">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/localRisco]]>
+	</queryString>
+	<field name="codigoLocalRisco_1" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoLocalRisco]]></fieldDescription>
+	</field>
+	<field name="nomeTipoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeTipoLogradouro]]></fieldDescription>
+	</field>
+	<field name="codigoLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoLogradouro]]></fieldDescription>
+	</field>
+	<field name="nomeLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeLogradouro]]></fieldDescription>
+	</field>
+	<field name="numeroLogradouro" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroLogradouro]]></fieldDescription>
+	</field>
+	<field name="flagSemNumero" class="java.lang.String">
+		<fieldDescription><![CDATA[flagSemNumero]]></fieldDescription>
+	</field>
+	<field name="numeroCep" class="java.lang.String">
+		<fieldDescription><![CDATA[numeroCep]]></fieldDescription>
+	</field>
+	<field name="nomeBairro" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeBairro]]></fieldDescription>
+	</field>
+	<field name="nomeUnidadeFederacao" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeUnidadeFederacao]]></fieldDescription>
+	</field>
+	<field name="nomePais" class="java.lang.String">
+		<fieldDescription><![CDATA[nomePais]]></fieldDescription>
+	</field>
+	<field name="nomeCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeCidade]]></fieldDescription>
+	</field>
+	<field name="nomeComplemento" class="java.lang.String">
+		<fieldDescription><![CDATA[nomeComplemento]]></fieldDescription>
+	</field>
+	<field name="codigoEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/codigoEvento]]></fieldDescription>
+	</field>
+	<field name="codigoCategoriaObjetoRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/codigoCategoriaObjetoRisco]]></fieldDescription>
+	</field>
+	<field name="textoCategoriaGenerico" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/categoriaGenerico/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoImobiliaria" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/imobiliaria/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoFornecimentoServico" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/empresa/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoEstacionamento" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/estacionamento/textoComentario]]></fieldDescription>
+	</field>
+	<field name="textoObraEngenharia ObraInstalacaoMontagem" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/obraInstalacaoMontagem/textoComentario]]></fieldDescription>
+	</field>
+	<field name="tipoServicoLimpeza" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='101' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/codigoTipoServico] /descricao]]></fieldDescription>
+	</field>
+	<field name="tipoServicoObraInstalacao" class="java.lang.String">
+		<fieldDescription><![CDATA[//Dominios/Dominio[codigoTipoDominio='101' and codigo=//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/fornecimentoServico/codigoTipoServico] /descricao]]></fieldDescription>
+	</field>
+	<field name="countLocalRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[count(//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/localRisco/codigoLocalRisco)]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="89" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="13" width="555" height="76" uuid="7ddac170-005c-4922-9ca3-e7ef315b3dd5"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="644b5505-d786-4e75-b93a-4c2c0f923e5c"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="2" y="25" width="320" height="13" uuid="8fafab0a-565b-4af5-a2bc-162254b3e655"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeTipoLogradouro}.toUpperCase() + " " +$F{nomeLogradouro}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="105" y="39" width="240" height="12" uuid="5929008e-a5bc-429a-aa41-86aa86d5742e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[COMPLEMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="39" width="140" height="12" uuid="efa4f5e2-67fc-4cb1-9cf6-011ea3388c1c"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="490" y="39" width="64" height="12" uuid="04a7c3e1-e32c-40c0-a6b2-b0a9d690ccf3"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ESTADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="39" width="96" height="12" uuid="67870ed7-4017-48a5-b04e-ff2f0c9de91d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CEP ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement key="" x="326" y="25" width="62" height="13" uuid="cd1c21f3-9f2c-467c-bfd5-d7eeb653571d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{flagSemNumero}.equalsIgnoreCase( "s" ))  ? "S/N" : $F{numeroLogradouro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="394" y="25" width="161" height="13" uuid="aa743125-c3b6-458a-9f37-3a29095cc175"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeBairro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="51" width="96" height="13" uuid="4195d5ae-d97a-42b1-b801-8d8491706b7f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCep}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="105" y="51" width="240" height="13" uuid="b5314862-fdcf-484b-8ec7-69170e05b873"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeComplemento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="347" y="51" width="140" height="13" uuid="6d09c39b-6bb1-44bc-8a9c-1ccb94030a5e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeCidade}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="51" width="64" height="13" uuid="d49165da-49c1-4942-8083-e34bfef2668a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeUnidadeFederacao}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="38" width="555" height="1" uuid="bc3ced4f-55da-4c15-8379-9e215499c781"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="345" y="39" width="1" height="25" uuid="e1d1f76e-294d-4bfd-8aa2-fd743937dd84"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="488" y="39" width="1" height="25" uuid="cb3272f3-006f-42f6-8a9e-bfc73ca5a4be"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="102" y="39" width="1" height="25" uuid="331ff1e3-a0d1-45e7-83d7-70794f7890e5"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="13" width="320" height="12" uuid="9d57bb9d-2ba3-485c-be8b-f4c99a2af534">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[LOCAL DE RISCO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="13" width="62" height="12" uuid="ee241b71-8a90-4688-a7b4-37439e851b70"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[NUMERO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="394" y="13" width="161" height="12" uuid="eeba8ef8-7179-49c9-a65a-a8e2798f0d50"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[BAIRRO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="324" y="13" width="1" height="25" uuid="33d0f2d8-3ddf-413a-bb54-f745c074adf9"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="392" y="13" width="1" height="25" uuid="3b779e86-fa11-4f2e-975b-e6b35758ce14"/>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="ddc63236-e3d4-4291-bd5e-1628bb6593ed">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("1")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="305" y="64" width="1" height="25" uuid="1a48ddc0-ce36-4d38-992e-774762fe2ea6">
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("3") || $F{codigoCategoriaObjetoRisco}.equals("6")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="64" width="555" height="1" uuid="06bf12fe-efd1-4207-a422-cb05f771b154">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.7"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="deb373de-12f6-4cb3-9c9d-81ca2498a4e4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("2")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE VIGILÂNCIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="353f3ca4-7631-4099-9e46-12aa12d0ba88">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("3")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE SERVIÇO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="307" y="64" width="248" height="12" uuid="b9daf828-cc9f-45d8-9355-048d9421cbb1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("3")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[SERVIÇO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="cbc4a467-d479-4755-8aa4-f084c448e29d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("4")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO PRODUTOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="c20ca7ad-3ea5-4804-b5f2-4150175d8c37">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("5")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[ATIVIDADES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="64" width="303" height="12" uuid="53118562-5a27-4b1d-9014-1a50bf2b562b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("6")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[TIPO DE OBRA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="307" y="64" width="248" height="12" uuid="5b10b300-da5c-4c58-a5ed-08db6794fadf">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("6")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<text><![CDATA[CARACTERÍSTICA DA OBRA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="af4d2424-b855-46a4-ae61-b2c29046accb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("1")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoCategoriaGenerico}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="963f6412-e76b-4482-bb13-252177749a4d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("2")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoImobiliaria}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="a828206e-e6f8-4322-b3cb-0a715b0f8fb1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("3")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoFornecimentoServico}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="226f45d8-60c8-46bf-af24-f1c634fade46">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("4")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoEmpresa}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="9eafc2de-6e8d-40f7-a78b-fbfe03e43a7d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("5")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoEstacionamento}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="76" width="304" height="13" uuid="3932511c-c191-4406-8564-3d62f985119b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("6")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoObraEngenharia ObraInstalacaoMontagem}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="307" y="76" width="248" height="13" uuid="7f254dc9-4830-4779-936c-b8097a1631de">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("3")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoServicoLimpeza}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="307" y="76" width="248" height="13" uuid="6772eecf-e7e6-4bd7-963b-d9580f3f27ae">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoCategoriaObjetoRisco}.equals("6")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoServicoObraInstalacao}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="555" height="14" uuid="e5f9a6c4-36c3-4e94-98cc-981c3b6e109e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["OBJETO DO SEGURO " + $V{REPORT_COUNT}  + " DE " + String.valueOf(new Double($F{countLocalRisco}).intValue())]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
