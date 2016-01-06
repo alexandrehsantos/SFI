@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T15:01:46 -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_EnderecoPessoa" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="55c1aa8a-2747-42b8-8b96-e7302dfbcb18">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+<!-- 2016-01-05T15:00:37 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_EnderecoCobranca" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4fc618ce-e350-4e0a-864e-6c10c458db36">
 	<queryString language="xPath">
-		<![CDATA[//Documentos/Documento/dadosPessoaSegurado/enderecosPessoa/enderecoPessoa]]>
+		<![CDATA[//Documentos/Documento/pagadores/pagador/enderecoCobranca]]>
 	</queryString>
 	<field name="codigoEndereco" class="java.lang.String">
 		<fieldDescription><![CDATA[codigoEndereco]]></fieldDescription>
 	</field>
-	<field name="codigoTipoLogradouro" class="java.lang.String">
-		<fieldDescription><![CDATA[codigoTipoLogradouro]]></fieldDescription>
-	</field>
-	<field name="codigoTipoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/codigoTipoPessoa]]></fieldDescription>
-	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
 	<title>
 		<band height="13" splitType="Stretch">
 			<rectangle>
-				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="5c6c90de-2933-48a2-9601-0f71c79d1705"/>
+				<reportElement x="0" y="0" width="555" height="13" backcolor="#CCCCCC" uuid="543d0444-ed93-4e69-919a-7def18bd079f"/>
 				<graphicElement>
 					<pen lineWidth="0.75"/>
 				</graphicElement>
 			</rectangle>
-			<textField>
-				<reportElement x="0" y="0" width="555" height="13" uuid="45034c30-8eff-43ff-865c-6f164056b53f"/>
+			<staticText>
+				<reportElement x="-1" y="0" width="555" height="13" uuid="fcea17e3-4788-4073-a74f-255128fe2023"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="HelveticaWorld" size="8" isBold="true"/>
+					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["ENDEREÇO " + ($F{codigoTipoPessoa}.equals("1") ? "RESIDENCIAL": "EMPRESARIAL")]]></textFieldExpression>
-			</textField>
+				<text><![CDATA[ENDERECO COBRANÇA]]></text>
+			</staticText>
 		</band>
 	</title>
 	<detail>
-		<band height="30" splitType="Stretch">
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<subreport>
-				<reportElement x="0" y="0" width="555" height="30" uuid="45650631-97ce-4263-aaa3-ff5856d2af1d"/>
+				<reportElement x="0" y="0" width="555" height="40" uuid="9b363f40-57fa-4773-b27c-e1b00be7e13a"/>
 				<subreportParameter name="XML_DATE_PATTERN">
 					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 				</subreportParameter>
