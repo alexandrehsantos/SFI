@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T18:00:08 -->
+<!-- 2016-01-07T18:14:30 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoInformacaoDeCobranca" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b6c6e2dc-384e-4ce7-96b0-9606d267a2f8">
 	<property name="ireport.zoom" value="1.771561000000001"/>
 	<property name="ireport.x" value="0"/>
@@ -73,7 +73,7 @@
 				<textElement verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
-				<text><![CDATA[  FORMA DE PAGAMENTO]]></text>
+				<text><![CDATA[PAGAMENTO DA PRIMEIRA PARCELA EM]]></text>
 			</staticText>
 			<line>
 				<reportElement x="185" y="0" width="1" height="25" uuid="1e37a1b3-6299-48f9-9c8b-ccf212254964"/>

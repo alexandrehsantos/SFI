@@ -681,7 +681,7 @@
             <valorPremioClausula>1000</valorPremioClausula>
             <valorPremioServico>100</valorPremioServico>
             <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
-            <codigoMeioPagamentoPrimeiraParcela>1</codigoMeioPagamentoPrimeiraParcela>
+            <codigoMeioPagamentoPrimeiraParcela>13</codigoMeioPagamentoPrimeiraParcela>
             <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
             <nomeResumidoFormaPagamento>CARTÃO PORTO SEGURO</nomeResumidoFormaPagamento>
             <nomeFormaPagamento>CARTÃO PORTO SEGURO</nomeFormaPagamento>
@@ -700,7 +700,7 @@
             <valorPremioClausula>1000</valorPremioClausula>
             <valorPremioServico>100</valorPremioServico>
             <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
-            <codigoMeioPagamentoPrimeiraParcela>1</codigoMeioPagamentoPrimeiraParcela>
+            <codigoMeioPagamentoPrimeiraParcela>13</codigoMeioPagamentoPrimeiraParcela>
             <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
             <nomeResumidoFormaPagamento>CARTÃO PORTO SEGURO</nomeResumidoFormaPagamento>
             <nomeFormaPagamento>CARTÃO PORTO SEGURO</nomeFormaPagamento>
@@ -3425,6 +3425,13 @@
         <codigoTipoDominio>101</codigoTipoDominio>
         <codigo>2</codigo>
         <descricao>OBRA NOVA</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>17</codigoTipoDominio>
+        <codigo>13</codigo>
+        <descricao>TODAS AS PARCELAS EM BOLETO</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
