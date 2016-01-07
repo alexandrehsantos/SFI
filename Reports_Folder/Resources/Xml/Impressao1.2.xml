@@ -978,21 +978,273 @@
                 </objetosRisco>
                 <respostasQuestionarioCategoriaRisco>
                   <respostaQuestionarioCategoriaRisco>
-                    <codigoQuestionario />
-                    <numeroVersaoQuestionario />
-                    <codigoQuestao></codigoQuestao>
-                    <codigoTipoQuestao />
-                    <codigoResposta />
-                    <dataResposta />
-                    <textoResposta />
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>1</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>NÃO</textoResposta>
                     <respostasListaQuestionario>
-                      <respostaListaItem>
-                        <codigoListaItem />
-                        <ComponenteListaItem />
-                        <codigoItem />
-                        <dataResposta />
-                        <textoResposta />
-                      </respostaListaItem>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>2</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>ABERTO AO PUBLICO</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>3</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>NÃO</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>4</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>SIM</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>5</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>ABERTO</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>6</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>600</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>13</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>10.000,00</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>7</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>25/10/2015</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>8</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>25/10/2015</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>9</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>NÃO</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>11</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>SIM</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>12</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>SIM</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>14</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>23/10/2015</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>15</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>23/10/2015</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
+                    </respostasListaQuestionario>
+                  </respostaQuestionarioCategoriaRisco>
+                  <respostaQuestionarioCategoriaRisco>
+                    <codigoQuestionario>1</codigoQuestionario>
+                    <numeroVersaoQuestionario>1</numeroVersaoQuestionario>
+                    <codigoQuestao>10</codigoQuestao>
+                    <codigoTipoQuestao>1</codigoTipoQuestao>
+                    <codigoResposta>1</codigoResposta>
+                    <dataResposta></dataResposta>
+                    <textoResposta>1</textoResposta>
+                    <respostasListaQuestionario>
+                      <respostaListaQuestionario>
+                        <codigoListaItem></codigoListaItem>
+                        <codigoComponenteListaItem></codigoComponenteListaItem>
+                        <codigoItem></codigoItem>
+                        <dataResposta></dataResposta>
+                        <textoResposta></textoResposta>
+                      </respostaListaQuestionario>
                     </respostasListaQuestionario>
                   </respostaQuestionarioCategoriaRisco>
                 </respostasQuestionarioCategoriaRisco>
@@ -1001,20 +1253,280 @@
             <coberturasItem>
               <listaCoberturasItem>
                 <coberturaItemDocumento>
-                  <codigoCobertura />
-                  <codigoEmpresa />
+                  <codigoCobertura>1</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
                   <codigoRamo />
                   <codigoModalidade>29</codigoModalidade>
-                  <codigoTextoParticipacaoSegurado />
-                  <numeroVersaoTextoParticipacaoSegurado />
-                  <textoParticipacaoSegurado />
-                  <valorLimiteMaximoIndenizacao />
-                  <valorPremio />
-                  <valorImpostoOperacaoFinanceira />
-                  <percentualTaxaFixo />
-                  <flagCoberturaBase />
-                  <percentualParticipacaoSegurado />
-                  <valorParticipacaoSegurado />
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>12</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1112</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999999</numeroCnpjCpf>
+                        <nomePessoa>João de Souza Santos</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>2</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>12</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1112</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999999</numeroCnpjCpf>
+                        <nomePessoa>João de Souza Santos</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>3</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>13</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1113</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999999</numeroCnpjCpf>
+                        <nomePessoa>Julia Souza Santos</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>4</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>14</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1114</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999999</numeroCnpjCpf>
+                        <nomePessoa>Lucas Souza Santos Aguiar</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>5</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
                   <codigoTipoAtualizacao />
                   <descontosAgravosCoberturaItem>
                     <descontoAgravoCoberturaItem>
@@ -1045,10 +1557,10 @@
                     <beneficiario>
                       <codigoBeneficiario />
                       <dadosPessoa>
-                        <codigoPessoa />
-                        <codigoTipoPessoa />
-                        <numeroCnpjCpf />
-                        <nomePessoa />
+                        <codigoPessoa>15</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999</numeroCnpjCpf>
+                        <nomePessoa>Ada Lovelace</nomePessoa>
                         <nomeResumidoPessoa />
                         <flagAtivo />
                         <pessoaFisica />
@@ -1061,12 +1573,77 @@
                       </dadosPessoa>
                       <codigoListaItem />
                       <codigoTipoBem />
-                      <valorTipoBem />
+                      <valorTipoBem>20000</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>6</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>500000.00</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>16</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999</numeroCnpjCpf>
+                        <nomePessoa>Epaminondas</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000.00</valorTipoBem>
                     </beneficiario>
                   </beneficiarios>
                 </coberturaItemDocumento>
               </listaCoberturasItem>
-              <valorPremioCobertura />
+              <valorPremioCobertura>1000</valorPremioCobertura>
             </coberturasItem>
             <listaItens>
               <codigoListaItem />
@@ -1392,19 +1969,40 @@
       <Produto>
         <Coberturas>
           <Cobertura>
-            <codigoCobertura />
-            <nomeResumidoCobertura />
-            <nomeCobertura />
+            <codigoCobertura>1</codigoCobertura>
+            <nomeResumidoCobertura>RC ORGANIZADOR</nomeResumidoCobertura>
+            <nomeCobertura>RC ORGANIZADOR</nomeCobertura>
             <flagAtivo />
-            <coberturasRelacionadas>
-              <cobertura>
-                <codigoCobertura />
-                <nomeResumidoCobertura />
-                <nomeCobertura />
-                <flagAtivo />
-                <coberturasRelacionadas />
-              </cobertura>
-            </coberturasRelacionadas>
+          </Cobertura>
+          <Cobertura>
+            <codigoCobertura>2</codigoCobertura>
+            <nomeResumidoCobertura>RC FORNECIMENTO DE BEBIDAS E COMESTÍVEIS</nomeResumidoCobertura>
+            <nomeCobertura>RC FORNECIMENTO DE BEBIDAS E COMESTÍVEIS</nomeCobertura>
+            <flagAtivo />
+          </Cobertura>
+          <Cobertura>
+            <codigoCobertura>3</codigoCobertura>
+            <nomeResumidoCobertura>RC INSTALAÇÃO, MONTAGEM E DESMONTAGEM</nomeResumidoCobertura>
+            <nomeCobertura>RC INSTALAÇÃO, MONTAGEM E DESMONTAGEM</nomeCobertura>
+            <flagAtivo />
+          </Cobertura>
+          <Cobertura>
+            <codigoCobertura>4</codigoCobertura>
+            <nomeResumidoCobertura>RC DANOS MORAIS</nomeResumidoCobertura>
+            <nomeCobertura>RC DANOS MORAIS</nomeCobertura>
+            <flagAtivo />
+          </Cobertura>
+          <Cobertura>
+            <codigoCobertura>5</codigoCobertura>
+            <nomeResumidoCobertura>ACIDENTES PESSOAIS - CAPITAL TOTAL</nomeResumidoCobertura>
+            <nomeCobertura>ACIDENTES PESSOAIS - CAPITAL TOTAL</nomeCobertura>
+            <flagAtivo />
+          </Cobertura>
+          <Cobertura>
+            <codigoCobertura>6</codigoCobertura>
+            <nomeResumidoCobertura>FORNECIMENTO DE BEBIDAS E COMESTÍVEIS</nomeResumidoCobertura>
+            <nomeCobertura>FORNECIMENTO DE BEBIDAS E COMESTÍVEIS</nomeCobertura>
+            <flagAtivo />
           </Cobertura>
         </Coberturas>
         <GruposCormercial>
@@ -1636,18 +2234,511 @@
             </empresas>
             <questoes>
               <questao>
-                <codigoQuestao>10</codigoQuestao>
-                <numeroOrdemExibicao />
-                <flagRespostaObrigatorio />
-                <flagPossuiVinculo />
+                <codigoQuestao>1</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
                 <codigoTipoQuestao>1</codigoTipoQuestao>
-                <codigoMascaraQuestao />
-                <codigoListaValor />
-                <codigoListaItem>1</codigoListaItem>
-                <codigoAssunto />
-                <textoQuestao>Esta é uma questao teste com sub itens</textoQuestao>
-                <vinculos />
-                <pontuacoes />
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>O SEGURO É ESPECIFICO PARA GUARDA DE VEICUICULO DE TERCEIROS?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>2</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>O EVENTO É :</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>3</codigoQuestao>
+                <numeroOrdemExibicao>3</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>O EVENTO SERÁ REALIZADO NA PRAIA ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>4</codigoQuestao>
+                <numeroOrdemExibicao>4</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>HAVERA VENDA DE INGRESSOS NO LOCAL DO EVENTO DURANTE A VIGENCIA DA APOLICE ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>5</codigoQuestao>
+                <numeroOrdemExibicao>5</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>LOCAL ONDE SERÁ REALIZADO É :</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>6</codigoQuestao>
+                <numeroOrdemExibicao>6</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUAL O PUBLICO E PARTICIPANTES DIARIO NO EVENTO ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>7</codigoQuestao>
+                <numeroOrdemExibicao>7</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>DATA INICIAL DO EVENTO ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>8</codigoQuestao>
+                <numeroOrdemExibicao>8</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUAL A DATA FINAL DO EVENTO ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>9</codigoQuestao>
+                <numeroOrdemExibicao>9</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>DESEJA CONTRATAR COBERTURA DE RESPONSABNILIDADE CIVIL PARA GARANTIR OS EXPOSITORES E OS RISCOS DECORRENTES DE SUA ATIVIDADE ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>10</codigoQuestao>
+                <numeroOrdemExibicao>10</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>HAVERÁ TRABALHOS DE INSTALAÇÃO, MONTAGEM E DESMONTAGEM ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>11</codigoQuestao>
+                <numeroOrdemExibicao>11</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUANTOS EXPOSITORES PARCIPARÃO DO EVENTO ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>12</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>DESEJA CONTRATAR A COBERTURA DE RESPONSABILIDADE CIVIL PARA OS RISCOS DECORRENTES DESTES TRABALHOS ?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>13</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUAL O VALOR CAPITAL POR VIDA?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>14</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUAL A DATA INICIAL DE INSTALAÇÃO E MONTAGEM?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
+              </questao>
+              <questao>
+                <codigoQuestao>15</codigoQuestao>
+                <numeroOrdemExibicao>1</numeroOrdemExibicao>
+                <flagRespostaObrigatorio>1</flagRespostaObrigatorio>
+                <flagPossuiVinculo>1</flagPossuiVinculo>
+                <codigoTipoQuestao>1</codigoTipoQuestao>
+                <codigoMascaraQuestao>1</codigoMascaraQuestao>
+                <codigoListaValor>10</codigoListaValor>
+                <codigoListaItem>11</codigoListaItem>
+                <codigoAssunto>12</codigoAssunto>
+                <textoQuestao>QUANTAS EMPRESAS FORAM CONTRATADAS PELO SEGURADO PARA A PRESTAÇÃO DOS SERVIÇOS DE INSTALAÇÃO, MONTAGEM E DESMONTAGEM?</textoQuestao>
+                <vinculos>
+                  <vinculo>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoQuestaoVinculo>1234</codigoQuestaoVinculo>
+                    <codigoVinculo>1234</codigoVinculo>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>1234</textoResposta>
+                  </vinculo>
+                </vinculos>
+                <pontuacoes>
+                  <pontuacao>
+                    <codigoPontuacao>1234</codigoPontuacao>
+                    <codigoQuestionario>1234</codigoQuestionario>
+                    <numeroVersaoQuestionario>1234</numeroVersaoQuestionario>
+                    <codigoQuestao>1234</codigoQuestao>
+                    <codigoOperadorCalculo>1234</codigoOperadorCalculo>
+                    <textoResposta>str1234</textoResposta>
+                    <quantidadePonto>1234</quantidadePonto>
+                  </pontuacao>
+                </pontuacoes>
               </questao>
             </questoes>
           </Questionario>
