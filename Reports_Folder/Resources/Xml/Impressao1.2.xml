@@ -257,7 +257,7 @@
         <dataInicioVigenciaVersaoOrcamento />
         <dataFimVigenciaVersaoOrcamento />
         <valorAdicionalFracionamento />
-        <valorCustoApolice />
+        <valorCustoApolice>000</valorCustoApolice>
         <valorEncargo />
         <valorPremio />
         <textoComentario />
@@ -674,12 +674,31 @@
             <codigoFormaPagamento>4</codigoFormaPagamento>
             <valorPrimeiraParcela>251.33</valorPrimeiraParcela>
             <valorDemaisParcela>251.32</valorDemaisParcela>
-            <valorImpostoOperacaoFinanceira>0</valorImpostoOperacaoFinanceira>
+            <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
             <valorAdicionalFracionamento>0</valorAdicionalFracionamento>
             <valorEncargo>0</valorEncargo>
-            <valorPremioCobertura>0</valorPremioCobertura>
-            <valorPremioClausula>0</valorPremioClausula>
-            <valorPremioServico>0</valorPremioServico>
+            <valorPremioCobertura>181.35</valorPremioCobertura>
+            <valorPremioClausula>1000</valorPremioClausula>
+            <valorPremioServico>100</valorPremioServico>
+            <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
+            <codigoMeioPagamentoPrimeiraParcela>1</codigoMeioPagamentoPrimeiraParcela>
+            <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
+            <nomeResumidoFormaPagamento>CARTÃO PORTO SEGURO</nomeResumidoFormaPagamento>
+            <nomeFormaPagamento>CARTÃO PORTO SEGURO</nomeFormaPagamento>
+            <quantidadeParcela>4</quantidadeParcela>
+            <flagAtivo>1</flagAtivo>
+            <textoComentario>4 X TODAS CARTÃO PORTO SEGURO</textoComentario>
+          </formaPagamento>
+          <formaPagamento>
+            <codigoFormaPagamento>4</codigoFormaPagamento>
+            <valorPrimeiraParcela>251.33</valorPrimeiraParcela>
+            <valorDemaisParcela>251.32</valorDemaisParcela>
+            <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+            <valorAdicionalFracionamento>0</valorAdicionalFracionamento>
+            <valorEncargo>0</valorEncargo>
+            <valorPremioCobertura>181.35</valorPremioCobertura>
+            <valorPremioClausula>1000</valorPremioClausula>
+            <valorPremioServico>100</valorPremioServico>
             <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
             <codigoMeioPagamentoPrimeiraParcela>1</codigoMeioPagamentoPrimeiraParcela>
             <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
@@ -739,10 +758,22 @@
         </respostasQuestionario>
         <descontosAgravo>
           <descontoAgravo>
-            <codigoDescontoAgravo />
-            <percentualDescontoAgravo />
+            <codigoDescontoAgravo>1</codigoDescontoAgravo>
+            <percentualDescontoAgravo>10</percentualDescontoAgravo>
+            <valorDescontoAgravo></valorDescontoAgravo>
+            <codigoTipoDescontoAgravo>1</codigoTipoDescontoAgravo>
+          </descontoAgravo>
+          <descontoAgravo>
+            <codigoDescontoAgravo>1</codigoDescontoAgravo>
+            <percentualDescontoAgravo>10</percentualDescontoAgravo>
+            <valorDescontoAgravo></valorDescontoAgravo>
+            <codigoTipoDescontoAgravo>1</codigoTipoDescontoAgravo>
+          </descontoAgravo>
+          <descontoAgravo>
+            <codigoDescontoAgravo>1</codigoDescontoAgravo>
+            <percentualDescontoAgravo>10</percentualDescontoAgravo>
             <valorDescontoAgravo />
-            <codigoTipoDescontoAgravo />
+            <codigoTipoDescontoAgravo>1</codigoTipoDescontoAgravo>
           </descontoAgravo>
         </descontosAgravo>
         <auditoria>
@@ -1270,9 +1301,9 @@
                   <codigoTipoAtualizacao />
                   <descontosAgravosCoberturaItem>
                     <descontoAgravoCoberturaItem>
-                      <codigoDescontoAgravo />
+                      <codigoDescontoAgravo>1</codigoDescontoAgravo>
                       <valorDescontoAgravo />
-                      <percentualDescontoAgravo />
+                      <percentualDescontoAgravo>10</percentualDescontoAgravo>
                       <codigoTipoDescontoAgravo />
                     </descontoAgravoCoberturaItem>
                   </descontosAgravosCoberturaItem>
@@ -1335,9 +1366,9 @@
                   <codigoTipoAtualizacao />
                   <descontosAgravosCoberturaItem>
                     <descontoAgravoCoberturaItem>
-                      <codigoDescontoAgravo />
+                      <codigoDescontoAgravo>2</codigoDescontoAgravo>
                       <valorDescontoAgravo />
-                      <percentualDescontoAgravo />
+                      <percentualDescontoAgravo>10</percentualDescontoAgravo>
                       <codigoTipoDescontoAgravo />
                     </descontoAgravoCoberturaItem>
                   </descontosAgravosCoberturaItem>
@@ -1400,9 +1431,9 @@
                   <codigoTipoAtualizacao />
                   <descontosAgravosCoberturaItem>
                     <descontoAgravoCoberturaItem>
-                      <codigoDescontoAgravo />
+                      <codigoDescontoAgravo>3</codigoDescontoAgravo>
                       <valorDescontoAgravo />
-                      <percentualDescontoAgravo />
+                      <percentualDescontoAgravo>10</percentualDescontoAgravo>
                       <codigoTipoDescontoAgravo />
                     </descontoAgravoCoberturaItem>
                   </descontosAgravosCoberturaItem>
@@ -1713,18 +1744,29 @@
             <clausulasItem>
               <listaClausulaItem>
                 <clausulaItem>
-                  <codigoClausula />
-                  <numeroVersaoClausula />
+                  <codigoClausula>1</codigoClausula>
+                  <numeroVersaoClausula>1</numeroVersaoClausula>
                   <codigoTipoClausula />
                   <valorPremio />
                   <valorImpostoOperacaoFinanceira />
                   <flagObrigatorio />
                   <flagEdicaoManual />
                   <flagAtivo />
-                  <textoClausula />
+                  <textoClausula>Contratada esta cobertura, o capital garantido para Despesas Médicas-Hospitalares e Odontológicas será de no máximo 10% (dez por cento) da verba individual contratada para a cobertura de Acidentes Pessoais.</textoClausula>
+                </clausulaItem>
+                <clausulaItem>
+                  <codigoClausula>2</codigoClausula>
+                  <numeroVersaoClausula>1</numeroVersaoClausula>
+                  <codigoTipoClausula />
+                  <valorPremio />
+                  <valorImpostoOperacaoFinanceira />
+                  <flagObrigatorio />
+                  <flagEdicaoManual />
+                  <flagAtivo />
+                  <textoClausula>O limite máximo de indenização individual da cobertura de acidentes pessoais foi calculado e contratado com pessoas informadas na proposta de seguros. Em caso de sinistro, em hiótese algum, a indenizaçÃo por pessoa, ultrapassará o limite máximo de indenização calculuado, independentemente da importância Segurada contratada......................................................................................................................................................................... </textoClausula>
                 </clausulaItem>
               </listaClausulaItem>
-              <valorPremioClausula />
+              <valorPremioClausula>0</valorPremioClausula>
             </clausulasItem>
             <criticasItem>
               <criticaItem>
@@ -2046,9 +2088,33 @@
         </Modaliades>
         <Clauslas>
           <Clausula>
-            <codigoClausula />
-            <nomeResumidoClausula />
-            <nomeClausula />
+            <codigoClausula>1</codigoClausula>
+            <nomeResumidoClausula>DESPESAS MÉDICO-HOSPITALARES E ODONTOLÓGICAS</nomeResumidoClausula>
+            <nomeClausula>DESPESAS MÉDICO-HOSPITALARES E ODONTOLÓGICAS</nomeClausula>
+            <numeroVersaoClausula />
+            <codigoTipoClausula />
+            <flagPermissaoEdicao />
+            <dataInicioVigencia />
+            <dataFimVigencia />
+            <flagCancelada />
+            <empresas>
+              <empresa>
+                <empresa />
+                <flagAtivo />
+              </empresa>
+            </empresas>
+            <hierarquias>
+              <hierarquiaClausula>
+                <codigoNivelHierarquia />
+                <numeroNivelHierarquia />
+                <textoClausula />
+              </hierarquiaClausula>
+            </hierarquias>
+          </Clausula>
+          <Clausula>
+            <codigoClausula>2</codigoClausula>
+            <nomeResumidoClausula>ACIDENTES PESSOAIS - CAPITAL TOTAL</nomeResumidoClausula>
+            <nomeClausula>ACIDENTES PESSOAIS - CAPITAL TOTAL</nomeClausula>
             <numeroVersaoClausula />
             <codigoTipoClausula />
             <flagPermissaoEdicao />
@@ -2081,11 +2147,35 @@
         </Beneficios>
         <DescontosAgravo>
           <DescontoAgravo>
-            <codigoDescontoAgravo />
+            <codigoDescontoAgravo>1</codigoDescontoAgravo>
             <codigoTipoCalculoDescontoAgravo />
             <codigoTipoDescontoAgravo />
             <nomeResumidoDescontoAgravo />
-            <nomeDescontoAgravo />
+            <nomeDescontoAgravo>DESCONTO DE NEGOCIAÇÃO</nomeDescontoAgravo>
+            <percentualMinimoDescontoAgravo />
+            <percentualMaximoDescontoAgravo />
+            <flagAtivo />
+            <flagImpressaoDescontoAgravo />
+            <flagPermissaoDescontoAgravoRenovacao />
+          </DescontoAgravo>
+          <DescontoAgravo>
+            <codigoDescontoAgravo>2</codigoDescontoAgravo>
+            <codigoTipoCalculoDescontoAgravo />
+            <codigoTipoDescontoAgravo />
+            <nomeResumidoDescontoAgravo />
+            <nomeDescontoAgravo>DESCONTO POR AGRUPAMENTO DE COBERTURAS</nomeDescontoAgravo>
+            <percentualMinimoDescontoAgravo />
+            <percentualMaximoDescontoAgravo />
+            <flagAtivo />
+            <flagImpressaoDescontoAgravo />
+            <flagPermissaoDescontoAgravoRenovacao />
+          </DescontoAgravo>
+          <DescontoAgravo>
+            <codigoDescontoAgravo>3</codigoDescontoAgravo>
+            <codigoTipoCalculoDescontoAgravo />
+            <codigoTipoDescontoAgravo />
+            <nomeResumidoDescontoAgravo />
+            <nomeDescontoAgravo>DESCONTO POR AGRUPAMENTO DE COBERTURAS</nomeDescontoAgravo>
             <percentualMinimoDescontoAgravo />
             <percentualMaximoDescontoAgravo />
             <flagAtivo />
@@ -3314,6 +3404,20 @@
         <codigoTipoDominio>101</codigoTipoDominio>
         <codigo>1</codigo>
         <descricao>LIMPEZA INDUSTRIAL, AMBIENTE ESCOLAR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>62</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>AGRAVO</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>62</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>DESCONTO</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>

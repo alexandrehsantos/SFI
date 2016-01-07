@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-07T14:54:27 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescontoAgravoItem" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ec3e7705-75c0-4a73-93a4-48a4e56e0b5e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/descontosAgravo/descontoAgravo]]>
+	</queryString>
+	<field name="percentualDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[percentualDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="codigoDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[codigoDescontoAgravo]]></fieldDescription>
+	</field>
+	<field name="nomeDescontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[//Produtos/Produto/DescontosAgravo/DescontoAgravo[codigoDescontoAgravo=current()/codigoDescontoAgravo]/nomeDescontoAgravo]]></fieldDescription>
+	</field>
+	<group name="descontoAgravo">
+		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+	</group>
+	<detail>
+		<band height="13">
+			<textField pattern="#,##0.00">
+				<reportElement x="0" y="0" width="555" height="13" uuid="1925c558-5757-4a43-8fa1-c0f7be712e88">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeDescontoAgravo} +" "+new DecimalFormat("#,##0.00").format(new BigDecimal($F{percentualDescontoAgravo})) + "%"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

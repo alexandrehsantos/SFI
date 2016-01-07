@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T17:35:25 -->
+<!-- 2016-01-07T17:21:03 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proposta" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -484,71 +484,12 @@
 	</group>
 	<group name="DemonstrativoDePremioDoLocal">
 		<groupHeader>
-			<band height="20">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="20" uuid="ee8c844f-928e-4000-b392-46b68bddb375"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_DemonstrativoDePremioLocal.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
+			<band height="20"/>
 		</groupHeader>
 	</group>
 	<group name="DemonstrativoDePremio">
 		<groupHeader>
-			<band height="20">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="20" uuid="ebb6724d-d43e-43af-9966-57651bc41303"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_DemonstrativoDePremio.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-		</groupHeader>
-	</group>
-	<group name="DemonstrativoDePremioSemMovimento">
-		<groupHeader>
-			<band height="20">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="20" uuid="e898ab95-bd91-4b36-8da2-ee1fd2d639ef"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_DemonstrativoDePremio-SemMovimento.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
+			<band height="20"/>
 		</groupHeader>
 	</group>
 	<title>

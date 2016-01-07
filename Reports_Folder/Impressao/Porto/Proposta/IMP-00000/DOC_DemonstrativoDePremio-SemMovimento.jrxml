@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-07T17:37:16 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DemonstrativoDePremio" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7fa26f4a-997e-4917-8a6e-3044d2c46836">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento/formasPagamento/formaPagamento[1]]]>
+	</queryString>
+	<field name="valorPremioCobertura" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioCobertura)]]></fieldDescription>
+	</field>
+	<field name="valorPremioClausula" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioClausula)]]></fieldDescription>
+	</field>
+	<field name="valorPremioServico" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioServico)]]></fieldDescription>
+	</field>
+	<field name="valorImpostoOperacaoFinanceira" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorImpostoOperacaoFinanceira)]]></fieldDescription>
+	</field>
+	<variable name="vValorPremioTotal" class="java.lang.Double">
+		<variableExpression><![CDATA[new Double($F{valorPremioCobertura}) + new Double($F{valorPremioClausula}) +  new Double($F{valorPremioServico})	 +  new Double($F{valorImpostoOperacaoFinanceira})]]></variableExpression>
+	</variable>
+	<title>
+		<band height="12">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="f0b7b951-121c-4b35-a84b-88cb0d21d781"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" uuid="15d319ce-076c-4dca-a2a7-33567ba8f4dd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEMONSTRATIVO DE PRÊMIO]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="13">
+			<rectangle>
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="13" backcolor="#FFFFFF" uuid="e108b884-3d14-471f-8d0b-e78efd5e7004">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="555" height="13" uuid="01c23a68-33ab-4a61-8ac9-c97e96052457">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SEM MOVIMENTO DE PRÊMIO"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
