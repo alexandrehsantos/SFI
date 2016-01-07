@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2015-12-23T14:35:32 -->
+<!-- 2016-01-05T17:23:16 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_ObjetoRiscoEvento" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isTitleNewPage="true" isSummaryWithPageHeaderAndFooter="true" uuid="abd86935-c1f2-47ae-b4c4-599b7e346459">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="XPath">
 		<![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento]]>
 	</queryString>
@@ -31,7 +32,7 @@
 		<initialValueExpression><![CDATA[$F{codigoEvento}]]></initialValueExpression>
 	</variable>
 	<detail>
-		<band height="100">
+		<band height="52">
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<rectangle>
 				<reportElement x="0" y="0" width="555" height="52" uuid="3b232633-4ebe-4c44-ad66-9c2436dcf11c">
@@ -151,14 +152,6 @@
 					<font size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{temaEvento}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="0" y="66" width="278" height="30" uuid="f791de66-d548-4724-9e92-80a9d5a66c61"/>
-				<textFieldExpression><![CDATA[$F{codigoTemaEvento}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="278" y="66" width="277" height="30" uuid="689e90d1-01d6-4882-a0f0-0f98fad88310"/>
-				<textFieldExpression><![CDATA[$F{codigoCategoriaEvento}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

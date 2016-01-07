@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-06T16:19:15 -->
+<!-- 2016-01-06T16:41:48 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="itemcobertura" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
 	<property name="ireport.zoom" value="2.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="xPath">
 		<![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/coberturasItem/listaCoberturasItem/coberturaItemDocumento]]>
 	</queryString>
@@ -39,38 +40,30 @@
 		<fieldDescription><![CDATA[percentualParticipacaoSegurado]]></fieldDescription>
 	</field>
 	<detail>
-		<band height="13" splitType="Stretch">
-			<frame borderSplitType="DrawBorders">
-				<reportElement key="" isPrintRepeatedValues="false" x="0" y="0" width="555" height="13" isPrintInFirstWholeBand="true" uuid="a1afa4ee-3349-4636-b793-61592b7ed641"/>
-				<subreport>
-					<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="13" uuid="01ef7e02-b6a7-4fca-b810-3bee161dca8e">
-						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
-						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-					</reportElement>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pstrCobertura">
-						<subreportParameterExpression><![CDATA[$F{percentualTaxaFixo} + " DAS INDENIZAÇÕES COM O MINÍMO DE R$ " + $F{valorParticipacaoSegurado}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_NUMBER_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pcodigoCobertura">
-						<subreportParameterExpression><![CDATA[$F{codigoCobertura}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["coberturasparticipacao.jasper"]]></subreportExpression>
-				</subreport>
-			</frame>
+		<band height="20" splitType="Stretch">
+			<subreport>
+				<reportElement x="0" y="0" width="595" height="20" uuid="129c9828-46dd-4be4-9d74-19191d0a46d2"/>
+				<subreportParameter name="XML_DATE_PATTERN">
+					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_LOCALE">
+					<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_TIME_ZONE">
+					<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="pcodigoCobertura">
+					<subreportParameterExpression><![CDATA[$F{codigoCobertura}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="pstrCobertura">
+					<subreportParameterExpression><![CDATA[$F{percentualTaxaFixo}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/COB_CoberturaNomeResumidoCobertura.jasper"]]></subreportExpression>
+			</subreport>
 		</band>
 	</detail>
 </jasperReport>

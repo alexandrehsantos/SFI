@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T14:27:50 -->
+<!-- 2016-01-06T23:22:22 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proposta" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
-	<property name="ireport.callouts" value="callouts.19.text=OBSERVA\u00C7\u00D5ES DO PROPONENTE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.19.bounds=603,663,384,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.pins=476,478;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.pins=466,572;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.pins=468,544;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.pins=473,603;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.fg=0,0,0\n\n\n\n\n\n&#xA;callouts.19.pins=466,674;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.text=Dados gerais do Proponente - Pessoa Jur\u00EDdica\r\n\n\n\n&#xA;callouts.10.bounds=630,461,332,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.text=PARTICIPACAO OBRIGAT\u00D3RIA DO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.text=CL\u00C1USULAS BENEFICI\u00C1RIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.bounds=627,477,196,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.pins=541,191\n\n\n&#xA;callouts.14.text=DEMONSTRATIVO DE PR\u00CAMIO POR OBJETO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.bounds=606,500,366,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.text=INFORMA\u00C7\u00D5ES DE COBRAN\u00C7A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.bg=255,255,0\n\n\n\n\n\n&#xA;callouts.18.text=OBSERVA\u00C7\u00D5ES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.pins=475,459;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.pins=502,438;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.bounds=603,564,298,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.pins=472,497;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.fg=0,0,0\n\n\n&#xA;callouts.14.pins=470,527;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.bounds=618,524,358,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.pins=476,585;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.bounds=760,135,361,29\n\n\n\n\n\n&#xA;callouts.18.pins=472,642;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.bounds=606,542,370,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.bounds=612,435,368,30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.1.text=Dados gerais do Proponente - Pessoa Fisica\n\n\n\n\n\n&#xA;callouts.2.bounds=710,186,359,28\n\n\n&#xA;callouts.16.bounds=610,588,373,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.bounds=606,607,332,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.text=DESCONTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.2.bg=255,255,0\n\n\n&#xA;callouts.1.pins=555,154\n\n\n\n\n\n&#xA;callouts.13.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.bounds=604,628,344,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.text=VALOR DAS PARCELAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;"/>
+	<property name="ireport.callouts" value="callouts.16.bounds=610,588,373,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.bounds=612,435,368,30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.bounds=627,477,196,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.pins=472,642;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.19.pins=466,674;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.pins=472,497;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.text=DEMONSTRATIVO DE PR\u00CAMIO POR OBJETO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.text=PARTICIPACAO OBRIGAT\u00D3RIA DO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.pins=466,572;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.text=DEMONSTRATIVO DE PR\u00CAMIO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.text=DESCONTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.bounds=618,524,358,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.19.bounds=603,663,384,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.bounds=606,607,332,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.bounds=606,500,366,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.bounds=606,542,370,35\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.pins=470,527;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.bounds=630,461,332,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.text=INFORMA\u00C7\u00D5ES DE COBRAN\u00C7A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.pins=475,459;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.pins=468,544;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.text=VALOR DAS PARCELAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.pins=476,478;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.text=CL\u00C1USULAS BENEFICI\u00C1RIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.pins=476,585;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.text=OBSERVA\u00C7\u00D5ES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.pins=473,603;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.19.text=OBSERVA\u00C7\u00D5ES DO PROPONENTE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.20.pins=502,438;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.bounds=604,628,344,38\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.bounds=603,564,298,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;"/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<style name="TITLE"/>
 	<style name="conteudo" hTextAlign="Center" hImageAlign="Center" fontName="Kartika" fontSize="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
@@ -79,6 +79,15 @@
 	</field>
 	<field name="codigoEnderecoPessoaSegurado" class="java.lang.String">
 		<fieldDescription><![CDATA[//Documentos/Documento/dadosPessoaSegurado/enderecosPessoa/enderecoPessoa/codigoEndereco]]></fieldDescription>
+	</field>
+	<field name="codigoEnderecoCobranca" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/pagadores/pagador/enderecoCobranca]]></fieldDescription>
+	</field>
+	<field name="codigoCorretor" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/corretores/corretor[flagPrincipal='S']  /codigoCorretor | //Documentos/Documento/corretores/corretor[flagPrincipal='s'] /codigoCorretor]]></fieldDescription>
+	</field>
+	<field name="categoriaRisco" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/obraEngenharia/textoComentario  /ImprimirDocumentoEmissao/Impressao/Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/categoriasRisco/categoriaRisco/codigoCategoriaObjetoRisco]]></fieldDescription>
 	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
@@ -213,6 +222,170 @@
 					</subreportParameter>
 					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
 					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_EnderecoPessoa.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="EnderecoCobranca">
+		<groupExpression><![CDATA[$F{codigoEnderecoCobranca}]]></groupExpression>
+		<groupHeader>
+			<band height="19">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="19" uuid="a1a8cbf1-b971-4e77-92ee-3a6565062a78"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_EnderecoCobranca.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="DadosDoCorretor">
+		<groupExpression><![CDATA[$F{codigoCorretor}]]></groupExpression>
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="2aa563f6-5374-4f6d-a7f8-b21458d90d30"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_Corretor.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ObojetoDoSeguro">
+		<groupExpression><![CDATA[$F{categoriaRisco}]]></groupExpression>
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="816e28f8-b81b-4a65-ab86-ec7d48c3866e"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_ObjetoRiscoLocalRisco.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="CoberturasContratadas">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="27d74abc-64d7-4b8b-b0e5-30a492f6e446"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/DOC_CoberturaItemDocumento.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ParticipacaoObrigatoriaDoSegurado">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="d44bf8d6-0f50-45a3-9864-2823b0ab2b51"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_ParticipacaoSeguradoCoberturaItem.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="QuestionarioObrigatorio">
+		<groupHeader>
+			<band height="18">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="18" uuid="88e136f0-8ca2-4c99-b2a1-5ee42a2b5190"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_QuestionarioCategoriaRisco.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ClausulasBeneficiarias">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="810fb983-0fbc-4397-bc13-4783bd403750"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/DOC_COB_beneficiarios.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
 		</groupHeader>

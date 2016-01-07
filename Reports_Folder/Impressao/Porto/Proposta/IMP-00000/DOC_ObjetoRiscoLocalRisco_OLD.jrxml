@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-06T11:34:22 -->
+<!-- 2016-01-06T14:37:37 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ObjetoDoSeguro" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" whenResourceMissingType="Empty" uuid="6ae4c7d2-1e1c-48bc-9664-3ce2c65384ba">
 	<property name="ireport.zoom" value="1.3310000000000064"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<subDataset name="dataset1" uuid="fb3cfac8-b775-4767-958b-844af9faf907"/>
 	<parameter name="teste" class="java.lang.String">
 		<defaultValueExpression><![CDATA["localRisco"]]></defaultValueExpression>
@@ -94,11 +95,13 @@
 	<group name="ObjetoRisco" isResetPageNumber="true" footerPosition="CollateAtBottom">
 		<groupExpression><![CDATA[$F{codigoLocalRisco}]]></groupExpression>
 	</group>
+	<group name="localRisco" isResetPageNumber="true">
+		<groupExpression><![CDATA[$F{codigoLocalRisco}]]></groupExpression>
+	</group>
 	<detail>
-		<band height="122">
-			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		<band height="89" splitType="Immediate">
 			<rectangle>
-				<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="555" height="76" uuid="53efacbc-4184-4fc5-902e-bb1d28234998">
+				<reportElement stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" x="0" y="13" width="555" height="76" isPrintInFirstWholeBand="true" uuid="53efacbc-4184-4fc5-902e-bb1d28234998">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<graphicElement>

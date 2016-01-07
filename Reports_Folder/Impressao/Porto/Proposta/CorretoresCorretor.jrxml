@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-05T15:16:59 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
 	<property name="ireport.zoom" value="1.652892561983471"/>
 	<property name="ireport.x" value="0"/>
@@ -34,8 +36,8 @@
 					</graphicElement>
 				</rectangle>
 				<staticText>
-					<reportElement x="488" y="3" width="63" height="9" uuid="ca9c8991-e6c1-433e-860f-5c5f785893d3"/>
-					<textElement>
+					<reportElement x="487" y="1" width="68" height="12" uuid="ca9c8991-e6c1-433e-860f-5c5f785893d3"/>
+					<textElement verticalAlignment="Bottom">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
 					<text><![CDATA[% PART.]]></text>
@@ -47,15 +49,15 @@
 					</graphicElement>
 				</line>
 				<staticText>
-					<reportElement x="374" y="3" width="63" height="9" uuid="94ad981f-1e2a-496e-bdee-a7e2a59aa050"/>
-					<textElement>
+					<reportElement x="374" y="1" width="112" height="12" uuid="94ad981f-1e2a-496e-bdee-a7e2a59aa050"/>
+					<textElement verticalAlignment="Bottom">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
 					<text><![CDATA[TELEFONE]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="71" y="3" width="63" height="9" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
-					<textElement>
+					<reportElement x="69" y="1" width="301" height="12" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
+					<textElement verticalAlignment="Bottom">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
 					<text><![CDATA[CORRETOR LÍDER]]></text>
@@ -67,35 +69,40 @@
 					</graphicElement>
 				</line>
 				<staticText>
-					<reportElement x="4" y="3" width="63" height="9" uuid="8a5236a9-8a63-45be-871d-3e7df3f046d8"/>
-					<textElement>
+					<reportElement x="4" y="1" width="63" height="12" uuid="8a5236a9-8a63-45be-871d-3e7df3f046d8">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement verticalAlignment="Bottom">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
 					<text><![CDATA[SUSEP]]></text>
 				</staticText>
 				<textField>
-					<reportElement x="4" y="12" width="62" height="12" uuid="ea9205d5-2ba1-4f78-a2ba-3678d5912fcd"/>
+					<reportElement x="4" y="13" width="63" height="12" uuid="ea9205d5-2ba1-4f78-a2ba-3678d5912fcd">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
 					<textElement>
 						<font fontName="Kartika" size="8"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{susepCorretor}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="71" y="13" width="301" height="12" uuid="34fa5602-3a2d-41d3-a6ab-26a08a6482d1"/>
+					<reportElement x="69" y="13" width="301" height="12" uuid="34fa5602-3a2d-41d3-a6ab-26a08a6482d1"/>
 					<textElement>
 						<font fontName="Kartika" size="8"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{nomeCorretor}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="375" y="12" width="88" height="12" uuid="b94d7afc-8c82-4188-8968-4d20613ec945"/>
+					<reportElement x="374" y="13" width="111" height="12" uuid="b94d7afc-8c82-4188-8968-4d20613ec945"/>
 					<textElement>
 						<font fontName="Kartika" size="8"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{telefone}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="489" y="13" width="58" height="12" uuid="e002ba6f-9b5d-40c6-a6dc-25c06df02e05"/>
+					<reportElement x="487" y="13" width="68" height="12" uuid="e002ba6f-9b5d-40c6-a6dc-25c06df02e05"/>
 					<textElement>
 						<font fontName="Kartika" size="8"/>
 					</textElement>
@@ -108,14 +115,18 @@
 					</graphicElement>
 				</line>
 				<textField>
-					<reportElement x="3" y="39" width="100" height="12" uuid="7f194259-e402-461d-aa1e-c45bae5a8da3"/>
+					<reportElement x="4" y="39" width="100" height="13" uuid="7f194259-e402-461d-aa1e-c45bae5a8da3">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
 					<textElement>
 						<font fontName="Kartika" size="8"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
 				</textField>
 				<staticText>
-					<reportElement x="4" y="30" width="63" height="9" uuid="5aceb68e-c2b1-45cb-9e9d-a952cf541897"/>
+					<reportElement x="4" y="27" width="551" height="12" uuid="5aceb68e-c2b1-45cb-9e9d-a952cf541897">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
 					<textElement>
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
