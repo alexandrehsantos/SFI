@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projeto>
+  <orcamentos>
+    <header>
+      <logo_empresa>C:\Users\rogerio.j.oliveira\Desktop\Etc\Repositorio\_Projetos\PortoSeguro\InnovaRe\Jasper\relatorio\orcamento\image\2_12_residencia_habitual.jpg</logo_empresa>
+      <numeroOrcamento>8150991</numeroOrcamento>
+      <numeroOrcamentoInterno>22222</numeroOrcamentoInterno>
+      <numeroVersaoOrcamento>1.1</numeroVersaoOrcamento>
+      <titulo>Orçamento</titulo>
+      <cnpj_Empresa>111.222.333\0001-44</cnpj_Empresa>
+      <ramo>171</ramo>
+      <modalidade>415</modalidade>
+      <oferta>EVENTOS</oferta>
+      <susepEmpresa>15414.002288/2005-85, 10.0197378 C1192J</susepEmpresa>
+      <tipoSeguro>NOVO</tipoSeguro>
+      <dataCalculo>08/09/2015</dataCalculo>
+      <dataValidade>18/09/2015</dataValidade>
+    </header>
+    <footer>
+      <susepCorretor>111.222.333\0001-22</susepCorretor>
+      <nomeCorretor>171</nomeCorretor>
+      <nomeprogramaimpressao>415</nomeprogramaimpressao>
+    </footer>
+    <orcamento>
+      <coberturas>
+        <cobertura>
+          <id>1</id>
+          <clausula> Clausula 1 </clausula>
+          <text>Cobertura 1 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+ 			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>2</id>
+          <clausula> Clausula 2 </clausula>
+          <text>Cobertura 2 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>3</id>
+          <clausula> Clausula 3 </clausula>
+          <text>Cobertura 3 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>4</id>
+          <clausula> Clausula 4 </clausula>
+          <text>Cobertura 4 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+ 			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>6</id>
+          <clausula> Clausula 6 </clausula>
+          <text>Cobertura 6 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>7</id>
+          <clausula> Clausula 7 </clausula>
+          <text>Cobertura 7 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+ 			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>8</id>
+          <clausula> Clausula 8 </clausula>
+          <text>Cobertura 8 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>9</id>
+          <clausula> Clausula 9 </clausula>
+          <text>Cobertura 9 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>10</id>
+          <clausula> Clausula 10 </clausula>
+          <text>Cobertura 10 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+ 			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>11</id>
+          <clausula> Clausula 11 </clausula>
+          <text>Cobertura 11 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+        <cobertura>
+          <id>12</id>
+          <clausula> Clausula 12 </clausula>
+          <text>Cobertura 12 XXXX XXXX XXXX XXXXx XXXXXxxXXx XXXXXX XXXXX 
+			      Refer to the installPostgreSQL.txt file included in the source code download (chap5) to install and run PostgreSQL, which should be up and running before you proceed. The source code also includes a file named copySampleDataIntoPGS.txt, which helps you create a database named jasperdb6 and copy sample data for this recipe into the database.
+			      Open the SimpleTOCReport.jrxml file from the Task2 folder of the source code. The Designer tab of iReport shows a report containing data in Title, Column Header, Customer Group Header 1, Product Group Header 1, Detail 1, and Product Group Footer 1 sections, as shown in the following screenshot:</text>
+        </cobertura>
+      </coberturas>
+    </orcamento>
+    <dadosproponente>
+      <nome>ANA MARIA TESTE  + TESTE + TESTE + TESTE + TESTE</nome>
+      <tipoPessoa>FISICA</tipoPessoa>
+      <cpfcnpj>36.737.537-03</cpfcnpj>
+      <telefone>011 38231800</telefone>
+    </dadosproponente>
+    <dadosseguro>
+      <logradouro>RUA JOSÉ EDUARDO FILHO</logradouro>
+      <numero>1234</numero>
+      <bairro>VILA GUILHERME</bairro>
+      <cep>02535-000</cep>
+      <complemento>PAVILHAO BRANCO B2</complemento>
+      <cidade>SÃO PAULO</cidade>
+      <estado>SP</estado>
+      <nomeEvento>EXPOPOSTOS &amp; CONVENIENCIA</nomeEvento>
+      <proponenteContrato>ORGANIZADOR</proponenteContrato>
+      <categoriaEvento>FEIRAS, EXPOSIÇÕES, RECREAÇÕES E EVENTOS TÉCNICOS</categoriaEvento>
+      <temaEvento>LANÇAMENTO DE PRODUTOS OU SERVIÇOS</temaEvento>
+      <vigenciaInicial>29/09/2015</vigenciaInicial>
+      <vigenciaFinal>25/11/2015</vigenciaFinal>
+    </dadosseguro>
+  </orcamentos>
+</projeto>

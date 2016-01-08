@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="header" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="1254"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\rogerio.j.oliveira\\Desktop\\Etc\\Repositorio\\_Projetos\\PortoSeguro\\InnovaRe\\Jasper\\relatorio\\orcamento\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Impressao]]>
+	</queryString>
+	<field name="dataInicioVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/dataInicioVigencia]]></fieldDescription>
+	</field>
+	<field name="dataFimVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/dataFimVigencia]]></fieldDescription>
+	</field>
+	<field name="numeroOrcamento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/numeroOrcamento]]></fieldDescription>
+	</field>
+	<field name="numeroOrcamentoExterno" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/numeroOrcamentoExterno]]></fieldDescription>
+	</field>
+	<field name="nomeTipoSeguro" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/nomeTipoSeguro]]></fieldDescription>
+	</field>
+	<field name="dataEmissao" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/dataEmissao]]></fieldDescription>
+	</field>
+	<field name="dataCalculo" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/dataCalculo]]></fieldDescription>
+	</field>
+	<field name="dataValidade" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/dataValidade]]></fieldDescription>
+	</field>
+	<field name="codigoRamo" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Ramos/Ramo/codigoRamo]]></fieldDescription>
+	</field>
+	<field name="nomeRamo" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Ramos/Ramo/nomeRamo]]></fieldDescription>
+	</field>
+	<field name="codigoModalidade" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Modalidades/Modalidade/codigoModalidade]]></fieldDescription>
+	</field>
+	<field name="nomeModalidade" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Modalidades/Modalidade/nomeModalidade]]></fieldDescription>
+	</field>
+	<field name="codigoProcessoSusepPrincipal" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Modalidades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
+	</field>
+	<field name="codigoOferta" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Oferta/codigoOferta]]></fieldDescription>
+	</field>
+	<field name="nomeOferta" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Oferta/nomeOferta]]></fieldDescription>
+	</field>
+	<field name="nomePathImagem" class="java.lang.String">
+		<fieldDescription><![CDATA[Produto/Oferta/nomePathImagem]]></fieldDescription>
+	</field>
+	<field name="codigoPessoa" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/codigoPessoa]]></fieldDescription>
+	</field>
+	<field name="codigoCorretor" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/corretores/corretor/codigoCorretor]]></fieldDescription>
+	</field>
+	<field name="nomeCategoriaEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeCategoriaEvento]]></fieldDescription>
+	</field>
+	<field name="nomeTemaEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTemaEvento]]></fieldDescription>
+	</field>
+	<field name="nomeTipoProponenteEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTipoProponenteEvento]]></fieldDescription>
+	</field>
+	<field name="nomeEvento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeEvento]]></fieldDescription>
+	</field>
+	<field name="textoComentario" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/textoComentario]]></fieldDescription>
+	</field>
+	<field name="codigoPessoa2" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/intervenientes/interveniente/codigoPessoa]]></fieldDescription>
+	</field>
+	<field name="textoClausula" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/itensDocumento/itemDocumento/clausulasItem/clausulaItem/textoClausula]]></fieldDescription>
+	</field>
+	<field name="textoComentario2" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/textoComentario]]></fieldDescription>
+	</field>
+	<group name="orcamento">
+		<groupExpression><![CDATA[]]></groupExpression>
+		<groupHeader>
+			<band height="35">
+				<subreport>
+					<reportElement x="0" y="13" width="556" height="22" uuid="ab325067-8058-49c8-a524-ca6ff5f55cb7"/>
+					<subreportParameter name="pcodigoPessoa">
+						<subreportParameterExpression><![CDATA[$F{codigoPessoa}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "proponente.jasper"]]></subreportExpression>
+				</subreport>
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="fa9b1aa8-cbf8-408a-8990-ec678ae17a29"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="1" y="1" width="552" height="12" uuid="08e7388f-d166-4041-851e-3af33fe12eb0"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DADOS DO PROPONENTE]]></text>
+				</staticText>
+			</band>
+			<band height="22">
+				<printWhenExpression><![CDATA[new Boolean($F{codigoPessoa2}==null||$F{codigoPessoa2}.equals(" ")||$F{codigoPessoa2}.equals("0")?false:true)]]></printWhenExpression>
+				<subreport>
+					<reportElement x="0" y="0" width="556" height="22" uuid="1d925c5a-f342-4097-8f4b-3172188933d8"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ptipoInterveniente">
+						<subreportParameterExpression><![CDATA[2]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["interveniente.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="35">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="bf364130-7c89-486a-ba1f-d4a817f9510b"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="1" width="552" height="12" uuid="d784903d-aa95-4d63-b949-dfbda1211be0"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DADOS DO CORRETOR]]></text>
+				</staticText>
+				<subreport>
+					<reportElement x="0" y="13" width="556" height="22" uuid="62056d75-2514-43c3-9f2d-d2e1cca28798"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="pcodigoCorretor">
+						<subreportParameterExpression><![CDATA[$F{codigoCorretor}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["corretor.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="34">
+				<subreport>
+					<reportElement x="0" y="12" width="556" height="22" uuid="3c3ccf27-2441-41ce-862d-4b73ece32c80"/>
+					<subreportParameter name="pcodigoPessoa">
+						<subreportParameterExpression><![CDATA[$F{codigoPessoa}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="pcodigotipoendereco">
+						<subreportParameterExpression><![CDATA[1]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["proponenteListaEndereco.jasper"]]></subreportExpression>
+				</subreport>
+				<rectangle>
+					<reportElement x="0" y="-1" width="556" height="13" backcolor="#CCCCCC" uuid="dfe2cba0-1295-440d-b44a-409e123f2e39"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="1" y="0" width="552" height="12" uuid="9f591fb2-2ff0-42f2-a5c8-b21df7c1bd94"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DADOS DO SEGURADO]]></text>
+				</staticText>
+			</band>
+			<band height="49">
+				<rectangle>
+					<reportElement x="0" y="-1" width="556" height="50" backcolor="#FFFFFF" uuid="561dd563-c84e-4c6a-a01f-b77f9b2dc356"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="27" width="116" height="9" uuid="34b5d2aa-4263-48a0-a18f-2d1bb6dc80db"/>
+					<textElement>
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[CATEGORIA DO EVENTO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="2" y="2" width="63" height="9" uuid="c6cb920a-2e1b-41ab-9088-2fe8fb7056b5"/>
+					<textElement>
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[NOME DO EVENTO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="362" y="3" width="97" height="9" uuid="5b797dd8-47a0-465d-a710-5340b74e9244"/>
+					<textElement>
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[PROPONENTE/CONTRATO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="328" y="27" width="97" height="9" uuid="37243b8f-fa12-4b3d-849e-c9d4a03c4685"/>
+					<textElement>
+						<font fontName="Helvetica World" size="6"/>
+					</textElement>
+					<text><![CDATA[TEMA DO EVENTO]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="2" y="11" width="356" height="13" uuid="b2894188-67bf-4673-9404-56b559b4934d"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomeEvento}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="360" y="-1" width="1" height="25" uuid="3bb6a671-9069-4cb3-b4a2-c92d2b7f5961"/>
+				</line>
+				<line>
+					<reportElement x="0" y="24" width="556" height="1" uuid="eb426684-1e3e-4080-ae72-5c5271327828"/>
+				</line>
+				<textField>
+					<reportElement x="2" y="37" width="323" height="12" uuid="5c4f3e4b-72d4-4481-8256-b8b65c3f87ac"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomeCategoriaEvento}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="326" y="24" width="1" height="25" uuid="033a2d91-97ef-4bf0-8616-af5237ab0dee"/>
+				</line>
+				<textField>
+					<reportElement x="329" y="36" width="225" height="13" uuid="37b04e44-a304-4393-b686-f98d7e1248d3"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomeTemaEvento}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="362" y="11" width="192" height="13" uuid="f76e3b00-e89f-4ad0-b43c-d40510bf655d"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nomeTipoProponenteEvento}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="46">
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="d3a722bb-3262-4ce6-93f8-53eb9fd1a4c9"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="3f6796ac-1812-47f2-a79f-52c91575272d"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="11" y="2" width="539" height="12" uuid="dd863369-bf49-4421-81ef-f80e93e3ef88"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CLÁUSULAS DE SERVIÇO]]></text>
+				</staticText>
+			</band>
+			<band height="45">
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="650ffcd3-9c5b-4a91-8ce1-29c93c6855af"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="f795e335-c160-4df8-9804-370ad7350d68"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="5" y="1" width="547" height="12" uuid="cf20fe33-3fb0-45c7-a413-73389726ceec"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DESCONTOS]]></text>
+				</staticText>
+			</band>
+			<band height="45">
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="0c0e408d-6fb8-4ef8-ba97-3f6b510a4f35"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="44df7762-066b-4653-9994-a06590a9a47c"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="6" y="1" width="543" height="12" uuid="499bfe75-07a8-4fd2-bd7e-bda25e0c5213"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CLÁUSULAS PARTICULARES]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement stretchType="RelativeToTallestObject" x="2" y="14" width="552" height="29" uuid="c883adce-5117-4999-9b1c-c43e686f7d42"/>
+					<textElement textAlignment="Justified">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{textoClausula}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="22">
+				<subreport>
+					<reportElement x="0" y="0" width="556" height="22" uuid="8b63a586-3f59-45f7-b063-cbe4409f3121"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["coberturassumario.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="46">
+				<rectangle>
+					<reportElement x="0" y="1" width="556" height="13" backcolor="#CCCCCC" uuid="63fc14e5-22c6-488f-876d-2f52261c1ffe"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="6" y="2" width="543" height="12" uuid="c175003c-3bf3-4e24-bd97-3cdbb150064b"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DESCONTOS GERAIS]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="14" width="556" height="32" backcolor="#FFFFFF" uuid="3812d9ed-aca7-4b38-91c1-d83899513d86"/>
+				</rectangle>
+			</band>
+			<band height="45">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="1632bf55-2390-4572-a62a-1d6fb2648008"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="6" y="2" width="543" height="12" uuid="2924d37a-0d23-44b3-98de-f3c9b3831bdf"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[OBSERVAÇÕES]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="3958fc7b-34c4-431f-9b9c-70c1cdc0e22d"/>
+				</rectangle>
+				<textField isStretchWithOverflow="true">
+					<reportElement stretchType="RelativeToTallestObject" x="2" y="14" width="552" height="29" uuid="87655f60-3b0e-4fb8-9a91-0afa4d78c7c0"/>
+					<textElement textAlignment="Justified">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{textoComentario2}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="45">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="52a53003-8030-4f82-9adc-49961c6cb887"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="7" y="1" width="543" height="12" uuid="ff705435-cfac-41eb-89d2-290131ef87d7"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DECLARAÇÕES DO PROPONENTE]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="b2cfefee-45c1-40e0-ba6c-b79a7739f6af"/>
+				</rectangle>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="2" y="16" width="552" height="27" uuid="0b7c8105-7014-49a6-9a76-b7c31a1a2aa7"/>
+					<textElement>
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Declaro que as informações foram prestadas com exatidão, boa fé e veracidade e assumo integral responsabilidade, inclusive pelas não escritas de próprio punho. Tomei conhecimento prévio das Condições Gerais da Apólice."]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="21">
+				<subreport>
+					<reportElement x="0" y="-1" width="556" height="22" uuid="4771ed97-5f26-43a2-bd9c-4848c40bcdd5"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["demostrativopremio.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="22">
+				<subreport>
+					<reportElement x="0" y="0" width="556" height="22" uuid="0139f1b2-7f69-4dd5-9d76-25bafeb0688a"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["formapagamento.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="201">
+				<printWhenExpression><![CDATA["SAC: 0800 727 2765"]]></printWhenExpression>
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="556" height="58" backcolor="#FFFFFF" uuid="84f7127b-d55b-439c-bd2f-378e7ae55043"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="6" width="550" height="46" uuid="67422684-ad55-4f61-a94a-8878c9a6cbdf"/>
+					<textElement textAlignment="Center">
+						<font fontName="Kartika" size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[SAC: 0800 727 2765 (informações, reclamações e cancelamento) - 0800 727 8736 (atendimento exclusivo para pessoas com
+deficiência auditiva) Solicitação de serviços /sinistro: 3366 3110 (Grande São Paulo) - 0800 727 8118 (Demais localidades)
+Ouvidoria: 0800 727 1184
+Site: www.portoseguro.com.br]]></text>
+				</staticText>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="Teste">
+		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+		<groupHeader>
+			<band height="45">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="56bafdbd-8917-4478-98af-21b6f846cdb7"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="1" width="552" height="12" uuid="2df48f0c-0043-4902-ba2b-0ed96d76e6f9"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DESCRIÇÃO DO EVENTO]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="556" height="32" backcolor="#FFFFFF" uuid="4c30aed8-1656-4847-bb62-4661cfd1d4fe"/>
+				</rectangle>
+				<textField isStretchWithOverflow="true">
+					<reportElement stretchType="RelativeToTallestObject" x="3" y="15" width="549" height="29" uuid="339549bb-6f94-418e-ac9a-2b4fbb3efbc5"/>
+					<textElement textAlignment="Justified">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{textoComentario}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="36">
+				<rectangle>
+					<reportElement x="0" y="0" width="556" height="13" backcolor="#CCCCCC" uuid="a25bfe05-086f-430e-b0fb-5da3934fef0b"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="2" width="552" height="12" uuid="243325f8-e2b5-43b0-aced-a6897fe43db5"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[QUESTIONÁRIO DO EVENTO]]></text>
+				</staticText>
+				<subreport>
+					<reportElement x="1" y="14" width="555" height="22" uuid="8bb0b775-ae37-4d45-b820-226ed5fc657e"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["itemQuestionario.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="34">
+				<rectangle>
+					<reportElement x="0" y="-2" width="556" height="13" backcolor="#CCCCCC" uuid="bb5ab3dd-0b4c-401b-a7e8-fa4effefacd8"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="2" y="0" width="552" height="12" uuid="d9be1927-c872-4d53-9023-cd7cd98d51c0"/>
+					<textElement textAlignment="Center">
+						<font fontName="Helvetica World" size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[COBERTURAS CONTRATADAS, LIMITES MÁXIMOS DE GARANTIA E PRÊMIOS POR COBERTURA(VALORES EM REAIS)]]></text>
+				</staticText>
+				<subreport>
+					<reportElement x="0" y="12" width="556" height="22" uuid="9cd3cf80-d457-457d-988a-d8c594e2a221"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["itemcobertura.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="22">
+				<subreport>
+					<reportElement x="0" y="0" width="556" height="22" uuid="4b69ba0f-51c9-4d01-82c8-393b324825be"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_NUMBER_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["itemcoberturaparticipacao.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<pageHeader>
+		<band height="115">
+			<rectangle>
+				<reportElement x="0" y="0" width="556" height="115" uuid="f05deab1-b9c4-497a-9a6a-a946b8fa6211"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="3" width="127" height="27" uuid="cb696d9a-c0b9-420f-9598-fe5bc79757b1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="313" y="3" width="109" height="40" uuid="08a1af79-119f-4693-82eb-717556b3fcd6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="429" y="4" width="70" height="12" uuid="f5974e6a-1463-4a25-a821-11412ce95674"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<text><![CDATA[Orçamento Canal: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="18" width="73" height="12" uuid="f79ffe8b-0482-4242-973e-9c7823d60349"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<text><![CDATA[Orçamento Interno: ]]></text>
+			</staticText>
+			<image>
+				<reportElement x="2" y="1" width="173" height="53" uuid="6d4fdf01-df14-49d2-bef5-3779d449d83c"/>
+				<imageExpression><![CDATA["//image//2_12_residencia_habitual.jpg"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="426" y="16" width="127" height="1" uuid="81ea4247-4247-4aca-ad9b-1a8a7f0d29f3"/>
+			</line>
+			<line>
+				<reportElement x="313" y="16" width="109" height="1" uuid="641f3b45-985c-496b-a7d9-6082b3adddf0"/>
+			</line>
+			<line>
+				<reportElement x="313" y="29" width="109" height="1" uuid="70e57dab-f1c9-4826-b393-5ab24092d611"/>
+			</line>
+			<staticText>
+				<reportElement x="315" y="4" width="59" height="12" uuid="3f10721f-6850-4a3c-b1d6-532a4d5c268e"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<text><![CDATA[Tipo de Seguro: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="18" width="62" height="12" uuid="9df1d291-364f-4c9b-b711-0072e4eda82e"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<text><![CDATA[Data do Cálculo: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="74" width="556" height="1" uuid="23fc2f47-1ac5-4824-8e67-18d8bd93b6ed"/>
+			</line>
+			<textField>
+				<reportElement x="2" y="63" width="171" height="11" uuid="a8e8baad-aded-4a94-ae9b-b1c45b9a7633"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["C.N.P.J: 61.198.194/0001-60"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="90" width="556" height="1" uuid="e4aa8537-951a-459e-9dcf-9c405ced615e"/>
+			</line>
+			<textField>
+				<reportElement x="3" y="79" width="550" height="11" uuid="beaf3bc7-e38a-4273-b209-9f399f591163"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SUSEP N.: " + $F{codigoProcessoSusepPrincipal}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="315" y="31" width="51" height="12" uuid="24c60de0-e946-487a-812e-888d814965ee"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<text><![CDATA[Válido até: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="96" width="552" height="13" uuid="b3f45200-e308-4e3c-a96d-87d28452d2f9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["RAMO:   " +$F{codigoRamo}+"   MODALIDADE:   " + $F{codigoModalidade} + "   -  " + $F{nomeOferta}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="176" y="36" width="137" height="18" uuid="f298d915-3545-48e6-b6f2-7ed912ccc99d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Kartika" size="11"/>
+				</textElement>
+				<text><![CDATA[ORÇAMENTO]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="502" y="4" width="50" height="12" uuid="12799065-a2a0-47b4-9fb6-deca1a3c8871"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroOrcamento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="502" y="17" width="50" height="13" uuid="437fc4ce-399e-452f-a448-9c967e4aeaa5"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroOrcamentoExterno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="4" width="44" height="12" uuid="84d96dde-a0c3-484b-9d3e-a2b94f1f6c0e"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeTipoSeguro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="18" width="43" height="11" uuid="d005c3de-60b0-4a04-9114-fea03a7c5781"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataCalculo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="31" width="43" height="10" uuid="9b991536-3fa1-428c-b70f-79aa4f060044"/>
+				<textElement>
+					<font fontName="Helvetica World" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataValidade}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band height="15">
+			<staticText>
+				<reportElement x="1" y="1" width="442" height="12" uuid="f428daf8-3ce6-4193-a37b-14dd59eae233"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<text><![CDATA[171158 080915 0114 52 010285091 EMISSAO RAMOS ELEMENTARES 01/09/2015 via do Segurado]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="454" y="0" width="97" height="14" uuid="0dc3054a-7be0-4166-a049-2fbd03e581e7"/>
+				<textElement textAlignment="Right">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<lastPageFooter>
+		<band height="14">
+			<staticText>
+				<reportElement x="2" y="2" width="442" height="12" uuid="2ab1c976-6d93-4740-be55-17625ea5ac98"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<text><![CDATA[171158 080915 0114 52 010285091 EMISSAO RAMOS ELEMENTARES 01/09/2015 via do Segurado]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="454" y="0" width="97" height="14" uuid="4bcf9d13-228c-4965-be4b-0c364c54443c"/>
+				<textElement textAlignment="Right">
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+</jasperReport>
