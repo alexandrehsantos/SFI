@@ -61,7 +61,7 @@
         <dataInicioStatusProposta />
         <dataFimStatusProposta />
         <numeroOrcamento />
-        <numeroVersaoOrcamento />
+        <numeroVersaoOrcamento>1</numeroVersaoOrcamento>
         <numeroOrcamentoExterno>8150991</numeroOrcamentoExterno>
         <flagDataCalculoManual />
         <flagImpressaoOperacao />
@@ -787,7 +787,7 @@
             <numeroProposta>45272250</numeroProposta>
             <codigoPessoa />
             <numeroVersaoProposta />
-            <numeroItemVersaoProposta />
+            <numeroItemVersaoProposta>1</numeroItemVersaoProposta>
             <numeroOrcamento />
             <numeroVersaoOrcamento />
             <numeroItemVersaoOrcamento />
@@ -3448,6 +3448,20 @@
       <parametro>
         <chave>CEP</chave>
         <valor>540000001</valor>
+      </parametro>
+      <parametro>
+        <chave>obs</chave>
+        <valor>TEXTO</valor>
+      </parametro>
+      <parametro>
+        <chave>obsProp</chave>
+        <valor>TEXTO</valor>
+      </parametro>
+      <parametro>
+        <chave>txtSac</chave>
+        <valor>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt; &lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;&lt;body&gt; +
+ &lt;center&gt; &lt;b&gt;SAC: 0800 727 2765 &lt;/b&gt; (informações, reclamações e cancelamento) - &lt;b&gt;0800 727 8736 &lt;/b&gt; (atendimento exclusivo para pessoas com deficiência auditiva) &lt;b&gt; Solicitação de serviços /sinistro: 3366 3110&lt;/b&gt; (Grande São Paulo) - 0800 727 8118 (Demais localidades)   &lt;br&gt; &lt;b&gt;Ouvidoria: 0800 727 1184&lt;/b&gt; &lt;/br&gt;  &lt;br&gt; Site: www.portoseguro.com.br &lt;/br&gt; &lt;center&gt; +
+&lt;/body&gt;&lt;/html&gt;</valor>
       </parametro>
     </parametrosImpressao>
   </Impressao>
