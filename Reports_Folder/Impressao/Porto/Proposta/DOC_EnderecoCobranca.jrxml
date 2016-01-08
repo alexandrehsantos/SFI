@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T15:00:37 -->
+<!-- 2016-01-08T11:33:57 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_EnderecoCobranca" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4fc618ce-e350-4e0a-864e-6c10c458db36">
 	<queryString language="xPath">
 		<![CDATA[//Documentos/Documento/pagadores/pagador/enderecoCobranca]]>
@@ -21,7 +21,7 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="-1" y="0" width="555" height="13" uuid="fcea17e3-4788-4073-a74f-255128fe2023"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[ENDERECO COBRANÇA]]></text>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T16:37:25 -->
+<!-- 2016-01-08T13:39:50 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
 	<property name="ireport.zoom" value="1.652892561983471"/>
 	<property name="ireport.x" value="0"/>
@@ -36,7 +36,9 @@
 				<reportElement x="0" y="0" width="555" height="52" uuid="815352af-f337-4379-b3fc-b6a4901a7b1d"/>
 			</rectangle>
 			<staticText>
-				<reportElement x="487" y="1" width="68" height="12" uuid="ca9c8991-e6c1-433e-860f-5c5f785893d3"/>
+				<reportElement x="488" y="1" width="67" height="12" uuid="ca9c8991-e6c1-433e-860f-5c5f785893d3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
 				<textElement verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
@@ -102,7 +104,9 @@
 				<textFieldExpression><![CDATA[$F{numeroContato}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="487" y="13" width="68" height="12" uuid="e002ba6f-9b5d-40c6-a6dc-25c06df02e05"/>
+				<reportElement x="488" y="13" width="67" height="12" uuid="e002ba6f-9b5d-40c6-a6dc-25c06df02e05">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>

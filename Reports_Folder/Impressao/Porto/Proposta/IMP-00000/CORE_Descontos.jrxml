@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T15:03:10 -->
+<!-- 2016-01-08T13:50:44 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescontoAgravoItem" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ec3e7705-75c0-4a73-93a4-48a4e56e0b5e">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -16,7 +16,7 @@
 		<fieldDescription><![CDATA[nomeDescontoAgravo]]></fieldDescription>
 	</field>
 	<detail>
-		<band height="13">
+		<band height="13" splitType="Prevent">
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<textField isBlankWhenNull="true">
 				<reportElement x="2" y="0" width="553" height="13" uuid="a25d6bfc-7db6-4202-873a-b7a33d928e65">

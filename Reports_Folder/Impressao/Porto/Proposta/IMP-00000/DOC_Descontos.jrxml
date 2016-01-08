@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T15:02:01 -->
+<!-- 2016-01-08T14:58:17 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescontoAgravoItem" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ec3e7705-75c0-4a73-93a4-48a4e56e0b5e">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -15,28 +15,11 @@
 	<field name="nomeDescontoAgravo" class="java.lang.String">
 		<fieldDescription><![CDATA[nomeDescontoAgravo]]></fieldDescription>
 	</field>
-	<title>
-		<band height="12" splitType="Stretch">
-			<rectangle>
-				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="07440989-ffb7-4dfe-b9b2-d898274e7b07"/>
-				<graphicElement>
-					<pen lineWidth="0.75"/>
-				</graphicElement>
-			</rectangle>
-			<staticText>
-				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="2855a37d-9a00-45dd-a296-48a890c8d21b"/>
-				<textElement textAlignment="Center">
-					<font fontName="Helvetica World" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[DESCONTOS]]></text>
-			</staticText>
-		</band>
-	</title>
 	<detail>
-		<band height="13">
+		<band height="25" splitType="Prevent">
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<rectangle>
-				<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="13" uuid="7465f69d-0723-417e-a9b3-951844ea1557">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="12" width="555" height="13" uuid="7465f69d-0723-417e-a9b3-951844ea1557">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<graphicElement>
@@ -44,7 +27,9 @@
 				</graphicElement>
 			</rectangle>
 			<subreport>
-				<reportElement x="0" y="0" width="555" height="10" uuid="06332af9-8f35-430d-8f1c-f65851249bf5"/>
+				<reportElement x="0" y="12" width="555" height="13" uuid="06332af9-8f35-430d-8f1c-f65851249bf5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
 				<subreportParameter name="XML_DATE_PATTERN">
 					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 				</subreportParameter>
@@ -60,6 +45,19 @@
 				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
 				<subreportExpression><![CDATA["Impressao/Porto/Proposta/IMP-00000/CORE_Descontos.jasper"]]></subreportExpression>
 			</subreport>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="07440989-ffb7-4dfe-b9b2-d898274e7b07"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="2855a37d-9a00-45dd-a296-48a890c8d21b"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Helvetica World" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DESCONTOS]]></text>
+			</staticText>
 		</band>
 	</detail>
 </jasperReport>

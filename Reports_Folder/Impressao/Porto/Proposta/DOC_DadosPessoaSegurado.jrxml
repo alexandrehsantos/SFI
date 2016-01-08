@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-05T10:07:39 -->
+<!-- 2016-01-08T11:32:48 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DadosPessoaSegurado" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="30c31a6d-7d4a-4d0e-8739-6aca781fbe95">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="xPath">
@@ -114,7 +114,7 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="-1" y="0" width="555" height="13" uuid="ed2734eb-9f97-48b5-a751-17b4f07c3cf8"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[DADOS GERAIS]]></text>

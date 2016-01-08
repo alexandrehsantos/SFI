@@ -3451,7 +3451,15 @@
       </parametro>
       <parametro>
         <chave>obs</chave>
-        <valor>TEXTO</valor>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+    &lt;p align="justify"&gt;&lt;/p&gt;A aceitação do seguro estará sujeita à análise do risco. O registro deste plano nes SUSEP não implica, por parte da Autarquia. incentivo ou recomendação a sua comercialização. O segurado poderá consultar a situação cadastral do sou corretor do seguros. no sito www.susep.govix. por moio do número do sou registro na SUSEP. nome completo. CNPJ ou CPF. 
+&lt;p align="justify"&gt;&lt;/p&gt;Este orçamento tem validado do 15 (quimo) dias corridos a contar da data do sua realização. 
+&lt;p align="justify"&gt;&lt;/p&gt;As condição* contratuaidregulamento deste produto protocolizadas pela sociedade/entidade junto à Susep poderão sor consultadas no endereço eleatinico www.susep.gov.br. do acordo com o número do processo constante da apólice/proposta. 
+&lt;/html&gt;</valor>
       </parametro>
       <parametro>
         <chave>obsProp</chave>
@@ -3459,9 +3467,25 @@
       </parametro>
       <parametro>
         <chave>txtSac</chave>
-        <valor>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt; &lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;&lt;body&gt; +
- &lt;center&gt; &lt;b&gt;SAC: 0800 727 2765 &lt;/b&gt; (informações, reclamações e cancelamento) - &lt;b&gt;0800 727 8736 &lt;/b&gt; (atendimento exclusivo para pessoas com deficiência auditiva) &lt;b&gt; Solicitação de serviços /sinistro: 3366 3110&lt;/b&gt; (Grande São Paulo) - 0800 727 8118 (Demais localidades)   &lt;br&gt; &lt;b&gt;Ouvidoria: 0800 727 1184&lt;/b&gt; &lt;/br&gt;  &lt;br&gt; Site: www.portoseguro.com.br &lt;/br&gt; &lt;center&gt; +
+        <valor>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt; &lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;&lt;body&gt; 
+ &lt;center&gt; &lt;b&gt;SAC: 0800 727 2765 &lt;/b&gt; (informações, reclamações e cancelamento) - &lt;b&gt;0800 727 8736 &lt;/b&gt; (atendimento exclusivo para pessoas com deficiência auditiva) &lt;b&gt; Solicitação de serviços /sinistro: 3366 3110&lt;/b&gt; (Grande São Paulo) - 0800 727 8118 (Demais localidades)   &lt;br&gt; &lt;b&gt;Ouvidoria: 0800 727 1184&lt;/b&gt; &lt;/br&gt;  &lt;br&gt; Site: www.portoseguro.com.br &lt;/br&gt; &lt;center&gt; 
 &lt;/body&gt;&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>txtDecProp</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;Declaro que as informações foram prestadas com exatidão, boa fé e veracidade e assumo integral responsabilidade, inclusive pelas não escritas de próprio punho. Tomei conhecimento prévio das Condições Gerais da Apólice correspondente a esta proposta. Estou dente e de acordo que a Seguradora tem o prazo de 15 dias contados do protocolo da Proposta de Seguro com o respectivo pagamento do prêmio ou da 1Q parcela do premio. para se manifestar sobre a concretização ou não do seguro. No caso de não aceitação da Proposta de Seguro o eventual pagamento de prémio efetuado será devolvido devidamente corrigido pelo IPCMBGE proporcional aos dias decorridos. Havendo indenização. autorizo que o valor seja creditado em minha conta bancária a ser indicada no momento oportuno. 
+&lt;p&gt;
+&lt;p align="justify"&gt;
+Declaro estar ciente e expressamente autorizo a inclusão de todos os dados e informações relacionadas ao presente seguro, assim como de todos os eventuais sinistros e ocorrências referentes ao mesmo, em banco de dados, aos quais a seguradora poderá recorrer para análise de riscos atuais e futuros e na liquidação de processos de sinistros. 
+&lt;p&gt;&lt;/p&gt;
+&lt;p align="justify"&gt;&lt;/p&gt;
+Conforme estabelece o artigo 10. II. "e" da Circular Susep 445/2012. o proponente pessoa jurídica deve informar à seguradora os nomes dos controladores até o nivel de pessoa física. dos principais administradores e procuradores. Na qualidade de representante legal da pessoa jurídica proponente. garanto a veracidade e completude dos dados fornecidos. nos termos do artigo 766 do Código Civil.       
+&lt;/html&gt;</valor>
       </parametro>
     </parametrosImpressao>
   </Impressao>

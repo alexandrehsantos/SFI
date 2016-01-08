@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-06T23:12:30 -->
+<!-- 2016-01-08T11:35:16 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoBeneficiarios" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="062e23eb-937b-43dc-824d-44badaf78f27">
 	<property name="ireport.zoom" value="1.6105100000000037"/>
 	<property name="ireport.x" value="0"/>
@@ -28,7 +28,7 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="0" y="0" width="555" height="12" uuid="48643348-5030-4898-a0ca-6e5d804e497b"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[CLÁUSULAS BENEFICIÁRIAS]]></text>
@@ -48,21 +48,21 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="2" y="0" width="179" height="12" uuid="9e7af918-3af1-4d55-94a8-c04731d9231f"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[NOME / RAZÃO SOCAL]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="183" y="0" width="144" height="12" uuid="167150a5-f1cb-4820-ab56-49016b6123e0"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[CPF/CNPJ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="332" y="0" width="96" height="12" uuid="6943cf3b-f8cd-4d4d-b44e-fd4e062aaa01"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[VALOR CONTEÚDO]]></text>
@@ -71,7 +71,7 @@
 				<reportElement stretchType="RelativeToTallestObject" x="444" y="-1" width="109" height="12" isPrintWhenDetailOverflows="true" uuid="890df287-c267-4daa-9d71-82d10a0c0e27">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[VALOR BENS ESPECÍFICOS]]></text>

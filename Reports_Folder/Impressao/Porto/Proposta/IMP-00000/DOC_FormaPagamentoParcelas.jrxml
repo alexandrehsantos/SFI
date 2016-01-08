@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T18:10:40 -->
+<!-- 2016-01-08T11:36:37 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoValorDasParcelas" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f2ccb9da-3caa-4f93-8710-aa3bc54a333b">
 	<property name="ireport.zoom" value="1.6105100000000014"/>
 	<property name="ireport.x" value="0"/>
@@ -39,30 +39,21 @@
 					<textElement textAlignment="Center">
 						<font fontName="Kartika" size="8"/>
 					</textElement>
-					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorPrimeiraParcela}))
-
-]]></textFieldExpression>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorPrimeiraParcela}))]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="111" y="13" width="111" height="12" uuid="7f495249-8a2b-47b6-927a-30f0fc772b3e"/>
 					<textElement textAlignment="Center">
 						<font fontName="Kartika" size="8"/>
 					</textElement>
-					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorDemaisParcela}))
-
-]]></textFieldExpression>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorDemaisParcela}))]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="222" y="13" width="111" height="12" uuid="d96fd953-2392-45e2-8422-5f9eda34f4e1"/>
 					<textElement textAlignment="Center">
 						<font fontName="Kartika" size="8"/>
 					</textElement>
-					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorAdicionalFracionamento}))
-
-
-
-
-]]></textFieldExpression>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorAdicionalFracionamento}))]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="333" y="13" width="111" height="12" uuid="3e110a68-8885-4c94-99c1-a0529d98bcfb"/>
@@ -151,7 +142,7 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="0" y="0" width="555" height="12" uuid="fd571367-9181-4595-87dd-04f169d2eccb"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[VALOR DAS PARCELAS]]></text>

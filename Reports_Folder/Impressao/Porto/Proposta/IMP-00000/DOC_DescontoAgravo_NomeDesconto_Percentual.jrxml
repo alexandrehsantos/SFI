@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-07T14:54:30 -->
+<!-- 2016-01-08T11:35:56 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DescontoAgravo_NomeDesconto_Percentual.jrxml" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f388e3bc-1460-45f5-a2a5-8f1fdf22c57b">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<queryString language="xPath">
@@ -16,7 +16,7 @@
 			</rectangle>
 			<staticText>
 				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="33528b25-c0c3-4a92-b320-a525ee2353d9"/>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font fontName="Helvetica World" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[DESCONTOS GERAIS]]></text>
