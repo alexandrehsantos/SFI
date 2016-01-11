@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-08T10:05:25 -->
+<!-- 2016-01-08T16:43:55 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proposta" pageWidth="595" pageHeight="842" whenNoDataType="BlankPage" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -92,7 +92,15 @@
 	<field name="susepCorretor" class="java.lang.String">
 		<fieldDescription><![CDATA[//Corretores/susep/susepOficial]]></fieldDescription>
 	</field>
-	<field name="nomeCorretor" class="java.lang.String"/>
+	<field name="codigoOperacao" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/codigoOperacao]]></fieldDescription>
+	</field>
+	<field name="numeroVersaoOrcamento" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/numeroVersaoOrcamento]]></fieldDescription>
+	</field>
+	<field name="nomeCorretor" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/corretores/susep/listaCorretores/corretor/nome]]></fieldDescription>
+	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
 	</variable>
@@ -350,9 +358,9 @@
 	</group>
 	<group name="QuestionarioObrigatorio">
 		<groupHeader>
-			<band height="18">
+			<band height="27">
 				<subreport>
-					<reportElement x="0" y="0" width="555" height="18" uuid="88e136f0-8ca2-4c99-b2a1-5ee42a2b5190"/>
+					<reportElement x="0" y="0" width="555" height="27" uuid="88e136f0-8ca2-4c99-b2a1-5ee42a2b5190"/>
 					<subreportParameter name="XML_DATE_PATTERN">
 						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 					</subreportParameter>
@@ -663,7 +671,7 @@
 			</rectangle>
 			<image>
 				<reportElement x="2" y="1" width="173" height="53" uuid="6d4fdf01-df14-49d2-bef5-3779d449d83c"/>
-				<imageExpression><![CDATA["//images//2_12_residencia_habitual_proposta.jpg"]]></imageExpression>
+				<imageExpression><![CDATA["..\\..\\..\\..\\images\\2_12_residencia_habitual_proposta.jpg"]]></imageExpression>
 			</image>
 			<rectangle>
 				<reportElement x="326" y="3" width="112" height="68" uuid="08a1af79-119f-4693-82eb-717556b3fcd6"/>
@@ -822,31 +830,61 @@
 		</band>
 	</title>
 	<pageFooter>
-		<band height="14">
-			<textField evaluationTime="Report">
-				<reportElement x="535" y="2" width="21" height="12" uuid="c12ff2aa-db7e-4be8-b72f-9ad58a988d8b"/>
+		<band height="16">
+			<textField>
+				<reportElement x="0" y="2" width="420" height="12" uuid="0db1cba0-f456-4eaf-a151-7f13d3f9e607"/>
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Page">
-				<reportElement x="406" y="2" width="129" height="12" uuid="5adefe5e-33c0-4bb9-914d-b17102a3b0d4"/>
-				<textElement textAlignment="Right">
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA["Pagina " + $V{PAGE_NUMBER}  + " de "]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta} + "  " + "CO" + $F{codigoOperacao} + "    V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="0" y="2" width="406" height="12" uuid="0db1cba0-f456-4eaf-a151-7f13d3f9e607"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
+				<reportElement x="420" y="2" width="100" height="12" uuid="b6855145-c006-4796-b83f-3903665e411d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Kartika" size="9"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta2} + " - " + $F{codigoOperacao} + "       V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
+				<textFieldExpression><![CDATA["PÁGINA " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="520" y="2" width="34" height="12" uuid="83aa699c-8f04-4975-9a3b-2bf5979278f3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Kartika" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" DE " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 		</band>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="12"/>
+		<band height="14">
+			<textField>
+				<reportElement x="0" y="2" width="420" height="12" uuid="2b8ca841-7b79-47b9-af3f-dc266aa0da87"/>
+				<textElement>
+					<font fontName="Kartika" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta} + "  " + "CO" + $F{codigoOperacao} + "    V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="2" width="100" height="12" uuid="83fa2b27-4674-4391-9972-45f1060eeff0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Kartika" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PÁGINA " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="520" y="2" width="34" height="12" uuid="827a8b4f-eb0a-44d2-befb-64a008d26943">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Kartika" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" DE " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
 	</lastPageFooter>
 </jasperReport>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-08T15:03:40 -->
+<!-- 2016-01-08T15:41:31 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDeclaracoesDoProponente" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isSummaryWithPageHeaderAndFooter="true" uuid="6affe110-4d2e-48c7-aed7-14350d2100fa">
 	<property name="ireport.zoom" value="1.5"/>
 	<property name="ireport.x" value="0"/>
@@ -33,7 +33,7 @@
 					<pen lineWidth="0.75"/>
 				</graphicElement>
 			</rectangle>
-			<textField isStretchWithOverflow="true">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToTallestObject" x="2" y="12" width="551" height="13" uuid="f00c7f07-8186-4baa-b8db-df3892a3bbec">
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
@@ -64,7 +64,7 @@
 				</reportElement>
 			</line>
 			<staticText>
-				<reportElement positionType="Float" x="23" y="60" width="125" height="8" uuid="48f806cc-9432-4cf9-878e-7ba1091fbf9e">
+				<reportElement positionType="Float" x="23" y="58" width="125" height="10" uuid="48f806cc-9432-4cf9-878e-7ba1091fbf9e">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -73,7 +73,7 @@
 				<text><![CDATA[LOCAL E DATA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="213" y="60" width="125" height="8" uuid="b23cdea6-2195-4b0a-b3de-89c746df818d">
+				<reportElement positionType="Float" x="213" y="58" width="125" height="10" uuid="b23cdea6-2195-4b0a-b3de-89c746df818d">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -82,7 +82,7 @@
 				<text><![CDATA[ASSINATURA DO  PROPONENTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="407" y="60" width="125" height="8" uuid="7783c827-bcb9-4576-8f23-2a51bb5b2b32">
+				<reportElement positionType="Float" x="407" y="58" width="125" height="10" uuid="7783c827-bcb9-4576-8f23-2a51bb5b2b32">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
