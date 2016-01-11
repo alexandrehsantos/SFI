@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-11T10:17:56 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TesteLista" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dbf5bcb6-535e-41ff-97b1-0ef54f1792a9">
+	<subDataset name="Dataset20" uuid="82358998-2cd4-42a9-bb48-e41238274ef5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+		<queryString language="xPath">
+			<![CDATA[//Documentos/Documento/corretores/susep/listaSusepsProducao/susepProducao]]>
+		</queryString>
+		<field name="susepOficial" class="java.lang.String">
+			<fieldDescription><![CDATA[susepOficial]]></fieldDescription>
+		</field>
+		<group name="susepOficial">
+			<groupExpression><![CDATA[$F{susepOficial}]]></groupExpression>
+		</group>
+	</subDataset>
+	<subDataset name="Suseps" uuid="8de52523-af73-4945-96e9-7078b0041742">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+		<queryString language="xPath">
+			<![CDATA[//Documentos/Documento/corretores/susep/listaSusepsProducao/susepProducao]]>
+		</queryString>
+		<field name="ultimaAtualizacao" class="java.lang.String">
+			<fieldDescription><![CDATA[ultimaAtualizacao]]></fieldDescription>
+		</field>
+		<field name="susepPorto" class="java.lang.String">
+			<fieldDescription><![CDATA[susepPorto]]></fieldDescription>
+		</field>
+		<field name="susepOficial" class="java.lang.String">
+			<fieldDescription><![CDATA[susepOficial]]></fieldDescription>
+		</field>
+		<field name="status" class="java.lang.String">
+			<fieldDescription><![CDATA[status]]></fieldDescription>
+		</field>
+		<field name="dataCadastro" class="java.lang.String">
+			<fieldDescription><![CDATA[dataCadastro]]></fieldDescription>
+		</field>
+		<group name="susepOficial">
+			<groupExpression><![CDATA[$F{susepOficial}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="XPath">
+		<![CDATA[//Impressao[1]]]>
+	</queryString>
+	<field name="numeroApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[Documento/numeroApolice]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="63" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<frame>
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="63" uuid="3eec6c68-49fe-435d-9100-667a42d3808b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.2"/>
+					<leftPen lineWidth="0.2"/>
+					<bottomPen lineWidth="0.2"/>
+					<rightPen lineWidth="0.2"/>
+				</box>
+				<textField>
+					<reportElement x="2" y="4" width="100" height="16" uuid="d12d4b67-1594-4d91-887c-89c88f8bb339"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["TESTE"]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement x="203" y="22" width="100" height="30" uuid="ef3f826f-b0dd-4834-8236-706416f9b3fe"/>
+					<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Suseps" uuid="78ab3aec-abe1-4355-828a-bf584543b39c">
+							<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+						</datasetRun>
+						<jr:listContents height="30" width="100">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="9653f3ed-6d4f-44a7-9987-592a4127559c"/>
+								<textFieldExpression><![CDATA[$F{susepOficial}]]></textFieldExpression>
+							</textField>
+						</jr:listContents>
+					</jr:list>
+				</componentElement>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

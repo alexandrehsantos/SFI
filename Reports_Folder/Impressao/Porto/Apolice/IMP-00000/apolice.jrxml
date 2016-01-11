@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-04T15:01:22 -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="header" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
+<!-- 2016-01-11T19:20:51 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Apolice" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="0.848195236744975"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
-	<property name="ireport.callouts" value="callouts.7.pins=436,416;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.pins=437,477;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.pins=439,324;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.6.bounds=612,358,364,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.13.pins=444,528;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.15.pins=438,589;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.5.bg=255,255,0\ncallouts.7.bounds=610,415,368,31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.17.pins=435,631;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.fg=0,0,0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.text=DADOS DO DESTINAT\u00C1RIO\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.bounds=624,316,267,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.bounds=612,459,357,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.text=DADOS COSSEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.bg=255,255,0\n\n\n\n\n\n\ncallouts.6.text=COBERTURAS CONTRATADAS, LIMITES M\u00C1XIMOS...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.text=DESCONTOS OU AGRAVAMENTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.bounds=610,482,276,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.fg=0,0,0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.text=DESCRICAO DE EQUIPAMENTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.pins=557,166\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.14.text=CLAUSULAS BENEFICIARIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.bounds=610,502,268,39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.pins=569,134\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.16.text=DESCONTOS GERAIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.bg=255,255,0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.6.pins=439,371;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.18.text=FORMA DE PAGAMENTO TRANSFERENCIA ELETR\u00D4NICA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.10.pins=439,452;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.13.bounds=607,525,324,39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.12.pins=442,504;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.fg=0,0,0\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.14.pins=440,560;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.14.bounds=605,551,294,32\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.16.pins=435,615;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.bounds=644,70,319,27\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.18.pins=435,652;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.15.bounds=595,578,338,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.bg=255,255,0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.text=DADOS DO SEGURADO-PF\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.bounds=654,166,369,33\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.16.bounds=595,605,221,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.text=DADOS DO CORRETOR\n\n\n\n\n\n\n\ncallouts.5.text=OBJETO DO SEGURO\n\ncallouts.5.fg=0,0,0\ncallouts.3.bounds=634,212,366,34\n\n\n\n\n\n\ncallouts.7.text=PARTICIPA\u00C7\u00C3O OBRIGAT\u00D3RIA DO SEGURADO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.17.bounds=599,624,205,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.11.text=QUESTIONARIO E AVALIACAO DE RISCO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.9.text=DESCRICAO DO EVENTO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.4.bounds=650,120,357,28\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.2.bg=255,255,0\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.1.pins=572,105\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.13.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.18.bounds=596,645,241,48\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.pins=548,207\n\n\n\n\n\n\ncallouts.15.text=INFORMACOES GERAIS DO SEGURO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.5.bounds=603,282,362,30\ncallouts.5.pins=559,238\ncallouts.17.text=FORMA DE PAGAMENTO \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncallouts.3.fg=0,0,0\n\n\n\n\n\n\n"/>
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao1.2"/>
+	<property name="ireport.callouts" value="callouts.16.bounds=595,605,221,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.bounds=610,482,276,34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.text=DESCRICAO DE EQUIPAMENTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.pins=435,652;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.text=CLAUSULAS PARTICULARES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.pins=442,504;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.text=CLAUSULAS BENEFICIARIAS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.text=DESCONTOS OU AGRAVAMENTOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.pins=444,528;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.text=INFORMACOES GERAIS DO SEGURO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.text=QUESTIONARIO E AVALIACAO DE RISCO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.bounds=605,551,294,32\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.bounds=599,624,205,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.12.bounds=610,502,268,39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.14.pins=440,560;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.bounds=595,578,338,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.bounds=612,459,357,33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.text=DESCONTOS GERAIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.10.pins=439,452;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.15.pins=438,589;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.text=FORMA DE PAGAMENTO \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.11.pins=437,477;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.16.pins=435,615;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.text=FORMA DE PAGAMENTO TRANSFERENCIA ELETR\u00D4NICA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.17.pins=435,631;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.18.bounds=596,645,241,48\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;callouts.13.bounds=607,525,324,39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#xA;"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<subDataset name="Dataset2" uuid="db9b2947-57a2-40b8-b2d6-0518b633839c">
 		<queryString language="xPath">
 			<![CDATA[//Produto]]>
@@ -19,184 +19,43 @@
 		<defaultValueExpression><![CDATA["C:\\Users\\alexandre.dos.santos\\Documents\\Working\\Jasper\\impressoes\\proposta\\"]]></defaultValueExpression>
 	</parameter>
 	<queryString language="xPath">
-		<![CDATA[//impressao]]>
+		<![CDATA[//Impressao]]>
 	</queryString>
-	<field name="codigoTipoInterveniente" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoTipoInterveniente]]></fieldDescription>
-	</field>
-	<field name="nomeTemaEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTemaEvento]]></fieldDescription>
-	</field>
-	<field name="codigoOperacao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoOperacao]]></fieldDescription>
-	</field>
-	<field name="codigoRamo" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Ramos/Ramo/codigoRamo]]></fieldDescription>
-	</field>
-	<field name="numeroVersaoOrcamento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroVersaoOrcamento]]></fieldDescription>
-	</field>
-	<field name="textoComentario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/textoComentario]]></fieldDescription>
-	</field>
-	<field name="codigoTipoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/codigoTipoPessoa]]></fieldDescription>
-	</field>
-	<field name="numeroOrcamentoExterno" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamentoExterno]]></fieldDescription>
-	</field>
-	<field name="codigoEndereco2" class="java.lang.String">
-		<fieldDescription><![CDATA[Enderecos/endereco/codigoEndereco]]></fieldDescription>
-	</field>
-	<field name="codigoOferta" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/codigoOferta]]></fieldDescription>
-	</field>
-	<field name="numeroOrcamento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/numeroOrcamento]]></fieldDescription>
-	</field>
-	<field name="nomeOferta2" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomeOferta]]></fieldDescription>
-	</field>
-	<field name="codigoModalidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/codigoModalidade]]></fieldDescription>
-	</field>
-	<field name="nomeCategoriaEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeCategoriaEvento]]></fieldDescription>
-	</field>
-	<field name="nomeCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Corretores/Corretor/nomeCorretor]]></fieldDescription>
-	</field>
-	<field name="nomeRamo" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Ramos/Ramo/nomeRamo]]></fieldDescription>
-	</field>
-	<field name="dataFimVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataFimVigencia]]></fieldDescription>
-	</field>
-	<field name="dataInicioVigencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataInicioVigencia]]></fieldDescription>
-	</field>
-	<field name="codigoEndereco" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/enderecosPessoa/endereco/codigoEndereco]]></fieldDescription>
-	</field>
-	<field name="nomeOferta" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomeOferta]]></fieldDescription>
-	</field>
-	<field name="codigoPessoa2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoPessoa]]></fieldDescription>
-	</field>
-	<field name="codigoProcessoSusepPrincipal" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/codigoProcessoSusepPrincipal]]></fieldDescription>
-	</field>
-	<field name="nomeTipoSeguro" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/nomeTipoSeguro]]></fieldDescription>
-	</field>
-	<field name="nomeEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeEvento]]></fieldDescription>
-	</field>
-	<field name="codigoCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/corretores/corretor/codigoCorretor]]></fieldDescription>
-	</field>
-	<field name="codigoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoPessoa]]></fieldDescription>
-	</field>
-	<field name="dataCalculo" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataCalculo]]></fieldDescription>
-	</field>
-	<field name="susepCorretor" class="java.lang.String">
-		<fieldDescription><![CDATA[Corretores/Corretor/susepCorretor]]></fieldDescription>
-	</field>
-	<field name="nomeModalidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Modalidades/Modalidade/nomeModalidade]]></fieldDescription>
-	</field>
-	<field name="nomePathImagem" class="java.lang.String">
-		<fieldDescription><![CDATA[Produtos/Produto/Oferta/nomePathImagem]]></fieldDescription>
-	</field>
-	<field name="codigoCobertura" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/codigoCobertura]]></fieldDescription>
-	</field>
-	<field name="textoClausula" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/clausulasItem/clausulaItem/textoClausula]]></fieldDescription>
-	</field>
-	<field name="dataEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataEmissao]]></fieldDescription>
-	</field>
-	<field name="textoComentario2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/textoComentario]]></fieldDescription>
-	</field>
-	<field name="dataValidade" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/dataValidade]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoLocalRisco" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/localRisco/codigoLocalRisco]]></fieldDescription>
-	</field>
-	<field name="nomeDescontoAgravo" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/descontosAgravo/descontoAgravo/nomeDescontoAgravo]]></fieldDescription>
-	</field>
-	<field name="nomeTipoPessoa" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/nomeTipoPessoa]]></fieldDescription>
-	</field>
-	<field name="nomeTipoProponenteEvento" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/objetosRisco/objetoRisco/evento/nomeTipoProponenteEvento]]></fieldDescription>
-	</field>
-	<field name="codigoBeneficiario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/beneficiarios/beneficiario/codigoBeneficiario]]></fieldDescription>
-	</field>
-	<field name="valorTipoBem" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/coberturasItem/coberturaItem/beneficiarios/beneficiario/valorTipoBem]]></fieldDescription>
-	</field>
-	<field name="valorCustoApolice" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/valorCustoApolice]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente2" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente3" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="codigoInterveniente4" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/intervenientes/interveniente/codigoInterveniente]]></fieldDescription>
-	</field>
-	<field name="nomeOferta3" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/nomeOferta]]></fieldDescription>
-	</field>
-	<field name="susepOficial" class="java.lang.String">
-		<fieldDescription><![CDATA[Corretores/Corretor/susepOficial]]></fieldDescription>
-	</field>
-	<field name="codigoTipoPessoa2" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/codigoTipoPessoa]]></fieldDescription>
-	</field>
-	<field name="codigoEndereco3" class="java.lang.String">
-		<fieldDescription><![CDATA[Pessoas/Pessoa/enderecosPessoa/endereco/codigoEndereco]]></fieldDescription>
-	</field>
-	<field name="codigoEnderecoCorrespondencia" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/codigoEnderecoCorrespondencia]]></fieldDescription>
-	</field>
-	<field name="codigoQuestionario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/respostasQuestionarioCategoriaRisco/respostaQuestionarioCategoriaRisco/codigoQuestionario]]></fieldDescription>
-	</field>
-	<field name="numeroVersaoQuestionario" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/respostasQuestionarioCategoriaRisco/respostaQuestionarioCategoriaRisco/numeroVersaoQuestionario]]></fieldDescription>
-	</field>
-	<field name="codigoQuestao" class="java.lang.String">
-		<fieldDescription><![CDATA[Documentos/Documento/itensDocumento/itemDocumento/categoriasRisco/categoriaRisco/respostasQuestionarioCategoriaRisco/respostaQuestionarioCategoriaRisco/codigoQuestao]]></fieldDescription>
-	</field>
 	<field name="numeroApoliceAnterior" class="java.lang.String">
-		<fieldDescription><![CDATA[//Documentos/Documento/numeroApoliceAnterior]]></fieldDescription>
+		<fieldDescription><![CDATA[Documentos/Documento/numeroApoliceAnterior]]></fieldDescription>
 	</field>
 	<field name="numeroApolice" class="java.lang.String">
-		<fieldDescription><![CDATA[//Documentos/Documento/numeroApolice]]></fieldDescription>
+		<fieldDescription><![CDATA[Documentos/Documento/numeroApolice]]></fieldDescription>
+	</field>
+	<field name="nomeOferta" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/nomeOferta]]></fieldDescription>
+	</field>
+	<field name="codigoRamo" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/codigoRamo]]></fieldDescription>
+	</field>
+	<field name="codigoSucursal" class="java.lang.String">
+		<fieldDescription><![CDATA[Documentos/Documento/codigoSucursal]]></fieldDescription>
 	</field>
 	<field name="codigoOrigemEmissao" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
+		<fieldDescription><![CDATA[Documentos/Documento/codigoOrigemEmissao]]></fieldDescription>
 	</field>
 	<field name="numeroProposta" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/numeroProposta]]></fieldDescription>
+		<fieldDescription><![CDATA[Documentos/Documento/numeroProposta]]></fieldDescription>
 	</field>
-	<field name="codigoRamo2" class="java.lang.String">
-		<fieldDescription><![CDATA[/ImprimirDocumentoEmissao/Impressao/Documentos/Documento/codigoRamo]]></fieldDescription>
+	<field name="imgApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[//parametrosImpressao/parametro[chave='imgApolice'] /valor]]></fieldDescription>
+	</field>
+	<field name="cabApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[//parametrosImpressao/parametro[chave='cabApolice'] /valor]]></fieldDescription>
+	</field>
+	<field name="dataInicioVigencia" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dataInicioVigencia]]></fieldDescription>
+	</field>
+	<field name="dataFimVigenciaSeguro" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/dataFimVigenciaSeguro]]></fieldDescription>
+	</field>
+	<field name="codigoEnderecoCorrespondencia" class="java.lang.String">
+		<fieldDescription><![CDATA[current()/Documentos/Documento/enderecoCorrespondencia]]></fieldDescription>
 	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
@@ -207,12 +66,39 @@
 	<variable name="vano" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("yyyy").format(new Date())]]></variableExpression>
 	</variable>
-	<group name="CabecalhoPart">
-		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
+	<group name="Apolice">
+		<groupExpression><![CDATA[]]></groupExpression>
+	</group>
+	<group name="PageHeaderComplement">
 		<groupHeader>
-			<band height="13">
+			<band height="44">
+				<rectangle>
+					<reportElement x="0" y="0" width="555" height="44" uuid="f6f343f1-1bc7-4184-bf84-29686ec94285"/>
+					<graphicElement>
+						<pen lineWidth="0.75"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement key="" stretchType="RelativeToTallestObject" x="2" y="0" width="553" height="20" isPrintWhenDetailOverflows="true" uuid="051d49f9-e70e-4fdc-8158-2d2dd242b5ac">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<textElement markup="html">
+						<font fontName="Kartika" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["<!DOCTYPE html> " + 
+"<html  lang=pt-br>" +  
+"<head>" + 
+"<meta charset=UTF-8>" +  
+"</head>" +  
+"<body>" + 
+"Vigência do seguro: a partir das 24 horas do dia "  + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataInicioVigencia})) + " até as 24 horas do dia "  + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataFimVigenciaSeguro})) + " As coberturas desta apólice foram contratadas com as "+ 
+"condições vigentes em:"  + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataInicioVigencia}))+ "<br> Processo SUSEP N "+ 
+"</body> " + 
+"</html>"]]></textFieldExpression>
+				</textField>
 				<subreport>
-					<reportElement x="0" y="0" width="555" height="12" uuid="50786bf2-ae3c-4ead-83b3-65322facf27b"/>
+					<reportElement positionType="Float" stretchType="RelativeToBandHeight" x="0" y="20" width="555" height="24" uuid="08000fb6-eb9f-479c-8221-192b408f1c3d"/>
 					<subreportParameter name="XML_DATE_PATTERN">
 						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 					</subreportParameter>
@@ -222,308 +108,20 @@
 					<subreportParameter name="XML_LOCALE">
 						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
 					</subreportParameter>
-					<subreportParameter name="pPage">
-						<subreportParameterExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pPageTotal">
-						<subreportParameterExpression><![CDATA[$V{PAGE_NUMBER}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pSusepPrincipal">
-						<subreportParameterExpression><![CDATA[$F{susepOficial}]]></subreportParameterExpression>
-					</subreportParameter>
 					<subreportParameter name="XML_TIME_ZONE">
 						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
 					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoCabecalho.jasper"]]></subreportExpression>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_listaSusep.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
 		</groupHeader>
 	</group>
-	<group name="Apolice">
-		<groupExpression><![CDATA[]]></groupExpression>
+	<group name="DadadosDoSegurado">
 		<groupHeader>
-			<band height="23">
-				<printWhenExpression><![CDATA[$F{codigoTipoPessoa}.toString().equals("2")]]></printWhenExpression>
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="23" uuid="75cebdb2-71e5-4270-af51-f27dcc346b2c"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DOC_dadosPessoaSegurado.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="35">
-				<printWhenExpression><![CDATA[$F{codigoTipoInterveniente}.equals("2")]]></printWhenExpression>
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="35" uuid="d99eabf6-f5c7-4244-ae08-1fed975f41e2"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pCodigoEndereco">
-						<subreportParameterExpression><![CDATA[$F{codigoEndereco3}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DOC_Intervenientes_Interveniente.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="37">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="37" uuid="abbbd743-d8d4-44dd-889a-c457848d1e40"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pCodigoEndereco">
-						<subreportParameterExpression><![CDATA[$F{codigoEnderecoCorrespondencia}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DOC_EnderecoPessoa.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="33">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="33" uuid="45a8403f-c220-49d4-95d2-46d586314458"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DOC_CorretoresCorretor.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="33">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="33" uuid="aa7c7340-6601-4899-ad8d-cce8b7501c11"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pNomeOferta">
-						<subreportParameterExpression><![CDATA[$F{nomeOferta2}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="countObject"/>
-					<subreportParameter name="pcodigoLocalRisco">
-						<subreportParameterExpression><![CDATA[$F{codigoLocalRisco}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoObjetoDoSeguro.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="35">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="35" uuid="d1433c5a-05f7-4849-813f-7bb55ab2550e"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescricaoDoEvento.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="50">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="50" uuid="a6240f68-d84e-4e93-b294-f1ad3867d6a3"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pcodigoCobertura">
-						<subreportParameterExpression><![CDATA[$F{codigoCobertura}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoCoberturasContratadas.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="54">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="54" uuid="02dd8bc7-e4d0-4d49-b02d-8d5dad6446be"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoParticipacaoObrigatoria.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="16">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="16" uuid="df60cd5c-6acb-4bda-b9be-9befa9c0e09f"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescontosAgravamentos.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="30">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="30" uuid="ce82181e-8f3d-4e5d-b892-30c5fddb3a0f"/>
-					<subreportParameter name="pcodigoQuestionario">
-						<subreportParameterExpression><![CDATA[$F{codigoQuestionario}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pnumeroVersaoQuestionario">
-						<subreportParameterExpression><![CDATA[$F{numeroVersaoQuestionario}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="pcodigoQuestao">
-						<subreportParameterExpression><![CDATA[$F{codigoQuestao}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoQuestionarioAvaliacaoDeRisco.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="25">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="25" uuid="03ffd28e-cc4f-4792-96a2-e919f60bdc01"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescricaoDosEquipamentos.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="29">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="29" uuid="0aac0ede-ee2a-4228-9fdb-68c75bdc34a5"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["ClausulasParticulares.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="27">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="27" uuid="480f2a40-0781-4803-bd7a-cf53901c0a5c"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoClausulasBeneficiarias.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="27">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="27" uuid="70c29bdd-f0d5-4d67-989d-1c9fe5aa00cb"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoInformacoesGeraisDoSeguro.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
 			<band height="20">
 				<subreport>
-					<reportElement x="0" y="0" width="555" height="20" uuid="2dc1943e-70b3-4ee1-a53c-4b7b1857af23"/>
+					<reportElement x="0" y="0" width="555" height="20" uuid="0c0d9859-9dd2-4bc5-a6bd-362c400f32c8"/>
 					<subreportParameter name="XML_DATE_PATTERN">
 						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
 					</subreportParameter>
@@ -536,98 +134,211 @@
 					<subreportParameter name="XML_TIME_ZONE">
 						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
 					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoDescontoGerais.jasper"]]></subreportExpression>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_DadosPessoaSegurado.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
-			<band height="18">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="18" uuid="3735cc6c-56f3-4cf5-9d32-f6abba25d329"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DocumentoFormaDePagamento.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="25">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="25" uuid="11b627eb-1900-4b14-ba76-805aa48cf950"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["DOC_DocumentoDataProtocolo.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="30" splitType="Prevent">
-				<subreport>
-					<reportElement x="0" y="0" width="555" height="30" uuid="e9f59cc6-addb-4176-a041-5171531f55c5"/>
-					<subreportParameter name="XML_DATE_PATTERN">
-						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_DATA_DOCUMENT">
-						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_LOCALE">
-						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportParameter name="XML_TIME_ZONE">
-						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-					</subreportParameter>
-					<subreportExpression><![CDATA["COR_corretorSusep.jasper"]]></subreportExpression>
-				</subreport>
-			</band>
-			<band height="32"/>
-			<band height="50"/>
-			<band height="50"/>
-			<band height="50"/>
 		</groupHeader>
 	</group>
 	<group name="item">
 		<groupExpression><![CDATA[$V{PAGE_NUMBER}]]></groupExpression>
 	</group>
 	<group name="Item1"/>
+	<group name="DadosDoCossegurado"/>
+	<group name="DadosCossegurado">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="f61ec6f9-c4cf-419a-8d44-36ce5b74510c"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_IntervenientesDadosCossegurado.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="DadosDoDestinatario">
+		<groupHeader>
+			<band height="20">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="e38516ff-293f-4903-8cfd-125567b7a306">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_EnderecosPessoa_DadosDoDestinatario.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ObjetoDoSeguro">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="6e61ae67-6c13-4488-b6c5-709b2ff36741"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_ObjetoRiscoLocalRisco_ObetoSeguroEventos.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="DescricaoDoEvento">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="cb75d435-580b-466e-a188-50a3136e6c94"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_ObjetoRisco_Evento_Descricao.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="CoberturasContratadasLimitesMaximos">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="aec832e5-53f8-4ff2-832d-58c2e9cdecdb"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DocumentoCoberturasContratadas.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ParticipacaoObrigatoria">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="a99af193-4e44-4ae8-a9a8-e35a5dd34cd6"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DocumentoParticipacaoObrigatoria.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="QuestionarioObrigatorio">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="ec4722f4-501d-481c-a6d2-341906b0400b"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Fixo_QuestionarioObrigatorio.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
 	<title>
-		<band height="28">
-			<subreport>
-				<reportElement x="0" y="0" width="555" height="28" uuid="4a851467-fa6b-4154-b476-1119a2ed5514"/>
-				<subreportParameter name="XML_DATE_PATTERN">
-					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="XML_DATA_DOCUMENT">
-					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="XML_LOCALE">
-					<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="pSusepPrincipal">
-					<subreportParameterExpression><![CDATA[$F{susepOficial}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="XML_TIME_ZONE">
-					<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportExpression><![CDATA["C:/Users/alexandre.dos.santos/Documents/Working/impressoes/Reports_Folder/Reports_Folder/Impressao/Porto/Apolice/Comuns/DOC_Titulo.jasper"]]></subreportExpression>
-			</subreport>
+		<band height="36">
+			<staticText>
+				<reportElement x="238" y="5" width="188" height="13" uuid="ecaa73d4-a094-4e4c-80b7-3541c2f0b347">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Kartika" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[APÓLICE DO RAMO]]></text>
+			</staticText>
+			<image scaleImage="FillFrame" vAlign="Top">
+				<reportElement x="0" y="0" width="175" height="35" uuid="2a34e57e-dfd3-404a-b17a-ff49e94100c3"/>
+				<imageExpression><![CDATA[$F{imgApolice}]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="175" y="0" width="1" height="35" forecolor="#999999" uuid="c99be6d9-8498-40f7-9eaf-2135a633d881"/>
+			</line>
+			<textField>
+				<reportElement x="285" y="18" width="100" height="13" uuid="1aa83304-59b4-4cdb-b286-6cee8927a890">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Kartika" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeOferta}]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<pageHeader>
-		<band height="26">
+		<band height="25">
 			<rectangle>
 				<reportElement x="0" y="0" width="555" height="25" uuid="18e8b3f3-d8ae-4565-b02e-d121ee53ca7c"/>
 				<graphicElement>
@@ -654,14 +365,14 @@
 				<reportElement x="128" y="0" width="1" height="25" uuid="710aeb62-4fdc-4048-a41a-85f9daee08d4"/>
 			</line>
 			<staticText>
-				<reportElement x="256" y="0" width="118" height="12" uuid="69351e30-c84f-45be-a92a-8e1e42d5084a"/>
+				<reportElement x="253" y="0" width="122" height="12" uuid="69351e30-c84f-45be-a92a-8e1e42d5084a"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6" isBold="true"/>
 				</textElement>
 				<text><![CDATA[PROPOSTA N]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="378" y="0" width="118" height="12" uuid="2187df54-92ee-4948-87ba-dcb6ccbc88d9"/>
+				<reportElement x="376" y="0" width="121" height="12" uuid="2187df54-92ee-4948-87ba-dcb6ccbc88d9"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6" isBold="true"/>
 				</textElement>
@@ -672,44 +383,42 @@
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroApoliceAnterior}.length() > 0 ? $F{numeroApoliceAnterior} : "NOVA"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{numeroApoliceAnterior}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="256" y="11" width="118" height="13" uuid="43ac9a02-555a-47f8-b545-613558619b9e"/>
+				<reportElement x="253" y="12" width="123" height="13" uuid="43ac9a02-555a-47f8-b545-613558619b9e"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{codigoOrigemEmissao}+" "+ $F{numeroProposta}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="378" y="11" width="118" height="13" uuid="d817539e-69e5-49be-9352-8d190bed4754"/>
+				<reportElement x="376" y="12" width="121" height="13" uuid="d817539e-69e5-49be-9352-8d190bed4754"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{codigoRamo}]]></textFieldExpression>
 			</textField>
 			<rectangle>
-				<reportElement mode="Opaque" x="132" y="2" width="118" height="23" forecolor="#000000" backcolor="#CCCCCC" uuid="5a345398-f86b-416d-bbce-fc5f1fb89766"/>
+				<reportElement mode="Opaque" x="129" y="1" width="123" height="24" forecolor="#000000" backcolor="#CCCCCC" uuid="5a345398-f86b-416d-bbce-fc5f1fb89766">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
 				<graphicElement>
 					<pen lineWidth="0.0"/>
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="131" y="0" width="118" height="12" backcolor="#999999" uuid="3fa42ca6-d84b-484d-bdd9-8087def2db89"/>
+				<reportElement x="129" y="0" width="123" height="12" backcolor="#999999" uuid="3fa42ca6-d84b-484d-bdd9-8087def2db89"/>
 				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6" isBold="true"/>
 				</textElement>
 				<text><![CDATA[APÓLICE N]]></text>
 			</staticText>
-			<textField>
-				<reportElement x="131" y="11" width="118" height="13" backcolor="#999999" uuid="996c0f83-a26f-4b1d-abbe-14d5ae020097"/>
-				<textElement textAlignment="Center">
-					<font fontName="Helvetica World" size="6"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroApolice}]]></textFieldExpression>
-			</textField>
 			<rectangle>
-				<reportElement mode="Opaque" x="498" y="1" width="56" height="24" forecolor="#000000" backcolor="#CCCCCC" uuid="1dc425d5-5195-4fcb-bd0b-8c82ddcd8223"/>
+				<reportElement mode="Opaque" x="498" y="1" width="57" height="24" forecolor="#000000" backcolor="#CCCCCC" uuid="1dc425d5-5195-4fcb-bd0b-8c82ddcd8223">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
 				<graphicElement>
 					<pen lineWidth="0.0"/>
 				</graphicElement>
@@ -722,69 +431,37 @@
 				<text><![CDATA[FOLHA ]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="513" y="11" width="15" height="13" uuid="905e2c8e-a6eb-4c7e-8afd-390c5b4c988e"/>
-				<textElement textAlignment="Right" verticalAlignment="Middle">
+				<reportElement x="129" y="12" width="123" height="13" backcolor="#999999" uuid="996c0f83-a26f-4b1d-abbe-14d5ae020097"/>
+				<textElement textAlignment="Center">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{codigoRamo}+"."+$F{codigoSucursal} + " " + $F{numeroApolice}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="502" y="12" width="18" height="13" uuid="93a2abf4-45c9-44b9-a737-1b40b2d08b43">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<textField evaluationTime="Report">
-				<reportElement x="527" y="11" width="10" height="13" uuid="7d0baa3d-6db4-491c-a00f-093cc97b5549"/>
-				<textElement verticalAlignment="Middle">
+				<reportElement x="520" y="12" width="32" height="13" uuid="89bae332-25b1-49c0-8eb8-58cf819e0fb4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 		</band>
 	</pageHeader>
 	<pageFooter>
-		<band height="15">
-			<textField>
-				<reportElement x="1" y="3" width="404" height="12" uuid="5d1b2a7c-6087-4d68-b24b-a7ca9d056099"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta2} + " - " + $F{codigoOperacao} + "       V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Page">
-				<reportElement x="405" y="3" width="129" height="12" uuid="0f5c7ce3-7433-4cf1-bd8f-16ef08147624"/>
-				<textElement textAlignment="Right">
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA["Pagina " + $V{PAGE_NUMBER}  + " de "]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Report">
-				<reportElement x="534" y="3" width="22" height="12" uuid="6979a34d-5411-4287-bd7b-f6c380b14ff4"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
-			</textField>
-		</band>
+		<band height="15"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="14">
-			<textField evaluationTime="Report">
-				<reportElement x="535" y="2" width="21" height="12" uuid="1e7d77f8-559b-4662-9c83-59577f6a7fef"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
-			</textField>
-			<textField evaluationTime="Page">
-				<reportElement x="406" y="2" width="129" height="12" uuid="656fb0f4-f771-4111-8fdd-b7f53548f1bd"/>
-				<textElement textAlignment="Right">
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA["Pagina " + $V{PAGE_NUMBER}  + " de "]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="0" y="2" width="406" height="12" uuid="dfe006d6-e44f-4971-b288-f9e96cfe7299"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{susepCorretor} + " - " + $F{nomeCorretor} + " - " + $F{nomeOferta2} + " - " + $F{codigoOperacao} + "       V" + $F{numeroVersaoOrcamento}.toString()]]></textFieldExpression>
-			</textField>
-		</band>
+		<band height="14"/>
 	</lastPageFooter>
 </jasperReport>
