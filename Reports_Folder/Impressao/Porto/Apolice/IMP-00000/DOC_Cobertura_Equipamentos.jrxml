@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-12T14:08:10 -->
+<!-- 2016-01-12T14:28:06 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoDescricaoDosEquipamentos" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="934692be-7646-4f18-ab6d-18c86b24519a">
 	<property name="ireport.zoom" value="2.143588810000003"/>
 	<property name="ireport.x" value="0"/>
@@ -23,7 +23,7 @@
 		<initialValueExpression><![CDATA["7"]]></initialValueExpression>
 	</variable>
 	<detail>
-		<band height="98">
+		<band height="49">
 			<rectangle>
 				<reportElement x="0" y="12" width="555" height="12" backcolor="#E3E3E3" uuid="ea97098d-42dc-4daf-a7b5-26b4510a013e">
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
@@ -88,7 +88,7 @@
 				<textFieldExpression><![CDATA["COBERTURA PARA " + $F{nomeCobertura}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement stretchType="RelativeToTallestObject" x="276" y="25" width="1" height="25" uuid="a48190f0-d93e-4614-a450-f36979a29cdf">
+				<reportElement stretchType="RelativeToTallestObject" x="276" y="24" width="1" height="25" uuid="a48190f0-d93e-4614-a450-f36979a29cdf">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
@@ -116,7 +116,7 @@
 				<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/SUB_ObjetoRiscoEquipamento.jasper"]]></subreportExpression>
 			</subreport>
 			<line>
-				<reportElement stretchType="RelativeToTallestObject" x="0" y="37" width="1" height="13" uuid="7adf8bd5-2ef0-4db6-938c-bdcf2a4c1827">
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="36" width="1" height="13" uuid="7adf8bd5-2ef0-4db6-938c-bdcf2a4c1827">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
@@ -125,7 +125,7 @@
 				</graphicElement>
 			</line>
 			<subreport>
-				<reportElement x="278" y="36" width="276" height="13" uuid="f8c93dc6-a9b5-4bce-b742-fc25477fe336">
+				<reportElement x="277" y="36" width="276" height="13" uuid="f8c93dc6-a9b5-4bce-b742-fc25477fe336">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<subreportParameter name="XML_DATE_PATTERN">
@@ -147,9 +147,9 @@
 				<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/SUB_CoberturasItem_ValorEquipamento.jasper"]]></subreportExpression>
 			</subreport>
 			<line>
-				<reportElement x="0" y="49" width="555" height="1" uuid="b43fc021-ed37-4375-90ea-12172821a265">
+				<reportElement stretchType="RelativeToTallestObject" x="554" y="36" width="1" height="13" uuid="dd755062-31e1-4072-979b-dc2f7593bdf7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
 				<graphicElement>
 					<pen lineWidth="0.75"/>

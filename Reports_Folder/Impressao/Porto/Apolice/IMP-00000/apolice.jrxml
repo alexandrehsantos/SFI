@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-11T19:20:51 -->
+<!-- 2016-01-12T18:25:54 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Apolice" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="0.848195236744975"/>
 	<property name="ireport.x" value="0"/>
@@ -56,6 +56,9 @@
 	</field>
 	<field name="codigoEnderecoCorrespondencia" class="java.lang.String">
 		<fieldDescription><![CDATA[current()/Documentos/Documento/enderecoCorrespondencia]]></fieldDescription>
+	</field>
+	<field name="qtCoberturasEquipamentos" class="java.lang.Integer">
+		<fieldDescription><![CDATA[count(//Produtos/Produto/Coberturas/Cobertura[codigoCobertura='7'])]]></fieldDescription>
 	</field>
 	<variable name="vdia" class="java.lang.String">
 		<variableExpression><![CDATA[new java.text.SimpleDateFormat("dd").format(new Date())]]></variableExpression>
@@ -304,6 +307,77 @@
 					</subreportParameter>
 					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
 					<subreportExpression><![CDATA["Fixo_QuestionarioObrigatorio.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="DescricaoDosEquipamentos">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="73b30788-0b15-4477-bca4-8242054f1056">
+						<printWhenExpression><![CDATA[$F{qtCoberturasEquipamentos}>0]]></printWhenExpression>
+					</reportElement>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_Cobertura_Equipamentos.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ClausulasParticulares">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="eb42c98b-098a-4753-93f7-4f130bd245b6"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_Clausulas.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ClausulasBeneficiarias">
+		<groupHeader>
+			<band height="20">
+				<subreport>
+					<reportElement x="0" y="0" width="555" height="20" uuid="e563a865-92be-47d6-a939-1b3abdb6d203"/>
+					<subreportParameter name="XML_DATE_PATTERN">
+						<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_LOCALE">
+						<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="XML_TIME_ZONE">
+						<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/DOC_Beneficiarios.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
 		</groupHeader>
