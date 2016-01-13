@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-08T17:06:21 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proponente" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="101f21d5-22cb-4983-b3e3-beea3c66f333">
 	<property name="ireport.zoom" value="2.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<parameter name="pcodigoPessoa" class="java.lang.String"/>
 	<parameter name="strSegurado" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["NOME/RAZÃO SOCIAL"]]></defaultValueExpression>
@@ -91,33 +94,22 @@
 				</graphicElement>
 			</rectangle>
 			<line>
-				<reportElement x="371" y="0" width="1" height="25" uuid="0f421c86-54f5-4830-9da1-38bf79416b05"/>
-				<graphicElement>
-					<pen lineWidth="0.75"/>
-				</graphicElement>
-			</line>
-			<line>
-				<reportElement x="463" y="0" width="1" height="25" uuid="a0de6189-ff1d-4a0a-9bb7-6ddab0652416"/>
+				<reportElement x="421" y="0" width="1" height="25" uuid="0f421c86-54f5-4830-9da1-38bf79416b05"/>
 				<graphicElement>
 					<pen lineWidth="0.75"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement x="466" y="2" width="74" height="9" uuid="94ad981f-1e2a-496e-bdee-a7e2a59aa050"/>
-				<textElement>
-					<font fontName="Helvetica World" size="6"/>
-				</textElement>
-				<text><![CDATA[TELEFONE]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="303" y="2" width="63" height="9" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
+				<reportElement x="303" y="0" width="118" height="12" uuid="f8db93d5-ec81-4737-ac9e-3105a41fbce7"/>
 				<textElement>
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
 				<text><![CDATA[TIPO DE PESSOA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="375" y="2" width="63" height="9" uuid="c4e418d5-879a-4784-9e30-5781dd34f610"/>
+				<reportElement x="423" y="0" width="130" height="12" uuid="c4e418d5-879a-4784-9e30-5781dd34f610">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
 				<textElement>
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>
@@ -130,35 +122,33 @@
 				</graphicElement>
 			</line>
 			<textField>
-				<reportElement x="2" y="11" width="298" height="13" uuid="10376734-bb99-4d43-8b07-26d876da08c4"/>
+				<reportElement x="2" y="12" width="298" height="13" uuid="10376734-bb99-4d43-8b07-26d876da08c4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nomePessoa}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="304" y="11" width="65" height="12" uuid="16d5a9a8-9268-4e72-be4d-f7cfc835b5b6"/>
+				<reportElement x="303" y="12" width="118" height="13" uuid="16d5a9a8-9268-4e72-be4d-f7cfc835b5b6"/>
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nomeTipoPessoa}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="375" y="11" width="86" height="13" uuid="2950ea21-b395-4ec8-adb9-14b9e8189586"/>
+				<reportElement x="423" y="12" width="130" height="13" uuid="2950ea21-b395-4ec8-adb9-14b9e8189586"/>
 				<textElement>
 					<font fontName="Kartika" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroCnpjCpf}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[	$F{numeroCnpjCpf}.length() == 14 ? ($F{numeroCnpjCpf}.substring(0, 2) + "." + $F{numeroCnpjCpf}.substring(2, 5) + "." + $F{numeroCnpjCpf}.substring(5, 8) + "/" + $F{numeroCnpjCpf}.substring(8, 12) + "-" + $F{numeroCnpjCpf}.substring(12, 14))
+			: $F{numeroCnpjCpf}.length() == 11 ? ($F{numeroCnpjCpf}.substring(0, 3) + "." + $F{numeroCnpjCpf}.substring(3, 6) + "." + $F{numeroCnpjCpf}.substring(6, 9) + "-" + $F{numeroCnpjCpf}.substring(9, 11))
+			: $F{numeroCnpjCpf}		
+				]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="466" y="11" width="88" height="13" uuid="cd014d6b-71bf-448a-b70e-bd40dafbfb3d"/>
-				<textElement>
-					<font fontName="Kartika" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{numeroDdd}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="2" y="1" width="100" height="12" uuid="2e3524fb-5421-4b1b-a5e9-0b6ebed47575"/>
+				<reportElement x="2" y="0" width="298" height="12" uuid="2e3524fb-5421-4b1b-a5e9-0b6ebed47575"/>
 				<textElement>
 					<font fontName="Helvetica World" size="6"/>
 				</textElement>

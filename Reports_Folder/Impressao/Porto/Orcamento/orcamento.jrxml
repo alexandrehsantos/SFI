@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-08T16:45:50 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="header" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941615cb-316e-4cdd-bf56-19a63eb11ebc">
 	<property name="ireport.zoom" value="1.3660269107301415"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="656"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
 	<subDataset name="Dataset2" uuid="db9b2947-57a2-40b8-b2d6-0518b633839c">
 		<queryString language="xPath">
 			<![CDATA[//Produto]]>
@@ -692,7 +695,7 @@
 			</rectangle>
 			<image>
 				<reportElement x="2" y="1" width="173" height="53" uuid="6d4fdf01-df14-49d2-bef5-3779d449d83c"/>
-				<imageExpression><![CDATA["//image//2_12_residencia_habitual.jpg"]]></imageExpression>
+				<imageExpression><![CDATA[""..\\..\\..\\..\\images\\2_12_residencia_habitual.jpg"]]></imageExpression>
 			</image>
 			<rectangle>
 				<reportElement x="315" y="3" width="109" height="40" uuid="08a1af79-119f-4693-82eb-717556b3fcd6"/>
