@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-13T16:14:19 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DocumentoFormaDePagamento" columnCount="2" pageWidth="555" pageHeight="802" columnWidth="277" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7e02e03a-394b-4f8f-a5f1-8beb01336f04">
+	<property name="ireport.zoom" value="1.464100000000001"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="4"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<subDataset name="dataset1" uuid="0941a40e-74a0-4790-9924-3875bc46e94f"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\alexandre.dos.santos\\Documents\\Working\\impressoes\\apolice\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<field name="valorCustoApolice" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/valorCustoApolice]]></fieldDescription>
+	</field>
+	<field name="NomeFormaPagamento" class="java.lang.String">
+		<fieldDescription><![CDATA[formasPagamento/formaPagamento/NomeFormaPagamento]]></fieldDescription>
+	</field>
+	<field name="valorPrimeiraParcela" class="java.lang.String">
+		<fieldDescription><![CDATA[formasPagamento/formaPagamento/valorPrimeiraParcela]]></fieldDescription>
+	</field>
+	<field name="valorDemaisParcela" class="java.lang.String">
+		<fieldDescription><![CDATA[formasPagamento/formaPagamento/valorDemaisParcela]]></fieldDescription>
+	</field>
+	<field name="valorPremioServico" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioServico)]]></fieldDescription>
+	</field>
+	<field name="valorPremioClausula" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioCobertura)]]></fieldDescription>
+	</field>
+	<field name="valorPremioPlanoServico" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioCobertura)]]></fieldDescription>
+	</field>
+	<field name="valorPremioCobertura" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorPremioCobertura)]]></fieldDescription>
+	</field>
+	<field name="valorAdicionalFracionamento" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorAdicionalFracionamento)]]></fieldDescription>
+	</field>
+	<field name="valorImpostoOperacaoFinanceira" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/formasPagamento/formaPagamento/valorImpostoOperacaoFinanceira)]]></fieldDescription>
+	</field>
+	<field name="precoTotalSeguro" class="java.lang.String"/>
+	<field name="descontoAgravo" class="java.lang.String">
+		<fieldDescription><![CDATA[sum(//Documentos/Documento/ItensDocumentoEmissao/itemDocumentoEmissao/descontosAgravoItem/descontoAgravo/valorDescontoAgravo)]]></fieldDescription>
+	</field>
+	<field name="textoBoleto" class="java.lang.String">
+		<fieldDescription><![CDATA[//parametrosImpressao/parametro[chave='textoBoleto'] /valor]]></fieldDescription>
+	</field>
+	<field name="Field_2" class="java.lang.String"/>
+	<field name="codigoMeioPagamentoPrimeiraParcela" class="java.lang.String">
+		<fieldDescription><![CDATA[//Documentos/Documento/formasPagamento/formaPagamento/codigoMeioPagamentoPrimeiraParcela]]></fieldDescription>
+	</field>
+	<field name="textoADC" class="java.lang.String">
+		<fieldDescription><![CDATA[//parametrosImpressao/parametro[chave='textoADC'] /valor]]></fieldDescription>
+	</field>
+	<variable name="valorPremioLiquidoTotal" class="java.lang.String">
+		<variableExpression><![CDATA[Double.toString(new Double($F{valorPremioCobertura}) + new Double($F{valorPremioClausula}) + new Double($F{valorPremioPlanoServico}))]]></variableExpression>
+	</variable>
+	<variable name="valorPremioTotal" class="java.lang.String">
+		<variableExpression><![CDATA[new Double($F{valorPremioCobertura}) + new Double($F{valorPremioClausula}) + new Double($F{valorPremioPlanoServico}) + new Double($F{valorAdicionalFracionamento}) + new Double($F{valorCustoApolice}) + new Double($F{valorImpostoOperacaoFinanceira})]]></variableExpression>
+	</variable>
+	<detail>
+		<band height="174" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<staticText>
+				<reportElement x="18" y="31" width="133" height="13" uuid="40f2e365-9003-4506-9574-23d8b77c9daa"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Prêmio Tarifário]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="31" width="90" height="13" uuid="4f6dc999-7231-4627-8af3-4f1129e24b91"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorPremioCobertura}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="70" width="133" height="13" uuid="7a697f44-e7eb-4765-96de-598e554f8067"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Premio Líquido]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="70" width="90" height="13" uuid="4a317db4-9113-4b5e-af91-3690d98db4b1"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($V{valorPremioLiquidoTotal}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="57" width="133" height="13" uuid="7d335204-f7ff-43dd-89a2-1d67e8cfeb8e"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Planos de Serviços]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="57" width="90" height="13" uuid="a22e3705-f616-40c3-a9fa-a6e908c077ae"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorPremioServico}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="83" width="133" height="13" uuid="12114b1d-3d49-4aa0-b190-64ed11b4c238"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Adicional de Fracionamento]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="83" width="90" height="13" uuid="5010abf3-a54c-4771-9d65-4fc7d203fce8"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorAdicionalFracionamento}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="96" width="133" height="13" uuid="b421039d-38dd-4a0b-946f-f1fea3b4b476"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Custo Emissão]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="96" width="90" height="13" uuid="5aae6d16-2e3d-4806-ba56-b9d8635c93b3"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorCustoApolice}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="109" width="133" height="13" uuid="7ba2b4ca-f37d-4d0a-9632-4a8bc50eb327"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[IOF]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="109" width="90" height="13" uuid="4c746801-de5e-4800-a5a5-0bc42a07b0d4"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorImpostoOperacaoFinanceira}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="122" width="133" height="13" uuid="bbd00181-0a81-4000-81cb-055fd6ebf98e"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Preço Total do Seguro]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="122" width="90" height="13" uuid="7515966c-b0a5-4490-a0d4-bd0790dbbdd0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Double($F{valorPremioCobertura}) + new Double($F{valorPremioClausula}) + new Double($F{valorPremioPlanoServico}) + new Double($F{valorAdicionalFracionamento}) + new Double($F{valorCustoApolice}) + new Double($F{valorImpostoOperacaoFinanceira})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="44" width="133" height="13" uuid="52f2b722-0914-4277-a6eb-1e5b4ae1b025"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="151" y="44" width="90" height="13" uuid="91323cbb-ebda-455f-a7f4-bb6fd7058e4d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{descontoAgravo}))]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement stretchType="RelativeToTallestObject" x="278" y="15" width="276" height="42" uuid="ed2be26a-20c9-47c8-a458-6518daace509"/>
+				<subreportParameter name="XML_DATE_PATTERN">
+					<subreportParameterExpression><![CDATA[$P{XML_DATE_PATTERN}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_LOCALE">
+					<subreportParameterExpression><![CDATA[$P{XML_LOCALE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="XML_TIME_ZONE">
+					<subreportParameterExpression><![CDATA[$P{XML_TIME_ZONE}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["Impressao/Porto/Apolice/IMP-00000/PAG_PagadorParcelaParcelas.jasper"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement x="18" y="135" width="133" height="13" uuid="0823711c-a6e6-4486-b469-70a49d929cc9"/>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="1" spacingBefore="0"/>
+				</textElement>
+				<text><![CDATA[Taxa de Juros ao mês %]]></text>
+			</staticText>
+			<line>
+				<reportElement x="5" y="160" width="545" height="1" uuid="10983369-6fd3-4c0f-a540-893009f13def">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="Float" x="5" y="173" width="545" height="1" uuid="1dac18dc-c94d-47d0-b8ac-5c506dc4b0df">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement stretchType="RelativeToTallestObject" x="5" y="160" width="545" height="13" uuid="fff2013c-abba-4cdc-b452-e218bf50db57">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{codigoMeioPagamentoPrimeiraParcela}.equals("13")]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoBoleto}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="5" y="160" width="545" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="939bf1af-5bdf-435f-92fc-f46c92c91013">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{codigoMeioPagamentoPrimeiraParcela}.equals("13")]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoADC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="151" y="135" width="90" height="13" uuid="1779acf4-7eef-4458-9f76-930c2c9308db"/>
+				<textElement textAlignment="Right">
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorImpostoOperacaoFinanceira}))]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="67f0f910-e586-4ff4-acd5-7468c5401c08"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="278" y="0" width="278" height="12" isRemoveLineWhenBlank="true" uuid="293cd045-0d59-49d9-8772-89c13ad68795"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[FORMA DE PAGAMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="278" height="12" isRemoveLineWhenBlank="true" uuid="5b40c71c-e3fa-4ca7-8706-abca8f196ea5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[PREÇO DO SEGURO (VALORES EM REAIS)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-01-13T17:14:56 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_DataProtocolo_ClausulaAdmissao" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d43f6182-a242-42a5-8f17-83212625cb48">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
+	<queryString language="xPath">
+		<![CDATA[//Documentos/Documento]]>
+	</queryString>
+	<field name="dataProtocolo" class="java.lang.String">
+		<fieldDescription><![CDATA[dataProtocolo]]></fieldDescription>
+	</field>
+	<field name="textoClausulaAdmissao" class="java.lang.String">
+		<fieldDescription><![CDATA[//parametrosImpressao/parametro[chave='textoClausulaAdmissao'] /valor]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="40" splitType="Stretch">
+			<rectangle>
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="555" height="27" uuid="db728e84-53df-4863-a6f0-a34efd19925e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="12" backcolor="#CCCCCC" uuid="40fa5ca8-8d31-451f-b256-6e198387330d"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="12" isRemoveLineWhenBlank="true" uuid="61169d1d-c5a5-48c0-a778-68f1fb4cc359"/>
+				<textElement textAlignment="Center">
+					<font fontName="Helvetica World" size="8" isBold="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[CLÁUSULA DE ADMISSÃO POR TRANSFERÊNCIA ELETRÔNICA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="14" width="402" height="13" uuid="54deca4a-a604-48a4-9cbb-c7387889e7dd">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Helvetica World" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TRANSMISSÃO ELETRÔNICA EM " +new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{dataProtocolo}.substring(0,10))) + " às " + $F{dataProtocolo}.substring(11,16)]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="2" y="27" width="553" height="13" uuid="311591cd-85ef-4b5b-a2ad-ca54443522eb">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="Helvetica World" size="6"/>
+					<paragraph spacingBefore="2" spacingAfter="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{textoClausulaAdmissao}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

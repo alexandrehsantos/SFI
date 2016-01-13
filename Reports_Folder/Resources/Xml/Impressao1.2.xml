@@ -22,16 +22,16 @@
         <codigoTipoDistribuicaoPagamento>67</codigoTipoDistribuicaoPagamento>
         <enderecoCorrespondencia>
           <codigoEndereco>6565</codigoEndereco>
-          <codigoTipoLogradouro>1</codigoTipoLogradouro>
+          <codigoTipoLogradouro>3</codigoTipoLogradouro>
           <nomeTipoLogradouro>Rua</nomeTipoLogradouro>
           <codigoLogradouro>1</codigoLogradouro>
-          <nomeLogradouro>Abcdefghijklmnopqrstuvxz</nomeLogradouro>
-          <numeroLogradouro>99999999999</numeroLogradouro>
-          <flagSemNumero>0</flagSemNumero>
-          <numeroCep>00000000</numeroCep>
-          <nomeComplemento>PAVILHAO BRANCO</nomeComplemento>
+          <nomeLogradouro>Genreal enrico caviglia</nomeLogradouro>
+          <numeroLogradouro>1</numeroLogradouro>
+          <flagSemNumero>n</flagSemNumero>
+          <numeroCep>04168000</numeroCep>
+          <nomeComplemento>7D</nomeComplemento>
           <codigoBairro>1</codigoBairro>
-          <nomeBairro>VILA GHILHERME</nomeBairro>
+          <nomeBairro>VILA moraes</nomeBairro>
           <codigoCidade>1</codigoCidade>
           <nomeCidade>SAO PAULO</nomeCidade>
           <codigoUnidadeFederacao>1</codigoUnidadeFederacao>
@@ -45,7 +45,7 @@
           <flagPrincipal />
           <flagAtivo />
         </enderecoCorrespondencia>
-        <dataProtocolo />
+        <dataProtocolo>2010-01-31 09:26:50.12</dataProtocolo>
         <dataEmissao>09-NOV-15</dataEmissao>
         <numeroPropostaAutomovel />
         <flagPossuiCorretorSecundario>s</flagPossuiCorretorSecundario>
@@ -126,19 +126,19 @@
             <enderecoPessoa>
               <codigoEndereco>68</codigoEndereco>
               <codigoTipoLogradouro></codigoTipoLogradouro>
-              <nomeTipoLogradouro />
+              <nomeTipoLogradouro>Rua</nomeTipoLogradouro>
               <codigoLogradouro />
-              <nomeLogradouro />
-              <numeroLogradouro />
+              <nomeLogradouro>GENERAL ENRICO CAVIGLIA</nomeLogradouro>
+              <numeroLogradouro>1</numeroLogradouro>
               <flagSemNumero />
-              <numeroCep />
-              <nomeComplemento />
+              <numeroCep>04168040</numeroCep>
+              <nomeComplemento>7d</nomeComplemento>
               <codigoBairro />
-              <nomeBairro />
+              <nomeBairro>VILA MORAES</nomeBairro>
               <codigoCidade />
-              <nomeCidade />
+              <nomeCidade>são paulo</nomeCidade>
               <codigoUnidadeFederacao />
-              <nomeUnidadeFederacao />
+              <nomeUnidadeFederacao>SP </nomeUnidadeFederacao>
               <codigoPais />
               <nomePais />
               <textoPontoReferencia />
@@ -238,7 +238,7 @@
         <codigoParceiroNegocio />
         <numeroVersaoParceiroNegocio />
         <codigoOnus />
-        <codigoFormaPagamento />
+        <codigoFormaPagamento>1</codigoFormaPagamento>
         <codigoClasseProfissionalLiberal />
         <codigoCanal />
         <codigoMoeda />
@@ -256,7 +256,7 @@
         <codigoOperacao>10</codigoOperacao>
         <dataInicioVigenciaVersaoOrcamento />
         <dataFimVigenciaVersaoOrcamento />
-        <valorAdicionalFracionamento />
+        <valorAdicionalFracionamento>1</valorAdicionalFracionamento>
         <valorCustoApolice>000</valorCustoApolice>
         <valorEncargo />
         <valorPremio />
@@ -339,15 +339,15 @@
             <pagadoresParcela>
               <pagadorParcela>
                 <dadosPessoaPagadorParcela />
-                <numeroParcela />
-                <dataVencimento />
+                <numeroParcela>1</numeroParcela>
+                <dataVencimento>29-AGO-15</dataVencimento>
                 <codigoTipoCartao />
                 <codigoIdentificacaoCartao />
                 <codigoBanco />
                 <numeroAgenciaBancaria />
                 <numeroContaBancaria />
                 <digitoContaBancaria />
-                <valorParcela />
+                <valorParcela>1979.99</valorParcela>
               </pagadorParcela>
             </pagadoresParcela>
           </pagador>
@@ -397,25 +397,25 @@
             </listaCorretores>
             <listaSusepsProducao>
               <susepProducao>
-                <ultimaAtualizacao />
-                <susepPorto />
+                <ultimaAtualizacao>20-NOV-01</ultimaAtualizacao>
+                <susepPorto>jW06</susepPorto>
                 <susepOficial>111111111</susepOficial>
-                <status />
-                <dataCadastro />
+                <status>str1</status>
+                <dataCadastro>08-JAN-16</dataCadastro>
               </susepProducao>
               <susepProducao>
-                <ultimaAtualizacao />
-                <susepPorto />
+                <ultimaAtualizacao>19-NOV-02</ultimaAtualizacao>
+                <susepPorto>ASWK00</susepPorto>
                 <susepOficial>2222222222</susepOficial>
-                <status />
-                <dataCadastro />
+                <status>str2</status>
+                <dataCadastro>08-JAN-16</dataCadastro>
               </susepProducao>
               <susepProducao>
-                <ultimaAtualizacao />
-                <susepPorto />
+                <ultimaAtualizacao>19-NOV-02</ultimaAtualizacao>
+                <susepPorto>ASWK99</susepPorto>
                 <susepOficial>33333333333</susepOficial>
-                <status />
-                <dataCadastro />
+                <status>str3</status>
+                <dataCadastro>08-JAN-16</dataCadastro>
               </susepProducao>
             </listaSusepsProducao>
             <listaFiliais>
@@ -675,13 +675,13 @@
             <valorPrimeiraParcela>251.33</valorPrimeiraParcela>
             <valorDemaisParcela>251.32</valorDemaisParcela>
             <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
-            <valorAdicionalFracionamento>0</valorAdicionalFracionamento>
+            <valorAdicionalFracionamento>1</valorAdicionalFracionamento>
             <valorEncargo>0</valorEncargo>
             <valorPremioCobertura>181.35</valorPremioCobertura>
             <valorPremioClausula>1000</valorPremioClausula>
             <valorPremioServico>100</valorPremioServico>
             <flagImpressaoFormaPagamento>1</flagImpressaoFormaPagamento>
-            <codigoMeioPagamentoPrimeiraParcela>13</codigoMeioPagamentoPrimeiraParcela>
+            <codigoMeioPagamentoPrimeiraParcela>14</codigoMeioPagamentoPrimeiraParcela>
             <codigoMeioPagamentoDemaisParcela>1</codigoMeioPagamentoDemaisParcela>
             <nomeResumidoFormaPagamento>CARTÃO PORTO SEGURO</nomeResumidoFormaPagamento>
             <nomeFormaPagamento>CARTÃO PORTO SEGURO</nomeFormaPagamento>
@@ -760,13 +760,13 @@
           <descontoAgravo>
             <codigoDescontoAgravo>1</codigoDescontoAgravo>
             <percentualDescontoAgravo>10</percentualDescontoAgravo>
-            <valorDescontoAgravo></valorDescontoAgravo>
+            <valorDescontoAgravo>5</valorDescontoAgravo>
             <codigoTipoDescontoAgravo>1</codigoTipoDescontoAgravo>
           </descontoAgravo>
           <descontoAgravo>
             <codigoDescontoAgravo>1</codigoDescontoAgravo>
             <percentualDescontoAgravo>10</percentualDescontoAgravo>
-            <valorDescontoAgravo></valorDescontoAgravo>
+            <valorDescontoAgravo>3</valorDescontoAgravo>
             <codigoTipoDescontoAgravo>1</codigoTipoDescontoAgravo>
           </descontoAgravo>
           <descontoAgravo>
@@ -809,22 +809,22 @@
             <codigoTipoAtualizacao />
             <categoriasRisco>
               <categoriaRisco>
-                <codigoCategoriaObjetoRisco>6</codigoCategoriaObjetoRisco>
+                <codigoCategoriaObjetoRisco>7</codigoCategoriaObjetoRisco>
                 <numeroSequenciaCategoriaObjetoRisco />
                 <objetosRisco>
                   <objetoRisco>
                     <localRisco>
                       <codigoLocalRisco>1</codigoLocalRisco>
                       <codigoTipoLogradouro>9</codigoTipoLogradouro>
-                      <nomeTipoLogradouro>PRAÇA</nomeTipoLogradouro>
+                      <nomeTipoLogradouro>RUA</nomeTipoLogradouro>
                       <codigoLogradouro>0050</codigoLogradouro>
-                      <nomeLogradouro>Da Luz</nomeLogradouro>
-                      <numeroLogradouro />
-                      <flagSemNumero>S</flagSemNumero>
-                      <numeroCep>01120010</numeroCep>
-                      <nomeComplemento>BLOCO B - 1 Andar</nomeComplemento>
+                      <nomeLogradouro>GENERAL ENRICO CAVIGLIA</nomeLogradouro>
+                      <numeroLogradouro>1</numeroLogradouro>
+                      <flagSemNumero>n</flagSemNumero>
+                      <numeroCep>04168040</numeroCep>
+                      <nomeComplemento>7d</nomeComplemento>
                       <codigoBairro></codigoBairro>
-                      <nomeBairro>Luz</nomeBairro>
+                      <nomeBairro>Vila Moraes</nomeBairro>
                       <codigoCidade />
                       <nomeCidade>São Paulo</nomeCidade>
                       <codigoUnidadeFederacao />
@@ -832,30 +832,6 @@
                       <codigoPais />
                       <nomePais>Brasil</nomePais>
                       <textoPontoReferencia>Estação da Luz</textoPontoReferencia>
-                      <numeroLatitude />
-                      <numeroLongitude />
-                      <flagAtivo>S</flagAtivo>
-                      <textoComentario />
-                    </localRisco>
-                    <localRisco>
-                      <codigoLocalRisco>2</codigoLocalRisco>
-                      <codigoTipoLogradouro>9</codigoTipoLogradouro>
-                      <nomeTipoLogradouro>RUA</nomeTipoLogradouro>
-                      <codigoLogradouro>0050</codigoLogradouro>
-                      <nomeLogradouro>Maestro José Roberto</nomeLogradouro>
-                      <numeroLogradouro>1234</numeroLogradouro>
-                      <flagSemNumero>n</flagSemNumero>
-                      <numeroCep>01120010</numeroCep>
-                      <nomeComplemento />
-                      <codigoBairro></codigoBairro>
-                      <nomeBairro>Campo Limpo</nomeBairro>
-                      <codigoCidade />
-                      <nomeCidade>São Paulo</nomeCidade>
-                      <codigoUnidadeFederacao />
-                      <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
-                      <codigoPais />
-                      <nomePais>Brasil</nomePais>
-                      <textoPontoReferencia>Catedral Campo Limpo</textoPontoReferencia>
                       <numeroLatitude />
                       <numeroLongitude />
                       <flagAtivo>S</flagAtivo>
@@ -907,7 +883,7 @@
                       <codigoRelevancia />
                       <codigoSubtipoEquipamento />
                       <codigoTipoEquipamento />
-                      <nomeAparelho />
+                      <nomeAparelho></nomeAparelho>
                       <nomeMarcaEquipamento />
                       <nomeModeloEquipamento />
                       <numeroSerieEquipamento />
@@ -955,26 +931,330 @@
                     <evento>
                       <codigoEvento>0001</codigoEvento>
                       <codigoCategoriaEvento>8</codigoCategoriaEvento>
-                      <codigoTemaEvento>53</codigoTemaEvento>
+                      <codigoTemaEvento>1</codigoTemaEvento>
                       <codigoTipoLocal />
                       <codigoTipoProponenteEvento>1</codigoTipoProponenteEvento>
                       <nomeEvento>TESTE INOVARE</nomeEvento>
                       <flagEventoPublico />
                       <quantidadeDiaParticipanteEsperado />
                       <flagAtivo />
-                      <textoComentario />
+                      <textoComentario>TESTE INNOVARE</textoComentario>
                     </evento>
+                    <obraInstalacaoMontagem>
+                      <codigoTipoObraInstalacaoMontagem />
+                      <codigoObraInstalacaoMontagem>2</codigoObraInstalacaoMontagem>
+                      <flagAtivo />
+                      <textoComentario>INDUSTRIAL</textoComentario>
+                    </obraInstalacaoMontagem>
+                    <fornecimentoServico>
+                      <codigoFornecimentoServico />
+                      <codigoTipoServico>1</codigoTipoServico>
+                      <flagAtivo />
+                      <textoComentario>AUXILIARES E SERVIÇOS DE LIMPEZA</textoComentario>
+                    </fornecimentoServico>
+                    <estacionamento>
+                      <codigoEstacionamento />
+                      <codigoTipoEstacionamento />
+                      <codigoTipoProponenteEstacionamento />
+                      <flagAtivo />
+                      <textoComentario>GERAL</textoComentario>
+                    </estacionamento>
+                    <parque>
+                      <codigoParque />
+                      <codigoTipoLocal />
+                      <codigoTipoParque />
+                      <dataInicioOperacao />
+                      <quantidadeVisitante />
+                      <quantidadeFuncionario />
+                      <flagAtivo />
+                      <textoComentario />
+                    </parque>
+                  </objetoRisco>
+                  <objetoRisco>
+                    <localRisco>
+                      <codigoLocalRisco>1</codigoLocalRisco>
+                      <codigoTipoLogradouro>9</codigoTipoLogradouro>
+                      <nomeTipoLogradouro>PRAÇA</nomeTipoLogradouro>
+                      <codigoLogradouro>0050</codigoLogradouro>
+                      <nomeLogradouro>Da Luz</nomeLogradouro>
+                      <numeroLogradouro />
+                      <flagSemNumero>s</flagSemNumero>
+                      <numeroCep>01120010</numeroCep>
+                      <nomeComplemento>BLOCO B - 1 Andar</nomeComplemento>
+                      <codigoBairro></codigoBairro>
+                      <nomeBairro>Luz</nomeBairro>
+                      <codigoCidade />
+                      <nomeCidade>São Paulo</nomeCidade>
+                      <codigoUnidadeFederacao />
+                      <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
+                      <codigoPais />
+                      <nomePais>Brasil</nomePais>
+                      <textoPontoReferencia>Estação da Luz</textoPontoReferencia>
+                      <numeroLatitude />
+                      <numeroLongitude />
+                      <flagAtivo>S</flagAtivo>
+                      <textoComentario />
+                    </localRisco>
+                    <categoriaGenerico>
+                      <codigoCategoriaGenerico />
+                      <nomeCategoriaGenerico />
+                      <flagAtivo />
+                      <textoComentario>anúncio</textoComentario>
+                    </categoriaGenerico>
+                    <residencia>
+                      <codigoResidencia />
+                      <codigoTipoResidencia />
+                      <flagAtivo />
+                      <textoComentario />
+                    </residencia>
+                    <empresa>
+                      <codigoEmpresaObjetoRisco />
+                      <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
+                      <flagAtivo />
+                      <textoComentario>COSMÉTICOS /PRODUTOS DE HIGIENE</textoComentario>
+                    </empresa>
+                    <condominio>
+                      <codigoCondominio />
+                      <codigoTipoCondominio />
+                      <quantidadeBloco />
+                      <nomeBloco />
+                      <valorLimiteMaximoIndenizacao />
+                      <textoComentario />
+                    </condominio>
+                    <imobiliaria>
+                      <codigoImobiliaria />
+                      <codigoTipoImovel />
+                      <flagAtivo />
+                      <textoComentario>PESSOAL</textoComentario>
+                    </imobiliaria>
+                    <obraEngenharia>
+                      <codigoObraEngenharia />
+                      <codigoCaracteristicaObra />
+                      <codigoTipoObra />
+                      <flagAtivo />
+                      <textoComentario>INDUSTRIAL</textoComentario>
+                    </obraEngenharia>
+                    <equipamentoEspecifico>
+                      <codigoEquipamentoEspecifica />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho>TESTE</nomeAparelho>
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoEspecifico>
+                    <equipamentoGenerico>
+                      <codigoEquipamentoGenerico />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoGenerico>
+                    <equipamentoTelefonia>
+                      <codigoEquipamentoTelefonia />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <numeroIdentificacaoUnico />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoTelefonia>
+                    <garantiaEstendida>
+                      <codigoGarantiaEstendida />
+                      <codigoMarcaEquipamento />
+                      <codigoLinhaProduto />
+                      <codigoPeriodoGarantiaFabricante />
+                      <nomeMarcaEquipamento />
+                      <nomeProduto />
+                      <codigoTipoDocumentoFiscal />
+                      <dataDocumentoFiscal />
+                      <numeroDocumentoFiscal />
+                      <numeroSerieDocumentoFiscal />
+                      <flagAtivo />
+                      <textoComentario />
+                    </garantiaEstendida>
                     <evento>
-                      <codigoEvento>0002</codigoEvento>
+                      <codigoEvento></codigoEvento>
                       <codigoCategoriaEvento>5</codigoCategoriaEvento>
-                      <codigoTemaEvento>9</codigoTemaEvento>
+                      <codigoTemaEvento>1</codigoTemaEvento>
                       <codigoTipoLocal />
                       <codigoTipoProponenteEvento>1</codigoTipoProponenteEvento>
                       <nomeEvento>TESTE INOVARE 2</nomeEvento>
                       <flagEventoPublico />
                       <quantidadeDiaParticipanteEsperado />
                       <flagAtivo />
+                      <textoComentario>TESTE INOVARE</textoComentario>
+                    </evento>
+                    <obraInstalacaoMontagem>
+                      <codigoTipoObraInstalacaoMontagem />
+                      <codigoObraInstalacaoMontagem>2</codigoObraInstalacaoMontagem>
+                      <flagAtivo />
+                      <textoComentario>INDUSTRIAL</textoComentario>
+                    </obraInstalacaoMontagem>
+                    <fornecimentoServico>
+                      <codigoFornecimentoServico />
+                      <codigoTipoServico>1</codigoTipoServico>
+                      <flagAtivo />
+                      <textoComentario>AUXILIARES E SERVIÇOS DE LIMPEZA</textoComentario>
+                    </fornecimentoServico>
+                    <estacionamento>
+                      <codigoEstacionamento />
+                      <codigoTipoEstacionamento />
+                      <codigoTipoProponenteEstacionamento />
+                      <flagAtivo />
+                      <textoComentario>GERAL</textoComentario>
+                    </estacionamento>
+                    <parque>
+                      <codigoParque />
+                      <codigoTipoLocal />
+                      <codigoTipoParque />
+                      <dataInicioOperacao />
+                      <quantidadeVisitante />
+                      <quantidadeFuncionario />
+                      <flagAtivo />
                       <textoComentario />
+                    </parque>
+                  </objetoRisco>
+                  <objetoRisco>
+                    <localRisco>
+                      <codigoLocalRisco>1</codigoLocalRisco>
+                      <codigoTipoLogradouro>9</codigoTipoLogradouro>
+                      <nomeTipoLogradouro>PRAÇA</nomeTipoLogradouro>
+                      <codigoLogradouro>0050</codigoLogradouro>
+                      <nomeLogradouro>Da Luz</nomeLogradouro>
+                      <numeroLogradouro />
+                      <flagSemNumero>s</flagSemNumero>
+                      <numeroCep>01120010</numeroCep>
+                      <nomeComplemento>BLOCO B - 1 Andar</nomeComplemento>
+                      <codigoBairro></codigoBairro>
+                      <nomeBairro>Luz</nomeBairro>
+                      <codigoCidade />
+                      <nomeCidade>São Paulo</nomeCidade>
+                      <codigoUnidadeFederacao />
+                      <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
+                      <codigoPais />
+                      <nomePais>Brasil</nomePais>
+                      <textoPontoReferencia>Estação da Luz</textoPontoReferencia>
+                      <numeroLatitude />
+                      <numeroLongitude />
+                      <flagAtivo>S</flagAtivo>
+                      <textoComentario />
+                    </localRisco>
+                    <categoriaGenerico>
+                      <codigoCategoriaGenerico />
+                      <nomeCategoriaGenerico />
+                      <flagAtivo />
+                      <textoComentario>anúncio</textoComentario>
+                    </categoriaGenerico>
+                    <residencia>
+                      <codigoResidencia />
+                      <codigoTipoResidencia />
+                      <flagAtivo />
+                      <textoComentario />
+                    </residencia>
+                    <empresa>
+                      <codigoEmpresaObjetoRisco />
+                      <codigoAtividadeEconomica>245</codigoAtividadeEconomica>
+                      <flagAtivo />
+                      <textoComentario>COSMÉTICOS /PRODUTOS DE HIGIENE</textoComentario>
+                    </empresa>
+                    <condominio>
+                      <codigoCondominio />
+                      <codigoTipoCondominio />
+                      <quantidadeBloco />
+                      <nomeBloco />
+                      <valorLimiteMaximoIndenizacao />
+                      <textoComentario />
+                    </condominio>
+                    <imobiliaria>
+                      <codigoImobiliaria />
+                      <codigoTipoImovel />
+                      <flagAtivo />
+                      <textoComentario>PESSOAL</textoComentario>
+                    </imobiliaria>
+                    <obraEngenharia>
+                      <codigoObraEngenharia />
+                      <codigoCaracteristicaObra />
+                      <codigoTipoObra />
+                      <flagAtivo />
+                      <textoComentario>INDUSTRIAL</textoComentario>
+                    </obraEngenharia>
+                    <equipamentoEspecifico>
+                      <codigoEquipamentoEspecifica />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho>VIDEO TESTE</nomeAparelho>
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoEspecifico>
+                    <equipamentoGenerico>
+                      <codigoEquipamentoGenerico />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoGenerico>
+                    <equipamentoTelefonia>
+                      <codigoEquipamentoTelefonia />
+                      <codigoMarcaEquipamento />
+                      <codigoModeloEquipamento />
+                      <codigoRelevancia />
+                      <codigoSubtipoEquipamento />
+                      <codigoTipoEquipamento />
+                      <nomeAparelho />
+                      <nomeMarcaEquipamento />
+                      <nomeModeloEquipamento />
+                      <numeroSerieEquipamento />
+                      <numeroIdentificacaoUnico />
+                      <flagAtivo />
+                      <textoComentario />
+                    </equipamentoTelefonia>
+                    <garantiaEstendida>
+                      <codigoGarantiaEstendida />
+                      <codigoMarcaEquipamento />
+                      <codigoLinhaProduto />
+                      <codigoPeriodoGarantiaFabricante />
+                      <nomeMarcaEquipamento />
+                      <nomeProduto />
+                      <codigoTipoDocumentoFiscal />
+                      <dataDocumentoFiscal />
+                      <numeroDocumentoFiscal />
+                      <numeroSerieDocumentoFiscal />
+                      <flagAtivo />
+                      <textoComentario />
+                    </garantiaEstendida>
+                    <evento>
+                      <codigoEvento></codigoEvento>
+                      <codigoCategoriaEvento>5</codigoCategoriaEvento>
+                      <codigoTemaEvento>1</codigoTemaEvento>
+                      <codigoTipoLocal />
+                      <codigoTipoProponenteEvento>1</codigoTipoProponenteEvento>
+                      <nomeEvento>TESTE INOVARE 2</nomeEvento>
+                      <flagEventoPublico />
+                      <quantidadeDiaParticipanteEsperado />
+                      <flagAtivo />
+                      <textoComentario>TESTE INOVARE</textoComentario>
                     </evento>
                     <obraInstalacaoMontagem>
                       <codigoTipoObraInstalacaoMontagem />
@@ -1344,7 +1624,7 @@
                       </dadosPessoa>
                       <codigoListaItem />
                       <codigoTipoBem />
-                      <valorTipoBem>20000</valorTipoBem>
+                      <valorTipoBem>100000</valorTipoBem>
                     </beneficiario>
                   </beneficiarios>
                 </coberturaItemDocumento>
@@ -1673,6 +1953,136 @@
                     </beneficiario>
                   </beneficiarios>
                 </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>7</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>50000</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>16</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999</numeroCnpjCpf>
+                        <nomePessoa>Epaminondas</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000.00</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
+                <coberturaItemDocumento>
+                  <codigoCobertura>7</codigoCobertura>
+                  <codigoEmpresa></codigoEmpresa>
+                  <codigoRamo />
+                  <codigoModalidade>29</codigoModalidade>
+                  <codigoTextoParticipacaoSegurado>1</codigoTextoParticipacaoSegurado>
+                  <numeroVersaoTextoParticipacaoSegurado>1</numeroVersaoTextoParticipacaoSegurado>
+                  <textoParticipacaoSegurado>TEXTO DE PARTICIPAÇÃO 1</textoParticipacaoSegurado>
+                  <valorLimiteMaximoIndenizacao>50000</valorLimiteMaximoIndenizacao>
+                  <valorPremio>563.10</valorPremio>
+                  <valorImpostoOperacaoFinanceira>10</valorImpostoOperacaoFinanceira>
+                  <percentualTaxaFixo>10</percentualTaxaFixo>
+                  <flagCoberturaBase>s</flagCoberturaBase>
+                  <percentualParticipacaoSegurado>100</percentualParticipacaoSegurado>
+                  <valorParticipacaoSegurado>1.500,00</valorParticipacaoSegurado>
+                  <codigoTipoAtualizacao />
+                  <descontosAgravosCoberturaItem>
+                    <descontoAgravoCoberturaItem>
+                      <codigoDescontoAgravo />
+                      <valorDescontoAgravo />
+                      <percentualDescontoAgravo />
+                      <codigoTipoDescontoAgravo />
+                    </descontoAgravoCoberturaItem>
+                  </descontosAgravosCoberturaItem>
+                  <respostasQuestionarioCoberturaItem>
+                    <RespostaQuestionarioCoberturaItem>
+                      <codigoQuestionario />
+                      <numeroVersaoQuestionario />
+                      <codigoQuestao />
+                      <codigoTipoQuestao />
+                      <codigoResposta />
+                      <dataResposta />
+                      <textoResposta />
+                      <respostasListaQuestionario>
+                        <respostaListaItem />
+                      </respostasListaQuestionario>
+                    </RespostaQuestionarioCoberturaItem>
+                  </respostasQuestionarioCoberturaItem>
+                  <listaItemCobertura>
+                    <codigoListaItem />
+                  </listaItemCobertura>
+                  <beneficiarios>
+                    <beneficiario>
+                      <codigoBeneficiario>16</codigoBeneficiario>
+                      <dadosPessoa>
+                        <codigoPessoa>1</codigoPessoa>
+                        <codigoTipoPessoa>1</codigoTipoPessoa>
+                        <numeroCnpjCpf>99999999999</numeroCnpjCpf>
+                        <nomePessoa>Epaminondas</nomePessoa>
+                        <nomeResumidoPessoa />
+                        <flagAtivo />
+                        <pessoaFisica />
+                        <pessoaJuridica />
+                        <documentos />
+                        <enderecosPessoa />
+                        <contatos />
+                        <vinculos />
+                        <auditoria />
+                      </dadosPessoa>
+                      <codigoListaItem />
+                      <codigoTipoBem />
+                      <valorTipoBem>20000.00</valorTipoBem>
+                    </beneficiario>
+                  </beneficiarios>
+                </coberturaItemDocumento>
               </listaCoberturasItem>
               <valorPremioCobertura>1000</valorPremioCobertura>
             </coberturasItem>
@@ -1692,7 +2102,13 @@
               <descontoAgravo>
                 <codigoDescontoAgravo />
                 <percentualDescontoAgravo />
-                <valorDescontoAgravo />
+                <valorDescontoAgravo>3</valorDescontoAgravo>
+                <codigoTipoDescontoAgravo />
+              </descontoAgravo>
+              <descontoAgravo>
+                <codigoDescontoAgravo />
+                <percentualDescontoAgravo />
+                <valorDescontoAgravo>5</valorDescontoAgravo>
                 <codigoTipoDescontoAgravo />
               </descontoAgravo>
             </descontosAgravoItem>
@@ -1840,7 +2256,7 @@
             <codigoDocumentoPessoa>88</codigoDocumentoPessoa>
             <codigoTipoDocumentoPessoa>67</codigoTipoDocumentoPessoa>
             <numeroDocumento>8.977.767-X</numeroDocumento>
-            <dataEmissaoDocumento>2013-01-13T12:12:12</dataEmissaoDocumento>
+            <dataEmissaoDocumento>13-JAN-2013</dataEmissaoDocumento>
             <dataValidade>2014-01-13T12:12:12</dataValidade>
             <nomeOrgaoExpedidor>SSP</nomeOrgaoExpedidor>
             <codigoUnidadeFederacao>SP</codigoUnidadeFederacao>
@@ -1864,6 +2280,31 @@
             <nomeCidade>UBERLANDIA</nomeCidade>
             <codigoUnidadeFederacao>1</codigoUnidadeFederacao>
             <nomeUnidadeFederacao>MG</nomeUnidadeFederacao>
+            <codigoPais>1</codigoPais>
+            <nomePais>BRASIL</nomePais>
+            <textoPontoReferencia>Perto da Padaria do Mané</textoPontoReferencia>
+            <numeroLatitude>44.968046</numeroLatitude>
+            <numeroLongitude>-94.420307</numeroLongitude>
+            <codigoTipoEndereco>2</codigoTipoEndereco>
+            <flagPrincipal>1</flagPrincipal>
+            <flagAtivo>1</flagAtivo>
+          </enderecoPessoa>
+          <enderecoPessoa>
+            <codigoEndereco>6565</codigoEndereco>
+            <codigoTipoLogradouro>3</codigoTipoLogradouro>
+            <nomeTipoLogradouro>RUA</nomeTipoLogradouro>
+            <codigoLogradouro>1</codigoLogradouro>
+            <nomeLogradouro>GENERAL ENRICO CAVIGLIA</nomeLogradouro>
+            <numeroLogradouro>1</numeroLogradouro>
+            <flagSemNumero>1</flagSemNumero>
+            <numeroCep>38400600</numeroCep>
+            <nomeComplemento>7D</nomeComplemento>
+            <codigoBairro></codigoBairro>
+            <nomeBairro>VILA MORAES</nomeBairro>
+            <codigoCidade>1</codigoCidade>
+            <nomeCidade>SÃO PAULO</nomeCidade>
+            <codigoUnidadeFederacao>1</codigoUnidadeFederacao>
+            <nomeUnidadeFederacao>SP</nomeUnidadeFederacao>
             <codigoPais>1</codigoPais>
             <nomePais>BRASIL</nomePais>
             <textoPontoReferencia>Perto da Padaria do Mané</textoPontoReferencia>
@@ -1913,11 +2354,11 @@
         <susepPorto>C1192J</susepPorto>
         <susepPai />
         <susepOficial>AZULWJ</susepOficial>
-        <nomeSucursal />
+        <nomeSucursal>vale do paraiba</nomeSucursal>
         <destinoApolice>str1234</destinoApolice>
         <dataCadastro />
         <convenio />
-        <codigoSucursal />
+        <codigoSucursal>1</codigoSucursal>
         <listaCorretores>
           <corretor>
             <numeroContato />
@@ -2046,6 +2487,12 @@
             <nomeCobertura>FORNECIMENTO DE BEBIDAS E COMESTÍVEIS</nomeCobertura>
             <flagAtivo />
           </Cobertura>
+          <Cobertura>
+            <codigoCobertura>7</codigoCobertura>
+            <nomeResumidoCobertura>EQUIPAMENTOS ELETRÔNICOS, CINEMATOGRÁFICOS E MUSICAIS</nomeResumidoCobertura>
+            <nomeCobertura>EQUIPAMENTOS ELETRÔNICOS, CINEMATOGRÁFICOS E MUSICAIS</nomeCobertura>
+            <flagAtivo />
+          </Cobertura>
         </Coberturas>
         <GruposCormercial>
           <GrupoComercial>
@@ -2086,7 +2533,7 @@
             <flagAtivo />
           </Modalidade>
         </Modaliades>
-        <Clauslas>
+        <Clausulas>
           <Clausula>
             <codigoClausula>1</codigoClausula>
             <nomeResumidoClausula>DESPESAS MÉDICO-HOSPITALARES E ODONTOLÓGICAS</nomeResumidoClausula>
@@ -2135,7 +2582,7 @@
               </hierarquiaClausula>
             </hierarquias>
           </Clausula>
-        </Clauslas>
+        </Clausulas>
         <Beneficios>
           <Beneficio>
             <codigoBeneficio />
@@ -3171,8 +3618,8 @@
       </Dominio>
       <Dominio>
         <codigoTipoDominio>47</codigoTipoDominio>
-        <codigo>53</codigo>
-        <descricao>CIRCO</descricao>
+        <codigo>1</codigo>
+        <descricao>ATLETISMO</descricao>
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
@@ -3435,6 +3882,28 @@
         <descricaoAbreviada />
         <flagAtivo>s</flagAtivo>
       </Dominio>
+      <Dominio>
+        <codigoTipoDominio>93</codigoTipoDominio>
+        <codigo>1</codigo>
+        <descricao>ORGANIZADOR</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>6</codigoTipoDominio>
+        <codigo>8</codigo>
+        <descricao>ESPETACULOS TEATRAIS, CIRCENSES E SHOW</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
+      <Dominio>
+        <codigoTipoDominio>47</codigoTipoDominio>
+        <codigo>2</codigo>
+        <descricao>BASQUETEBOL
+</descricao>
+        <descricaoAbreviada />
+        <flagAtivo>s</flagAtivo>
+      </Dominio>
     </Dominios>
     <parametrosImpressao>
       <parametro>
@@ -3486,6 +3955,115 @@ Declaro estar ciente e expressamente autorizo a inclusão de todos os dados e in
 &lt;p align="justify"&gt;&lt;/p&gt;
 Conforme estabelece o artigo 10. II. "e" da Circular Susep 445/2012. o proponente pessoa jurídica deve informar à seguradora os nomes dos controladores até o nivel de pessoa física. dos principais administradores e procuradores. Na qualidade de representante legal da pessoa jurídica proponente. garanto a veracidade e completude dos dados fornecidos. nos termos do artigo 766 do Código Civil.       
 &lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>imgApolice</chave>
+        <valor>..\\..\\..\\..\\images\\2_12_residencia_habitual_proposta.jpg</valor>
+      </parametro>
+      <parametro>
+        <chave>cabApolice</chave>
+        <valor>&lt;!DOCTYPE html&gt; 
+&lt;html  lang=pt-br&gt; 
+&lt;head&gt; 
+&lt;meta charset=UTF-8&gt; 
+&lt;/head&gt; 
+&lt;body&gt; 
+Vigência do seguro: a partir das 24 horas do dia   + $F{dataInicioVigencia}  + até as 24 horas do dia  + $F{dataFimVigenciaSeguro} + As coberturas desta apólice foram contratadas com as condições vigentes em:  + $F{dataInicioVigencia} + &lt;br&gt; Processo SUSEP N  
+&lt;/body&gt; 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>questionarioObrigatorio</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;Importante: Declarações falsas, inexatas ou omissas implicarão na perda de indenização e cancelamento da apólice. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>textoBoleto</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;Havendo inadimplência o pagamento só poderá ser efetuado na seguradora acrescido de uma taxa de 0,30% ao dia. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>textoADC</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;Havendo inadimplência o pagamento só poderá ser efetuado na seguradora acrescido de urna taxa de 0.30% ao dia. 
+&lt;p align="justify"&gt;Declaro que sou responsável, de acordo com a legislação civil e penal. pelas informações bancárias informadas para cobrança do prêmio do seguro. inclusivo se for indicada conta bancária que não for do minha titularidade. Estou ciente que em caso de devolução da proposta com valor do prêmio. este será devolvido diretamente na conta bancária originalmente debitada. 
+&lt;p align="justify"&gt;Constituirão motivos para cancelamento do seguro. o perda de cobertura: encerramento da conta corrente: encerramento da agência detentora da conta corrente, sem transferência para outra agência: a não efetivação de um dos débitos programados por insuficiência de fundos na conta corrente, para cobertura do valor a ser debitado. o a falta de autorização prévia para débito em conta corrente. quando esta for uma exigência do Banco no qual a conta corrente é mantida. Autorizo o débito em minha conta corrente, mencionada acima. para pagamento do seguro. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>infoGeraisDoSeguro</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;FICA ENTENDIDO E ACORDADO QUE, SALVO AS PARTICULARIDADES ESTABELECIDAS NOS OBJETOS DO SEGURO ACIMA. AS INFORMAÇÕES A SEGUIR SÃO INERENTES
+&lt;p align="justify"&gt; A TODOS OS OBJETOS DO SEGURO ESTABELECIDOS NESTA APOLICE DE SEGURO. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>textoClausulaAdmissao</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;A presente apólice foi emitida eletronicamente conformo solicitação feita em nome do Segurado polo Corretor de seguros acima mencionado. 
+&lt;p&gt;&lt;/p&gt;
+&lt;p align="justify"&gt;- os valores das coberturas. franquias. prêmios e demais condições. foram estabelecidos na transmissão eletrônico do dados. cuja data e hora estão registradas em campo próprio desta apólice.
+&lt;p&gt;&lt;/p&gt;
+&lt;p align="justify"&gt;- os dados e informações fornecidos são de inteira responsabilidade do Proponente e do Corretor. seu representante legal neste contrato do seguro. 
+&lt;p&gt;&lt;/p&gt;
+&lt;p align="justify"&gt;- é facultado ao Segurado. através do seu Corretor de Seguros. o direito de arrependimento em 07 (sete) dias da data de emissão da apólice conformo previsto no Código de Defeso do Consumidor. o que deverá ser (eito mediante entrega do carta devidamente protocolada em qualquer escritório da Seguradora. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>textoCondicoesGerais1</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;SUSEP Superintendência do Seguros Privados - Autarquia Federal responsável pela fiscalização, normatização e controle dos mercados de seguro. previdência complementar abona. capitalização. resseguro o corretagem de seguros. 
+Número de telefone gratuito de atendimento no público da Susep: 0800 021 8484. 
+&lt;br&gt;AS CONDIÇÕES CONTRATUAIS REGULAMENTO DESTE PRODUTO PROTOCOLIZADAS PELA SOCIEDADE ENTIDADE JUNTO À 
+SUSEP PODERÃO SER CONSULTADAS NO ENDEREÇO ELETRÔNICO WWW.SUSEP GOV BR. DE ACORDO COM O NÚMERO 
+DE PROCESSO CONSTANTE DA APÓLICE PROPOSTA.
+    &lt;br&gt;
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>textoCondicoesGerais2</chave>
+        <valor>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+&lt;p align="justify"&gt;PARA VALIDADE DO PRESENTE CONTRATO, A SEGURADORA, REPRESENTADA POR SEU DIRETOR PRESIDENTE, ASSINA ESTA APÓLICE. 
+&lt;/html&gt;</valor>
+      </parametro>
+      <parametro>
+        <chave>assCondicoesGerais1</chave>
+        <valor>..//..//..//..//Images//assinatura1.JPG</valor>
+      </parametro>
+      <parametro>
+        <chave>assCondicoesGerais2</chave>
+        <valor>..//..//..//..//Images//assinatura2.JPG</valor>
       </parametro>
     </parametrosImpressao>
   </Impressao>

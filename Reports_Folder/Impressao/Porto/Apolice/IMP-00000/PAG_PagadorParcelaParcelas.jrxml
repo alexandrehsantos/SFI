@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
-<!-- 2016-01-13T10:08:13 -->
+<!-- 2016-01-13T13:56:56 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FormaDePagamento" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="3d328f32-6c9e-4720-9319-f6e2161f6523">
 	<property name="ireport.zoom" value="2.1435888100000016"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Impressao-V1.2"/>
-	<parameter name="codigoFormaPagamento" class="java.lang.String"/>
 	<queryString language="xPath">
 		<![CDATA[//Documentos/Documento/pagadores/pagador/pagadoresParcela/pagadorParcela]]>
 	</queryString>
@@ -59,14 +58,14 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dataVencimento}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("dd-MMM-yy").parse($F{dataVencimento}))]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="23" y="0" width="76" height="13" uuid="749da48b-3408-4231-a855-da7aa26783f4"/>
 					<textElement textAlignment="Right" verticalAlignment="Middle">
 						<font fontName="Helvetica World" size="6"/>
 					</textElement>
-					<textFieldExpression><![CDATA[new Double($F{valorParcela})]]></textFieldExpression>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format(new BigDecimal($F{valorParcela}))]]></textFieldExpression>
 				</textField>
 				<rectangle>
 					<reportElement x="181" y="0" width="92" height="13" uuid="5fd22a6e-2b35-4d31-9a7b-0f32eeb5e325"/>
