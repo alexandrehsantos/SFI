@@ -1,4 +1,4 @@
-package br.com.caelum.jdbc.modelo;
+package br.com.caelum.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -6,6 +6,7 @@ import java.util.List;
 
 import br.com.caelum.jdbc.ConnectionPool;
 import br.com.caelum.jdbc.dao.ProdutosDAO;
+import br.com.caelum.jdbc.modelo.Produto;
 
 public class TestaDAODeProduto {
 

@@ -55,7 +55,7 @@ public class ProdutosDAO {
 	}
 
 	public List<Produto> busca(Categoria categoria) throws SQLException {
-
+		System.out.println("executando uma query em produtos where categoria");
 		List<Produto> produtos = new ArrayList<>();
 		String sql = "select * from Produto where categoria_id = ?";
 

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.caelum.jdbc.modelo.Categoria;
+import br.com.caelum.jdbc.modelo.Produto;
 
 public class CategoriasDAO {
 
@@ -18,7 +19,7 @@ public class CategoriasDAO {
 	}
 
 	public List<Categoria> lista() throws SQLException {
-
+		System.out.println("Executando uma query em Categorias");
 		List<Categoria> categorias = new ArrayList<>();
 		String sql = "select * from Categoria";
 		try (PreparedStatement stmt = con.prepareStatement(sql)) {
@@ -28,20 +29,64 @@ public class CategoriasDAO {
 				while (resultSet.next()) {
 					int id = resultSet.getInt("id");
 					String nome = resultSet.getString("nome");
-
 					Categoria categoria = new Categoria(id, nome);
-
 					categorias.add(categoria);
-						
-					}
 
-				
 				}
 
 			}
 
+		}
+
+		return categorias;
+	}
+
+	public List<Categoria> listaComProdutos() throws SQLException {
+		List <Categoria> categorias = new ArrayList<>();
+		Categoria ultima = null; 
+		
+		
+		String sql = "select c.id as c_id, c.nome as c_nome, p.id as p_id, p.nome as p_nome, p.descricao as p_descricao, p.categoria_id as p_cid"
+				+ " from Categoria as C join Produto as P on p.categoria_id = c.id";
+		
+		try(PreparedStatement stmt = con.prepareStatement(sql)){
+			
+			stmt.execute();
+			
+			try(ResultSet rs = stmt.getResultSet()){
+				
+				while (rs.next()){
+					
+					int id = rs.getInt("c_id");
+					String nome = rs.getString("c_nome");
+					
+					if(ultima == null || !ultima.getNome().equals(nome)){
+						
+						Categoria categoria = new Categoria(id, nome);
+						ultima = categoria;
+						categorias.add(ultima);
+						
+				ico 	}
+					
+					int idDoProduto = rs.getInt("p_id");
+					String nomeDoProduto = rs.getString("p_nome");
+					String descricaoDoProduto = rs.getString("p_descricao");
+										
+					Produto p = new Produto(nomeDoProduto, descricaoDoProduto);
+					p.setId(idDoProduto);
+					ultima.adiciona(p);
+					
+					
+				}
+				
+			}
+			
+		}
+		
+		
+		return categorias;
+	}
+
 	
-	return categorias;
-}
 
 }
