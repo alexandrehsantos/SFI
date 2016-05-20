@@ -6,16 +6,20 @@ public class Trem {
 
 	private List<Vagao> vagoes;
 	private int capacidade;
-	
-	public boolean disp(int reservas) {
-		
-		int r = 0;
-		for(Vagao v : vagoes) {
-			r += v.reservados();
-		}
-		
-		r = capacidade - r;
-		return r > reservas; 
+
+	public boolean podeOcorrerReserva(int lugaresAReservar) {
+
+		int lugaresJaReservados = lugaresJaReservados();
+
+		return capacidade - lugaresJaReservados > lugaresAReservar;
 	}
-	
+
+	private int lugaresJaReservados() {
+		int reservados = 0;
+		for (Vagao vagao : vagoes) {
+			reservados += vagao.reservados();
+		}
+		return reservados;
+	}
+
 }
