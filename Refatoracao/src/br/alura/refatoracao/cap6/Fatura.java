@@ -2,6 +2,7 @@ package br.alura.refatoracao.cap6;
 
 public class Fatura {
 
+	private static final double DOLAR = 2.7;
 	private double valorMensal;
 	private String cliente;
 
@@ -25,7 +26,7 @@ public class Fatura {
 	}
 
 	public double emDolar() {
-		return valorMensal * 2.7;
+		return valorMensal * Moeda.DOLAR.getTaxa();
 	}
 
 }
