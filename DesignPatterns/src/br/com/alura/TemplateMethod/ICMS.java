@@ -1,6 +1,6 @@
 package br.com.alura.TemplateMethod;
 
-public class ICMS implements Imposto {
+public class ICMS extends Imposto {
 
 
 	@Override

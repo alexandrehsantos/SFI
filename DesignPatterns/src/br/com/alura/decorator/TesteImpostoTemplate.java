@@ -1,4 +1,4 @@
-package br.com.alura.TemplateMethod;
+package br.com.alura.decorator;
 
 public class TesteImpostoTemplate {
 	public static void main(String[] args) {

@@ -1,6 +1,14 @@
-package br.com.alura.TemplateMethod;
+package br.com.alura.decorator;
 
 public abstract class TemplateImpostoCondicional extends Imposto{
+
+	public TemplateImpostoCondicional() {
+		super();
+	}
+
+	public TemplateImpostoCondicional(Imposto outrImposto) {
+		super(outrImposto);
+	}
 
 	@Override
 	public double calcula(Orcamento orcamento) {
