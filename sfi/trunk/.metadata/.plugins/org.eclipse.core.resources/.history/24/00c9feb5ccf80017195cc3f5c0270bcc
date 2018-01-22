@@ -1,0 +1,14 @@
+//Modulo Principal 
+var appListas = angular.module("appListas", ['ngRoute']);
+
+
+appCliente.config(function ($routeProvider) {
+	$routeProvider.when("/listas")
+});
+
+
+//appCliente.config(function($routeProvider) {
+//	$routeProvider
+//		.when("/listas", {templateUrl:'view/lista.html', controller:'listaController'})
+//	    .otherwise({rediretTo:'/'});
+//		});

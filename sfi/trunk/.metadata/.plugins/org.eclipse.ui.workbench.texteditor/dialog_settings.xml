@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="447" key="DIALOG_X_ORIGIN"/>
+		<item value="250" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="F" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="cradas"/>
+			<item value="itens"/>
+			<item value="$scope.itens"/>
+			<item value="item"/>
+			<item value="/clientes"/>
+			<item value="cadastrar"/>
+			<item value="script"/>
+			<item value="indexController"/>
+		</list>
+		<list key="replacehistory">
+			<item value="$scope.listas"/>
+			<item value="/listas"/>
+			<item value="listaController"/>
+			<item value="//Controllers&#x0A;appListas.controller(&quot;indexController&quot;, function($scope, $http) {&#x0A;&#x0A;&#x09;$scope.item = {};&#x0A;&#x09;$scope.itens = [];&#x0A;&#x0A;&#x09;carregarItens = function() {&#x0A;&#x09;&#x09;$http({&#x0A;&#x09;&#x09;&#x09;method : &apos;GET&apos;,&#x0A;&#x09;&#x09;&#x09;url : &apos;http://localhost:8080/clientes&apos;&#x0A;&#x09;&#x09;})&#x0A;&#x09;&#x09;&#x09;.then(function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;$scope.itens = response.data;&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;}, function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;});&#x0A;&#x09;};&#x0A;&#x0A;&#x09;carregarItens();&#x0A;&#x0A;&#x09;$scope.salvarItens = function() {&#x0A;&#x09;&#x09;$http({&#x0A;&#x09;&#x09;&#x09;method : &apos;POST&apos;,&#x0A;&#x09;&#x09;&#x09;url : &apos;http://localhost:8080/clientes&apos;,&#x0A;&#x09;&#x09;&#x09;data : $scope.item&#x0A;&#x09;&#x09;})&#x0A;&#x09;&#x09;&#x09;.then(function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;//&#x09;&#x09;&#x09;&#x09;$scope.itens.push(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;carregarItens();&#x0A;&#x09;&#x09;&#x09;&#x09;$scope.item = {};&#x0A;&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;}, function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;});&#x0A;&#x09;};&#x0A;&#x0A;&#x09;$scope.excluirItem = function(item) {&#x0A;&#x09;&#x09;$http({&#x0A;&#x09;&#x09;&#x09;method : &apos;DELETE&apos;,&#x0A;&#x09;&#x09;&#x09;url : &apos;http://localhost:8080/clientes/&apos; + item.id&#x0A;&#x09;&#x09;})&#x0A;&#x09;&#x09;&#x09;.then(function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;index = $scope.itens.indexOf(item);&#x0A;&#x09;&#x09;&#x09;&#x09;$scope.itens.splice(index, 1);&#x0A;&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;}, function(response) {&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.data);&#x0A;&#x09;&#x09;&#x09;&#x09;console.log(response.status);&#x0A;&#x09;&#x09;&#x09;});&#x0A;&#x09;};&#x0A;&#x0A;&#x09;$scope.alterarItem = function(item) {&#x0A;&#x0A;&#x09;&#x09;$scope.item = angular.copy(item);&#x0A;&#x0A;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;$scope.cancelarAlteracaoItem = function() {&#x0A;&#x09;&#x09;carregarItens();&#x0A;&#x09;&#x09;$scope.item = {};&#x0A;&#x09;};&#x0A;&#x0A;&#x0A;&#x0A;});"/>
+			<item value="public"/>
+			<item value="Map&lt;Integer, Cliente&gt; clientes = new HashMap&lt;&gt;();&#x0A;&#x0A;&#x09;Integer proximoId = 0;&#x0A;&#x0A;&#x09;private Cliente cadastrar(Cliente cliente) {&#x0A;&#x0A;&#x09;&#x09;if (clientes == null) {&#x0A;&#x09;&#x09;&#x09;clientes = new HashMap&lt;&gt;();&#x0A;&#x09;&#x09;}&#x0A;&#x0A;&#x09;&#x09;cliente.setId(proximoId);&#x0A;&#x09;&#x09;proximoId++;&#x0A;&#x0A;&#x09;&#x09;clientes.put(cliente.getId(), cliente);&#x0A;&#x0A;&#x09;&#x09;return cliente;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;private Collection&lt;Cliente&gt; buscarTodos() {&#x0A;&#x09;&#x09;return clientes.values();&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public void excluir(Cliente cliente) {&#x0A;&#x09;&#x09;clientes.remove(cliente.getId());&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public Cliente alterar(Cliente cliente) {&#x0A;&#x09;&#x09;return clientes.put(cliente.getId(), cliente);&#x0A;&#x09;}&#x0A;&#x0A;&#x09;private Cliente buscarPorId(Integer id) {&#x0A;&#x09;&#x09;if (clientes.containsKey(id)) {&#x0A;&#x0A;&#x09;&#x09;&#x09;return clientes.get(id);&#x0A;&#x0A;&#x09;&#x09;}&#x0A;&#x09;&#x09;return null;&#x0A;&#x09;}"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="322" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="392" key="DIALOG_HEIGHT"/>
+		<item value="49" key="DIALOG_X_ORIGIN"/>
+		<item value="54" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

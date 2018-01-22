@@ -1,0 +1,19 @@
+1515944288730	Rename type 'Cliente'
+1515944879340	Rename type 'ClienteRepository'
+1515945026312	Rename type 'ClienteService'
+1515945038582	Rename local variable 'cliente'
+1515945043371	Rename local variable 'cliente'
+1515945046926	Rename local variable 'cliente'
+1515945076611	Rename type 'ClienteController'
+1515945562877	Rename field 'items'
+1515945989442	Rename local variable 'cliente'
+1515946027356	Rename method 'getItems'
+1515946065133	Rename local variable 'item'
+1515946362821	Rename method 'cadastrar'
+1515948922721	Rename field 'clienteService'
+1515949297201	Rename local variable 'cliente'
+1515949386063	Rename local variable 'listaLocalizada'
+1515953129676	Rename resource 'estado-controller.js'
+1515980109580	Delete element
+1515980112586	Delete element
+1515980121545	Delete elements

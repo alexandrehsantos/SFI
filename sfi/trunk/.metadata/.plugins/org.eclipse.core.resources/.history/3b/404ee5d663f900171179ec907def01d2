@@ -1,0 +1,79 @@
+appListas.controller("listaController", function($scope, $http) {
+
+	$scope.lista = {};
+	$scope.listas = [];
+	$scope.itens = [];
+	$scope.item = {};
+
+	carregarItens = function() {
+		$http({
+			method : 'GET',
+			url : 'http://localhost:8080/listas'
+		})
+			.then(function(response) {
+				$scope.listas = response.data;
+				console.log(response.data);
+				console.log(response.status);
+			}, function(response) {
+				console.log(response.data);
+				console.log(response.status);
+			});
+	};
+
+	carregarItens();
+
+	$scope.salvarItem = function(lista) {
+		$scope.lista.itens.push(item);
+		
+	}
+
+	$scope.salvarLista = function() {
+		$http({
+			method : 'POST',
+			url : 'http://localhost:8080/listas',
+			data : $scope.lista
+		})
+			.then(function(response) {
+				//				$scope.listas.push(response.data);
+				carregarItens();
+				$scope.lista = {};
+
+				console.log(response.data);
+				console.log(response.status);
+			}, function(response) {
+				console.log(response.data);
+				console.log(response.status);
+			});
+	};
+
+	$scope.excluirLista = function(item) {
+		$http({
+			method : 'DELETE',
+			url : 'http://localhost:8080/listas/' + item.id
+		})
+			.then(function(response) {
+				index = $scope.listas.indexOf(item);
+				$scope.listas.splice(index, 1);
+
+				console.log(response.status);
+			}, function(response) {
+				console.log(response.data);
+				console.log(response.status);
+			});
+	};
+
+	$scope.alterarLista = function(item) {
+
+		$scope.lista = angular.copy(item);
+
+
+	}
+
+	$scope.cancelarAlteracaoLista = function() {
+		carregarItens();
+		$scope.lista = {};
+	};
+
+
+
+});

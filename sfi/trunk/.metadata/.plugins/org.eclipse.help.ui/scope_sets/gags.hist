@@ -1,0 +1,6 @@
+#Sun Jan 14 13:43:57 BRST 2018
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+com.genuitec.stackoverflowSearch.master=true
+com.genuitec.githubSearch.master=true
+expression=gags

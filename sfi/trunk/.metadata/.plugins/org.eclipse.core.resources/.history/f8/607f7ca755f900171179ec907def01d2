@@ -1,0 +1,6 @@
+app.Listas.controller("homeController", function($scope, $http){
+	
+	$scope.lista = {};
+	$scope.listas = [];
+	
+} )

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="appListas">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.js" />
+<script src="./js/app.js" />
+<script src="./js/controllers/lista-controller.js" />
+<script src="./js/controllers/home-controller.js" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+	integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	crossorigin="anonymous" />
+<base href="/" />
+
+</head>
+<body>
+	<div id="titulo">
+		<h1>Lista</h1>
+	</div>
+
+	<div id="bntCriarLista">
+		Criar nova lista <a href="/listas">+ </a>
+		<div ng-controller="listaController">{{item.nome}}</div>
+	</div>
+
+	<h3>Listas Criadas:</h3>
+
+	<div ng-view="ng-view"></div>
+
+
+
+
+</body>
+</html>

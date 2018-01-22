@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="appListas">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.js" />
+<script src="./js/app.js" />
+<script src="./js/controllers/lista-controller.js" />
+<script src="./js/controllers/home-controller.js" />
+<base href="/" />
+</head>
+<body>
+	<!-- <body app="appListas" ng-cloak=""> -->
+	<!-- 	<div id="titulo"> -->
+	<!-- 		<H3>Lista</H3> -->
+	<!-- 	</div> -->
+	<!-- 	<div ng-controller="listaController"> -->
+	<!-- 		<div ng-repeat="i in listas"> -->
+	<!-- 			{{ i.id + " - " + i.nome }} <input type="button" value="x" ng-click="excluirItem(i)" /> <input -->
+	<!-- 				type="button" value="Alterar" ng-click="alterarItem(i)" /> -->
+
+	<!-- 			<div ng-repeat="item in i.itens">{{ item.descricao}}</div> -->
+	<!-- 		</div> -->
+	<!-- 	</div> -->
+	<!-- 	<p></p> -->
+	<!-- 	<div id="bntCriarLista"> -->
+	<!-- 		Criar nova lista <a href="/listas">+ </a> -->
+	<!-- 		<div ng-controller="listaController">{{item.nome}}</div> -->
+	<!-- 	</div> -->
+	<div id="titulo">
+		<H3>Lista</H3>
+	</div>
+
+	<div ng-view="ng-view"></div>
+
+
+
+
+</body>
+</html>

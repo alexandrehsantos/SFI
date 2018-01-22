@@ -1,0 +1,33 @@
+//Modulo Principal 
+var appListas = angular.module("appListas", [ 'ngRoute' ])
+
+	.run(function($rootScope) {
+		$rootScope.filter = {};
+		$rootScope.$watch('filter', search, true); // watch deep
+		function search(newFilter, oldFilter) {
+			if (newFilter === oldFilter) return // skip first run
+			console.log("Search:", newFilter);
+		}
+	});
+
+
+
+appListas.config(function($routeProvider, $locationProvider) {
+	$routeProvider
+		.when("/listas", {
+			templateUrl : 'view/lista.html',
+			controller : 'listaController'
+		})
+		.when("/home",
+			{
+				templateUrl : 'view/home.html',
+				controller : 'homeController'
+			}
+	)
+		.otherwise({
+			redirectTo : '/home'
+		});
+
+	$locationProvider
+		.html5Mode(true);
+});

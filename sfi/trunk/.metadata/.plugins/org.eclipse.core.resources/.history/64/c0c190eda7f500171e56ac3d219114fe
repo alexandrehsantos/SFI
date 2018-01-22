@@ -1,0 +1,50 @@
+package br.com.fiap.ws.service;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import br.com.fiap.ws.model.Cliente;
+
+public class ClienteService {
+
+	Map<Integer, Cliente> clientes = new HashMap<>();
+
+	Integer proximoId = 0;
+
+	private Cliente cadastrar(Cliente cliente) {
+
+		if (clientes == null) {
+			clientes = new HashMap<>();
+		}
+
+		cliente.setId(proximoId);
+		proximoId++;
+
+		clientes.put(cliente.getId(), cliente);
+
+		return cliente;
+	}
+
+	private Collection<Cliente> buscarTodos() {
+		return clientes.values();
+	}
+
+	public void excluir(Cliente cliente) {
+		clientes.remove(cliente.getId());
+	}
+
+	public Cliente alterar(Cliente cliente) {
+		return clientes.put(cliente.getId(), cliente);
+	}
+
+	private Cliente buscarPorId(Integer id) {
+		if (clientes.containsKey(id)) {
+
+			return clientes.get(id);
+
+		}
+		return null;
+	}
+
+}

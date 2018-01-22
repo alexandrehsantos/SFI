@@ -1,0 +1,19 @@
+<body app="appListas" ng-cloak="">
+	<div id="titulo">
+		<H3>Lista</H3>
+	</div>
+	<div ng-controller="listaController">
+		<div ng-repeat="i in listas">
+			{{ i.id + " - " + i.nome }} <input type="button" value="x" ng-click="excluirItem(i)" /> <input
+				type="button" value="Alterar" ng-click="alterarItem(i)" />
+
+			<div ng-repeat="item in i.itens">{{ item.descricao}}</div>
+		</div>
+	</div>
+	<p></p>
+	<div id="bntCriarLista">
+		Criar nova lista <a href="/listas">+ </a>
+		<div ng-controller="listaController">{{item.nome}}</div>
+	</div>
+	<div ng-view="ng-view"></div>
+</body>

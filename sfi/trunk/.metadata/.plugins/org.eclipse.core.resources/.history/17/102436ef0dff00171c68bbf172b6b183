@@ -1,0 +1,38 @@
+<server description="new server">
+
+	<!-- Enable features -->
+	<featureManager>
+		<feature>webProfile-7.0</feature>
+		<feature>localConnector-1.0</feature>
+	</featureManager>
+	<featureManager>
+		<feature>adminCenter-1.0</feature>
+	</featureManager>
+
+	<basicRegistry id=”basic”>
+
+		<user name=”admin” password=”1234” />
+
+		<user name=”nonadmin” password=”1234” />
+
+	</basicRegistry>
+
+ <!– Assign ‘admin’ to Administrator –>
+
+	<administrator-role>
+
+		<user>admin</user>
+
+	</administrator-role>
+
+
+
+	<!-- To access this server from a remote client add a host attribute to 
+		the following element, e.g. host="*" -->
+	<httpEndpoint httpPort="9080" httpsPort="9443"
+		id="defaultHttpEndpoint" />
+
+	<!-- Automatically expand WAR files and EAR files -->
+	<applicationManager autoExpand="true" />
+
+</server>

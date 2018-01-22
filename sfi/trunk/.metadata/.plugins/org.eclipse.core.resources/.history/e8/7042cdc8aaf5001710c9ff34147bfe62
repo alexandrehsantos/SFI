@@ -1,0 +1,48 @@
+package br.com.fiap.ws.service;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.fiap.ws.model.Cliente;
+import br.com.fiap.ws.repository.ClienteRepository;
+
+@Service
+public class ClienteService {
+
+	@Autowired
+	ClienteRepository clienteRepository;
+
+	Map<Integer, Cliente> clientes = new HashMap<>();
+
+	Integer proximoId = 0;
+
+	public Cliente cadastrar(Cliente cliente) {
+		return clienteRepository.save(cliente);
+	}
+
+	public Collection<Cliente> buscarTodos() {
+		return clienteRepository.findAll();
+	}
+
+	public void excluir(Cliente cliente) {
+		clientes.remove(cliente.getId());
+	}
+
+	public Cliente alterar(Cliente cliente) {
+		return clientes.put(cliente.getId(), cliente);
+	}
+
+	public Cliente buscarPorId(Integer id) {
+		if (clientes.containsKey(id)) {
+
+			return clientes.get(id);
+
+		}
+		return null;
+	}
+
+}
